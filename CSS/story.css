@@ -1,0 +1,3205 @@
+.mediaViewInfo {
+    --web-view-name: Our Philosophy;
+    --web-view-id: Our_Philosophy;
+    --web-scale-to-fit: true;
+    --web-scale-to-fit-type: width;
+    --we --web-center-vertically: true;
+    --web-application: true;
+    --web-enable-deep-linking: true;
+}
+
+ :root {
+    --web-view-ids: Our_Philosophy;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+ ::-webkit-scrollbar {
+    width: 10px;
+}
+
+ ::-webkit-scrollbar-track {
+    background-color: #1d1e18;
+}
+
+ ::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(79, 231, 220, 1);
+}
+
+#myTopnav {
+    display: none;
+}
+
+.topnav {
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: left;
+    display: block;
+    color: rgba(79, 231, 220, 1);
+    text-align: center;
+    padding: 20px 24px;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    background-color: rgba(79, 231, 220, 1);
+    color: rgb(0, 0, 0);
+}
+
+
+/* Add an active class to highlight the current page */
+
+.topnav a.active {
+    background-color: rgb(0, 0, 0);
+    color: rgba(79, 231, 220, 1);
+}
+
+
+/* Hide the link that should open and close the topnav on small screens */
+
+.topnav .icon {
+    display: none;
+}
+
+.txt:hover {
+    opacity: 1;
+}
+
+.txt::before {
+    transition: 300ms;
+    height: 4px;
+    content: "";
+    position: absolute;
+    background-color: rgba(79, 231, 220, 1);
+}
+
+.txt-ltr::before {
+    width: 0%;
+    bottom: -10px;
+}
+
+.txt-ltr:hover::before {
+    width: 100%;
+}
+
+.Our_Philosophy_Class {
+    position: absolute;
+    width: 1920px;
+    height: 1367px;
+    background-color: rgba(0, 0, 0, 1);
+    overflow: hidden;
+    --web-view-name: Our Philosophy;
+    --web-view-id: Our_Philosophy;
+    --web-scale-to-fit: true;
+    --web-scale-to-fit-type: width;
+    --web-scale-on-resize: true;
+    --web-center-vertically: true;
+    --web-application: true;
+    --web-enable-deep-linking: true;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.background_layer {
+    position: absolute;
+}
+
+.background_layer.rotateSmall {
+    animation-name: spin3;
+    animation-duration: 5500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.About_Background_Class {
+    position: absolute;
+    width: 2250px;
+    height: 1500px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.Black_Tint_Class {
+    fill: rgba(0, 0, 0, 0.6);
+}
+
+.Black_Tint {
+    position: absolute;
+    overflow: visible;
+    width: 1920px;
+    height: 1367px;
+    left: 0px;
+    top: 0px;
+}
+
+.Mission_Text_Class {
+    position: absolute;
+    width: 1443px;
+    height: 251px;
+    left: 239px;
+    top: 1006px;
+    overflow: visible;
+}
+
+.ID1_Educate__We_believe_in_giv_Class {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: hidden;
+    width: 1444px;
+    height: 251px;
+    line-height: 50px;
+    margin-top: -16px;
+    text-align: justify;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    color: rgba(240, 237, 238, 1);
+}
+
+.Mission_Line_Class {
+    fill: transparent;
+    stroke: rgba(79, 231, 220, 1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Mission_Line {
+    overflow: visible;
+    position: absolute;
+    width: 78.5px;
+    height: 3px;
+    left: 239px;
+    top: 976px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.OUR_MISSION__Class {
+    left: 239px;
+    top: 901px;
+    position: absolute;
+    overflow: visible;
+    width: 289px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(240, 237, 238, 1);
+}
+
+.Philosophy_Text_Class {
+    position: absolute;
+    width: 744px;
+    height: 432px;
+    left: 239px;
+    top: 401px;
+    overflow: visible;
+}
+
+.Our_symbol_is_emblematic_of_th_Class {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: hidden;
+    width: 745px;
+    height: 432px;
+    line-height: 50px;
+    margin-top: -16px;
+    text-align: justify;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    color: rgba(240, 237, 238, 1);
+}
+
+.Philosophy_Line_Class {
+    fill: transparent;
+    stroke: rgba(79, 231, 220, 1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Philosophy_Line {
+    overflow: visible;
+    position: absolute;
+    width: 78.5px;
+    height: 3px;
+    left: 239px;
+    top: 371px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.OUR_PHILOSPOHY__Class {
+    left: 239px;
+    top: 296px;
+    position: absolute;
+    overflow: visible;
+    width: 387px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(240, 237, 238, 1);
+}
+
+.Story_Team_Slider_Class {
+    position: absolute;
+    width: 676px;
+    height: 61px;
+    left: 622px;
+    top: 142px;
+    overflow: visible;
+}
+
+.Container_Class {
+    fill: rgba(29, 30, 24, 0.502);
+}
+
+.Container {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    position: absolute;
+    overflow: visible;
+    width: 694px;
+    height: 79px;
+    left: 0px;
+    top: 0px;
+}
+
+.Selector_bh_Class {
+    fill: url(#Selector_bh);
+}
+
+.Selector_bh {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    position: absolute;
+    overflow: visible;
+    width: 356px;
+    height: 79px;
+    left: 0px;
+    top: 0px;
+}
+
+.OUR_TEAM__Class {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.4));
+    left: 451px;
+    top: 18px;
+    position: absolute;
+    overflow: visible;
+    width: 114px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.OUR_TEAM__Class :hover {
+    color: rgba(79, 231, 220, 1);
+}
+
+.OUR_STORY__Class {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    left: 108px;
+    top: 18px;
+    position: absolute;
+    overflow: visible;
+    width: 124px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(240, 237, 238, 1);
+}
+
+.Nav_Underline_Class {
+    fill: rgba(0, 0, 0, 0);
+    stroke: rgba(79, 231, 220, 1);
+    stroke-width: 5px;
+    stroke-linejoin: miter;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Nav_Underlineglow_class {
+    filter: blur(100px);
+    overflow: visible;
+    position: absolute;
+    width: 61.29px;
+    height: 5px;
+    left: 454.893px;
+    top: 74.5px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Nav_Underline {
+    overflow: visible;
+    position: absolute;
+    width: 61.29px;
+    height: 5px;
+    left: 454.893px;
+    top: 74.5px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Nav_Bar_Class {
+    position: absolute;
+    width: 1398px;
+    height: 75px;
+    left: 261px;
+    top: 20px;
+    overflow: visible;
+}
+
+.Sync_Class {
+    position: absolute;
+    width: 42px;
+    height: 19px;
+    left: 1356px;
+    top: 29.5px;
+    overflow: visible;
+}
+
+.SYNC_Class {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 43px;
+    white-space: nowrap;
+    line-height: 16px;
+    margin-top: -0.5px;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(240, 237, 238, 1);
+}
+
+.Contact_Us_Class {
+    position: absolute;
+    width: 76px;
+    height: 19px;
+    left: 1123px;
+    top: 29.5px;
+    overflow: visible;
+    --web-animation: fadein 0.4s ease-in-out;
+    --web-action-type: view;
+    --web-action-target: Contact_Us;
+    cursor: pointer;
+}
+
+.SERVICES_Class {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 77px;
+    white-space: nowrap;
+    line-height: 16px;
+    margin-top: -0.5px;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(240, 237, 238, 1);
+}
+
+.Events_Class {
+    position: absolute;
+    width: 61px;
+    height: 19px;
+    left: 905px;
+    top: 29.5px;
+    overflow: visible;
+}
+
+.EVENTS_Class {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 62px;
+    white-space: nowrap;
+    line-height: 16px;
+    margin-top: -0.5px;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(240, 237, 238, 1);
+}
+
+.Glow_Class {
+    filter: blur(50px);
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 661.5px;
+    top: 0px;
+    overflow: visible;
+}
+
+.Logo_Class {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 661.5px;
+    top: 0px;
+    overflow: visible;
+    --web-animation: fadein 0.4s ease-out;
+    --web-action-type: view;
+    --web-action-target: Homepage;
+    cursor: pointer;
+}
+
+.Logoglow_Class {
+    filter: blur(50px);
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 661.5px;
+    top: 0px;
+    overflow: visible;
+    --web-animation: fadein 0.4s ease-out;
+    --web-action-type: view;
+    --web-action-target: Homepage;
+    cursor: pointer;
+}
+
+.Departments_Class {
+    position: absolute;
+    width: 119px;
+    height: 19px;
+    left: 395px;
+    top: 29.5px;
+    overflow: visible;
+}
+
+.DEPARTMENTS_Class {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 120px;
+    white-space: nowrap;
+    line-height: 16px;
+    margin-top: -0.5px;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(240, 237, 238, 1);
+}
+
+.About_Class {
+    position: absolute;
+    width: 56px;
+    height: 19px;
+    left: 194px;
+    top: 29.5px;
+    overflow: visible;
+}
+
+.ABOUT_Class {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 57px;
+    white-space: nowrap;
+    line-height: 16px;
+    margin-top: -0.5px;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(240, 237, 238, 1);
+}
+
+.Home_Class {
+    position: absolute;
+    width: 49px;
+    height: 19px;
+    left: 0px;
+    top: 29.5px;
+    overflow: visible;
+}
+
+.HOME_Class {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 50px;
+    white-space: nowrap;
+    line-height: 16px;
+    margin-top: -0.5px;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(240, 237, 238, 1);
+}
+
+@media (min-width: 2256px) {
+    body {
+        -moz-transform: scale(1.18, 1.18);
+        /* Moz-browsers */
+        zoom: 1.18;
+        /* Other non-webkit browsers */
+        zoom: 118%;
+        /* Webkit browsers */
+    }
+}
+
+@media (min-width: 2560px) {
+    body {
+        -moz-transform: scale(1.34, 1.34);
+        /* Moz-browsers */
+        zoom: 1.34;
+        /* Other non-webkit browsers */
+        zoom: 134%;
+        /* Webkit browsers */
+    }
+}
+
+@media (min-width: 2736px) {
+    body {
+        -moz-transform: scale(1.43, 1.43);
+        /* Moz-browsers */
+        zoom: 1.43;
+        /* Other non-webkit browsers */
+        zoom: 143%;
+        /* Webkit browsers */
+    }
+}
+
+@media (min-width: 3200px) {
+    body {
+        -moz-transform: scale(1.66, 1.66);
+        /* Moz-browsers */
+        zoom: 1.66;
+        /* Other non-webkit browsers */
+        zoom: 166%;
+        /* Webkit browsers */
+    }
+}
+
+@media (min-width: 3840px) {
+    body {
+        -moz-transform: scale(1.99, 1.99);
+        /* Moz-browsers */
+        zoom: 1.99;
+        /* Other non-webkit browsers */
+        zoom: 199%;
+        /* Webkit browsers */
+    }
+}
+
+@media (max-width: 1400px) {
+    body {
+        -moz-transform: scale(0.75, 0.75);
+        /* Moz-browsers */
+        zoom: 0.75;
+        /* Other non-webkit browsers */
+        zoom: 75%;
+        /* Webkit browsers */
+    }
+}
+
+@media (max-width: 1600px) {
+    body {
+        -moz-transform: scale(0.84, 0.84);
+        /* Moz-browsers */
+        zoom: 0.84;
+        /* Other non-webkit browsers */
+        zoom: 84%;
+        /* Webkit browsers */
+    }
+    #wrapper {
+        margin: 40px auto 0 auto;
+    }
+}
+
+@media (max-width: 1536px) {
+    body {
+        -moz-transform: scale(0.8, 0.8);
+        /* Moz-browsers */
+        zoom: 0.8;
+        /* Other non-webkit browsers */
+        zoom: 80%;
+        /* Webkit browsers */
+    }
+    #wrapper {
+        margin: 40px auto 0 auto;
+    }
+}
+
+@media (max-width: 1440px) {
+    body {
+        -moz-transform: scale(0.7, 0.7);
+        /* Moz-browsers */
+        zoom: 0.7;
+        /* Other non-webkit browsers */
+        zoom: 70%;
+        /* Webkit browsers */
+    }
+}
+
+@media (max-width: 1366px) {
+    body {
+        -moz-transform: scale(0.73, 0.73);
+        /* Moz-browsers */
+        zoom: 0.73;
+        /* Other non-webkit browsers */
+        zoom: 73%;
+        /* Webkit browsers */
+    }
+}
+
+@media (max-width: 1300px) {
+    body {
+        -moz-transform: scale(0.67.5, 0.67.5);
+        /* Moz-browsers */
+        zoom: 0.67.5;
+        /* Other non-webkit browsers */
+        zoom: 67.5%;
+        /* Webkit browsers */
+    }
+}
+
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+
+@media screen and (max-width: 1100px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+    html {
+        transform: rotate(-90deg);
+        transform-origin: left top;
+        width: 100vh;
+        overflow-x: hidden;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+}
+
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+
+@media screen and (max-width: 430px) {
+    html,
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .Our_Philosophy_Class {
+        height: 2500px;
+    }
+    .Nav_Bar_Class {
+        display: none;
+    }
+    .Nav_Underline_Class {
+        display: none;
+    }
+    .About_Background_Class {
+        height: 2500px;
+        width: auto;
+    }
+    .Black_Tint_Class {
+        height: 2500px;
+    }
+    #myTopnav {
+        display: block;
+    }
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    .Story_Team_Slider_Class {
+        left: -22px;
+        top: 142px;
+    }
+    .OUR_PHILOSPOHY__Class {
+        left: 125px;
+        top: 296px;
+    }
+    .Philosophy_Line {
+        left: 270px;
+    }
+    .OUR_MISSION__Class {
+        top: 2000px;
+    }
+    .ID1_Educate__We_believe_in_giv_Class {
+        width: 500px;
+        height: auto;
+        font-size: 15;
+        left: -175px;
+        text-align: justify;
+        top: 930px;
+    }
+    .Mission_Line {
+        top: 1880px;
+        left: 270px;
+    }
+    .Philosophy_Text_Class {
+        width: 744px;
+        height: 432px;
+        left: -880px;
+        top: 601px;
+    }
+    .Our_symbol_is_emblematic_of_th_Class {
+        width: 500px;
+        height: auto;
+        font-size: 15;
+        top: 500px;
+        left: 945px;
+        text-align: justify;
+    }
+    img .Philosophy_Text_Class {
+        width: 200px;
+    }
+    .OUR_MISSION__Class {
+        top: 1800px;
+        left: 180px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .Story_Team_Slider_Class {
+        left: -22px;
+    }
+    .OUR_PHILOSPOHY__Class {
+        left: 115px;
+    }
+    .Philosophy_Line {
+        left: 260px;
+    }
+    .OUR_MISSION__Class {
+        left: 115px;
+    }
+    .ID1_Educate__We_believe_in_giv_Class {
+        left: -185px;
+    }
+    .Mission_Line {
+        left: 260px;
+    }
+    .Philosophy_Text_Class {
+        left: -890px;
+    }
+    .Our_symbol_is_emblematic_of_th_Class {
+        left: 955px;
+    }
+    .OUR_MISSION__Class {
+        left: 170px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .Story_Team_Slider_Class {
+        left: -32px;
+    }
+    .OUR_PHILOSPOHY__Class {
+        left: 105px;
+    }
+    .Philosophy_Line {
+        left: 250px;
+    }
+    .OUR_MISSION__Class {
+        left: 105px;
+    }
+    .ID1_Educate__We_believe_in_giv_Class {
+        left: -185px;
+    }
+    .Mission_Line {
+        left: 250px;
+    }
+    .Philosophy_Text_Class {
+        left: -900px;
+    }
+    .Our_symbol_is_emblematic_of_th_Class {
+        left: 955px;
+    }
+    .OUR_MISSION__Class {
+        left: 160px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .Story_Team_Slider_Class {
+        left: -42px;
+    }
+    .OUR_PHILOSPOHY__Class {
+        left: 95px;
+    }
+    .Philosophy_Line {
+        left: 240px;
+    }
+    .OUR_MISSION__Class {
+        left: 95px;
+    }
+    .ID1_Educate__We_believe_in_giv_Class {
+        left: -195px;
+    }
+    .Mission_Line {
+        left: 240px;
+    }
+    .Philosophy_Text_Class {
+        left: -910px;
+    }
+    .Our_symbol_is_emblematic_of_th_Class {
+        left: 955px;
+    }
+    .OUR_MISSION__Class {
+        left: 150px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .Story_Team_Slider_Class {
+        left: -52px;
+    }
+    .OUR_PHILOSPOHY__Class {
+        left: 95px;
+    }
+    .Philosophy_Line {
+        left: 240px;
+    }
+    .OUR_MISSION__Class {
+        left: 95px;
+    }
+    .ID1_Educate__We_believe_in_giv_Class {
+        left: -195px;
+    }
+    .Mission_Line {
+        left: 240px;
+    }
+    .Philosophy_Text_Class {
+        left: -910px;
+    }
+    .Our_symbol_is_emblematic_of_th_Class {
+        left: 955px;
+    }
+    .OUR_MISSION__Class {
+        left: 150px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .Story_Team_Slider_Class {
+        left: -52px;
+    }
+    .OUR_PHILOSPOHY__Class {
+        left: 85px;
+    }
+    .Philosophy_Line {
+        left: 240px;
+    }
+    .OUR_MISSION__Class {
+        left: 95px;
+    }
+    .ID1_Educate__We_believe_in_giv_Class {
+        left: -205px;
+    }
+    .Mission_Line {
+        left: 240px;
+    }
+    .Philosophy_Text_Class {
+        left: -920px;
+    }
+    .Our_symbol_is_emblematic_of_th_Class {
+        left: 945px;
+    }
+    .OUR_MISSION__Class {
+        left: 150px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .Story_Team_Slider_Class {
+        left: -62px;
+    }
+    .OUR_PHILOSPOHY__Class {
+        left: 85px;
+    }
+    .Philosophy_Line {
+        left: 230px;
+    }
+    .OUR_MISSION__Class {
+        left: 95px;
+    }
+    .ID1_Educate__We_believe_in_giv_Class {
+        left: -215px;
+    }
+    .Mission_Line {
+        left: 230px;
+    }
+    .Philosophy_Text_Class {
+        left: -925px;
+    }
+    .Our_symbol_is_emblematic_of_th_Class {
+        left: 945px;
+    }
+    .OUR_MISSION__Class {
+        left: 130px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .Story_Team_Slider_Class {
+        left: -72px;
+    }
+    .OUR_PHILOSPOHY__Class {
+        left: 75px;
+    }
+    .Philosophy_Line {
+        left: 220px;
+    }
+    .OUR_MISSION__Class {
+        left: 95px;
+    }
+    .ID1_Educate__We_believe_in_giv_Class {
+        left: -220px;
+    }
+    .Mission_Line {
+        left: 230px;
+    }
+    .Philosophy_Text_Class {
+        left: -935px;
+    }
+    .Our_symbol_is_emblematic_of_th_Class {
+        left: 950px;
+    }
+    .OUR_MISSION__Class {
+        left: 125px;
+    }
+}
+
+@media only screen and (device-width: 375px) and (device-height: 667px) {
+    #myTopnav {
+        display: none;
+    }
+    .Nav_Bar {
+        display: block;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: none;
+        overflow-x: hidden;
+    }
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    body {
+        height: 100vh;
+        overflow-x: hidden;
+        -moz-transform: scale(0.46, 0.46);
+        /* Moz-browsers */
+        zoom: 0.46;
+        /* Other non-webkit browsers */
+        zoom: 46%;
+        /* Webkit browsers */
+    }
+     ::-webkit-scrollbar {
+        width: 10px;
+    }
+     ::-webkit-scrollbar-track {
+        background-color: #1d1e18;
+    }
+     ::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: rgba(79, 231, 220, 1);
+    }
+    #myTopnav {
+        display: none;
+    }
+    .topnav {
+        background-color: rgb(0, 0, 0);
+        overflow: hidden;
+    }
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        display: block;
+        color: rgba(79, 231, 220, 1);
+        text-align: center;
+        padding: 20px 24px;
+        text-decoration: none;
+        font-size: 50px;
+        font-family: Montserrat;
+        font-weight: 700;
+    }
+    /* Change the color of links on hover */
+    .topnav a:hover {
+        background-color: rgba(79, 231, 220, 1);
+        color: rgb(0, 0, 0);
+    }
+    /* Add an active class to highlight the current page */
+    .topnav a.active {
+        background-color: rgb(0, 0, 0);
+        color: rgba(79, 231, 220, 1);
+    }
+    /* Hide the link that should open and close the topnav on small screens */
+    .topnav .icon {
+        display: none;
+    }
+    .txt:hover {
+        opacity: 1;
+    }
+    .txt::before {
+        transition: 300ms;
+        height: 4px;
+        content: "";
+        position: absolute;
+        background-color: rgba(79, 231, 220, 1);
+    }
+    .txt-ltr::before {
+        width: 0%;
+        bottom: -10px;
+    }
+    .txt-ltr:hover::before {
+        width: 100%;
+    }
+    .Our_Philosophy_Class {
+        position: absolute;
+        width: 1920px;
+        height: 1367px;
+        background-color: rgba(0, 0, 0, 1);
+        overflow: hidden;
+        --web-view-name: Our Philosophy;
+        --web-view-id: Our_Philosophy;
+        --web-scale-to-fit: true;
+        --web-scale-to-fit-type: width;
+        --web-scale-on-resize: true;
+        --web-center-vertically: true;
+        --web-application: true;
+        --web-enable-deep-linking: true;
+    }
+    @keyframes fadein {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    .background_layer {
+        position: absolute;
+    }
+    .background_layer.rotateSmall {
+        animation-name: spin3;
+        animation-duration: 5500ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    .About_Background_Class {
+        position: absolute;
+        width: 2250px;
+        height: 1500px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    .Black_Tint_Class {
+        fill: rgba(0, 0, 0, 0.6);
+    }
+    .Black_Tint {
+        position: absolute;
+        overflow: visible;
+        width: 1920px;
+        height: 1367px;
+        left: 0px;
+        top: 0px;
+    }
+    .Mission_Text_Class {
+        position: absolute;
+        width: 1443px;
+        height: 251px;
+        left: 239px;
+        top: 1006px;
+        overflow: visible;
+    }
+    .ID1_Educate__We_believe_in_giv_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: hidden;
+        width: 1444px;
+        height: 251px;
+        line-height: 50px;
+        margin-top: -16px;
+        text-align: justify;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Mission_Line_Class {
+        fill: transparent;
+        stroke: rgba(79, 231, 220, 1);
+        stroke-width: 3px;
+        stroke-linejoin: miter;
+        stroke-linecap: round;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .Mission_Line {
+        overflow: visible;
+        position: absolute;
+        width: 78.5px;
+        height: 3px;
+        left: 239px;
+        top: 976px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    .OUR_MISSION__Class {
+        left: 239px;
+        top: 901px;
+        position: absolute;
+        overflow: visible;
+        width: 289px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Philosophy_Text_Class {
+        position: absolute;
+        width: 744px;
+        height: 432px;
+        left: 239px;
+        top: 401px;
+        overflow: visible;
+    }
+    .Our_symbol_is_emblematic_of_th_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: hidden;
+        width: 745px;
+        height: 432px;
+        line-height: 50px;
+        margin-top: -16px;
+        text-align: justify;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Philosophy_Line_Class {
+        fill: transparent;
+        stroke: rgba(79, 231, 220, 1);
+        stroke-width: 3px;
+        stroke-linejoin: miter;
+        stroke-linecap: round;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .Philosophy_Line {
+        overflow: visible;
+        position: absolute;
+        width: 78.5px;
+        height: 3px;
+        left: 239px;
+        top: 371px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    .OUR_PHILOSPOHY__Class {
+        left: 239px;
+        top: 296px;
+        position: absolute;
+        overflow: visible;
+        width: 387px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Story_Team_Slider_Class {
+        position: absolute;
+        width: 676px;
+        height: 61px;
+        left: 622px;
+        top: 142px;
+        overflow: visible;
+    }
+    .Container_Class {
+        fill: rgba(29, 30, 24, 0.502);
+    }
+    .Container {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 694px;
+        height: 79px;
+        left: 0px;
+        top: 0px;
+    }
+    .Selector_bh_Class {
+        fill: url(#Selector_bh);
+    }
+    .Selector_bh {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 356px;
+        height: 79px;
+        left: 0px;
+        top: 0px;
+    }
+    .OUR_TEAM__Class {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.4));
+        left: 451px;
+        top: 18px;
+        position: absolute;
+        overflow: visible;
+        width: 114px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        color: rgba(152, 150, 150, 1);
+    }
+    .OUR_TEAM__Class :hover {
+        color: rgba(79, 231, 220, 1);
+    }
+    .OUR_STORY__Class {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        left: 108px;
+        top: 18px;
+        position: absolute;
+        overflow: visible;
+        width: 124px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Nav_Underline_Class {
+        fill: rgba(0, 0, 0, 0);
+        stroke: rgba(79, 231, 220, 1);
+        stroke-width: 5px;
+        stroke-linejoin: miter;
+        stroke-linecap: round;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .Nav_Underlineglow_class {
+        filter: blur(100px);
+        overflow: visible;
+        position: absolute;
+        width: 61.29px;
+        height: 5px;
+        left: 454.893px;
+        top: 74.5px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    .Nav_Underline {
+        overflow: visible;
+        position: absolute;
+        width: 61.29px;
+        height: 5px;
+        left: 454.893px;
+        top: 74.5px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    .Nav_Bar_Class {
+        position: absolute;
+        width: 1398px;
+        height: 75px;
+        left: 261px;
+        top: 20px;
+        overflow: visible;
+    }
+    .Sync_Class {
+        position: absolute;
+        width: 42px;
+        height: 19px;
+        left: 1356px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .SYNC_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 43px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Contact_Us_Class {
+        position: absolute;
+        width: 76px;
+        height: 19px;
+        left: 1123px;
+        top: 29.5px;
+        overflow: visible;
+        --web-animation: fadein 0.4s ease-in-out;
+        --web-action-type: view;
+        --web-action-target: Contact_Us;
+        cursor: pointer;
+    }
+    .SERVICES_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 77px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Events_Class {
+        position: absolute;
+        width: 61px;
+        height: 19px;
+        left: 905px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .EVENTS_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 62px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Glow_Class {
+        filter: blur(50px);
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 661.5px;
+        top: 0px;
+        overflow: visible;
+    }
+    .Logo_Class {
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 661.5px;
+        top: 0px;
+        overflow: visible;
+        --web-animation: fadein 0.4s ease-out;
+        --web-action-type: view;
+        --web-action-target: Homepage;
+        cursor: pointer;
+    }
+    .Logoglow_Class {
+        filter: blur(50px);
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 661.5px;
+        top: 0px;
+        overflow: visible;
+        --web-animation: fadein 0.4s ease-out;
+        --web-action-type: view;
+        --web-action-target: Homepage;
+        cursor: pointer;
+    }
+    .Departments_Class {
+        position: absolute;
+        width: 119px;
+        height: 19px;
+        left: 395px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .DEPARTMENTS_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 120px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .About_Class {
+        position: absolute;
+        width: 56px;
+        height: 19px;
+        left: 194px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .ABOUT_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 57px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Home_Class {
+        position: absolute;
+        width: 49px;
+        height: 19px;
+        left: 0px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .HOME_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 50px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+}
+
+@media only screen and (device-width: 414px) and (device-height: 896px) {
+    #myTopnav {
+        display: none;
+    }
+    .Nav_Bar {
+        display: block;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: none;
+        overflow-x: hidden;
+    }
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    body {
+        height: 100vh;
+        overflow-x: hidden;
+        height: 100vh;
+        overflow-x: hidden;
+        -moz-transform: scale(0.46, 0.46);
+        /* Moz-browsers */
+        zoom: 0.46;
+        /* Other non-webkit browsers */
+        zoom: 46%;
+        /* 61.8 */
+    }
+     ::-webkit-scrollbar {
+        width: 10px;
+    }
+     ::-webkit-scrollbar-track {
+        background-color: #1d1e18;
+    }
+     ::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: rgba(79, 231, 220, 1);
+    }
+    #myTopnav {
+        display: none;
+    }
+    .topnav {
+        background-color: rgb(0, 0, 0);
+        overflow: hidden;
+    }
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        display: block;
+        color: rgba(79, 231, 220, 1);
+        text-align: center;
+        padding: 20px 24px;
+        text-decoration: none;
+        font-size: 50px;
+        font-family: Montserrat;
+        font-weight: 700;
+    }
+    /* Change the color of links on hover */
+    .topnav a:hover {
+        background-color: rgba(79, 231, 220, 1);
+        color: rgb(0, 0, 0);
+    }
+    /* Add an active class to highlight the current page */
+    .topnav a.active {
+        background-color: rgb(0, 0, 0);
+        color: rgba(79, 231, 220, 1);
+    }
+    /* Hide the link that should open and close the topnav on small screens */
+    .topnav .icon {
+        display: none;
+    }
+    .txt:hover {
+        opacity: 1;
+    }
+    .txt::before {
+        transition: 300ms;
+        height: 4px;
+        content: "";
+        position: absolute;
+        background-color: rgba(79, 231, 220, 1);
+    }
+    .txt-ltr::before {
+        width: 0%;
+        bottom: -10px;
+    }
+    .txt-ltr:hover::before {
+        width: 100%;
+    }
+    .Our_Philosophy_Class {
+        position: absolute;
+        width: 1920px;
+        height: 1367px;
+        background-color: rgba(0, 0, 0, 1);
+        overflow: hidden;
+        --web-view-name: Our Philosophy;
+        --web-view-id: Our_Philosophy;
+        --web-scale-to-fit: true;
+        --web-scale-to-fit-type: width;
+        --web-scale-on-resize: true;
+        --web-center-vertically: true;
+        --web-application: true;
+        --web-enable-deep-linking: true;
+    }
+    @keyframes fadein {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    .background_layer {
+        position: absolute;
+    }
+    .background_layer.rotateSmall {
+        animation-name: spin3;
+        animation-duration: 5500ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    .About_Background_Class {
+        position: absolute;
+        width: 2250px;
+        height: 1500px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    .Black_Tint_Class {
+        fill: rgba(0, 0, 0, 0.6);
+    }
+    .Black_Tint {
+        position: absolute;
+        overflow: visible;
+        width: 1920px;
+        height: 1367px;
+        left: 0px;
+        top: 0px;
+    }
+    .Mission_Text_Class {
+        position: absolute;
+        width: 1443px;
+        height: 251px;
+        left: 239px;
+        top: 1006px;
+        overflow: visible;
+    }
+    .ID1_Educate__We_believe_in_giv_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: hidden;
+        width: 1444px;
+        height: 251px;
+        line-height: 50px;
+        margin-top: -16px;
+        text-align: justify;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Mission_Line_Class {
+        fill: transparent;
+        stroke: rgba(79, 231, 220, 1);
+        stroke-width: 3px;
+        stroke-linejoin: miter;
+        stroke-linecap: round;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .Mission_Line {
+        overflow: visible;
+        position: absolute;
+        width: 78.5px;
+        height: 3px;
+        left: 239px;
+        top: 976px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    .OUR_MISSION__Class {
+        left: 239px;
+        top: 901px;
+        position: absolute;
+        overflow: visible;
+        width: 289px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Philosophy_Text_Class {
+        position: absolute;
+        width: 744px;
+        height: 432px;
+        left: 239px;
+        top: 401px;
+        overflow: visible;
+    }
+    .Our_symbol_is_emblematic_of_th_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: hidden;
+        width: 745px;
+        height: 432px;
+        line-height: 50px;
+        margin-top: -16px;
+        text-align: justify;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Philosophy_Line_Class {
+        fill: transparent;
+        stroke: rgba(79, 231, 220, 1);
+        stroke-width: 3px;
+        stroke-linejoin: miter;
+        stroke-linecap: round;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .Philosophy_Line {
+        overflow: visible;
+        position: absolute;
+        width: 78.5px;
+        height: 3px;
+        left: 239px;
+        top: 371px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    .OUR_PHILOSPOHY__Class {
+        left: 239px;
+        top: 296px;
+        position: absolute;
+        overflow: visible;
+        width: 387px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Story_Team_Slider_Class {
+        position: absolute;
+        width: 676px;
+        height: 61px;
+        left: 622px;
+        top: 142px;
+        overflow: visible;
+    }
+    .Container_Class {
+        fill: rgba(29, 30, 24, 0.502);
+    }
+    .Container {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 694px;
+        height: 79px;
+        left: 0px;
+        top: 0px;
+    }
+    .Selector_bh_Class {
+        fill: url(#Selector_bh);
+    }
+    .Selector_bh {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 356px;
+        height: 79px;
+        left: 0px;
+        top: 0px;
+    }
+    .OUR_TEAM__Class {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.4));
+        left: 451px;
+        top: 18px;
+        position: absolute;
+        overflow: visible;
+        width: 114px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        color: rgba(152, 150, 150, 1);
+    }
+    .OUR_TEAM__Class :hover {
+        color: rgba(79, 231, 220, 1);
+    }
+    .OUR_STORY__Class {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        left: 108px;
+        top: 18px;
+        position: absolute;
+        overflow: visible;
+        width: 124px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Nav_Underline_Class {
+        fill: rgba(0, 0, 0, 0);
+        stroke: rgba(79, 231, 220, 1);
+        stroke-width: 5px;
+        stroke-linejoin: miter;
+        stroke-linecap: round;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .Nav_Underlineglow_class {
+        filter: blur(100px);
+        overflow: visible;
+        position: absolute;
+        width: 61.29px;
+        height: 5px;
+        left: 454.893px;
+        top: 74.5px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    .Nav_Underline {
+        overflow: visible;
+        position: absolute;
+        width: 61.29px;
+        height: 5px;
+        left: 454.893px;
+        top: 74.5px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    .Nav_Bar_Class {
+        position: absolute;
+        width: 1398px;
+        height: 75px;
+        left: 261px;
+        top: 20px;
+        overflow: visible;
+    }
+    .Sync_Class {
+        position: absolute;
+        width: 42px;
+        height: 19px;
+        left: 1356px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .SYNC_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 43px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Contact_Us_Class {
+        position: absolute;
+        width: 76px;
+        height: 19px;
+        left: 1123px;
+        top: 29.5px;
+        overflow: visible;
+        --web-animation: fadein 0.4s ease-in-out;
+        --web-action-type: view;
+        --web-action-target: Contact_Us;
+        cursor: pointer;
+    }
+    .SERVICES_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 77px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Events_Class {
+        position: absolute;
+        width: 61px;
+        height: 19px;
+        left: 905px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .EVENTS_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 62px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Glow_Class {
+        filter: blur(50px);
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 661.5px;
+        top: 0px;
+        overflow: visible;
+    }
+    .Logo_Class {
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 661.5px;
+        top: 0px;
+        overflow: visible;
+        --web-animation: fadein 0.4s ease-out;
+        --web-action-type: view;
+        --web-action-target: Homepage;
+        cursor: pointer;
+    }
+    .Logoglow_Class {
+        filter: blur(50px);
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 661.5px;
+        top: 0px;
+        overflow: visible;
+        --web-animation: fadein 0.4s ease-out;
+        --web-action-type: view;
+        --web-action-target: Homepage;
+        cursor: pointer;
+    }
+    .Departments_Class {
+        position: absolute;
+        width: 119px;
+        height: 19px;
+        left: 395px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .DEPARTMENTS_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 120px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .About_Class {
+        position: absolute;
+        width: 56px;
+        height: 19px;
+        left: 194px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .ABOUT_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 57px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Home_Class {
+        position: absolute;
+        width: 49px;
+        height: 19px;
+        left: 0px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .HOME_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 50px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+}
+
+@media only screen and (device-width: 414px) and (device-height: 736px) {
+    #myTopnav {
+        display: none;
+    }
+    .Nav_Bar {
+        display: block;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: none;
+        overflow-x: hidden;
+    }
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    body {
+        height: 100vh;
+        overflow-x: hidden;
+        -moz-transform: scale(0.46, 0.46);
+        /* Moz-browsers */
+        zoom: 0.46;
+        /* Other non-webkit browsers */
+        zoom: 46%;
+        /* 50.8 */
+    }
+     ::-webkit-scrollbar {
+        width: 10px;
+    }
+     ::-webkit-scrollbar-track {
+        background-color: #1d1e18;
+    }
+     ::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: rgba(79, 231, 220, 1);
+    }
+    #myTopnav {
+        display: none;
+    }
+    .topnav {
+        background-color: rgb(0, 0, 0);
+        overflow: hidden;
+    }
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        display: block;
+        color: rgba(79, 231, 220, 1);
+        text-align: center;
+        padding: 20px 24px;
+        text-decoration: none;
+        font-size: 50px;
+        font-family: Montserrat;
+        font-weight: 700;
+    }
+    /* Change the color of links on hover */
+    .topnav a:hover {
+        background-color: rgba(79, 231, 220, 1);
+        color: rgb(0, 0, 0);
+    }
+    /* Add an active class to highlight the current page */
+    .topnav a.active {
+        background-color: rgb(0, 0, 0);
+        color: rgba(79, 231, 220, 1);
+    }
+    /* Hide the link that should open and close the topnav on small screens */
+    .topnav .icon {
+        display: none;
+    }
+    .txt:hover {
+        opacity: 1;
+    }
+    .txt::before {
+        transition: 300ms;
+        height: 4px;
+        content: "";
+        position: absolute;
+        background-color: rgba(79, 231, 220, 1);
+    }
+    .txt-ltr::before {
+        width: 0%;
+        bottom: -10px;
+    }
+    .txt-ltr:hover::before {
+        width: 100%;
+    }
+    .Our_Philosophy_Class {
+        position: absolute;
+        width: 1920px;
+        height: 1367px;
+        background-color: rgba(0, 0, 0, 1);
+        overflow: hidden;
+        --web-view-name: Our Philosophy;
+        --web-view-id: Our_Philosophy;
+        --web-scale-to-fit: true;
+        --web-scale-to-fit-type: width;
+        --web-scale-on-resize: true;
+        --web-center-vertically: true;
+        --web-application: true;
+        --web-enable-deep-linking: true;
+    }
+    @keyframes fadein {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    .background_layer {
+        position: absolute;
+    }
+    .background_layer.rotateSmall {
+        animation-name: spin3;
+        animation-duration: 5500ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    .About_Background_Class {
+        position: absolute;
+        width: 2250px;
+        height: 1500px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    .Black_Tint_Class {
+        fill: rgba(0, 0, 0, 0.6);
+    }
+    .Black_Tint {
+        position: absolute;
+        overflow: visible;
+        width: 1920px;
+        height: 1367px;
+        left: 0px;
+        top: 0px;
+    }
+    .Mission_Text_Class {
+        position: absolute;
+        width: 1443px;
+        height: 251px;
+        left: 239px;
+        top: 1006px;
+        overflow: visible;
+    }
+    .ID1_Educate__We_believe_in_giv_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: hidden;
+        width: 1444px;
+        height: 251px;
+        line-height: 50px;
+        margin-top: -16px;
+        text-align: justify;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Mission_Line_Class {
+        fill: transparent;
+        stroke: rgba(79, 231, 220, 1);
+        stroke-width: 3px;
+        stroke-linejoin: miter;
+        stroke-linecap: round;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .Mission_Line {
+        overflow: visible;
+        position: absolute;
+        width: 78.5px;
+        height: 3px;
+        left: 239px;
+        top: 976px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    .OUR_MISSION__Class {
+        left: 239px;
+        top: 901px;
+        position: absolute;
+        overflow: visible;
+        width: 289px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Philosophy_Text_Class {
+        position: absolute;
+        width: 744px;
+        height: 432px;
+        left: 239px;
+        top: 401px;
+        overflow: visible;
+    }
+    .Our_symbol_is_emblematic_of_th_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: hidden;
+        width: 745px;
+        height: 432px;
+        line-height: 50px;
+        margin-top: -16px;
+        text-align: justify;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Philosophy_Line_Class {
+        fill: transparent;
+        stroke: rgba(79, 231, 220, 1);
+        stroke-width: 3px;
+        stroke-linejoin: miter;
+        stroke-linecap: round;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .Philosophy_Line {
+        overflow: visible;
+        position: absolute;
+        width: 78.5px;
+        height: 3px;
+        left: 239px;
+        top: 371px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    .OUR_PHILOSPOHY__Class {
+        left: 239px;
+        top: 296px;
+        position: absolute;
+        overflow: visible;
+        width: 387px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Story_Team_Slider_Class {
+        position: absolute;
+        width: 676px;
+        height: 61px;
+        left: 622px;
+        top: 142px;
+        overflow: visible;
+    }
+    .Container_Class {
+        fill: rgba(29, 30, 24, 0.502);
+    }
+    .Container {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 694px;
+        height: 79px;
+        left: 0px;
+        top: 0px;
+    }
+    .Selector_bh_Class {
+        fill: url(#Selector_bh);
+    }
+    .Selector_bh {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 356px;
+        height: 79px;
+        left: 0px;
+        top: 0px;
+    }
+    .OUR_TEAM__Class {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.4));
+        left: 451px;
+        top: 18px;
+        position: absolute;
+        overflow: visible;
+        width: 114px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        color: rgba(152, 150, 150, 1);
+    }
+    .OUR_TEAM__Class :hover {
+        color: rgba(79, 231, 220, 1);
+    }
+    .OUR_STORY__Class {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        left: 108px;
+        top: 18px;
+        position: absolute;
+        overflow: visible;
+        width: 124px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Nav_Underline_Class {
+        fill: rgba(0, 0, 0, 0);
+        stroke: rgba(79, 231, 220, 1);
+        stroke-width: 5px;
+        stroke-linejoin: miter;
+        stroke-linecap: round;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .Nav_Underlineglow_class {
+        filter: blur(100px);
+        overflow: visible;
+        position: absolute;
+        width: 61.29px;
+        height: 5px;
+        left: 454.893px;
+        top: 74.5px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    .Nav_Underline {
+        overflow: visible;
+        position: absolute;
+        width: 61.29px;
+        height: 5px;
+        left: 454.893px;
+        top: 74.5px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    .Nav_Bar_Class {
+        position: absolute;
+        width: 1398px;
+        height: 75px;
+        left: 261px;
+        top: 20px;
+        overflow: visible;
+    }
+    .Sync_Class {
+        position: absolute;
+        width: 42px;
+        height: 19px;
+        left: 1356px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .SYNC_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 43px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Contact_Us_Class {
+        position: absolute;
+        width: 76px;
+        height: 19px;
+        left: 1123px;
+        top: 29.5px;
+        overflow: visible;
+        --web-animation: fadein 0.4s ease-in-out;
+        --web-action-type: view;
+        --web-action-target: Contact_Us;
+        cursor: pointer;
+    }
+    .SERVICES_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 77px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Events_Class {
+        position: absolute;
+        width: 61px;
+        height: 19px;
+        left: 905px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .EVENTS_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 62px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Glow_Class {
+        filter: blur(50px);
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 661.5px;
+        top: 0px;
+        overflow: visible;
+    }
+    .Logo_Class {
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 661.5px;
+        top: 0px;
+        overflow: visible;
+        --web-animation: fadein 0.4s ease-out;
+        --web-action-type: view;
+        --web-action-target: Homepage;
+        cursor: pointer;
+    }
+    .Logoglow_Class {
+        filter: blur(50px);
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 661.5px;
+        top: 0px;
+        overflow: visible;
+        --web-animation: fadein 0.4s ease-out;
+        --web-action-type: view;
+        --web-action-target: Homepage;
+        cursor: pointer;
+    }
+    .Departments_Class {
+        position: absolute;
+        width: 119px;
+        height: 19px;
+        left: 395px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .DEPARTMENTS_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 120px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .About_Class {
+        position: absolute;
+        width: 56px;
+        height: 19px;
+        left: 194px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .ABOUT_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 57px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Home_Class {
+        position: absolute;
+        width: 49px;
+        height: 19px;
+        left: 0px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .HOME_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 50px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) {
+    #myTopnav {
+        display: none;
+    }
+    .Nav_Bar {
+        display: block;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: none;
+        overflow-x: hidden;
+    }
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    body {
+        height: 100vh;
+        overflow-x: hidden;
+        -moz-transform: scale(0.46, 0.46);
+        /* Moz-browsers */
+        zoom: 0.46;
+        /* Other non-webkit browsers */
+        zoom: 46%;
+        /* 56 */
+    }
+     ::-webkit-scrollbar {
+        width: 10px;
+    }
+     ::-webkit-scrollbar-track {
+        background-color: #1d1e18;
+    }
+     ::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: rgba(79, 231, 220, 1);
+    }
+    #myTopnav {
+        display: none;
+    }
+    .topnav {
+        background-color: rgb(0, 0, 0);
+        overflow: hidden;
+    }
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        display: block;
+        color: rgba(79, 231, 220, 1);
+        text-align: center;
+        padding: 20px 24px;
+        text-decoration: none;
+        font-size: 50px;
+        font-family: Montserrat;
+        font-weight: 700;
+    }
+    /* Change the color of links on hover */
+    .topnav a:hover {
+        background-color: rgba(79, 231, 220, 1);
+        color: rgb(0, 0, 0);
+    }
+    /* Add an active class to highlight the current page */
+    .topnav a.active {
+        background-color: rgb(0, 0, 0);
+        color: rgba(79, 231, 220, 1);
+    }
+    /* Hide the link that should open and close the topnav on small screens */
+    .topnav .icon {
+        display: none;
+    }
+    .txt:hover {
+        opacity: 1;
+    }
+    .txt::before {
+        transition: 300ms;
+        height: 4px;
+        content: "";
+        position: absolute;
+        background-color: rgba(79, 231, 220, 1);
+    }
+    .txt-ltr::before {
+        width: 0%;
+        bottom: -10px;
+    }
+    .txt-ltr:hover::before {
+        width: 100%;
+    }
+    .Our_Philosophy_Class {
+        position: absolute;
+        width: 1920px;
+        height: 1367px;
+        background-color: rgba(0, 0, 0, 1);
+        overflow: hidden;
+        --web-view-name: Our Philosophy;
+        --web-view-id: Our_Philosophy;
+        --web-scale-to-fit: true;
+        --web-scale-to-fit-type: width;
+        --web-scale-on-resize: true;
+        --web-center-vertically: true;
+        --web-application: true;
+        --web-enable-deep-linking: true;
+    }
+    @keyframes fadein {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    .background_layer {
+        position: absolute;
+    }
+    .background_layer.rotateSmall {
+        animation-name: spin3;
+        animation-duration: 5500ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    .About_Background_Class {
+        position: absolute;
+        width: 2250px;
+        height: 1500px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    .Black_Tint_Class {
+        fill: rgba(0, 0, 0, 0.6);
+    }
+    .Black_Tint {
+        position: absolute;
+        overflow: visible;
+        width: 1920px;
+        height: 1367px;
+        left: 0px;
+        top: 0px;
+    }
+    .Mission_Text_Class {
+        position: absolute;
+        width: 1443px;
+        height: 251px;
+        left: 239px;
+        top: 1006px;
+        overflow: visible;
+    }
+    .ID1_Educate__We_believe_in_giv_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: hidden;
+        width: 1444px;
+        height: 251px;
+        line-height: 50px;
+        margin-top: -16px;
+        text-align: justify;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Mission_Line_Class {
+        fill: transparent;
+        stroke: rgba(79, 231, 220, 1);
+        stroke-width: 3px;
+        stroke-linejoin: miter;
+        stroke-linecap: round;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .Mission_Line {
+        overflow: visible;
+        position: absolute;
+        width: 78.5px;
+        height: 3px;
+        left: 239px;
+        top: 976px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    .OUR_MISSION__Class {
+        left: 239px;
+        top: 901px;
+        position: absolute;
+        overflow: visible;
+        width: 289px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Philosophy_Text_Class {
+        position: absolute;
+        width: 744px;
+        height: 432px;
+        left: 239px;
+        top: 401px;
+        overflow: visible;
+    }
+    .Our_symbol_is_emblematic_of_th_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: hidden;
+        width: 745px;
+        height: 432px;
+        line-height: 50px;
+        margin-top: -16px;
+        text-align: justify;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Philosophy_Line_Class {
+        fill: transparent;
+        stroke: rgba(79, 231, 220, 1);
+        stroke-width: 3px;
+        stroke-linejoin: miter;
+        stroke-linecap: round;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .Philosophy_Line {
+        overflow: visible;
+        position: absolute;
+        width: 78.5px;
+        height: 3px;
+        left: 239px;
+        top: 371px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    .OUR_PHILOSPOHY__Class {
+        left: 239px;
+        top: 296px;
+        position: absolute;
+        overflow: visible;
+        width: 387px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Story_Team_Slider_Class {
+        position: absolute;
+        width: 676px;
+        height: 61px;
+        left: 622px;
+        top: 142px;
+        overflow: visible;
+    }
+    .Container_Class {
+        fill: rgba(29, 30, 24, 0.502);
+    }
+    .Container {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 694px;
+        height: 79px;
+        left: 0px;
+        top: 0px;
+    }
+    .Selector_bh_Class {
+        fill: url(#Selector_bh);
+    }
+    .Selector_bh {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 356px;
+        height: 79px;
+        left: 0px;
+        top: 0px;
+    }
+    .OUR_TEAM__Class {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.4));
+        left: 451px;
+        top: 18px;
+        position: absolute;
+        overflow: visible;
+        width: 114px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        color: rgba(152, 150, 150, 1);
+    }
+    .OUR_TEAM__Class :hover {
+        color: rgba(79, 231, 220, 1);
+    }
+    .OUR_STORY__Class {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        left: 108px;
+        top: 18px;
+        position: absolute;
+        overflow: visible;
+        width: 124px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Nav_Underline_Class {
+        fill: rgba(0, 0, 0, 0);
+        stroke: rgba(79, 231, 220, 1);
+        stroke-width: 5px;
+        stroke-linejoin: miter;
+        stroke-linecap: round;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .Nav_Underlineglow_class {
+        filter: blur(100px);
+        overflow: visible;
+        position: absolute;
+        width: 61.29px;
+        height: 5px;
+        left: 454.893px;
+        top: 74.5px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    .Nav_Underline {
+        overflow: visible;
+        position: absolute;
+        width: 61.29px;
+        height: 5px;
+        left: 454.893px;
+        top: 74.5px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    .Nav_Bar_Class {
+        position: absolute;
+        width: 1398px;
+        height: 75px;
+        left: 261px;
+        top: 20px;
+        overflow: visible;
+    }
+    .Sync_Class {
+        position: absolute;
+        width: 42px;
+        height: 19px;
+        left: 1356px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .SYNC_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 43px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Contact_Us_Class {
+        position: absolute;
+        width: 76px;
+        height: 19px;
+        left: 1123px;
+        top: 29.5px;
+        overflow: visible;
+        --web-animation: fadein 0.4s ease-in-out;
+        --web-action-type: view;
+        --web-action-target: Contact_Us;
+        cursor: pointer;
+    }
+    .SERVICES_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 77px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Events_Class {
+        position: absolute;
+        width: 61px;
+        height: 19px;
+        left: 905px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .EVENTS_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 62px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Glow_Class {
+        filter: blur(50px);
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 661.5px;
+        top: 0px;
+        overflow: visible;
+    }
+    .Logo_Class {
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 661.5px;
+        top: 0px;
+        overflow: visible;
+        --web-animation: fadein 0.4s ease-out;
+        --web-action-type: view;
+        --web-action-target: Homepage;
+        cursor: pointer;
+    }
+    .Logoglow_Class {
+        filter: blur(50px);
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 661.5px;
+        top: 0px;
+        overflow: visible;
+        --web-animation: fadein 0.4s ease-out;
+        --web-action-type: view;
+        --web-action-target: Homepage;
+        cursor: pointer;
+    }
+    .Departments_Class {
+        position: absolute;
+        width: 119px;
+        height: 19px;
+        left: 395px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .DEPARTMENTS_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 120px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .About_Class {
+        position: absolute;
+        width: 56px;
+        height: 19px;
+        left: 194px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .ABOUT_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 57px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Home_Class {
+        position: absolute;
+        width: 49px;
+        height: 19px;
+        left: 0px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .HOME_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 50px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+}

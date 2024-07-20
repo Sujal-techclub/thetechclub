@@ -1,0 +1,3132 @@
+.mediaViewInfo {
+    --web-view-name: Our Team;
+    --web-view-id: Our_Team;
+    --web-scale-to-fit: true;
+    --web-scale-to-fit-type: width;
+    --web-scale-on-resize: true;
+    --web-center-vertically: true;
+    --web-application: true;
+    --web-enable-deep-linking: true;
+}
+
+:root {
+    --web-view-ids: Our_Team;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    overflow-x: hidden;
+}
+
+body {
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #1d1e18;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(79, 231, 220, 1);
+}
+
+#myTopnav {
+    display: none;
+}
+
+.topnav {
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: left;
+    display: block;
+    color: rgba(79, 231, 220, 1);
+    text-align: center;
+    padding: 20px 24px;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    background-color: rgba(79, 231, 220, 1);
+    color: rgb(0, 0, 0);
+}
+
+
+/* Add an active class to highlight the current page */
+
+.topnav a.active {
+    background-color: rgb(0, 0, 0);
+    color: rgba(79, 231, 220, 1);
+}
+
+
+/* Hide the link that should open and close the topnav on small screens */
+
+.topnav .icon {
+    display: none;
+}
+
+.txt:hover {
+    opacity: 1;
+}
+
+.txt::before {
+    transition: 300ms;
+    height: 4px;
+    content: "";
+    position: absolute;
+    background-color: rgba(79, 231, 220, 1);
+}
+
+.txt-ltr::before {
+    width: 0%;
+    bottom: -10px;
+}
+
+.txt-ltr:hover::before {
+    width: 100%;
+}
+
+.Our_Team_Class {
+    position: absolute;
+    width: 1920px;
+    /*height: 1276.5px;*/
+    height: 1600px;
+    background-color: rgba(0, 0, 0, 1);
+    overflow: hidden;
+    --web-view-name: Our Team;
+    --web-view-id: Our_Team;
+    --web-scale-to-fit: true;
+    --web-scale-to-fit-type: width;
+    --web-scale-on-resize: true;
+    --web-center-vertically: true;
+    --web-application: true;
+    --web-enable-deep-linking: true;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.Team_Background_Class {
+    position: absolute;
+    width: 1920px;
+    left: 0px;
+    top: 200px;
+    overflow: visible;
+}
+
+.Black_Tint_Class {
+    fill: rgba(0, 0, 0, 0.702);
+}
+
+.Black_Tint {
+    position: absolute;
+    overflow: visible;
+    width: 1920px;
+    /*height: 1277px;*/
+    left: 0px;
+    top: 0px;
+}
+
+.Mukund_Class {
+    position: absolute;
+    width: 330px;
+    height: 350px;
+    left: 1320px;
+    top: 825px;
+    overflow: visible;
+}
+
+.Aviral_Class {
+    position: absolute;
+    width: 340px;
+    height: 350px;
+    left: 1050px;
+    top: 825px;
+    overflow: visible;
+}
+
+.Dhriti_Class {
+    
+    position: absolute;
+    width: 330px;
+    height: 345px;
+    left: 515px;
+    top: 825px;
+    overflow: visible;
+}
+
+.Varun_Class {
+    position: absolute;
+    width: 330px;
+    height: 350px;
+    left: 785px;
+    top: 825px;
+    overflow: visible;
+}
+
+.Rang_Class{
+    width: 330px;
+    height: 341px;
+    left: 60px;
+    top: 1180px;
+    position: relative;
+}
+
+.Rachit_Class{
+    width: 330px;
+    height: 341px;
+    left: 250px;
+    top: 1180px;
+    position: relative;   
+}
+
+.Nysaa_Class{
+    width: 330px;
+    height: 341px;
+    left: 180px;
+    top: 1180px;
+    position: relative;
+}
+
+.App_Class{
+    width: 330px;
+    height: 341px;
+    left: 920px;
+    top: 835px;
+    position: relative;
+}
+
+.Riya_Class{
+    width: 330px;
+    height: 341px;
+    left: 450px;
+    top: 830px;
+    position: relative;
+}
+
+.Niharika_Class{
+    width: 330px;
+    height: 341px;
+    left: -5px;
+    top: 1180px;
+    position: relative;
+}
+
+.Prer_Class {
+    width: 330px;
+    height: 341px;
+    left: 3px;
+    top: 480px;
+    position: relative;
+}
+
+.Bjorn_Class {
+    position: absolute;
+    width: 330px;
+    height: 350px;
+    left: 250px;
+    top: 825px;
+    overflow: visible;
+}
+
+.Kushal_Class {
+    position: absolute;
+    width: 370px;
+    height: 370px;
+    left: 1262px;
+    top: 450px;
+    overflow: visible;
+}
+
+.Tathagata_Class {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 300px;
+    top: 450px;
+    overflow: visible;
+}
+
+.Pratik_Class {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    left: 790px;
+    top: 287px;
+    overflow: visible;
+}
+
+.CORE_20-21_Class {
+    left: 746px;
+    top: 667px;
+    position: absolute;
+    overflow: visible;
+    width: 429px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    color: rgba(240, 237, 238, 1);
+}
+
+.Story_Team_Slider_Class {
+    position: absolute;
+    width: 676px;
+    height: 61px;
+    left: 622px;
+    top: 142px;
+    overflow: visible;
+}
+
+.Container_Class {
+    fill: rgba(29, 30, 24, 0.502);
+}
+
+.Container {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    position: absolute;
+    overflow: visible;
+    width: 694px;
+    height: 79px;
+    left: 0px;
+    top: 0px;
+}
+
+.Selector_bi_Class {
+    fill: url(#Selector_bi);
+}
+
+.Selector_bi {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    position: absolute;
+    overflow: visible;
+    width: 356px;
+    height: 79px;
+    left: 338px;
+    top: 0px;
+}
+
+.OUR_TEAM__Class {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    left: 451px;
+    top: 18px;
+    position: absolute;
+    overflow: visible;
+    width: 114px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(240, 237, 238, 1);
+}
+
+.OUR_STORY__Class {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    left: 108px;
+    top: 18px;
+    position: absolute;
+    overflow: visible;
+    width: 124px;
+    white-space: nowrap;
+    transition: all 0.4s ease-in-out;
+    --web-animation: fadein 0.4s ease-in-out;
+    --web-action-type: view;
+    --web-action-target: Our_Philosophy;
+    cursor: pointer;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.OUR_STORY__Class :hover {
+    color: rgba(79, 231, 220, 1);
+}
+
+.Nav_Underline_Class {
+    fill: rgba(0, 0, 0, 0);
+    stroke: rgba(79, 231, 220, 1);
+    stroke-width: 5px;
+    stroke-linejoin: miter;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Nav_Underline {
+    overflow: visible;
+    position: absolute;
+    width: 61.29px;
+    height: 5px;
+    left: 454.893px;
+    top: 74.5px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Nav_Bar_Class {
+    position: absolute;
+    width: 1398px;
+    height: 75px;
+    left: 261px;
+    top: 20px;
+    overflow: visible;
+}
+
+.Sync_Class {
+    position: absolute;
+    width: 42px;
+    height: 19px;
+    left: 1356px;
+    top: 29.5px;
+    overflow: visible;
+}
+
+.SYNC_Class {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 43px;
+    white-space: nowrap;
+    line-height: 16px;
+    margin-top: -0.5px;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(240, 237, 238, 1);
+}
+
+.Contact_Us_Class {
+    position: absolute;
+    width: 76px;
+    height: 19px;
+    left: 1123px;
+    top: 29.5px;
+    overflow: visible;
+    --web-animation: fadein 0.4s ease-in-out;
+    --web-action-type: view;
+    --web-action-target: Contact_Us;
+    cursor: pointer;
+}
+
+.SERVICES_Class {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 77px;
+    white-space: nowrap;
+    line-height: 16px;
+    margin-top: -0.5px;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(240, 237, 238, 1);
+}
+
+.Events_Class {
+    position: absolute;
+    width: 61px;
+    height: 19px;
+    left: 905px;
+    top: 29.5px;
+    overflow: visible;
+}
+
+.EVENTS_Class {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 62px;
+    white-space: nowrap;
+    line-height: 16px;
+    margin-top: -0.5px;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(240, 237, 238, 1);
+}
+
+.Glow_Class {
+    filter: blur(50px);
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 661.5px;
+    top: 0px;
+    overflow: visible;
+}
+
+.Logo_Class {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 661.5px;
+    top: 0px;
+    overflow: visible;
+    --web-animation: fadein 0.4s ease-out;
+    --web-action-type: view;
+    --web-action-target: Homepage;
+    cursor: pointer;
+}
+
+.Logoglow_Class {
+    filter: blur(50px);
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 661.5px;
+    top: 0px;
+    overflow: visible;
+    --web-animation: fadein 0.4s ease-out;
+    --web-action-type: view;
+    --web-action-target: Homepage;
+    cursor: pointer;
+}
+
+.Departments_Class {
+    position: absolute;
+    width: 119px;
+    height: 19px;
+    left: 395px;
+    top: 29.5px;
+    overflow: visible;
+}
+
+.DEPARTMENTS_Class {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 120px;
+    white-space: nowrap;
+    line-height: 16px;
+    margin-top: -0.5px;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(240, 237, 238, 1);
+}
+
+.About_Class {
+    position: absolute;
+    width: 56px;
+    height: 19px;
+    left: 194px;
+    top: 29.5px;
+    overflow: visible;
+}
+
+.ABOUT_Class {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 57px;
+    white-space: nowrap;
+    line-height: 16px;
+    margin-top: -0.5px;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(240, 237, 238, 1);
+}
+
+.Home_Class {
+    position: absolute;
+    width: 49px;
+    height: 19px;
+    left: 0px;
+    top: 29.5px;
+    overflow: visible;
+}
+
+.HOME_Class {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 50px;
+    white-space: nowrap;
+    line-height: 16px;
+    margin-top: -0.5px;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(240, 237, 238, 1);
+}
+
+@media (min-width: 2256px) {
+    body {
+        -moz-transform: scale(1.18, 1.18);
+        /* Moz-browsers */
+        zoom: 1.18;
+        /* Other non-webkit browsers */
+        zoom: 118%;
+        /* Webkit browsers */
+    }
+}
+
+@media (min-width: 2560px) {
+    body {
+        -moz-transform: scale(1.34, 1.34);
+        /* Moz-browsers */
+        zoom: 1.34;
+        /* Other non-webkit browsers */
+        zoom: 134%;
+        /* Webkit browsers */
+    }
+}
+
+@media (min-width: 2736px) {
+    body {
+        -moz-transform: scale(1.43, 1.43);
+        /* Moz-browsers */
+        zoom: 1.43;
+        /* Other non-webkit browsers */
+        zoom: 143%;
+        /* Webkit browsers */
+    }
+}
+
+@media (min-width: 3200px) {
+    body {
+        -moz-transform: scale(1.66, 1.66);
+        /* Moz-browsers */
+        zoom: 1.66;
+        /* Other non-webkit browsers */
+        zoom: 166%;
+        /* Webkit browsers */
+    }
+}
+
+@media (min-width: 3840px) {
+    body {
+        -moz-transform: scale(1.99, 1.99);
+        /* Moz-browsers */
+        zoom: 1.99;
+        /* Other non-webkit browsers */
+        zoom: 199%;
+        /* Webkit browsers */
+    }
+}
+
+@media (max-width: 1400px) {
+    body {
+        -moz-transform: scale(0.75, 0.75);
+        /* Moz-browsers */
+        zoom: 0.75;
+        /* Other non-webkit browsers */
+        zoom: 75%;
+        /* Webkit browsers */
+    }
+}
+
+@media (max-width: 1600px) {
+    body {
+        -moz-transform: scale(0.84, 0.84);
+        /* Moz-browsers */
+        zoom: 0.84;
+        /* Other non-webkit browsers */
+        zoom: 84%;
+        /* Webkit browsers */
+    }
+    #wrapper {
+        margin: 40px auto 0 auto;
+    }
+}
+
+@media (max-width: 1536px) {
+    body {
+        -moz-transform: scale(0.8, 0.8);
+        /* Moz-browsers */
+        zoom: 0.8;
+        /* Other non-webkit browsers */
+        zoom: 80%;
+        /* Webkit browsers */
+    }
+    #wrapper {
+        margin: 40px auto 0 auto;
+    }
+}
+
+@media (max-width: 1440px) {
+    body {
+        -moz-transform: scale(0.75, 0.75);
+        /* Moz-browsers */
+        zoom: 0.75;
+        /* Other non-webkit browsers */
+        zoom: 75%;
+        /* Webkit browsers */
+    }
+}
+
+@media (max-width: 1366px) {
+    body {
+        -moz-transform: scale(0.73, 0.73);
+        /* Moz-browsers */
+        zoom: 0.73;
+        /* Other non-webkit browsers */
+        zoom: 73%;
+        /* Webkit browsers */
+    }
+}
+
+@media (max-width: 1300px) {
+    body {
+        -moz-transform: scale(0.67.5, 0.67.5);
+        /* Moz-browsers */
+        zoom: 0.67.5;
+        /* Other non-webkit browsers */
+        zoom: 67.5%;
+        /* Webkit browsers */
+    }
+}
+
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+
+@media screen and (max-width: 1100px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+    html {
+        transform: rotate(-90deg);
+        transform-origin: left top;
+        width: 100vh;
+        overflow-x: hidden;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+}
+
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+
+@media screen and (max-width: 430px) {
+    html,
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .Our_Team_Class {
+        height: 2300px;
+    }
+    .Team_Background_Class {
+        height: 2000px;
+        width: auto;
+    }
+    .Black_Tint_Class {
+        height: 2000px;
+    }
+    .Nav_Bar_Class {
+        display: none;
+    }
+    .Nav_Underline_Class {
+        display: none;
+    }
+    #myTopnav {
+        display: block;
+    }
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    .Story_Team_Slider_Class {
+        left: -22px;
+        top: 142px;
+    }
+    .CORE_20-21_Class {
+        left: 100px;
+        top: 270px;
+    }
+    .Pratik_Class {
+        width: 235px;
+        height: 306px;
+        left: 203px;
+        top: 407px;
+    }
+    .Tathagata_Class {
+        width: auto;
+        height: 255px;
+        left: 170px;
+        top: 750px;
+    }
+    .Kushal_Class {
+        width: auto;
+        height: 255px;
+        left: 190px;
+        top: 1050px;
+    }
+    .Prer_Class {
+        width: auto;
+        height: 250px;
+        left: 10px;
+        top: 1350px;
+    }
+
+    .Prer_Class {
+        width: auto;
+        height: 250px;
+        left: 10px;
+        top: 1350px;
+    }
+
+    .Bjorn_Class {
+        width: auto;
+        height: 250px;
+        left: 70px;
+        top: 1350px;
+    }
+    .Varun_Class {
+        width: auto;
+        height: 250px;
+        left: 385px;
+        top: 1350px;
+    }
+    .Dhriti_Class {
+        width: auto;
+        height: 250px;
+        left: 70px;
+        top: 1650px;
+    }
+    .Aviral_Class {
+        width: auto;
+        height: 250px;
+        left: 385px;
+        top: 1650px;
+    }
+    .Mukund_Class {
+        width: auto;
+        height: 250px;
+        left: 227.5px;
+        top: 1950px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .Story_Team_Slider_Class {
+        left: -27px;
+    }
+    .CORE_20-21_Class {
+        left: 90px;
+    }
+    .Pratik_Class {
+        left: 193px;
+    }
+    .Tathagata_Class {
+        left: 160px;
+    }
+    .Kushal_Class {
+        left: 180px;
+    }
+    .Prer_Class{
+        left: 120px;
+    }
+    .Bjorn_Class {
+        left: 60px;
+    }
+    .Varun_Class {
+        left: 375px;
+    }
+    .Dhriti_Class {
+        left: 60px;
+    }
+    .Aviral_Class {
+        left: 375px;
+    }
+    .Mukund_Class {
+        left: 227.5px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .Story_Team_Slider_Class {
+        left: -27px;
+    }
+    .CORE_20-21_Class {
+        left: 90px;
+    }
+    .Pratik_Class {
+        left: 193px;
+    }
+    .Tathagata_Class {
+        left: 160px;
+    }
+    .Kushal_Class {
+        left: 180px;
+    }
+    .Prer_Class{
+        left: 120px;
+    }
+    .Bjorn_Class {
+        left: 60px;
+    }
+    .Varun_Class {
+        left: 375px;
+    }
+    .Dhriti_Class {
+        left: 60px;
+    }
+    .Aviral_Class {
+        left: 375px;
+    }
+    .Mukund_Class {
+        left: 227.5px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .Story_Team_Slider_Class {
+        left: -32px;
+    }
+    .CORE_20-21_Class {
+        left: 80px;
+    }
+    .Pratik_Class {
+        left: 193px;
+    }
+    .Tathagata_Class {
+        left: 150px;
+    }
+    .Kushal_Class {
+        left: 170px;
+    }
+    .Bjorn_Class {
+        left: 50px;
+    }
+    .Varun_Class {
+        left: 365px;
+    }
+    .Dhriti_Class {
+        left: 50px;
+    }
+    .Aviral_Class {
+        left: 365px;
+    }
+    .Mukund_Class {
+        left: 217.5px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .Story_Team_Slider_Class {
+        left: -37px;
+    }
+    .CORE_20-21_Class {
+        left: 70px;
+    }
+    .Pratik_Class {
+        left: 183px;
+    }
+    .Tathagata_Class {
+        left: 140px;
+    }
+    .Kushal_Class {
+        left: 160px;
+    }
+    .Bjorn_Class {
+        left: 40px;
+    }
+    .Varun_Class {
+        left: 355px;
+    }
+    .Dhriti_Class {
+        left: 40px;
+    }
+    .Aviral_Class {
+        left: 355px;
+    }
+    .Mukund_Class {
+        left: 207.5px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .Story_Team_Slider_Class {
+        left: -47px;
+    }
+    .CORE_20-21_Class {
+        left: 60px;
+    }
+    .Pratik_Class {
+        left: 173px;
+    }
+    .Tathagata_Class {
+        left: 130px;
+    }
+    .Kushal_Class {
+        left: 150px;
+    }
+    .Bjorn_Class {
+        left: 30px;
+    }
+    .Varun_Class {
+        left: 345px;
+    }
+    .Dhriti_Class {
+        left: 30px;
+    }
+    .Aviral_Class {
+        left: 345px;
+    }
+    .Mukund_Class {
+        left: 197.5px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .Story_Team_Slider_Class {
+        left: -52px;
+    }
+    .CORE_20-21_Class {
+        left: 60px;
+    }
+    .Pratik_Class {
+        left: 173px;
+    }
+    .Tathagata_Class {
+        left: 130px;
+    }
+    .Kushal_Class {
+        left: 150px;
+    }
+    .Bjorn_Class {
+        left: 30px;
+    }
+    .Varun_Class {
+        left: 335px;
+    }
+    .Dhriti_Class {
+        left: 30px;
+    }
+    .Aviral_Class {
+        left: 335px;
+    }
+    .Mukund_Class {
+        left: 197.5px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .Story_Team_Slider_Class {
+        left: -52px;
+    }
+    .CORE_20-21_Class {
+        left: 60px;
+    }
+    .Pratik_Class {
+        left: 173px;
+    }
+    .Tathagata_Class {
+        left: 130px;
+    }
+    .Kushal_Class {
+        left: 150px;
+    }
+    .Bjorn_Class {
+        left: 30px;
+    }
+    .Varun_Class {
+        left: 325px;
+    }
+    .Dhriti_Class {
+        left: 30px;
+    }
+    .Aviral_Class {
+        left: 325px;
+    }
+    .Mukund_Class {
+        left: 197.5px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .Story_Team_Slider_Class {
+        left: -62px;
+    }
+    .CORE_20-21_Class {
+        left: 50px;
+    }
+    .Pratik_Class {
+        left: 163px;
+    }
+    .Tathagata_Class {
+        left: 120px;
+    }
+    .Kushal_Class {
+        left: 140px;
+    }
+    .Bjorn_Class {
+        left: 20px;
+    }
+    .Varun_Class {
+        left: 315px;
+    }
+    .Dhriti_Class {
+        left: 20px;
+    }
+    .Aviral_Class {
+        left: 315px;
+    }
+    .Mukund_Class {
+        left: 187.5px;
+    }
+}
+
+@media only screen and (device-width: 375px) and (device-height: 667px) {
+    #myTopnav {
+        display: none;
+    }
+    .Nav_Bar {
+        display: block;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: none;
+        overflow-x: hidden;
+    }
+    body {
+        height: 100vh;
+        overflow-x: hidden;
+        -moz-transform: scale(0.495, 0.495);
+        /* Moz-browsers */
+        zoom: 0.495;
+        /* Other non-webkit browsers */
+        zoom: 49.5%;
+        /* Webkit browsers */
+    }
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+     ::-webkit-scrollbar {
+        width: 10px;
+    }
+     ::-webkit-scrollbar-track {
+        background-color: #1d1e18;
+    }
+     ::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: rgba(79, 231, 220, 1);
+    }
+    #myTopnav {
+        display: none;
+    }
+    .topnav {
+        background-color: rgb(0, 0, 0);
+        overflow: hidden;
+    }
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        display: block;
+        color: rgba(79, 231, 220, 1);
+        text-align: center;
+        padding: 20px 24px;
+        text-decoration: none;
+        font-size: 50px;
+        font-family: Montserrat;
+        font-weight: 700;
+    }
+    /* Change the color of links on hover */
+    .topnav a:hover {
+        background-color: rgba(79, 231, 220, 1);
+        color: rgb(0, 0, 0);
+    }
+    /* Add an active class to highlight the current page */
+    .topnav a.active {
+        background-color: rgb(0, 0, 0);
+        color: rgba(79, 231, 220, 1);
+    }
+    /* Hide the link that should open and close the topnav on small screens */
+    .topnav .icon {
+        display: none;
+    }
+    .txt:hover {
+        opacity: 1;
+    }
+    .txt::before {
+        transition: 300ms;
+        height: 4px;
+        content: "";
+        position: absolute;
+        background-color: rgba(79, 231, 220, 1);
+    }
+    .txt-ltr::before {
+        width: 0%;
+        bottom: -10px;
+    }
+    .txt-ltr:hover::before {
+        width: 100%;
+    }
+    .Our_Team_Class {
+        position: absolute;
+        width: 1920px;
+        height: 1276.5px;
+        background-color: rgba(0, 0, 0, 1);
+        overflow: hidden;
+        --web-view-name: Our Team;
+        --web-view-id: Our_Team;
+        --web-scale-to-fit: true;
+        --web-scale-to-fit-type: width;
+        --web-scale-on-resize: true;
+        --web-center-vertically: true;
+        --web-application: true;
+        --web-enable-deep-linking: true;
+    }
+    @keyframes fadein {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    .Team_Background_Class {
+        position: absolute;
+        width: 1920px;
+        height: 1276.5px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    .Black_Tint_Class {
+        fill: rgba(0, 0, 0, 0.702);
+    }
+    .Black_Tint {
+        position: absolute;
+        overflow: visible;
+        width: 1920px;
+        height: 1277px;
+        left: 0px;
+        top: 0px;
+    }
+    .Mukund_Class {
+        position: absolute;
+        width: 245px;
+        height: 308px;
+        left: 1464.48px;
+        top: 857.43px;
+        overflow: visible;
+    }
+    .Aviral_Class {
+        position: absolute;
+        width: 245px;
+        height: 308px;
+        left: 1151px;
+        top: 857.43px;
+        overflow: visible;
+    }
+    .Dhriti_Class {
+        position: absolute;
+        width: 245px;
+        height: 308px;
+        left: 838px;
+        top: 857.43px;
+        overflow: visible;
+    }
+    .Varun_Class {
+        position: absolute;
+        width: 245px;
+        height: 308px;
+        left: 524px;
+        top: 857.43px;
+        overflow: visible;
+    }
+    .Prer_Class {
+        position: absolute;
+        width: auto;
+        height: 250px;
+        left: 10px;
+        top: 1350px;
+        overflow: visible;
+    }
+    .Bjorn_Class {
+        position: absolute;
+        width: 245px;
+        height: 308px;
+        left: 210px;
+        top: 857.43px;
+        overflow: visible;
+    }
+    .Kushal_Class {
+        position: absolute;
+        width: 328px;
+        height: 307px;
+        left: 1262px;
+        top: 502px;
+        overflow: visible;
+    }
+    .Tathagata_Class {
+        position: absolute;
+        width: 374px;
+        height: 308px;
+        left: 323px;
+        top: 502px;
+        overflow: visible;
+    }
+    .Pratik_Class {
+        position: absolute;
+        width: 235px;
+        height: 306px;
+        left: 843px;
+        top: 287px;
+        overflow: visible;
+    }
+    .CORE_20-21_Class {
+        left: 746px;
+        top: 667px;
+        position: absolute;
+        overflow: visible;
+        width: 429px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 70px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Story_Team_Slider_Class {
+        position: absolute;
+        width: 676px;
+        height: 61px;
+        left: 622px;
+        top: 142px;
+        overflow: visible;
+    }
+    .Container_Class {
+        fill: rgba(29, 30, 24, 0.502);
+    }
+    .Container {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 694px;
+        height: 79px;
+        left: 0px;
+        top: 0px;
+    }
+    .Selector_bi_Class {
+        fill: url(#Selector_bi);
+    }
+    .Selector_bi {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 356px;
+        height: 79px;
+        left: 338px;
+        top: 0px;
+    }
+    .OUR_TEAM__Class {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        left: 451px;
+        top: 18px;
+        position: absolute;
+        overflow: visible;
+        width: 114px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .OUR_STORY__Class {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        left: 108px;
+        top: 18px;
+        position: absolute;
+        overflow: visible;
+        width: 124px;
+        white-space: nowrap;
+        transition: all 0.4s ease-in-out;
+        --web-animation: fadein 0.4s ease-in-out;
+        --web-action-type: view;
+        --web-action-target: Our_Philosophy;
+        cursor: pointer;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        color: rgba(152, 150, 150, 1);
+    }
+    .OUR_STORY__Class :hover {
+        color: rgba(79, 231, 220, 1);
+    }
+    .Nav_Underline_Class {
+        fill: rgba(0, 0, 0, 0);
+        stroke: rgba(79, 231, 220, 1);
+        stroke-width: 5px;
+        stroke-linejoin: miter;
+        stroke-linecap: round;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .Nav_Underline {
+        overflow: visible;
+        position: absolute;
+        width: 61.29px;
+        height: 5px;
+        left: 454.893px;
+        top: 74.5px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    .Nav_Bar_Class {
+        position: absolute;
+        width: 1398px;
+        height: 75px;
+        left: 261px;
+        top: 20px;
+        overflow: visible;
+    }
+    .Sync_Class {
+        position: absolute;
+        width: 42px;
+        height: 19px;
+        left: 1356px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .SYNC_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 43px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Contact_Us_Class {
+        position: absolute;
+        width: 76px;
+        height: 19px;
+        left: 1123px;
+        top: 29.5px;
+        overflow: visible;
+        --web-animation: fadein 0.4s ease-in-out;
+        --web-action-type: view;
+        --web-action-target: Contact_Us;
+        cursor: pointer;
+    }
+    .SERVICES_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 77px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Events_Class {
+        position: absolute;
+        width: 61px;
+        height: 19px;
+        left: 905px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .EVENTS_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 62px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Glow_Class {
+        filter: blur(50px);
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 661.5px;
+        top: 0px;
+        overflow: visible;
+    }
+    .Logo_Class {
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 661.5px;
+        top: 0px;
+        overflow: visible;
+        --web-animation: fadein 0.4s ease-out;
+        --web-action-type: view;
+        --web-action-target: Homepage;
+        cursor: pointer;
+    }
+    .Logoglow_Class {
+        filter: blur(50px);
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 661.5px;
+        top: 0px;
+        overflow: visible;
+        --web-animation: fadein 0.4s ease-out;
+        --web-action-type: view;
+        --web-action-target: Homepage;
+        cursor: pointer;
+    }
+    .Departments_Class {
+        position: absolute;
+        width: 119px;
+        height: 19px;
+        left: 395px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .DEPARTMENTS_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 120px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .About_Class {
+        position: absolute;
+        width: 56px;
+        height: 19px;
+        left: 194px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .ABOUT_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 57px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Home_Class {
+        position: absolute;
+        width: 49px;
+        height: 19px;
+        left: 0px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .HOME_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 50px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+}
+
+@media only screen and (device-width: 414px) and (device-height: 736px) {
+    #myTopnav {
+        display: none;
+    }
+    .Nav_Bar {
+        display: block;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: none;
+        overflow-x: hidden;
+    }
+    body {
+        height: 100vh;
+        overflow-x: hidden;
+        -moz-transform: scale(0.495, 0.495);
+        /* Moz-browsers */
+        zoom: 0.495;
+        /* Other non-webkit browsers */
+        zoom: 49.5%;
+        /* Webkit browsers */
+    }
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+     ::-webkit-scrollbar {
+        width: 10px;
+    }
+     ::-webkit-scrollbar-track {
+        background-color: #1d1e18;
+    }
+     ::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: rgba(79, 231, 220, 1);
+    }
+    #myTopnav {
+        display: none;
+    }
+    .topnav {
+        background-color: rgb(0, 0, 0);
+        overflow: hidden;
+    }
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        display: block;
+        color: rgba(79, 231, 220, 1);
+        text-align: center;
+        padding: 20px 24px;
+        text-decoration: none;
+        font-size: 50px;
+        font-family: Montserrat;
+        font-weight: 700;
+    }
+    /* Change the color of links on hover */
+    .topnav a:hover {
+        background-color: rgba(79, 231, 220, 1);
+        color: rgb(0, 0, 0);
+    }
+    /* Add an active class to highlight the current page */
+    .topnav a.active {
+        background-color: rgb(0, 0, 0);
+        color: rgba(79, 231, 220, 1);
+    }
+    /* Hide the link that should open and close the topnav on small screens */
+    .topnav .icon {
+        display: none;
+    }
+    .txt:hover {
+        opacity: 1;
+    }
+    .txt::before {
+        transition: 300ms;
+        height: 4px;
+        content: "";
+        position: absolute;
+        background-color: rgba(79, 231, 220, 1);
+    }
+    .txt-ltr::before {
+        width: 0%;
+        bottom: -10px;
+    }
+    .txt-ltr:hover::before {
+        width: 100%;
+    }
+    .Our_Team_Class {
+        position: absolute;
+        width: 1920px;
+        height: 1276.5px;
+        background-color: rgba(0, 0, 0, 1);
+        overflow: hidden;
+        --web-view-name: Our Team;
+        --web-view-id: Our_Team;
+        --web-scale-to-fit: true;
+        --web-scale-to-fit-type: width;
+        --web-scale-on-resize: true;
+        --web-center-vertically: true;
+        --web-application: true;
+        --web-enable-deep-linking: true;
+    }
+    @keyframes fadein {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    .Team_Background_Class {
+        position: absolute;
+        width: 1920px;
+        height: 1276.5px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    .Black_Tint_Class {
+        fill: rgba(0, 0, 0, 0.702);
+    }
+    .Black_Tint {
+        position: absolute;
+        overflow: visible;
+        width: 1920px;
+        height: 1277px;
+        left: 0px;
+        top: 0px;
+    }
+    .Mukund_Class {
+        position: absolute;
+        width: 245px;
+        height: 308px;
+        left: 1464.48px;
+        top: 857.43px;
+        overflow: visible;
+    }
+    .Aviral_Class {
+        position: absolute;
+        width: 245px;
+        height: 308px;
+        left: 1151px;
+        top: 857.43px;
+        overflow: visible;
+    }
+    .Dhriti_Class {
+        position: absolute;
+        width: 245px;
+        height: 308px;
+        left: 838px;
+        top: 857.43px;
+        overflow: visible;
+    }
+    .Varun_Class {
+        position: absolute;
+        width: 245px;
+        height: 308px;
+        left: 524px;
+        top: 857.43px;
+        overflow: visible;
+    }
+    .Prer_Class {
+        position: absolute;
+        width: auto;
+        height: 250px;
+        left: 10px;
+        top: 1350px;
+        overflow: visible;
+    }
+    .Bjorn_Class {
+        position: absolute;
+        width: 245px;
+        height: 308px;
+        left: 210px;
+        top: 857.43px;
+        overflow: visible;
+    }
+    .Kushal_Class {
+        position: absolute;
+        width: 328px;
+        height: 307px;
+        left: 1262px;
+        top: 502px;
+        overflow: visible;
+    }
+    .Tathagata_Class {
+        position: absolute;
+        width: 374px;
+        height: 308px;
+        left: 323px;
+        top: 502px;
+        overflow: visible;
+    }
+    .Pratik_Class {
+        position: absolute;
+        width: 235px;
+        height: 306px;
+        left: 843px;
+        top: 287px;
+        overflow: visible;
+    }
+    .CORE_20-21_Class {
+        left: 746px;
+        top: 667px;
+        position: absolute;
+        overflow: visible;
+        width: 429px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 70px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Story_Team_Slider_Class {
+        position: absolute;
+        width: 676px;
+        height: 61px;
+        left: 622px;
+        top: 142px;
+        overflow: visible;
+    }
+    .Container_Class {
+        fill: rgba(29, 30, 24, 0.502);
+    }
+    .Container {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 694px;
+        height: 79px;
+        left: 0px;
+        top: 0px;
+    }
+    .Selector_bi_Class {
+        fill: url(#Selector_bi);
+    }
+    .Selector_bi {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 356px;
+        height: 79px;
+        left: 338px;
+        top: 0px;
+    }
+    .OUR_TEAM__Class {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        left: 451px;
+        top: 18px;
+        position: absolute;
+        overflow: visible;
+        width: 114px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .OUR_STORY__Class {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        left: 108px;
+        top: 18px;
+        position: absolute;
+        overflow: visible;
+        width: 124px;
+        white-space: nowrap;
+        transition: all 0.4s ease-in-out;
+        --web-animation: fadein 0.4s ease-in-out;
+        --web-action-type: view;
+        --web-action-target: Our_Philosophy;
+        cursor: pointer;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        color: rgba(152, 150, 150, 1);
+    }
+    .OUR_STORY__Class :hover {
+        color: rgba(79, 231, 220, 1);
+    }
+    .Nav_Underline_Class {
+        fill: rgba(0, 0, 0, 0);
+        stroke: rgba(79, 231, 220, 1);
+        stroke-width: 5px;
+        stroke-linejoin: miter;
+        stroke-linecap: round;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .Nav_Underline {
+        overflow: visible;
+        position: absolute;
+        width: 61.29px;
+        height: 5px;
+        left: 454.893px;
+        top: 74.5px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    .Nav_Bar_Class {
+        position: absolute;
+        width: 1398px;
+        height: 75px;
+        left: 261px;
+        top: 20px;
+        overflow: visible;
+    }
+    .Sync_Class {
+        position: absolute;
+        width: 42px;
+        height: 19px;
+        left: 1356px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .SYNC_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 43px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Contact_Us_Class {
+        position: absolute;
+        width: 76px;
+        height: 19px;
+        left: 1123px;
+        top: 29.5px;
+        overflow: visible;
+        --web-animation: fadein 0.4s ease-in-out;
+        --web-action-type: view;
+        --web-action-target: Contact_Us;
+        cursor: pointer;
+    }
+    .SERVICES_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 77px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Events_Class {
+        position: absolute;
+        width: 61px;
+        height: 19px;
+        left: 905px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .EVENTS_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 62px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Glow_Class {
+        filter: blur(50px);
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 661.5px;
+        top: 0px;
+        overflow: visible;
+    }
+    .Logo_Class {
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 661.5px;
+        top: 0px;
+        overflow: visible;
+        --web-animation: fadein 0.4s ease-out;
+        --web-action-type: view;
+        --web-action-target: Homepage;
+        cursor: pointer;
+    }
+    .Logoglow_Class {
+        filter: blur(50px);
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 661.5px;
+        top: 0px;
+        overflow: visible;
+        --web-animation: fadein 0.4s ease-out;
+        --web-action-type: view;
+        --web-action-target: Homepage;
+        cursor: pointer;
+    }
+    .Departments_Class {
+        position: absolute;
+        width: 119px;
+        height: 19px;
+        left: 395px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .DEPARTMENTS_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 120px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .About_Class {
+        position: absolute;
+        width: 56px;
+        height: 19px;
+        left: 194px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .ABOUT_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 57px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Home_Class {
+        position: absolute;
+        width: 49px;
+        height: 19px;
+        left: 0px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .HOME_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 50px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) {
+    #myTopnav {
+        display: none;
+    }
+    .Nav_Bar {
+        display: block;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: none;
+        overflow-x: hidden;
+    }
+    body {
+        height: 100vh;
+        overflow-x: hidden;
+        -moz-transform: scale(0.495, 0.495);
+        /* Moz-browsers */
+        zoom: 0.495;
+        /* Other non-webkit browsers */
+        zoom: 49.5%;
+        /* Webkit browsers */
+    }
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+     ::-webkit-scrollbar {
+        width: 10px;
+    }
+     ::-webkit-scrollbar-track {
+        background-color: #1d1e18;
+    }
+     ::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: rgba(79, 231, 220, 1);
+    }
+    #myTopnav {
+        display: none;
+    }
+    .topnav {
+        background-color: rgb(0, 0, 0);
+        overflow: hidden;
+    }
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        display: block;
+        color: rgba(79, 231, 220, 1);
+        text-align: center;
+        padding: 20px 24px;
+        text-decoration: none;
+        font-size: 50px;
+        font-family: Montserrat;
+        font-weight: 700;
+    }
+    /* Change the color of links on hover */
+    .topnav a:hover {
+        background-color: rgba(79, 231, 220, 1);
+        color: rgb(0, 0, 0);
+    }
+    /* Add an active class to highlight the current page */
+    .topnav a.active {
+        background-color: rgb(0, 0, 0);
+        color: rgba(79, 231, 220, 1);
+    }
+    /* Hide the link that should open and close the topnav on small screens */
+    .topnav .icon {
+        display: none;
+    }
+    .txt:hover {
+        opacity: 1;
+    }
+    .txt::before {
+        transition: 300ms;
+        height: 4px;
+        content: "";
+        position: absolute;
+        background-color: rgba(79, 231, 220, 1);
+    }
+    .txt-ltr::before {
+        width: 0%;
+        bottom: -10px;
+    }
+    .txt-ltr:hover::before {
+        width: 100%;
+    }
+    .Our_Team_Class {
+        position: absolute;
+        width: 1920px;
+        height: 1276.5px;
+        background-color: rgba(0, 0, 0, 1);
+        overflow: hidden;
+        --web-view-name: Our Team;
+        --web-view-id: Our_Team;
+        --web-scale-to-fit: true;
+        --web-scale-to-fit-type: width;
+        --web-scale-on-resize: true;
+        --web-center-vertically: true;
+        --web-application: true;
+        --web-enable-deep-linking: true;
+    }
+    @keyframes fadein {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    .Team_Background_Class {
+        position: absolute;
+        width: 1920px;
+        height: 1276.5px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    .Black_Tint_Class {
+        fill: rgba(0, 0, 0, 0.702);
+    }
+    .Black_Tint {
+        position: absolute;
+        overflow: visible;
+        width: 1920px;
+        height: 1277px;
+        left: 0px;
+        top: 0px;
+    }
+    .Mukund_Class {
+        position: absolute;
+        width: 245px;
+        height: 308px;
+        left: 1464.48px;
+        top: 857.43px;
+        overflow: visible;
+    }
+    .Aviral_Class {
+        position: absolute;
+        width: 245px;
+        height: 308px;
+        left: 1151px;
+        top: 857.43px;
+        overflow: visible;
+    }
+    .Dhriti_Class {
+        position: absolute;
+        width: 245px;
+        height: 308px;
+        left: 838px;
+        top: 857.43px;
+        overflow: visible;
+    }
+    .Varun_Class {
+        position: absolute;
+        width: 245px;
+        height: 308px;
+        left: 524px;
+        top: 857.43px;
+        overflow: visible;
+    }
+    .Prer_Class {
+        position: absolute;
+        width: auto;
+        height: 250px;
+        left: 10px;
+        top: 1350px;
+        overflow: visible;
+    }
+    .Bjorn_Class {
+        position: absolute;
+        width: 245px;
+        height: 308px;
+        left: 210px;
+        top: 857.43px;
+        overflow: visible;
+    }
+    .Kushal_Class {
+        position: absolute;
+        width: 328px;
+        height: 307px;
+        left: 1262px;
+        top: 502px;
+        overflow: visible;
+    }
+    .Tathagata_Class {
+        position: absolute;
+        width: 374px;
+        height: 308px;
+        left: 323px;
+        top: 502px;
+        overflow: visible;
+    }
+    .Pratik_Class {
+        position: absolute;
+        width: 235px;
+        height: 306px;
+        left: 843px;
+        top: 287px;
+        overflow: visible;
+    }
+    .CORE_20-21_Class {
+        left: 746px;
+        top: 667px;
+        position: absolute;
+        overflow: visible;
+        width: 429px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 70px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Story_Team_Slider_Class {
+        position: absolute;
+        width: 676px;
+        height: 61px;
+        left: 622px;
+        top: 142px;
+        overflow: visible;
+    }
+    .Container_Class {
+        fill: rgba(29, 30, 24, 0.502);
+    }
+    .Container {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 694px;
+        height: 79px;
+        left: 0px;
+        top: 0px;
+    }
+    .Selector_bi_Class {
+        fill: url(#Selector_bi);
+    }
+    .Selector_bi {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 356px;
+        height: 79px;
+        left: 338px;
+        top: 0px;
+    }
+    .OUR_TEAM__Class {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        left: 451px;
+        top: 18px;
+        position: absolute;
+        overflow: visible;
+        width: 114px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .OUR_STORY__Class {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        left: 108px;
+        top: 18px;
+        position: absolute;
+        overflow: visible;
+        width: 124px;
+        white-space: nowrap;
+        transition: all 0.4s ease-in-out;
+        --web-animation: fadein 0.4s ease-in-out;
+        --web-action-type: view;
+        --web-action-target: Our_Philosophy;
+        cursor: pointer;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        color: rgba(152, 150, 150, 1);
+    }
+    .OUR_STORY__Class :hover {
+        color: rgba(79, 231, 220, 1);
+    }
+    .Nav_Underline_Class {
+        fill: rgba(0, 0, 0, 0);
+        stroke: rgba(79, 231, 220, 1);
+        stroke-width: 5px;
+        stroke-linejoin: miter;
+        stroke-linecap: round;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .Nav_Underline {
+        overflow: visible;
+        position: absolute;
+        width: 61.29px;
+        height: 5px;
+        left: 454.893px;
+        top: 74.5px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    .Nav_Bar_Class {
+        position: absolute;
+        width: 1398px;
+        height: 75px;
+        left: 261px;
+        top: 20px;
+        overflow: visible;
+    }
+    .Sync_Class {
+        position: absolute;
+        width: 42px;
+        height: 19px;
+        left: 1356px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .SYNC_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 43px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Contact_Us_Class {
+        position: absolute;
+        width: 76px;
+        height: 19px;
+        left: 1123px;
+        top: 29.5px;
+        overflow: visible;
+        --web-animation: fadein 0.4s ease-in-out;
+        --web-action-type: view;
+        --web-action-target: Contact_Us;
+        cursor: pointer;
+    }
+    .SERVICES_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 77px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Events_Class {
+        position: absolute;
+        width: 61px;
+        height: 19px;
+        left: 905px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .EVENTS_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 62px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Glow_Class {
+        filter: blur(50px);
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 661.5px;
+        top: 0px;
+        overflow: visible;
+    }
+    .Logo_Class {
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 661.5px;
+        top: 0px;
+        overflow: visible;
+        --web-animation: fadein 0.4s ease-out;
+        --web-action-type: view;
+        --web-action-target: Homepage;
+        cursor: pointer;
+    }
+    .Logoglow_Class {
+        filter: blur(50px);
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 661.5px;
+        top: 0px;
+        overflow: visible;
+        --web-animation: fadein 0.4s ease-out;
+        --web-action-type: view;
+        --web-action-target: Homepage;
+        cursor: pointer;
+    }
+    .Departments_Class {
+        position: absolute;
+        width: 119px;
+        height: 19px;
+        left: 395px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .DEPARTMENTS_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 120px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .About_Class {
+        position: absolute;
+        width: 56px;
+        height: 19px;
+        left: 194px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .ABOUT_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 57px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Home_Class {
+        position: absolute;
+        width: 49px;
+        height: 19px;
+        left: 0px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .HOME_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 50px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+}
+
+@media only screen and (device-width: 414px) and (device-height: 896px) {
+    #myTopnav {
+        display: none;
+    }
+    .Nav_Bar {
+        display: block;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: none;
+        overflow-x: hidden;
+    }
+    body {
+        height: 100vh;
+        overflow-x: hidden;
+        -moz-transform: scale(0.495, 0.495);
+        /* Moz-browsers */
+        zoom: 0.495;
+        /* Other non-webkit browsers */
+        zoom: 49.5%;
+        /* Webkit browsers */
+    }
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+     ::-webkit-scrollbar {
+        width: 10px;
+    }
+     ::-webkit-scrollbar-track {
+        background-color: #1d1e18;
+    }
+     ::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: rgba(79, 231, 220, 1);
+    }
+    #myTopnav {
+        display: none;
+    }
+    .topnav {
+        background-color: rgb(0, 0, 0);
+        overflow: hidden;
+    }
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        display: block;
+        color: rgba(79, 231, 220, 1);
+        text-align: center;
+        padding: 20px 24px;
+        text-decoration: none;
+        font-size: 50px;
+        font-family: Montserrat;
+        font-weight: 700;
+    }
+    /* Change the color of links on hover */
+    .topnav a:hover {
+        background-color: rgba(79, 231, 220, 1);
+        color: rgb(0, 0, 0);
+    }
+    /* Add an active class to highlight the current page */
+    .topnav a.active {
+        background-color: rgb(0, 0, 0);
+        color: rgba(79, 231, 220, 1);
+    }
+    /* Hide the link that should open and close the topnav on small screens */
+    .topnav .icon {
+        display: none;
+    }
+    .txt:hover {
+        opacity: 1;
+    }
+    .txt::before {
+        transition: 300ms;
+        height: 4px;
+        content: "";
+        position: absolute;
+        background-color: rgba(79, 231, 220, 1);
+    }
+    .txt-ltr::before {
+        width: 0%;
+        bottom: -10px;
+    }
+    .txt-ltr:hover::before {
+        width: 100%;
+    }
+    .Our_Team_Class {
+        position: absolute;
+        width: 1920px;
+        height: 1276.5px;
+        background-color: rgba(0, 0, 0, 1);
+        overflow: hidden;
+        --web-view-name: Our Team;
+        --web-view-id: Our_Team;
+        --web-scale-to-fit: true;
+        --web-scale-to-fit-type: width;
+        --web-scale-on-resize: true;
+        --web-center-vertically: true;
+        --web-application: true;
+        --web-enable-deep-linking: true;
+    }
+    @keyframes fadein {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    .Team_Background_Class {
+        position: absolute;
+        width: 1920px;
+        height: 1276.5px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    .Black_Tint_Class {
+        fill: rgba(0, 0, 0, 0.702);
+    }
+    .Black_Tint {
+        position: absolute;
+        overflow: visible;
+        width: 1920px;
+        height: 1277px;
+        left: 0px;
+        top: 0px;
+    }
+    .Mukund_Class {
+        position: absolute;
+        width: 245px;
+        height: 308px;
+        left: 1464.48px;
+        top: 857.43px;
+        overflow: visible;
+    }
+    .Aviral_Class {
+        position: absolute;
+        width: 245px;
+        height: 308px;
+        left: 1151px;
+        top: 857.43px;
+        overflow: visible;
+    }
+    .Dhriti_Class {
+        position: absolute;
+        width: 245px;
+        height: 308px;
+        left: 838px;
+        top: 857.43px;
+        overflow: visible;
+    }
+    .Varun_Class {
+        position: absolute;
+        width: 245px;
+        height: 308px;
+        left: 524px;
+        top: 857.43px;
+        overflow: visible;
+    }
+    .Prer_Class {
+        position: absolute;
+        width: auto;
+        height: 250px;
+        left: 10px;
+        top: 1350px;
+        overflow: visible;
+    }
+    .Bjorn_Class {
+        position: absolute;
+        width: 245px;
+        height: 308px;
+        left: 210px;
+        top: 857.43px;
+        overflow: visible;
+    }
+    .Kushal_Class {
+        position: absolute;
+        width: 328px;
+        height: 307px;
+        left: 1262px;
+        top: 502px;
+        overflow: visible;
+    }
+    .Tathagata_Class {
+        position: absolute;
+        width: 374px;
+        height: 308px;
+        left: 323px;
+        top: 502px;
+        overflow: visible;
+    }
+    .Pratik_Class {
+        position: absolute;
+        width: 235px;
+        height: 306px;
+        left: 843px;
+        top: 287px;
+        overflow: visible;
+    }
+    .CORE_20-21_Class {
+        left: 746px;
+        top: 667px;
+        position: absolute;
+        overflow: visible;
+        width: 429px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 70px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Story_Team_Slider_Class {
+        position: absolute;
+        width: 676px;
+        height: 61px;
+        left: 622px;
+        top: 142px;
+        overflow: visible;
+    }
+    .Container_Class {
+        fill: rgba(29, 30, 24, 0.502);
+    }
+    .Container {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 694px;
+        height: 79px;
+        left: 0px;
+        top: 0px;
+    }
+    .Selector_bi_Class {
+        fill: url(#Selector_bi);
+    }
+    .Selector_bi {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 356px;
+        height: 79px;
+        left: 338px;
+        top: 0px;
+    }
+    .OUR_TEAM__Class {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        left: 451px;
+        top: 18px;
+        position: absolute;
+        overflow: visible;
+        width: 114px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .OUR_STORY__Class {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        left: 108px;
+        top: 18px;
+        position: absolute;
+        overflow: visible;
+        width: 124px;
+        white-space: nowrap;
+        transition: all 0.4s ease-in-out;
+        --web-animation: fadein 0.4s ease-in-out;
+        --web-action-type: view;
+        --web-action-target: Our_Philosophy;
+        cursor: pointer;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        color: rgba(152, 150, 150, 1);
+    }
+    .OUR_STORY__Class :hover {
+        color: rgba(79, 231, 220, 1);
+    }
+    .Nav_Underline_Class {
+        fill: rgba(0, 0, 0, 0);
+        stroke: rgba(79, 231, 220, 1);
+        stroke-width: 5px;
+        stroke-linejoin: miter;
+        stroke-linecap: round;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    .Nav_Underline {
+        overflow: visible;
+        position: absolute;
+        width: 61.29px;
+        height: 5px;
+        left: 454.893px;
+        top: 74.5px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    .Nav_Bar_Class {
+        position: absolute;
+        width: 1398px;
+        height: 75px;
+        left: 261px;
+        top: 20px;
+        overflow: visible;
+    }
+    .Sync_Class {
+        position: absolute;
+        width: 42px;
+        height: 19px;
+        left: 1356px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .SYNC_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 43px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Contact_Us_Class {
+        position: absolute;
+        width: 76px;
+        height: 19px;
+        left: 1123px;
+        top: 29.5px;
+        overflow: visible;
+        --web-animation: fadein 0.4s ease-in-out;
+        --web-action-type: view;
+        --web-action-target: Contact_Us;
+        cursor: pointer;
+    }
+    .SERVICES_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 77px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Events_Class {
+        position: absolute;
+        width: 61px;
+        height: 19px;
+        left: 905px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .EVENTS_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 62px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Glow_Class {
+        filter: blur(50px);
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 661.5px;
+        top: 0px;
+        overflow: visible;
+    }
+    .Logo_Class {
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 661.5px;
+        top: 0px;
+        overflow: visible;
+        --web-animation: fadein 0.4s ease-out;
+        --web-action-type: view;
+        --web-action-target: Homepage;
+        cursor: pointer;
+    }
+    .Logoglow_Class {
+        filter: blur(50px);
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 661.5px;
+        top: 0px;
+        overflow: visible;
+        --web-animation: fadein 0.4s ease-out;
+        --web-action-type: view;
+        --web-action-target: Homepage;
+        cursor: pointer;
+    }
+    .Departments_Class {
+        position: absolute;
+        width: 119px;
+        height: 19px;
+        left: 395px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .DEPARTMENTS_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 120px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .About_Class {
+        position: absolute;
+        width: 56px;
+        height: 19px;
+        left: 194px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .ABOUT_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 57px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Home_Class {
+        position: absolute;
+        width: 49px;
+        height: 19px;
+        left: 0px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    .HOME_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 50px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+}

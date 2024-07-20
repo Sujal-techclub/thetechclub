@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>The Tech Club</title>
+    <link href="Images/Others/Logo_f.ico" rel="icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="CSS/style.css" />
+    <script id="applicationScript" type="text/javascript" src="JS/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <style>
+        .carousel {
+            position: relative;
+            width: 400px;
+            margin: 20px auto;
+            box-shadow: 0px 0px 40px #000;
+        }
+
+        .carousel>img {
+            display: none;
+            width: 100%;
+        }
+
+        .carousel>input {
+            position: absolute;
+            left: -9999px;
+        }
+
+        .carousel>input:checked+label+img {
+            display: block;
+        }
+
+        .carousel>label,
+        .carousel>input:checked~label~label~label~label {
+            display: none;
+        }
+
+        .carousel>input:checked+label {
+            display: block;
+            left: 0;
+        }
+
+        .carousel>input:checked~label~label~label {
+            display: block;
+            right: 0;
+        }
+
+        .carousel>label {
+            position: absolute;
+            top: 0;
+            width: 25%;
+            height: 100%;
+            visibility: visible;
+        }
+
+        .carousel>label:before {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            visibility: visible;
+        }
+
+        .carousel>label:after {
+            display: block;
+            position: absolute;
+            top: 180px;
+            width: 45px;
+            height: 45px;
+            line-height: 22px;
+            margin: -15px 10px -10 10px;
+            background-color: black;
+            color: white;
+            font-family: "Arial";
+            font-weight: bold;
+            font-size: 38px;
+            text-align: center;
+            visibility: visible;
+            border-radius: 100px;
+            box-shadow: 0 3px 4px black;
+        }
+
+        .carousel>label:hover:after {
+            visibility: visible;
+        }
+
+        .carousel>input:checked+label:after {
+            left: 0;
+            content: "\00AB";
+        }
+
+        .carousel>input:checked~label~label~label:after {
+            right: 0;
+            content: "\00BB";
+        }
+
+        .hi-slide {
+            position: relative;
+            width: 754px;
+            height: 292px;
+            margin: 115px auto 0;
+        }
+
+        .hi-slide .hi-next,
+        .hi-slide .hi-prev {
+            position: absolute;
+            top: 50%;
+            width: 40px;
+            height: 40px;
+            margin-top: -20px;
+            border-radius: 50px;
+            line-height: 40px;
+            text-align: center;
+            cursor: pointer;
+            background-color: #fff;
+            color: black;
+            transition: all 0.6s;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .hi-slide .hi-next:hover,
+        .hi-slide .hi-prev:hover {
+            opacity: 1;
+            background-color: #4FE7DC;
+        }
+
+        .hi-slide .hi-prev {
+            left: -300px;
+        }
+
+        .hi-slide .hi-prev::before {
+            content: "<";
+        }
+
+        .hi-slide .hi-next {
+            right: -300px;
+        }
+
+        .hi-slide .hi-next::before {
+            content: ">";
+        }
+
+        .hi-slide>ul {
+            list-style: none;
+            position: relative;
+            width: 754px;
+            height: 292px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .hi-slide>ul>li {
+            overflow: hidden;
+            position: absolute;
+            z-index: 0;
+            left: 377px;
+            top: 246px;
+            width: 0;
+            height: 0;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(30, 30, 30);
+            cursor: pointer;
+        }
+
+        .hi-slide>ul>li>img {
+            width: 100%;
+            height: 100%;
+            background-position: center;
+        }
+
+        .cls-1,
+        .cls-4 {
+            fill: none;
+        }
+
+        .cls-1 {
+            stroke: #4fe7dc;
+            stroke-width: 3px;
+        }
+
+        .cls-2 {
+            fill: #4fe7dc;
+        }
+
+        .cls-3 {
+            stroke: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id='hide'>
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active"><img src="Images/Others/Logo_b.png" width="60px"></a>
+            <a href="#" style="font-size: x-large;">HOME</a>
+            <a href="story.html" style="font-size: x-large;">ABOUT</a>
+            <a href="data.html" style="font-size: x-large;">DEPARTMENTS</a>
+            <a href="respawn.html" style="font-size: x-large;">EVENTS</a>
+            <a href="contact.html" style="font-size: x-large;">SERVICES</a>
+            <a href="sync.html" style="font-size: x-large;">SYNC</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <div id="Homepage" class="Homepage_Class">
+            <div id="particles-js"></div>
+            <script type="text/javascript" src="JS/particles.js"></script>
+            <script type="text/javascript" src="JS/app.js"></script>
+            <img class="Footer_Bg_Class" src="Images/Backgrounds/Footer_Bg.png"
+                srcset="Images/Backgrounds/Footer_Bg.png 1x">
+            </svg>
+            <img class="About_Bg_Class" src="Images/Backgrounds/About_Bg.png"
+                srcset="Images/Backgrounds/About_Bg.png 1x">
+            <svg class="Black_Tint" viewBox="0 0 1920 544">
+                <path class="Black_Tint_Class" d="M 0 0 L 1920 0 L 1920 544 L 0 544 L 0 0 Z">
+                </path>
+            </svg>
+            <img class="Events_Bg_Class" src="Images/Backgrounds/Events_Bg.png"
+                srcset="Images/Backgrounds/Events_Bg.png 1x">
+            <svg class="Black_Tint_ba">
+                <rect class="Black_Tint_ba_Class" rx="0" ry="0" x="0" y="0" width="1920" height="1000">
+                </rect>
+            </svg>
+            <div class="Copyright_Tech_Club_2020_Class">
+                <span>Copyright Tech Club 2020</span>
+            </div>
+            <div class="C_Class">
+                <span>C</span>
+            </div>
+            <svg class="Ellipse_80">
+                <ellipse class="Ellipse_80_Class" rx="7" ry="7" cx="7" cy="7">
+                </ellipse>
+            </svg>
+            <div class="Linkedin_Icon Linkedin_Icon_Class">
+                <a href="https://www.linkedin.com/company/tech-club-nmims-asmsoc/" target="_blank">
+                    <svg class="Ellipse_71">
+                        <ellipse class="Ellipse_71_Class" rx="25" ry="25.287353515625" cx="25" cy="25.287353515625">
+                        </ellipse>
+                    </svg>
+                    <div class="linkedin_Class">
+                        <svg class="Path_213" viewBox="8.489 7.574 8.914 9.44">
+                            <path class="Path_213_Class"
+                                d="M 17.3999195098877 17.01423072814941 L 17.3999195098877 17.01365661621094 L 17.40336608886719 17.01365661621094 L 17.40336608886719 11.95503234863281 C 17.40336608886719 9.480321884155273 16.87060546875 7.573999404907227 13.97750377655029 7.573999404907227 C 12.58669948577881 7.573999404907227 11.6533670425415 8.337218284606934 11.2723331451416 9.060782432556152 L 11.232102394104 9.060782432556152 L 11.232102394104 7.805034637451172 L 8.488999366760254 7.805034637451172 L 8.488999366760254 17.01365661621094 L 11.34532070159912 17.01365661621094 L 11.34532070159912 12.45388507843018 C 11.34532070159912 11.25331020355225 11.57290649414063 10.09239196777344 13.05968856811523 10.09239196777344 C 14.52463245391846 10.09239196777344 14.54646968841553 11.46250534057617 14.54646968841553 12.5308952331543 L 14.54646968841553 17.01423072814941 L 17.3999195098877 17.01423072814941 Z">
+                            </path>
+                        </svg>
+                        <svg class="Path_214" viewBox="0.396 7.977 2.86 9.209">
+                            <path class="Path_214_Class"
+                                d="M 0.3959999084472656 7.977001190185547 L 3.255769491195679 7.977001190185547 L 3.255769491195679 17.18561935424805 L 0.3959998488426208 17.18561935424805 L 0.3959999084472656 7.977001190185547 Z">
+                            </path>
+                        </svg>
+                        <svg class="Path_215" viewBox="0 0 3.313 3.328">
+                            <path class="Path_215_Class"
+                                d="M 1.65632164478302 0 C 0.74195396900177 0 0 0.74195396900177 0 1.65632164478302 C 0 2.57068943977356 0.74195396900177 3.328160524368286 1.65632164478302 3.328160524368286 C 2.57068943977356 3.328160524368286 3.31264328956604 2.57068943977356 3.31264328956604 1.65632164478302 C 3.312069177627563 0.74195396900177 2.570114612579346 0 1.65632164478302 0 Z">
+                            </path>
+                        </svg>
+                </a>
+            </div>
+        </div>
+        <div class="Insta_Icon Insta_Icon_Class">
+            <a href="https://www.instagram.com/tech.asmsoc/?hl=en" target="_blank">
+                <svg class="Ellipse_69">
+                    <ellipse class="Ellipse_69_Class" rx="25" ry="25.287353515625" cx="25" cy="25.287353515625">
+                    </ellipse>
+                </svg>
+                <svg class="Subtraction_9" viewBox="0 0 13.793 13.796">
+                    <path class="Subtraction_9_Class"
+                        d="M 6.896972179412842 13.79599761962891 C 5.041852474212646 13.79599761962891 4.795967578887939 13.78823852539063 4.053780555725098 13.75537490844727 C 3.394949436187744 13.7264461517334 2.878766536712646 13.62757396697998 2.380022048950195 13.43479347229004 C 1.924176812171936 13.26302051544189 1.502162456512451 12.98803615570068 1.158970236778259 12.63956069946289 C 0.8049664497375488 12.29146480560303 0.5364117622375488 11.87985134124756 0.3613280951976776 11.41615390777588 C 0.168805792927742 10.92082977294922 0.069754458963871 10.40468978881836 0.0408063605427742 9.742613792419434 C 0.00802176259458065 8.991971015930176 0 8.74454402923584 0 6.899462699890137 C 0 5.040881156921387 0.00837053544819355 4.795055389404297 0.0432477667927742 4.053383827209473 C 0.0725446343421936 3.394023180007935 0.171595960855484 2.877885103225708 0.3641182780265808 2.379844903945923 C 0.5357142686843872 1.923808217048645 0.8105468153953552 1.501645445823669 1.158970236778259 1.158998847007751 C 1.504255056381226 0.8057021498680115 1.916154980659485 0.5372871160507202 2.3828125 0.3612061440944672 C 2.878068923950195 0.1685762405395508 3.394251585006714 0.06970541179180145 4.056570529937744 0.04062379524111748 C 4.798758029937744 0.007758140563964844 5.044642448425293 0 6.899413585662842 0 C 8.766740798950195 0 9.01123046875 0.0082479203119874 9.745395660400391 0.04318577796220779 C 10.40387725830078 0.07242066413164139 10.91971206665039 0.1712921559810638 11.41915321350098 0.3637667596340179 C 11.87430095672607 0.5351556539535522 12.29666423797607 0.8101428747177124 12.64020538330078 1.158998847007751 C 12.99281406402588 1.503583192825317 13.26101970672607 1.915197730064392 13.43715000152588 2.382405996322632 C 13.63036823272705 2.878296375274658 13.72907257080078 3.394435882568359 13.75836944580078 4.055946350097656 C 13.79045677185059 4.783792495727539 13.79324531555176 5.022965431213379 13.79324531555176 6.899462699890137 C 13.79324531555176 8.750162124633789 13.78557205200195 8.996689796447754 13.75278949737549 9.742613792419434 C 13.72418880462646 10.4005184173584 13.62513828277588 10.91665458679199 13.43226718902588 11.41615390777588 C 13.07442665100098 12.34119415283203 12.33851718902588 13.07695960998535 11.41357326507568 13.43479347229004 C 10.91831684112549 13.62741374969482 10.40213298797607 13.72628784179688 9.740512847900391 13.75537490844727 C 8.997628211975098 13.78823852539063 8.751742362976074 13.79599761962891 6.896972179412842 13.79599761962891 Z M 6.904645919799805 1.253418207168579 C 5.028250217437744 1.253418207168579 4.835379123687744 1.261943936347961 4.118302822113037 1.29366934299469 C 3.449009656906128 1.323261857032776 3.082449913024902 1.436142086982727 2.838308811187744 1.531180500984192 C 2.537318468093872 1.641756296157837 2.271205186843872 1.814873456954956 2.046247005462646 2.045722484588623 C 1.81884765625 2.262336015701294 1.639927506446838 2.536309480667114 1.52832019329071 2.838028430938721 C 1.433454155921936 3.081957340240479 1.32080066204071 3.447900295257568 1.291155099868774 4.118158340454102 C 1.258021593093872 4.859531879425049 1.251046180725098 5.080053806304932 1.251046180725098 6.904585361480713 C 1.251046180725098 8.726404190063477 1.258021593093872 8.947386741638184 1.291155099868774 9.691377639770508 C 1.32080066204071 10.36228179931641 1.433454155921936 10.72791957855225 1.52832019329071 10.97150993347168 C 1.639578342437744 11.27232074737549 1.812918543815613 11.53888988494873 2.043456792831421 11.76381778717041 C 2.261090755462646 11.98956680297852 2.535225868225098 12.16761589050293 2.835518598556519 12.27872371673584 C 3.079310655593872 12.37363529205322 3.444823980331421 12.48636531829834 4.115512847900391 12.51586627960205 C 4.848980903625488 12.54843235015869 5.091029167175293 12.55612277984619 6.902552604675293 12.55612277984619 C 8.778946876525879 12.55612277984619 8.971818923950195 12.54759120941162 9.688894271850586 12.51586627960205 C 10.35958385467529 12.48624801635742 10.72544574737549 12.37357616424561 10.9688892364502 12.27872371673584 C 11.56947422027588 12.0468168258667 12.04694366455078 11.56928730010986 12.27887725830078 10.96858215332031 C 12.37374305725098 10.72504234313965 12.48639678955078 10.359450340271 12.51569366455078 9.688450813293457 L 12.51569366455078 9.687285423278809 C 12.54778099060059 8.971654891967773 12.55684852600098 8.779316902160645 12.55684852600098 6.904585361480713 C 12.55684852600098 5.088823795318604 12.54952430725098 4.867026329040527 12.51569366455078 4.118158340454102 C 12.48639678955078 3.447250604629517 12.37374305725098 3.081613063812256 12.27887725830078 2.838028430938721 C 12.16761875152588 2.536859273910522 11.99427890777588 2.270288944244385 11.76408958435059 2.045722484588623 C 11.54645538330078 1.819967985153198 11.27266883850098 1.642043828964233 10.97167873382568 1.531180500984192 C 10.72753810882568 1.436078071594238 10.36167621612549 1.323137164115906 9.691684722900391 1.293674111366272 C 8.958216667175293 1.261106848716736 8.716168403625488 1.253418207168579 6.904645919799805 1.253418207168579 Z M 6.899413585662842 10.44343090057373 C 5.953194141387939 10.44343090057373 5.0634765625 10.07468223571777 4.393833160400391 9.405107498168945 C 3.724539279937744 8.735577583312988 3.355538129806519 7.845720291137695 3.355538129806519 6.899462699890137 C 3.355538129806519 5.953071117401123 3.724539279937744 5.063165664672852 4.393833160400391 4.393682479858398 C 5.0634765625 3.724198818206787 5.953194141387939 3.355497360229492 6.899413585662842 3.355497360229492 C 7.845633029937744 3.355497360229492 8.735699653625488 3.724198818206787 9.405343055725098 4.393682479858398 C 10.07498455047607 5.063173770904541 10.44363689422607 5.953076839447021 10.44363689422607 6.899462699890137 C 10.44363689422607 7.845712661743164 10.07498455047607 8.735566139221191 9.405343055725098 9.405107498168945 C 8.735699653625488 10.07468223571777 7.845633029937744 10.44343090057373 6.899413585662842 10.44343090057373 Z M 6.899413585662842 4.600494861602783 C 5.631975173950195 4.600494861602783 4.600655555725098 5.631807804107666 4.600655555725098 6.899462699890137 C 4.600655555725098 8.166915893554688 5.631975173950195 9.198063850402832 6.899413585662842 9.198063850402832 C 8.166851997375488 9.198063850402832 9.198171615600586 8.166915893554688 9.198171615600586 6.899462699890137 C 9.198171615600586 5.631807804107666 8.166851997375488 4.600494861602783 6.899413585662842 4.600494861602783 Z M 10.58349609375 4.042404651641846 C 10.12730121612549 4.042404651641846 9.756207466125488 3.671383380889893 9.756207466125488 3.215334415435791 C 9.756207466125488 2.759084463119507 10.12730121612549 2.387895107269287 10.58349609375 2.387895107269287 C 11.04003810882568 2.387895107269287 11.41113185882568 2.759084463119507 11.41113185882568 3.215334415435791 C 11.41113185882568 3.671383380889893 11.04003810882568 4.042404651641846 10.58349609375 4.042404651641846 Z">
+                    </path>
+                </svg>
+            </a>
+        </div>
+        <div class="Facebook_Icon Facebook_Icon_Class">
+            <div class="facebook_Class">
+                <a href="https://www.facebook.com/Tech.ASMSOC" target="_blank">
+                    <svg class="Ellipse_43">
+                        <ellipse class="Ellipse_43_Class" rx="25" ry="25.328943252563477" cx="25"
+                            cy="25.328943252563477">
+                        </ellipse>
+                    </svg>
+                </a>
+            </div>
+            <div class="facebook_bq_Class">
+                <div class="Group_57_Class">
+                    <svg class="Rectangle_1458">
+                        <rect class="Rectangle_1458_Class" rx="0" ry="0" x="0" y="0" width="13.816" height="13.816">
+                        </rect>
+                    </svg>
+                    <svg class="Path_1" viewBox="80 0 7.496 14.353">
+                        <path class="Path_1_Class"
+                            d="M 84.8641357421875 14.35323715209961 L 84.8641357421875 7.814540386199951 L 87.09686279296875 7.814540386199951 L 87.41583251953125 5.262854099273682 L 84.8641357421875 5.262854099273682 L 84.8641357421875 3.668050050735474 C 84.8641357421875 2.950388431549072 85.10337829589844 2.392206907272339 86.13999176025391 2.392206907272339 L 87.49556732177734 2.392206907272339 L 87.49556732177734 0.07974021881818771 C 87.17659759521484 0.07974021881818771 86.37920379638672 0 85.50205230712891 0 C 83.58829498291016 0 82.23271942138672 1.19610321521759 82.23271942138672 3.349088668823242 L 82.23271942138672 5.262854099273682 L 79.99998474121094 5.262854099273682 L 79.99998474121094 7.814540386199951 L 82.23271942138672 7.814540386199951 L 82.23271942138672 14.35323715209961 L 84.8641357421875 14.35323715209961 Z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div onclick="application.goToTargetView(event)" class="Terms__Conditions_Class">
+            <span style="font-size:medium;"><a href="terms.html">Terms & Conditions</a></span>
+        </div>
+        <div onclick="application.goToTargetView(event)" class="Privacy_Policy_Class">
+            <span style="font-size:medium;"><a href="privacy.html">Privacy Policy</a></span>
+        </div>
+        <div class="ID7th_Floor_V_L_Mehta_Road_Vil_Class">
+            <span style="font-size: medium;">Mukesh Patel School of Technology, Management and Engineering, Vile Parle West, Mumbai, Maharashtra
+                400056</span>
+        </div>
+        <div class="Location_Icon_Class">
+            <svg class="Path_1022" viewBox="0 0 24 24">
+                <path class="Path_1022_Class" d="M 0 0 L 24 0 L 24 24 L 0 24 L 0 0 Z">
+                </path>
+            </svg>
+            <svg class="Path_1023" viewBox="5 2 14 20">
+                <path class="Path_1023_Class"
+                    d="M 12 2 C 8.130000114440918 2 5 5.130000114440918 5 9 C 5 14.25 12 22 12 22 C 12 22 19 14.25 19 9 C 19 5.130000114440918 15.86999988555908 2 12 2 Z M 12 11.5 C 10.61999988555908 11.5 9.5 10.38000011444092 9.5 9 C 9.5 7.619999885559082 10.61999988555908 6.5 12 6.5 C 13.38000011444092 6.5 14.5 7.619999885559082 14.5 9 C 14.5 10.38000011444092 13.38000011444092 11.5 12 11.5 Z">
+                </path>
+            </svg>
+        </div>
+        <div class="Pratik_Doshi__9987733926_Tatha_Class">
+            <span style="font-size:medium;">Kriti : <a href="tel:+919987733926">9305738990</a><br />Rudransh : <a href="tel:+919820176949">9877501603</a><br />
+                Lavanya : <a href="tel:+918720015321">7007823474</a></span>
+        </div>
+        <div class="Phone_Icon_Class">
+            <svg class="Path_1020" viewBox="0 0 24 24">
+                <path class="Path_1020_Class" d="M 0 0 L 24 0 L 24 24 L 0 24 L 0 0 Z">
+                </path>
+            </svg>
+            <svg class="Path_1021" viewBox="3 3 18 18">
+                <path class="Path_1021_Class"
+                    d="M 6.619999885559082 10.78999996185303 C 8.059999465942383 13.61999988555908 10.38000011444092 15.93000030517578 13.21000003814697 17.38000106811523 L 15.40999984741211 15.1800012588501 C 15.68000030517578 14.91000080108643 16.07999992370605 14.82000160217285 16.43000030517578 14.94000148773193 C 17.55000114440918 15.31000137329102 18.76000022888184 15.51000118255615 20 15.51000118255615 C 20.54999923706055 15.51000118255615 21 15.96000099182129 21 16.51000213623047 L 21 20 C 21 20.54999923706055 20.54999923706055 21 20 21 C 10.60999965667725 21 3 13.38999938964844 3 4 C 3 3.450000047683716 3.450000047683716 3 4 3 L 7.5 3 C 8.050000190734863 3 8.5 3.450000047683716 8.5 4 C 8.5 5.25 8.699999809265137 6.449999809265137 9.069999694824219 7.569999694824219 C 9.179999351501465 7.919999599456787 9.09999942779541 8.309999465942383 8.819999694824219 8.590000152587891 L 6.619999885559082 10.78999996185303 Z">
+                </path>
+            </svg>
+        </div>
+        <div class="techclubnmimsgmailcom_Class">
+            <span style="font-size:medium;"><a href="mailto:thetechclub.asmsoc@gmail.com">thetechclub.asmsoc@gmail.com</span>
+        </div>
+        <svg class="Mail_Icon" viewBox="0 0 24 18">
+            <path class="Mail_Icon_Class"
+                d="M 21 3 L 3 3 L 12 10.5 L 21 3 Z M 0 3 C 0 1.349999904632568 1.349999904632568 0 3 0 L 21 0 C 22.64999961853027 0 24 1.349999904632568 24 3 L 24 14.99999904632568 C 24 16.64999961853027 22.64999961853027 18 21 18 L 3 18 C 1.349999904632568 18 0 16.64999961853027 0 14.99999904632568 L 0 3 Z">
+            </path>
+        </svg>
+        <div class="LEGAL_Class">
+            <span>LEGAL</span>
+        </div>
+        <div class="ADDRESS_Class">
+            <span>ADDRESS</span>
+        </div>
+        <div class="Logo_Class">
+            <img class="Logo_b_Class" src="Images/Others/Logo_b.png" srcset="Images/Others/Logo_b.png 1x">
+            <img class="Logo_cb_Class" src="Images/Others/Logo_cb.png" srcset="Images/Others/Logo_cb.png 1x">
+            <img class="Logo_cb_Class" src="Images/Others/Logo_cb.png" srcset="Images/Others/Logo_cb.png 1x">
+        </div>
+        <div class="PHONE_Class">
+            <span>PHONE</span>
+        </div>
+        <div class="EMAIL_Class">
+            <span>EMAIL</span>
+        </div>
+        <div>
+            <img class="Sponsors_Bg_Class" src="Images/Backgrounds/Sponsors_Bg.png"
+                srcset="Images/Backgrounds/Sponsors_Bg.png 1x">
+
+        </div>
+        <div class="Recent_BG_Class">
+            <svg class="Wallpaper_cf">
+                <linearGradient id="Wallpaper_cf" spreadMethod="pad" x1="0" x2="1" y1="0" y2="1">
+                    <stop offset="0" stop-color="#08aeea" stop-opacity="1"></stop>
+                    <stop offset="1" stop-color="#2af598" stop-opacity="1"></stop>
+                </linearGradient>
+                <rect class="Wallpaper_cf_Class" rx="0" ry="0" x="0" y="0" width="1920" height="764">
+                </rect>
+            </svg>
+            <svg class="Black_Tint_cg">
+                <rect class="Black_Tint_cg_Class" rx="0" ry="0" x="0" y="0" width="1920" height="764">
+                </rect>
+            </svg>
+        </div>
+        <div class="Facebook Facebook_ch_Class">
+            <a href="https://www.facebook.com/Tech.ASMSOC" target="_blank">
+                <svg id="Facebook" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+                    <defs>
+                    </defs>
+                    <g id="facebook-2" data-name="facebook">
+                        <g id="Ellipse_43" data-name="Ellipse 43" class="cls-1">
+                            <circle class="cls-3" cx="25" cy="25" r="25" />
+                            <circle class="cls-4" cx="25" cy="25" r="23.5" />
+                        </g>
+                        <g id="Group_57" data-name="Group 57" transform="translate(13 13)">
+                            <rect id="Rectangle_1458" data-name="Rectangle 1458" class="cls-4" width="13.78"
+                                height="13.78" transform="translate(0 0.302)" />
+                            <path id="Path_1" data-name="Path 1" class="cls-2"
+                                d="M84.841,14.286V7.778h2.222l.317-2.54h-2.54V3.651c0-.714.238-1.27,1.27-1.27H87.46V.079C87.143.079,86.349,0,85.476,0a3.064,3.064,0,0,0-3.254,3.333v1.9H80v2.54h2.222v6.508Z"
+                                transform="translate(-75.967)" />
+                        </g>
+                    </g>
+                </svg>
+            </a>
+        </div>
+        <div class="Linkedin Linkedin_cn_Class">
+            <a href="https://www.linkedin.com/company/tech-club-nmims-asmsoc/" target="_blank">
+                <svg id="Linkedin" xmlns="http://www.w3.org/2000/svg" width="50" height="50.575"
+                    viewBox="0 0 50 50.575">
+                    <defs>
+                    </defs>
+                    <g id="Ellipse_71" data-name="Ellipse 71" class="cls-1">
+                        <ellipse class="cls-3" cx="24.901" cy="25.187" rx="24.901" ry="25.187" />
+                        <ellipse class="cls-4" cx="24.901" cy="25.187" rx="23.401" ry="23.687" />
+                    </g>
+                    <g id="linkedin-2" data-name="linkedin" transform="translate(13.5 13.5)">
+                        <path id="Path_213" data-name="Path 213" class="cls-2"
+                            d="M18.363,18.034h0V12.428c0-2.742-.59-4.854-3.8-4.854a3.328,3.328,0,0,0-3,1.647h-.045V7.83H8.489v10.2h3.165V12.981c0-1.33.252-2.617,1.9-2.617,1.623,0,1.647,1.518,1.647,2.7v4.968Z"
+                            transform="translate(-3.083 -3.584)" />
+                        <path id="Path_214" data-name="Path 214" class="cls-2" d="M.4,7.977H3.565v10.2H.4Z"
+                            transform="translate(-0.144 -3.731)" />
+                        <path id="Path_215" data-name="Path 215" class="cls-2"
+                            d="M1.835,0A1.844,1.844,0,1,0,3.671,1.835,1.836,1.836,0,0,0,1.835,0Z"
+                            transform="translate(0 0)" />
+                    </g>
+                </svg>
+            </a>
+        </div>
+
+        <div class="Instagram Instagram_Class">
+            <div class="container">
+                <a href="https://www.instagram.com/tech.asmsoc/?hl=en" target="_blank" class="btn">
+                    <svg width="276" height="62">
+                        <defs>
+                            <linearGradient id="grad1">
+                                <stop offset="0%" stop-color="#4FE7DC" />
+                                <stop offset="100%" stop-color="#028090" />
+                            </linearGradient>
+                        </defs>
+                        <rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="266" height="50"></rect>
+                    </svg>
+                    <span>INSTAGRAM</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="SOCIALS__Class">
+            <span></span><span style="color:rgba(255,255,255,1);">SOC</span><span
+                style="color:rgba(79,231,220,1);">IALS</span><br>
+            <div class="mobileSocials">
+                <a href="https://www.instagram.com/p/CAkh_iuAIM5/" target="blank"><img src="Images/Socials/1.png"
+                        alt="Img 1" class="mobileImage1" /></a>
+                <a href="https://www.instagram.com/p/CBqC3mZg_fo/" target="blank"><img src="Images/Socials/2.png"
+                        alt="Img 2" class="mobileImage2" /></a>
+                <a href="https://www.instagram.com/p/CBneE2FANc6/" target="blank"><img src="Images/Socials/3.png"
+                        alt="Img 3" class="mobileImage3" /></a>
+            </div>
+            <div class="slide hi-slide">
+                <div class="hi-prev"></div>
+                <div class="hi-next"></div>
+                <ul>
+                    <li>
+                        <img src="Images/Socials/1.png" alt="Img 1" />
+                    </li>
+                    <li>
+                        <img src="Images/Socials/2.png" alt="Img 2" />
+                    </li>
+                    <li>
+                        <img src="Images/Socials/3.png" alt="Img 3" />
+                    </li>
+                    <li>
+                        <img src="Images/Socials/4.png" alt="Img 4" />
+                    </li>
+                    <li>
+                        <img src="Images/Socials/5.png" alt="Img 5" />
+                    </li>
+                    <li>
+                        <img src="Images/Socials/6.png" alt="Img 6" />
+                    </li>
+                    <li>
+                        <img src="Images/Socials/7.png" alt="Img 7" />
+                    </li>
+                </ul>
+            </div>
+
+            <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+            <script type="text/javascript" src="JS/jquery.hislide.js"></script>
+            <script>
+                $(".slide").hiSlide();
+            </script>
+        </div>
+        <div class="OUR_SPONSORS__Class">
+            <span>OUR</span><span style="color:rgba(79,231,220,1);"> SPONSORS</span><br>
+        </div>
+        <div class="Aftermovie_Class">
+            <!--       <div class="Group_27_Class">
+                <svg class="High_Quality_Tech_Club_Logo_20">
+				<rect class="High_Quality_Tech_Club_Logo_20_Class" rx="0" ry="0" x="0" y="0" width="1071.233" height="597.151">
+				</rect>
+			</svg>
+                <svg style="width:inherit;height:inherit;overflow:visible;">
+				<rect fill="url(#Group_2_h_pattern)" width="100%" height="100%"></rect>
+					<pattern elementId="Group_2_h" id="Group_2_h_pattern" x="0" y="0" width="100%" height="100%">
+						<image x="0" y="0" width="100%" height="100%" href="Group_2_h_pattern.png" xlink:href="Group_2_h_pattern.png"></image>
+					</pattern>
+					<img class="Group_2_Class" src="Group_2.png" srcset="Group_2.png 1x">
+					</svg>
+            </div>
+            <div class="THE_AFTERMOVIE_Class">
+                <span>THE AFTERMOVIE</span>
+            </div>
+            <svg class="Rectangle_1096">
+			<rect class="Rectangle_1096_Class" rx="0" ry="0" x="0" y="0" width="1071.233" height="597.151">
+			</rect>
+		</svg>
+            <a href="https://www.youtube.com/watch?v=KGKok9LDjns" target="_blank">
+                <div class="play_circle_filled_24px play_circle_filled-24px_Class">
+                    <svg class="Path_43" viewBox="0 0 253.863 249.863">
+				<path class="Path_43_Class" d="M 0 0 L 253.8633728027344 0 L 253.8633728027344 249.8633728027344 L 0 249.8633728027344 L 0 0 Z">
+				</path>
+			</svg>
+                    <svg class="Path_44" viewBox="2 2 211.553 208.219">
+				<path class="Path_44_Class" d="M 107.7764129638672 1.999998688697815 C 49.38783264160156 1.999998688697815 1.999999761581421 48.64116668701172 1.999999761581421 106.109748840332 C 1.999999761581421 163.5783081054688 49.38783264160156 210.2194976806641 107.7764129638672 210.2194976806641 C 166.1649780273438 210.2194976806641 213.5528259277344 163.5783081054688 213.5528259277344 106.109748840332 C 213.5528259277344 48.64115905761719 166.1649780273438 1.999998688697815 107.7764129638672 1.999998688697815 Z M 86.62113189697266 152.9591217041016 L 86.62113189697266 59.2603645324707 L 150.0869598388672 106.109748840332 L 86.62113189697266 152.9591217041016 Z">
+				</path>
+			</svg>
+                </div>
+            </a>-->
+            <iframe width="1071" height="597" src="https://www.youtube.com/embed/8Q6862EyeiQ" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <div class="OUR_EVENTS__Class">
+            <span>OUR</span><span style="color:rgba(79,231,220,1);"> EVENTS</span><br>
+        </div>
+        <div class="Triangle_Design_2_Class">
+            <img src="Images/Others/Triangle Design 2@2x.png">
+        </div>
+        <div class="Triangle_Design_1_Class">
+            <img src="Images/Others/Triangle Design 1@2x.png">
+        </div>
+        <div class="The_Tech_Club_of_Anil_Surendra_Class">
+            <span><span style="font-style: italic;">“The only way to predict the future is to create it. In a world
+                    where people are anticipating the future, we as a community have taken it upon us to shape
+                    it.”</span> <br>– <span style="font-weight: 700;">Kriti Agarwal, President, The
+                    Tech Club 2024-25</span><br> The Tech Club at Anil Surendra Modi School of Commerce, NMIMS Mumbai’
+                aim is to focus on the idea of inclusive technological developments to make modern day innovations
+                accessible to common people. Our technology
+                driven approach complements the business centered environment at NMIMS’ ASMSOC, by bridging the gap
+                between the next-gen leaders and their most ambitious aspirations.
+            </span>
+        </div>
+        <div class="ABOUT_US__Class">
+            <span class:txt>ABOUT </span><span style="color:rgba(79,231,220,1);">US</span><br>
+        </div>
+        <div id="particles-js"></div>
+        <script type="text/javascript" src="ParticleJS/particles.js"></script>
+        <script type="text/javascript" src="ParticleJS/app.js"></script>
+        <div class="EVOLVE_Class">
+            <svg class="engage" viewBox="0 0 700 150">
+                <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+                    EVOLVE
+                </text>
+            </svg>
+        </div>
+        <div class="ELEVATE_Class">
+            <svg class="engage" viewBox="0 0 700 150">
+                <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+                    ENGAGE
+                </text>
+            </svg>
+        </div>
+        <div class="ENGAGE_Class ">
+            <svg class="engage" viewBox="0 0 700 150">
+                <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+                    EDUCATE
+                </text>
+            </svg>
+        </div>
+        <div class="Nav_Bar Nav_Bar_Class">
+            <div class="Sync Sync_Class">
+                <div class="SYNC_Class txt txt-ltr">
+                    <a href="sync.html">
+                        <span>SYNC</span>
+                </div>
+                <svg class="Line_6" viewBox="0 0 1 5">
+                    <path class="Line_6_Class" d="M 1 0 L 0 0">
+                    </path>
+                </svg>
+                </a>
+            </div>
+            <div class="Contact_Us Contact_Us_Class">
+                <div class="CONTACT_US_Class txt txt-ltr">
+                    <a href="contact.html">
+                        <span><a href="contact.html">SERVICES</a></span>
+                </div>
+                <svg class="Line_5" viewBox="0 0 1 5">
+                    <path class="Line_5_Class" d="M 0 0 L 1 0">
+                    </path>
+                </svg>
+                </a>
+            </div>
+            <div class="Events Events_Class">
+                <div class="EVENTS_Class txt txt-ltr">
+                    <a href="respawn.html">
+                        <span>EVENTS</span>
+                </div>
+                <svg class="Line_4" viewBox="0 0 1 5">
+                    <path class="Line_4_Class" d="M 0 0 L 1 0">
+                    </path>
+                </svg>
+                </a>
+            </div>
+            <img class="Glow_Class" src="Images/Others/Glow.png" srcset="Images/Others/Glow.png 1x">
+            <img onclick="application.goToTargetView(event)" class="Logo_dg_Class" src="Images/Others/Logo_dg.png"
+                srcset="Images/Others/Logo_dg.png 1x">
+            <img onclick="application.goToTargetView(event)" class="Logo_dgglow_Class" src="Images/Others/Logo_dg.png"
+                srcset="Images/Others/Logo_dg.png 1x">
+            <div class="Our_Team Our_Team_Class">
+                <div class="OUR_TEAM_Class txt txt-ltr">
+                    <span><a href="data.html">DEPARTMENTS</a></span>
+                </div>
+                <svg class="Line_3" viewBox="0 0 1 5">
+                    <path class="Line_3_Class" d="M 0 0 L 1 0">
+                    </path>
+                </svg>
+            </div>
+            <div class="About About_Class">
+                <a href="story.html">
+                    <div class="ABOUT_Class txt txt-ltr">
+                        <span><a href="story.html">ABOUT</a></span>
+                    </div>
+                    <svg class="Line_2" viewBox="0 0 1 5">
+                        <path class="Line_2_Class" d="M 0 0 L 1 0">
+                        </path>
+                    </svg>
+                </a>
+            </div>
+            <div class="Home Home_Class">
+                <svg class="Line_1" viewBox="0 0 49 5">
+                    <path class="Line_1_Class" d="M 0 0 L 49 0">
+                        <path class="Line_1glow_Class" d="M 0 0 L 49 0"></path>
+                    </path>
+                </svg>
+                <div class="HOME_Class">
+                    <span>HOME</span>
+                </div>
+            </div>
+        </div>
+        <svg class="Line_10" viewBox="0 0 75.5 3">
+            <path class="Line_10_Class" d="M 0 0 L 75.5 0">
+            </path>
+        </svg>
+        <svg class="Line_11" viewBox="0 0 75.5 3">
+            <path class="Line_11_Class" d="M 0 0 L 75.5 0">
+            </path>
+        </svg>
+        <div class="Group_90_Class">
+            <div id="mobileSponsors">
+                <div class="carousel">
+                    <input id="image1" type="radio" name="image-selector" checked="checked" />
+                    <label for="image4"></label>
+                    <img src="Images/Sponsors/Group 1.png" />
+
+                    <input id="image2" type="radio" name="image-selector" />
+                    <label for="image1"></label>
+                    <img src="Images/Sponsors/Group 2.png" />
+
+                    <input id="image3" type="radio" name="image-selector" />
+                    <label for="image2"></label>
+                    <img src="Images/Sponsors/Group 3.png" />
+
+                    <input id="image4" type="radio" name="image-selector" />
+                    <label for="image3"></label>
+                    <img src="Images/Sponsors/Group 4.png" />
+
+                    <label for="image4"></label>
+                    <label for="image1"></label>
+                </div>
+            </div>
+            <div id="wrapper">
+                <div id="image">
+                    <div class="image i1">
+                        <a href="https://atkt.in/list" target="blank"><img src="Images/Sponsors/ATKT.png"
+                                width="200px" /></a>
+                    </div>
+                    <div class="image i2">
+                        <a href="https://www.blockdegree.org/" target="blank"><img
+                                src="Images/Sponsors/Block Degree.png" width="200px" /></a>
+                    </div>
+                    <div class="image i3">
+                        <img src="Images/Sponsors/Bucks and list.png" width="200px" />
+                    </div>
+                    <div class="image i4">
+                        <a href="https://futwork.com/" target="blank"><img src="Images/Sponsors/Frapp.png"
+                                width="200px" /></a>
+                    </div>
+                    <div class="image i5">
+                        <a href="https://www.goldsgym.com/" target="blank"><img src="Images/Sponsors/Golds Gym.png"
+                                width="200px" /></a>
+                    </div>
+                    <div class="image i6">
+                        <a href="http://thelondonshakes.com/" target="blank"><img
+                                src="Images/Sponsors/London Shakes.png" width="200px" /></a>
+                    </div>
+                    <div class="image i7">
+                        <a href="https://lsglive.in/" target="blank"><img src="Images/Sponsors/LSG .png"
+                                width="200px" /></a>
+                    </div>
+                    <div class="image i8">
+                        <a href="https://www.marketwithmaddy.com/" target="blank"><img src="Images/Sponsors/MWM.png"
+                                width="200px" /></a>
+                    </div>
+                    <div class="image i9">
+                        <a href="https://www.outrider.live/" target="blank"><img src="Images/Sponsors/Outrider.png"
+                                width="200px" /></a>
+                    </div>
+                    <div class="image i10">
+                        <a href="https://www.starbucks.in/" target="blank"><img src="Images/Sponsors/Starbucks.png"
+                                width="200px" /></a>
+                    </div>
+                    <div class="image i11">
+                        <a href="https://zebronics.com/" target="blank"><img src="Images/Sponsors/Zebronics.png"
+                                width="200px" /></a>
+                    </div>
+                    <div class="image i12">
+                        <a href="https://youthincmag.com/" target="blank"><img src="Images/Sponsors/Youth inc.png"
+                                width="200px" /></a>
+                    </div>
+                </div>
+            </div>
+            <div class="Triangle_Design_2_gl_Class">
+                <img src="Images/Others/Triangle Design 2@2x.png">
+            </div>
+            <div class="Triangle_Design_1_g_Class">
+                <img src="Images/Others/Triangle Design 1@2x.png">
+            </div>
+            <div class="Triangle_Design_1_g_Classglow">
+                <svg class="Ellipse_3_g">
+                    <ellipse class="Ellipse_3_g_Class" rx="1.5" ry="1.5" cx="1.5" cy="1.5">
+                    </ellipse>
+                </svg>
+                <svg class="Ellipse_4_ha">
+                    <ellipse class="Ellipse_4_ha_Class" rx="1.5" ry="1.5" cx="1.5" cy="1.5">
+                    </ellipse>
+                </svg>
+                <svg class="Ellipse_3_hb">
+                    <ellipse class="Ellipse_3_hb_Class" rx="1.5" ry="1.5" cx="1.5" cy="1.5">
+                    </ellipse>
+                </svg>
+                <svg class="Ellipse_4_hc">
+                    <ellipse class="Ellipse_4_hc_Class" rx="1.5" ry="1.5" cx="1.5" cy="1.5">
+                    </ellipse>
+                </svg>
+                <svg class="Ellipse_3_hd">
+                    <ellipse class="Ellipse_3_hd_Class" rx="1.5" ry="1.5" cx="1.5" cy="1.5">
+                    </ellipse>
+                </svg>
+                <svg class="Ellipse_4_he">
+                    <ellipse class="Ellipse_4_he_Class" rx="1.5" ry="1.5" cx="1.5" cy="1.5">
+                    </ellipse>
+                </svg>
+                <svg class="Polygon_5_ho" viewBox="0 0 21.607 4.549">
+                    <path class="Polygon_5_ho_Class"
+                        d="M 10.80362701416016 0 L 21.60725593566895 4.548895359039307 L 0 4.548895359039307 Z">
+                    </path>
+                </svg>
+                <svg class="Path_3_hp" viewBox="0 0 30.705 16.985">
+                    <path class="Path_3_hp_Class"
+                        d="M 13.01365852355957 -1.078489861286586e-22 L 30.70504188537598 16.98505973815918 L -2.162448737456887e-22 16.98505973815918 L 13.01365852355957 -1.078489861286586e-22 Z">
+                    </path>
+                </svg>
+                <svg class="Path_2_hq" viewBox="0 0 12.509 7.304">
+                    <path class="Path_2_hq_Class"
+                        d="M 5.581990718841553 3.294343218899522e-15 L 12.50946426391602 7.3035569190979 L 8.898386042767437e-15 7.3035569190979 L 5.581990718841553 3.294343218899522e-15 Z">
+                    </path>
+                </svg>
+                <svg class="Path_1_hr" viewBox="0 0 33.425 31.613">
+                    <path class="Path_1_hr_Class"
+                        d="M 33.42496490478516 2.169390968947971e-14 L 23.30395126342773 31.61266326904297 L 1.59714635180469e-14 27.97629928588867 L 33.42496490478516 2.169390968947971e-14 Z">
+                    </path>
+                </svg>
+                <svg class="Path_4_hs" viewBox="0 0 26.391 20.789">
+                    <path class="Path_4_hs_Class"
+                        d="M 26.3905029296875 1.620693190112002e-14 L 17.20526695251465 20.78929710388184 L 7.109088233999035e-15 11.99574375152588 L 26.3905029296875 1.620693190112002e-14 Z">
+                    </path>
+                </svg>
+                <svg class="Path_5_ht" viewBox="0 0 12.676 19.351">
+                    <path class="Path_5_ht_Class"
+                        d="M 12.67611217498779 10.91905307769775 L 1.048904446100934e-14 19.35139465332031 L 2.158140897750854 2.254562418783348e-16 L 12.67611217498779 10.91905307769775 Z">
+                    </path>
+                </svg>
+                <svg class="Path_6_hu" viewBox="0 0 21.949 29.243">
+                    <path class="Path_6_hu_Class"
+                        d="M 21.94916152954102 29.24314880371094 L 1.552825522246198e-14 26.6577262878418 L 16.67038726806641 8.376268157816308e-15 L 21.94916152954102 29.24314880371094 Z">
+                    </path>
+                </svg>
+                <svg class="Path_8_hv" viewBox="0 0 34.905 24.371">
+                    <path class="Path_8_hv_Class"
+                        d="M 34.90458297729492 2.02683600155143e-14 L 1.412062537752869e-14 24.3714656829834 L 2.943857431411743 5.286989688873291 L 34.90458297729492 2.02683600155143e-14 Z">
+                    </path>
+                </svg>
+                <svg class="Path_7_hw" viewBox="0 0 12.316 37.101">
+                    <path class="Path_7_hw_Class"
+                        d="M 12.31632518768311 37.10107040405273 L 1.063269616666598e-14 17.97698783874512 L 10.91044330596924 4.896696621044163e-15 L 12.31632518768311 37.10107040405273 Z">
+                    </path>
+                </svg>
+                <svg class="Polygon_5_ho" viewBox="0 0 21.607 4.549">
+                    <path class="Polygon_5_ho_Class"
+                        d="M 10.80362701416016 0 L 21.60725593566895 4.548895359039307 L 0 4.548895359039307 Z">
+                    </path>
+                </svg>
+                <svg class="Path_3_hp" viewBox="0 0 30.705 16.985">
+                    <path class="Path_3_hp_Class"
+                        d="M 13.01365852355957 -1.078489861286586e-22 L 30.70504188537598 16.98505973815918 L -2.162448737456887e-22 16.98505973815918 L 13.01365852355957 -1.078489861286586e-22 Z">
+                    </path>
+                </svg>
+                <svg class="Path_2_hq" viewBox="0 0 12.509 7.304">
+                    <path class="Path_2_hq_Class"
+                        d="M 5.581990718841553 3.294343218899522e-15 L 12.50946426391602 7.3035569190979 L 8.898386042767437e-15 7.3035569190979 L 5.581990718841553 3.294343218899522e-15 Z">
+                    </path>
+                </svg>
+                <svg class="Path_1_hr" viewBox="0 0 33.425 31.613">
+                    <path class="Path_1_hr_Class"
+                        d="M 33.42496490478516 2.169390968947971e-14 L 23.30395126342773 31.61266326904297 L 1.59714635180469e-14 27.97629928588867 L 33.42496490478516 2.169390968947971e-14 Z">
+                    </path>
+                </svg>
+                <svg class="Path_4_hs" viewBox="0 0 26.391 20.789">
+                    <path class="Path_4_hs_Class"
+                        d="M 26.3905029296875 1.620693190112002e-14 L 17.20526695251465 20.78929710388184 L 7.109088233999035e-15 11.99574375152588 L 26.3905029296875 1.620693190112002e-14 Z">
+                    </path>
+                </svg>
+                <svg class="Path_5_ht" viewBox="0 0 12.676 19.351">
+                    <path class="Path_5_ht_Class"
+                        d="M 12.67611217498779 10.91905307769775 L 1.048904446100934e-14 19.35139465332031 L 2.158140897750854 2.254562418783348e-16 L 12.67611217498779 10.91905307769775 Z">
+                    </path>
+                </svg>
+                <svg class="Path_6_hu" viewBox="0 0 21.949 29.243">
+                    <path class="Path_6_hu_Class"
+                        d="M 21.94916152954102 29.24314880371094 L 1.552825522246198e-14 26.6577262878418 L 16.67038726806641 8.376268157816308e-15 L 21.94916152954102 29.24314880371094 Z">
+                    </path>
+                </svg>
+                <svg class="Path_8_hv" viewBox="0 0 34.905 24.371">
+                    <path class="Path_8_hv_Class"
+                        d="M 34.90458297729492 2.02683600155143e-14 L 1.412062537752869e-14 24.3714656829834 L 2.943857431411743 5.286989688873291 L 34.90458297729492 2.02683600155143e-14 Z">
+                    </path>
+                </svg>
+                <svg class="Path_7_hw" viewBox="0 0 12.316 37.101">
+                    <path class="Path_7_hw_Class"
+                        d="M 12.31632518768311 37.10107040405273 L 1.063269616666598e-14 17.97698783874512 L 10.91044330596924 4.896696621044163e-15 L 12.31632518768311 37.10107040405273 Z">
+                    </path>
+                </svg>
+            </div>
+        </div>
+        <div class="Component_77___2 Component_77__2_Class">
+            <div class="container">
+                <a href="respawn.html" class="btn">
+                    <svg width="276" height="62">
+                        <defs>
+                            <linearGradient id="grad1">
+                                <stop offset="0%" stop-color="#4FE7DC" />
+                                <stop offset="100%" stop-color="#028090" />
+                            </linearGradient>
+                        </defs>
+                        <rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="266" height="50"></rect>
+                    </svg>
+                    <span>EXPLORE</span>
+                </a>
+            </div>
+        </div>
+        <div class="Component_77___4 Component_77__4_Class">
+            <div class="container">
+                <a href="story.html" class="btn">
+                    <svg width="276" height="62">
+                        <defs>
+                            <linearGradient id="grad1">
+                                <stop offset="0%" stop-color="#4FE7DC" />
+                                <stop offset="100%" stop-color="#028090" />
+                            </linearGradient>
+                        </defs>
+                        <rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="266" height="50"></rect>
+                    </svg>
+                    <span>LEARN MORE</span>
+                </a>
+            </div>
+        </div>
+        <svg class="Line_14" viewBox="0 0 75.5 3">
+            <path class="Line_14_Class" d="M 0 0 L 75.5 0">
+            </path>
+        </svg>
+        <svg class="Line_15" viewBox="0 0 75.5 3">
+            <path class="Line_15_Class" d="M 0 0 L 75.5 0">
+            </path>
+        </svg>
+    </div>
+    </div>
+    <div class="cursor"></div>
+    <script>
+        const cursor = document.querySelector(".cursor");
+
+        document.addEventListener("mousemove", (e) => {
+            cursor.setAttribute(
+                "style",
+                "top: " + (e.pageY - 10) + "px; left: " + (e.pageX - 10) + "px;"
+            );
+        });
+
+        document.addEventListener("click", () => {
+            cursor.classList.add("expand");
+
+            setTimeout(() => {
+                cursor.classList.remove("expand");
+            }, 500);
+        });
+    </script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>

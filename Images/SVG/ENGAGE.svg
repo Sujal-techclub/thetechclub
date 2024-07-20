@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="103" viewBox="0 0 380 103">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #4fe7dc;
+        stroke-width: 3px;
+        font-size: 80px;
+        font-family: Montserrat-Bold, Montserrat;
+        font-weight: 700;
+        letter-spacing: 0.045em;
+      }
+    </style>
+  </defs>
+  <text id="ENGAGE" class="cls-1" transform="translate(3 80)"><tspan x="0" y="0">ENGAGE</tspan></text>
+</svg>

@@ -1,0 +1,2373 @@
+# Webalizer V2.23-08 Incremental Data - 08/08/2020 01:48:25
+2020 8 8 1 48 25
+21992 15764 423 210 136 143 3658117312 3991 509 0
+4 44 1173 1 8
+1041 602 99062726 52 459 52
+1170 878 207315639 41 143 45
+1479 1013 301256690 99 281 56
+3343 1907 545782385 66 1220 70
+3212 2372 615050602 57 446 73
+6125 4736 927532333 66 729 81
+5535 4178 947926449 90 708 131
+87 78 14190488 4 5 4
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+1080 876 226090053 120
+586 490 96149140 94
+212 111 23813975 104
+40 6 291921 39
+1004 49 7399677 954
+428 269 52978018 146
+644 520 151422976 56
+614 483 131606703 59
+101 86 24011384 22
+773 485 138028224 102
+856 655 132838506 67
+783 640 123075052 98
+572 253 30661732 152
+323 214 59244323 42
+579 383 71529825 60
+672 483 124487934 101
+1460 1227 321171647 162
+2190 1824 429883926 240
+580 492 80066889 182
+1179 935 181614383 156
+1328 905 207330756 261
+1710 951 290052452 370
+2180 1770 373828451 206
+2098 1657 380539365 198
+0
+0
+0
+15764
+0
+0
+0
+0
+0
+472
+0
+6
+0
+0
+1220
+0
+0
+43
+0
+0
+3
+3881
+172
+0
+0
+431
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/CSS/device.css
+0 46 3330747482406875750 12384 0 0
+/Images/Course/Data_Logo.png
+1 83 3689060755597045040 215760 0 0
+/Images/Events/Tech Fest 3.JPG
+1 26 8286623314361712640 26289805 0 0
+/Images/CORE/Mukund.png
+1 62 7308895158621648941 21475403 0 0
+/Images/Others/Triangle Design 2@2x.png
+1 237 408769388801 9981465 0 0
+/Images/Events/Imitation Game 4.jpg
+1 19 4049068354582949431 20125502 0 0
+/Images/Backgrounds/Data_Analytics_cv.png
+1 87 104650625909046 3297507 0 0
+/Images/Others/Logo_da.png
+1 54 3274232377819267072 438360 0 0
+/Images/Course/Premiere_Pro.png
+1 26 0 29614 0 0
+/Images/Backgrounds/Web_Design.png
+1 87 0 2224981 0 0
+/enigma.html
+0 29 0 626490 0 0
+/Images/CORE/Varun1.png
+1 36 0 2717244 0 0
+/Images/Events/Disrupt 2.jpg
+1 18 0 18418840 0 0
+/video.html
+0 19 0 489240 1 0
+/Images/Sponsors/Bucks and list.png
+1 233 0 5457333 0 0
+/Images/CORE/Dhriti.png
+1 84 0 13652145 0 0
+/data2.html
+0 10 0 249895 0 0
+/Images/Sponsors/Group 4.png
+1 252 0 13854808 0 0
+/prog2.html
+0 6 0 147057 0 0
+/JS/data.js
+0 95 0 7192731 0 0
+/Images/Backgrounds/Programming.png
+1 85 0 2509137 0 0
+/Images/Socials/6.png
+1 249 0 38667552 0 0
+/Images/Course/Adwords_Logo.png
+1 54 0 118190 0 0
+/video.html
+0 22 0 565576 0 0
+/CSS/digi.css
+0 73 0 3625022 0 0
+/Images/Sponsors/LSG .png
+1 232 0 6916320 0 0
+/Images/Course/SQL_Logo.png
+1 37 0 54108 0 0
+/data.html
+0 127 0 3305647 9 0
+/prog.html
+0 25 0 579401 0 1
+/Images/Events/Tech Fest 1.JPG
+1 26 0 23793203 0 0
+/Images/Others/Triangle Design 1@2x.png
+1 246 0 9015818 0 0
+/JS/spec.js
+0 36 0 2766435 0 0
+/icons/apache_pb.gif
+1 1 0 0 0 0
+/Images/Backgrounds/Sync_Background.png
+1 21 0 9540593 0 0
+/Images/Sponsors/Zebronics.png
+1 229 0 14761470 0 0
+/CSS/imitation.css
+0 20 3760560862863110446 903276 0 0
+/JS/prog.js
+0 37 7310589493159486838 2845476 0 0
+/CSS/privacy.css
+0 7 408680915201 123232 0 0
+/spec2.html
+0 10 499917926004 246828 0 0
+/Images/Events/Enigma 2.JPG
+1 35 24356 34983206 0 0
+/Images/Events/Enigma 4.JPG
+1 33 3544614381717291008 37514045 0 0
+/Images/Events/Disrupt 1.jpg
+1 18 0 14999796 0 0
+/Images/Backgrounds/Digital_Marketing.png
+1 87 3615606785969435442 2407166 0 0
+/Images/Course/DaVinci_Logo.png
+1 26 0 80678 0 0
+/Images/CORE/Kushal.png
+1 39 0 5027408 0 0
+/Images/Backgrounds/About_Bg.png
+1 262 0 151825426 0 0
+/Images/Backgrounds/Design_Background.png
+1 44 0 49693428 0 0
+/Images/CORE/Aviral1.png
+1 36 0 2872620 0 0
+/Images/Events/Enigma 3.JPG
+1 33 0 32790372 0 0
+/JS/device.js
+0 46 0 11712 0 0
+/Images/Backgrounds/Footer_Bg.png
+1 274 0 45531114 0 0
+/spec2.html
+0 6 0 148359 0 1
+/imitation.html
+0 20 0 462508 0 1
+/Images/Backgrounds/Legal_Background.png
+1 6 0 7472314 0 0
+/Images/Others/Logo_df.png
+1 89 0 716550 0 0
+/Images/Backgrounds/Data_Background.png
+1 120 0 341011889 0 0
+/web.html
+0 17 0 444516 0 0
+/Images/Sponsors/Group 2.png
+1 257 0 31623375 0 0
+/Images/Course/HTML_Logo.png
+1 37 0 95652 0 0
+/Images/Course/Digi_Logo.png
+1 54 0 111088 0 0
+/Images/Backgrounds/Videography.png
+1 87 0 2414636 0 0
+/Images/Course/Python_Logo.png
+1 85 0 152602 0 0
+/techweek.html
+0 23 0 514620 0 0
+/Images/Events/Tech Week 3.JPG
+1 25 0 41579151 0 0
+/CSS/story.css
+0 99 0 3432829 0 0
+/Images/CORE/Kushal1.png
+1 36 0 2991240 0 0
+/Images/CORE/Dhriti1.png
+1 37 0 3244678 0 0
+/Images/Backgrounds/Events_Background.png
+1 80 0 44160533 0 0
+/design.html
+0 35 0 1302595 0 0
+/Images/CORE/Bjorn1.png
+1 36 3543827372732121088 3004416 0 0
+/Images/Others/Logo_f.ico
+0 230 3615883862963453952 9310681 0 0
+/JS/techweek.js
+0 17 3564161993357131776 1343697 0 0
+/Images/Others/Logo_db.png
+1 37 8319682804621454708 303480 0 0
+/JS/imitation.js
+0 15 95 1185615 0 0
+/story.html
+0 96 7939404591986270766 826472 11 5
+/Images/Backgrounds/Prog_Background.png
+1 47 3618977845871915309 28635734 0 0
+/Images/Events/Imitation Game 1.jpg
+1 19 4994009611161841713 25060409 0 0
+/Images/Course/Market_Research.png
+1 35 0 117334 0 0
+/Images/Sponsors/ATKT.png
+1 237 0 9861241 0 0
+/CSS/techfest.css
+0 21 0 937291 0 0
+/CSS/web.css
+0 26 0 1126965 0 0
+/Images/Others/Logo_ci.png
+1 4 0 33720 0 0
+/Images/Events/Tech Week 1.JPG
+1 25 0 27666221 0 0
+/privacy.html
+0 7 0 202561 0 0
+/team.html
+0 49 0 369181 1 1
+/Images/Course/Logistics.png
+1 35 0 78132 0 0
+/CSS/prog.css
+0 44 0 2584601 0 0
+/JS/terms.js
+0 3 0 237123 0 0
+/JS/gallery.js
+0 26 0 9696 0 0
+/Images/Others/Logo_b.png
+1 274 0 6545700 0 0
+/JS/jquery.hislide.js
+0 263 0 895720 0 0
+/prog.html
+0 42 0 1104348 1 0
+/CSS/contact.css
+0 39 0 1318277 0 0
+/CSS/video.css
+0 30 0 1251623 0 0
+/Images/Sponsors/Block Degree.png
+1 238 0 31989237 0 0
+/Images/Others/High Quality Tech Club Logo Circle.png
+1 92 0 67783204 0 0
+/Images/Course/After_Effects.png
+1 26 0 45656 0 0
+/Images/Socials/2.png
+1 249 0 48582049 0 0
+/JS/video.js
+0 26 0 2055066 0 0
+/design.html
+0 28 0 894205 1 1
+/Images/Backgrounds/Events_Bg.png
+1 283 0 510001538 0 0
+/digi.html
+0 38 0 849184 3 1
+/Images/Course/XD_Logo.png
+1 21 0 37240 0 0
+/JS/contact.js
+0 47 0 3556845 0 0
+/Images/Others/Respawn_Mockup.png
+1 51 0 9188865 0 0
+/Images/Others/Whatsapp.png
+1 37 0 3945352 0 0
+/respawn.html
+0 59 0 1170277 5 0
+/CSS/data.css
+0 131 0 11153971 0 0
+/Images/CORE/Mukund1.png
+1 38 0 2735864 0 0
+/Images/Backgrounds/Programming_co.png
+1 37 0 1389852 0 0
+/Images/Events/Tech Week 2.JPG
+1 23 0 21010979 0 0
+/Images/Others/Logo_cb.png
+1 262 0 6337900 0 0
+/JS/enigma.js
+0 22 0 1567972 0 0
+/Images/Events/Imitation Game 2.jpg
+1 19 0 17368295 0 0
+/Images/Sponsors/Outrider.png
+1 231 0 8237160 0 0
+/Images/CORE/Varun.png
+1 21 0 2779380 0 0
+/Images/Backgrounds/Digi Background.png
+1 51 0 18584815 0 0
+/Images/Backgrounds/Team_Background.png
+1 44 0 76673950 0 0
+/Images/Events/Enigma 1.JPG
+1 33 0 41611631 0 0
+/CSS/prog2.css
+0 9 0 218874 0 0
+/JS/disrupt.js
+0 17 0 1343697 0 0
+/Images/Others/Logo.png
+1 64 0 4176010 0 0
+/JS/web.js
+0 21 0 1580820 0 0
+/prog2.html
+0 7 0 171283 0 0
+/sync.html
+0 24 0 141088 1 1
+/Images/CORE/Aviral.png
+1 43 0 5636955 0 0
+/Images/Sponsors/Youth inc.png
+1 228 0 8675916 0 0
+/Images/Course/SEO_Logo.png
+1 53 0 239980 0 0
+/Images/Backgrounds/Spec_Ops.png
+1 87 0 2558226 0 0
+/JS/digi.js
+0 53 0 4110132 0 0
+/Images/Backgrounds/Contact_Background.png
+1 39 0 54203006 0 0
+/contact.html
+0 32 0 712414 1 2
+/JS/sync.js
+0 21 0 1659861 0 0
+/Images/Backgrounds/Graphic_Design_cu.png
+1 32 0 1138230 0 0
+/disrupt.html
+0 23 0 564648 0 2
+/Images/Events/Imitation Game 3.jpg
+1 19 0 19192624 0 0
+/Images/Backgrounds/Data_Analytics.png
+1 66 0 2083640 0 0
+/Images/Sponsors/Group 1.png
+1 253 0 21877764 0 0
+/Images/Events/Tech Week 4.JPG
+1 25 3330183437250344242 30301911 0 0
+/spec.html
+0 40 7235436770483266930 1057788 1 1
+/CSS/style.css
+0 408 3617003157230518272 68992259 0 0
+/Images/Socials/4.png
+1 258 3531103582835179520 45329310 0 0
+/Images/Backgrounds/Web_Design_cq.png
+1 21 7308895141443422509 675120 0 0
+/Images/Sponsors/Starbucks.png
+1 229 3905520471591365941 63991992 0 0
+/JS/story.js
+0 81 3472557887190990848 6244239 0 0
+/Images/Course/PHP_Logo.png
+1 37 95 64008 0 0
+/CSS/sync.css
+0 25 0 418284 0 0
+/Images/Backgrounds/About_Background.png
+1 98 0 160241092 0 0
+/Images/Course/Management.png
+1 35 0 131444 0 0
+/Images/Backgrounds/Spec_Background.png
+1 59 0 103948432 0 0
+/Images/Sponsors/London Shakes.png
+1 233 0 8801303 0 0
+/Images/CORE/Bjorn.png
+1 33 0 4148990 0 0
+/CSS/data2.css
+0 15 0 374130 0 0
+/Images/Others/Logo_c.png
+1 93 0 741840 0 0
+/Images/Others/Glow.png
+1 263 0 8690880 0 0
+/
+0 833 0 33723741 387 73
+/Images/Sponsors/Frapp.png
+1 239 0 36705213 0 0
+/CSS/spec2.css
+0 12 0 299448 0 0
+/Images/Backgrounds/Spec_Ops_cs.png
+1 35 0 1318384 0 0
+/CSS/design.css
+0 39 0 2307050 0 0
+/Images/Events/Disrupt 4.jpg
+1 16 0 16954496 0 0
+/Images/Course/CSS_Logo.png
+1 21 0 56960 0 0
+/terms.html
+0 6 0 187468 0 0
+/Images/Socials/1.png
+1 255 0 38219276 0 0
+/CSS/terms.css
+0 6 0 146448 0 0
+/Images/Socials/3.png
+1 255 0 34796612 0 0
+/Images/Sponsors/MWM.png
+1 233 0 27681605 0 0
+/Images/Others/Logo_dg.png
+1 245 0 1888320 0 0
+/Images/Backgrounds/Digital_Marketing_cq.png
+1 53 0 1856608 0 0
+/CSS/spec.css
+0 41 0 1734839 0 0
+/Images/Events/Disrupt 3.jpg
+1 18 0 22127982 0 0
+/Images/Others/Logo_d.png
+1 32 0 252900 0 0
+/JS/design.js
+0 33 0 2450271 0 0
+/Images/Course/Stats_Logo.png
+1 83 0 200160 0 0
+/Images/Backgrounds/Banner.png
+1 121 0 120895508 0 0
+/JS/script.js
+0 291 0 23223966 0 0
+/digi.html
+0 70 0 1800235 0 5
+/contact.html
+0 28 0 687093 0 0
+/techfest.html
+0 21 0 490632 0 0
+/JS/particles.js
+0 261 0 13336217 0 0
+/Images/Backgrounds/Videography_cm.png
+1 26 0 939822 0 0
+/Images/Sponsors/Golds Gym.png
+1 238 0 34668485 0 0
+/Images/CORE/Tathagata.png
+1 36 0 3163356 0 0
+/Images/Socials/7.png
+1 245 0 31405404 0 0
+/CSS/team.css
+0 49 0 1432067 0 0
+/Images/Socials/5.png
+1 252 0 36572328 0 0
+/Images/Course/JS_Logo.png
+1 21 0 35660 0 0
+/CSS/enigma.css
+0 26 0 1200144 0 0
+/CSS/respawn.css
+0 56 0 1822125 0 0
+/Images/Others/Coming Soon.png
+1 37 0 3664908 0 0
+/web.html
+0 19 0 497601 0 2
+/Images/CORE/Tathagat.png
+1 28 0 4497911 0 0
+/CSS/gallery.css
+0 34 0 21164 0 0
+/CSS/techweek.css
+0 22 0 871652 0 0
+/CSS/disrupt.css
+0 26 0 1082823 0 0
+/data2.html
+0 11 0 274439 0 0
+/JS/app.js
+0 261 0 864467 0 0
+/Images/Backgrounds/Video_Background.png
+1 45 0 119728706 0 0
+/Images/Backgrounds/Sponsors_Bg.png
+1 265 0 149619711 0 0
+/Images/Backgrounds/Web_Background.png
+1 23 0 10686967 0 0
+/Images/CORE/Pratik.png
+1 36 0 2590164 0 0
+/Images/Events/Tech Fest 4.JPG
+1 26 0 27604081 0 0
+/Images/Sponsors/Group 3.png
+1 253 0 32688930 0 0
+/data.html
+0 61 0 1350607 6 1
+/Images/Backgrounds/Graphic_Design.png
+1 87 0 2550341 0 0
+/JS/techfest.js
+0 16 0 1264656 0 0
+/Images/Events/Tech Fest 2.JPG
+1 28 0 23534126 0 0
+/JS/respawn.js
+0 49 0 3477804 0 0
+/JS/privacy.js
+0 4 0 316164 0 0
+/spec.html
+0 29 1952804398 609073 2 1
+# End Of Table - urls
+# -sites- (monthly)
+49.32.50.175
+0 2 0 436 0 0
+-
+49.15.165.133
+0 15 13 3102224 1 1596493919
+/
+77-120-163-54.dynamic-fttb.kharkov.volia.com
+0 1 1 47260 1 1596425378
+/
+fwdproxy-prn-007.fbsv.net
+0 1 1 156292 0 0
+-
+crawl-66-249-79-205.googlebot.com
+0 19 18 4344825 0 0
+-
+103.149.192.13
+0 1 1 47265 1 1596513480
+/
+222.186.61.115
+0 1 0 235 1 1596590278
+-
+fwdproxy-vll-011.fbsv.net
+0 2 2 216203 0 0
+-
+bras-base-qubcpq1531w-grc-01-70-49-202-59.dsl.bell.ca
+0 1 1 48747 1 1596832622
+/
+fwdproxy-atn-011.fbsv.net
+0 12 12 1865184 0 0
+-
+202.134.161.197.customer.7starnet.com
+0 37 33 9067848 3 1596531272
+/
+130.193.226.109.ip.orionnet.ru
+0 1 1 47260 1 1596268469
+/
+static-mum-182.59.209.65.mtnl.net.in
+0 44 8 745077 1 1596362313
+/
+li1412-250.members.linode.com
+0 1 0 202 1 1596300308
+-
+213.6.61.218
+0 1 0 214 1 1596813590
+-
+42-106-253-74.live.vodafone.in
+0 1 1 41662 0 0
+-
+49.32.32.218
+0 9 1 550086 1 1596810201
+/
+1-38-222-187.live.vodafone.in
+0 44 40 6761856 1 1596283002
+/
+106.207.251.4
+0 62 53 19310887 1 1596523062
+/sync.html
+103.204.162.93
+0 24 4 241307 2 1596724911
+-
+40.112.164.74
+0 8 4 189876 1 1596486068
+-
+49.32.43.11
+0 128 110 26783528 1 1596523572
+-
+c217-239.i03-7.onvol.net
+0 1 1 49377 1 1596752627
+/
+1-38-148-20.live.vodafone.in
+0 6 0 0 1 1596384510
+-
+host-74-51-13-44.united.net
+0 120 0 26055 1 1596313346
+/
+190.4.37.66
+0 1 1 47265 1 1596585612
+/
+www.miov.kp
+0 1 1 48747 1 1596844704
+/
+net-2-32-30-56.cust.vodafonedsl.it
+0 1 1 47260 1 1596322192
+/
+157.37.219.208
+0 76 70 13774348 2 1596763566
+/digi.html
+vmi418170.contaboserver.net
+0 4 4 0 4 1596583377
+/
+103.86.19.60
+0 81 77 16057035 1 1596517347
+/spec.html
+ppp-124-121-111-85.revip2.asianet.co.th
+0 1 1 47265 1 1596652199
+/
+fwdproxy-frc-019.fbsv.net
+0 16 15 1774789 1 1596492906
+/
+jobqueue-listener.jobqueue.netcraft.com-u355c935ed4ac11eaa6b7976a838d6ab1u-digitalocean-2gb
+0 1 1 47260 1 1596375672
+/
+103.209.205.109
+0 1 1 47260 1 1596421439
+/
+157.245.176.143
+0 1 0 226 1 1596372449
+-
+42-106-252-79.live.vodafone.in
+0 234 202 47697602 2 1596831492
+/data.html
+27.62.236.86
+0 2 0 0 0 0
+-
+45.144.2.66
+0 1 1 47260 1 1596308300
+/
+dns138.online.tj.cn
+0 1 1 48747 1 1596801105
+/
+117.205.99.189
+0 60 53 10188116 1 1596706922
+-
+fwdproxy-atn-021.fbsv.net
+0 3 2 88561 0 0
+-
+59-126-137-114.hinet-ip.hinet.net
+0 1 0 226 1 1596474915
+/
+220-134-31-140.hinet-ip.hinet.net
+0 120 0 26055 1 1596423620
+/
+96.59.182.26
+0 1 0 226 1 1596702268
+/
+220-133-52-135.hinet-ip.hinet.net
+0 1 0 226 1 1596502443
+/
+23.97.200.17
+0 5 4 141988 1 1596305762
+/
+ec2-13-57-255-135.us-west-1.compute.amazonaws.com
+0 1 1 0 1 1596486186
+/
+crawl-66-249-79-209.googlebot.com
+0 5 3 452874 0 0
+-
+zg-0708b-210.stretchoid.com
+0 1 1 47265 1 1596514052
+/
+zg-0708b-218.stretchoid.com
+0 1 0 210 1 1596493796
+-
+103.217.246.105
+0 94 88 18466504 1 1596613069
+/contact.html
+adsl-46-161-104018.crnagora.net
+0 1 1 48752 1 1596724993
+/
+47.114.34.196
+0 1 0 217 1 1596692085
+-
+1.192.246.237
+0 1 0 209 1 1596260699
+-
+157.37.169.23
+0 46 38 6629540 1 1596706994
+/
+42-106-254-249.live.vodafone.in
+0 87 79 13641407 1 1596795562
+/
+49.32.23.170
+0 21 17 4813749 1 1596743838
+/
+59.97.85.99
+0 166 151 31346751 2 1596828280
+/prog.html
+179-99-64-137.dsl.telesp.net.br
+0 1 1 47265 1 1596578562
+/
+static.mytrinity.com.ua
+0 1 1 47265 1 1596513448
+/
+110.167.89.253
+0 4 1 49395 1 1596801133
+-
+ec2-3-125-156-251.eu-central-1.compute.amazonaws.com
+0 1 0 207 0 0
+-
+accessnow.org
+0 7 0 0 1 1596437272
+-
+zl-lax-us-gp3-wk105.internet-census.org
+0 5 5 241594 5 1596823970
+/
+157.34.71.44
+0 52 46 10676456 1 1596518355
+/story.html
+223.188.174.33
+0 45 43 7357302 1 1596523261
+/
+42-106-218-253.live.vodafone.in
+0 112 95 18599675 2 1596829274
+/team.html
+1.31.160.140
+0 8 2 98762 1 1596801219
+/
+fwdproxy-prn-025.fbsv.net
+0 1 1 179991 0 0
+-
+106.213.173.185
+0 49 41 7608259 1 1596818421
+/
+49.36.63.249
+0 376 256 63583540 7 1596842824
+/
+static-115-219-226-186.8bit.net.br
+0 1 1 47260 1 1596280605
+/
+fwdproxy-atn-013.fbsv.net
+0 1 1 47265 1 1596536369
+/
+106.215.143.234
+0 37 32 7245470 1 1596612987
+/story.html
+132.154.125.119
+0 513 283 10781749 7 1596715361
+/prog2.html
+survey.internet-census.org
+0 8 8 386708 8 1596818206
+/
+116.102.172.93
+0 1 0 226 1 1596413684
+/
+scan-06.shadowserver.org
+0 1 1 48747 1 1596782268
+/
+45.83.67.133
+0 1 1 47260 1 1596413977
+/
+5.188.210.227
+0 1 0 206 1 1596572438
+-
+static-181-143-122-18.une.net.co
+0 1 1 47265 1 1596531956
+/
+fwdproxy-ash-009.fbsv.net
+0 1 1 2026105 0 0
+-
+vega.brimstone.by
+0 3 3 141790 3 1596499835
+/
+fwdproxy-prn-003.fbsv.net
+0 2 2 227222 0 0
+-
+49.33.143.169
+0 47 40 6762507 1 1596282693
+/
+49.32.5.145
+0 44 40 6767353 1 1596742545
+/
+157.37.215.37
+0 43 39 7095462 1 1596848565
+/
+88-119-146-243.static.zebra.lt
+0 1 1 48747 1 1596820869
+/
+223.187.134.132
+0 333 293 85082886 1 1596559375
+/terms.html
+188.166.165.25
+0 3 2 96688 1 1596702830
+/
+fwdproxy-prn-009.fbsv.net
+0 3 3 263041 0 0
+-
+176.103.174.82
+0 1 0 226 1 1596515329
+-
+45.84.196.73
+0 7 0 1546 1 1596824374
+-
+187.108.0.241
+0 1 1 48747 1 1596817793
+/
+60-249-25-127.hinet-ip.hinet.net
+0 1 0 226 1 1596276416
+/
+spb-195-190-106-226.sovintel.spb.ru
+0 1 1 48747 1 1596817980
+/
+93.159.230.28
+0 1 1 48747 1 1596829538
+/
+49.32.18.97
+0 12 10 3158343 1 1596748000
+/
+static.122.52.243.136.clients.your-server.de
+0 1 0 226 1 1596305930
+-
+4-200-5-45.rpnnetprovedor.com.br
+0 1 1 47265 1 1596484089
+/
+36.42.234.217
+0 1 0 203 1 1596537957
+-
+ec2-3-34-201-37.ap-northeast-2.compute.amazonaws.com
+0 1 0 207 0 0
+-
+fwdproxy-rva-113.fbsv.net
+0 1 1 47265 1 1596492905
+/
+fwdproxy-vll-118.fbsv.net
+0 2 2 358402 0 0
+-
+host109-197-71-242.broadband.trytek.ru
+0 1 1 47260 1 1596304613
+/
+117.199.45.98
+0 44 40 6806799 1 1596522612
+/
+89-201-153-15.static.optinet.hr
+0 1 1 47260 1 1596359178
+/
+scan-66.security.ipip.net
+0 1 1 47265 1 1596492763
+/
+fwdproxy-vll-005.fbsv.net
+0 1 1 148489 0 0
+-
+ns354488.ip-46-105-108.eu
+0 16 3 144725 1 1596634743
+/
+49.15.167.95
+0 8 7 1435244 0 0
+-
+157.37.8.74
+0 138 128 25001530 1 1596712153
+-
+157.37.157.246
+0 181 162 67523207 2 1596524389
+/disrupt.html
+soromit.b.astral.ro
+0 1 1 47265 1 1596627794
+/
+opus32.register.it
+0 1 0 0 1 1596409776
+-
+zg-0708c-2.stretchoid.com
+0 2 0 432 1 1596444924
+-
+41.60.238.36
+0 1 1 47265 1 1596633021
+/
+ip-104-192-3-82.host.datawagon.net
+0 1 1 48747 1 1596841452
+/
+52.149.223.66
+0 2 0 435 1 1596590437
+-
+ec2-52-48-192-147.eu-west-1.compute.amazonaws.com
+0 175 160 27070577 2 1596753509
+/
+fwdproxy-prn-029.fbsv.net
+0 1 1 619311 0 0
+-
+abts-north-dynamic-209.212.177.122.airtelbroadband.in
+0 44 40 7137435 1 1596821205
+/
+fwdproxy-prn-006.fbsv.net
+0 3 3 2245975 0 0
+-
+61-219-11-153.hinet-ip.hinet.net
+0 4 0 0 4 1596816378
+-
+fwdproxy-prn-027.fbsv.net
+0 3 3 333497 1 1596492905
+/
+zg-0708b-221.stretchoid.com
+0 1 0 210 0 0
+-
+ec2-52-51-171-210.eu-west-1.compute.amazonaws.com
+0 34 32 5796824 1 1596741426
+/
+85-206-38-111.static.zebra.lt
+0 1 1 47260 1 1596380812
+/
+42-107-229-194.live.vodafone.in
+0 111 97 21962335 1 1596825962
+/story.html
+scan-92.security.ipip.net
+0 2 2 94525 2 1596562593
+/
+fwdproxy-vll-004.fbsv.net
+0 2 2 2656285 0 0
+-
+223.182.162.185
+0 181 168 48431323 1 1596644546
+/web.html
+125.84.176.39
+0 5 1 49601 1 1596801183
+/
+corp-179-49-60-210.uio.puntonet.ec
+0 1 0 226 1 1596283379
+-
+95-31-52-9.broadband.corbina.ru
+0 1 1 48747 1 1596789775
+/
+42-106-218-106.live.vodafone.in
+0 17 17 5713045 1 1596493465
+/data.html
+42-106-217-229.live.vodafone.in
+0 453 349 62823142 4 1596810429
+/
+49.37.8.155
+0 42 38 6550194 1 1596541039
+/
+122-117-90-91.hinet-ip.hinet.net
+0 1 0 226 1 1596372647
+/
+42-106-252-151.live.vodafone.in
+0 43 39 7175411 1 1596812231
+/
+jobqueue-listener.jobqueue.netcraft.com-u2f8defdcd55511ea9e5e75fe828d6ab1u-digitalocean
+0 1 1 0 0 0
+-
+221.11.51.26
+0 5 2 98121 1 1596801298
+/
+104.244.79.155
+0 1 1 47265 1 1596665102
+/
+ecs-139-9-220-122.compute.hwclouds-dns.com
+0 2 0 425 1 1596431112
+-
+fwdproxy-vll-018.fbsv.net
+0 1 1 619311 0 0
+-
+157.37.102.36
+0 198 176 41284358 1 1596713426
+-
+black.host-185.21.144.195.in-addr.arpa
+0 1 1 47260 1 1596433797
+/
+185.128.41.50
+0 1 0 210 1 1596809568
+-
+ec2-18-139-116-2.ap-southeast-1.compute.amazonaws.com
+0 1 0 207 0 0
+-
+117.220.187.227
+0 76 49 9124763 1 1596569833
+/contact.html
+42-107-252-10.live.vodafone.in
+0 22 21 4762141 1 1596825796
+/
+c-98-209-237-55.hsd1.mi.comcast.net
+0 1 1 47260 1 1596265428
+/
+scan-67.security.ipip.net
+0 1 1 47260 1 1596259898
+/
+117.212.114.54
+0 199 176 58657984 1 1596485159
+-
+fwdproxy-frc-002.fbsv.net
+0 1 1 3656 0 0
+-
+crawl-66-249-79-207.googlebot.com
+0 19 17 1829022 1 1596741329
+/
+201.198.177.215
+0 1 1 48747 1 1596764752
+/
+141.98.10.169
+0 1 0 226 1 1596662141
+/
+abts-mum-dynamic-178.171.179.122.airtelbroadband.in
+0 62 41 7179661 2 1596834805
+-
+202.59.138.131
+0 1 1 48747 1 1596784622
+/
+vmi408426.contaboserver.net
+0 2 2 96462 1 1596697396
+/
+ip77.ip-198-50-214.net
+0 1 0 204 1 1596820452
+-
+static-mum-182.59.170.177.mtnl.net.in
+0 41 39 6764701 1 1596552678
+/
+106.193.173.135
+0 54 52 11263980 2 1596353933
+/story.html
+185.250.220.170
+0 1 0 0 0 0
+-
+fwdproxy-prn-026.fbsv.net
+0 2 2 315465 0 0
+-
+93.91.127.147
+0 1 1 48747 1 1596816306
+/
+187-102-73-24.customer.foxinternet.com.br
+0 1 1 48752 1 1596723311
+/
+srv1.teksemble.com
+0 3 1 47712 1 1596247123
+/
+114-33-229-141.hinet-ip.hinet.net
+0 1 0 226 1 1596464632
+/
+fwdproxy-frc-029.fbsv.net
+0 1 1 25975 0 0
+-
+178.128.194.144
+0 1 1 47260 1 1596356222
+/
+zg-0708b-271.stretchoid.com
+0 1 1 47265 1 1596476882
+/
+151.235.222.220
+0 1 1 47265 1 1596558667
+/
+139.167.34.93
+0 5 0 1081 0 0
+-
+106.204.173.220
+0 1 0 0 1 1596446044
+-
+cpe-67-240-91-14.nycap.res.rr.com
+0 1 0 210 1 1596568202
+-
+114-33-16-67.hinet-ip.hinet.net
+0 2 0 452 2 1596405199
+/
+106.193.156.151
+0 126 121 25992479 1 1596361840
+-
+ec2-15-223-119-32.ca-central-1.compute.amazonaws.com
+0 1 0 207 0 0
+-
+116.73.63.123
+0 106 100 23161278 1 1596493744
+/prog.html
+fwdproxy-frc-022.fbsv.net
+0 1 1 25975 0 0
+-
+59-125-78-85.hinet-ip.hinet.net
+0 1 0 226 1 1596462087
+/
+165.22.123.153
+0 12 2 96797 5 1596809711
+-
+220-132-206-57.hinet-ip.hinet.net
+0 1 0 226 1 1596385492
+/
+157.33.128.33
+0 36 31 3649664 1 1596811187
+/
+mx29221.godns.net
+0 1 0 0 1 1596410221
+-
+192.40.57.232
+0 3 1 47717 2 1596631346
+/
+sh-chi-us-gp1-wk114.internet-census.org
+0 1 1 47265 1 1596590293
+/
+ip167-c5.gl.digi.pl
+0 1 1 47265 1 1596541386
+/
+93-51-254-162.ip269.fastwebnet.it
+0 120 0 26055 1 1596316489
+/
+117.222.81.43
+0 72 68 13623225 1 1596781148
+/prog.html
+host62-109-100-185.soho.nordext.net
+0 1 1 47260 1 1596247990
+/
+static.vnpt.vn
+0 1 0 226 1 1596362082
+/
+223.182.184.234
+0 44 40 6761856 1 1596282700
+/
+worker-12.sfj.censys-scanner.com
+0 2 2 94520 1 1596305039
+/
+185.221.134.234
+0 1 0 0 0 0
+-
+157.37.180.30
+0 44 2 95402 1 1596664729
+/
+fwdproxy-vll-017.fbsv.net
+0 1 1 156292 0 0
+-
+93-86-231-60.dynamic.isp.telekom.rs
+0 1 1 47260 1 1596317097
+/
+fwdproxy-frc-119.fbsv.net
+0 14 13 3382747 0 0
+-
+49.15.164.234
+0 2 0 436 0 0
+-
+45.83.64.149
+0 1 0 226 1 1596684734
+/
+malware-hunter.census.shodan.io
+0 1 0 226 1 1596552788
+/
+42-106-252-18.live.vodafone.in
+0 30 26 5538979 1 1596493374
+/
+106.79.227.111
+0 7 6 666433 0 0
+-
+fwdproxy-frc-005.fbsv.net
+0 11 11 1645171 0 0
+-
+49.79.63.46
+0 1 0 209 1 1596747823
+-
+123.245.24.25
+0 5 1 49594 1 1596801322
+/
+103.219.212.243
+0 1 1 47265 1 1596594415
+/
+host147.v21.interkam.pl
+0 1 1 47260 1 1596421523
+/
+fwdproxy-ash-004.fbsv.net
+0 1 1 2026105 0 0
+-
+118.89.57.86
+0 954 6 482718 1 1596514322
+-
+42-106-254-79.live.vodafone.in
+0 16 11 1269265 1 1596812990
+/
+138.91.4.208
+0 36 1 55920 1 1596555535
+-
+ec2-3-24-124-105.ap-southeast-2.compute.amazonaws.com
+0 1 0 207 0 0
+-
+180.149.125.163
+0 1 1 48747 1 1596775135
+/
+41.189.179.151
+0 1 1 47265 1 1596445159
+/
+scan-72.security.ipip.net
+0 2 2 95491 2 1596701327
+/
+103.125.28-240.citylink.net.bd
+0 1 1 47265 1 1596556935
+/
+223.187.134.213
+0 4 0 0 1 1596840720
+-
+157.32.253.171
+0 16 13 4334436 1 1596825968
+-
+109.100.133.107
+0 1 0 0 1 1596409606
+-
+49.32.42.252
+0 12 6 1028604 1 1596802688
+/
+178-209-88-37.my-trinity.com
+0 1 1 47265 1 1596462689
+/
+49.36.12.87
+0 51 46 7956009 1 1596282774
+/respawn.html
+fwdproxy-atn-016.fbsv.net
+0 1 1 2026105 0 0
+-
+zg-0708b-232.stretchoid.com
+0 1 1 47265 1 1596465030
+/
+103.42.17.180
+0 231 212 48189353 1 1596558335
+/
+ec2-52-91-254-83.compute-1.amazonaws.com
+0 1 0 207 0 0
+-
+157.32.226.42
+0 74 54 9862855 1 1596821327
+/
+139.199.82.237
+0 2 0 416 1 1596794888
+-
+106.207.201.223
+0 246 188 37530938 4 1596822293
+-
+123.19.162.222
+0 1 0 226 1 1596240613
+-
+157.230.143.29
+0 1 1 47265 1 1596535898
+/
+server-185-153-198-230.cloudedic.net
+0 1 0 209 0 0
+-
+157.33.155.207
+0 180 149 32037256 2 1596648563
+/digi.html
+42-106-253-247.live.vodafone.in
+0 49 45 9520123 1 1596825568
+/story.html
+220-134-237-127.hinet-ip.hinet.net
+0 1 0 226 1 1596370071
+/
+fwdproxy-prn-030.fbsv.net
+0 3 3 368713 0 0
+-
+scan-12.shadowserver.org
+0 1 1 47265 1 1596525579
+/
+181.113.17.102
+0 1 1 47260 1 1596341986
+/
+42-106-253-114.live.vodafone.in
+0 21 16 3530395 1 1596517983
+/
+rdn.zemta.com.tr
+0 1 0 210 1 1596740806
+-
+49.32.57.200
+0 147 133 25652599 1 1596323747
+-
+117.222.84.43
+0 26 26 4487471 1 1596795934
+/prog.html
+r167-57-21-13.dialup.adsl.anteldata.net.uy
+0 1 1 47265 1 1596619206
+/
+fwdproxy-vll-010.fbsv.net
+0 1 1 137743 0 0
+-
+51-159-23-43.rev.poneytelecom.eu
+0 2 2 97494 2 1596822408
+/
+49.36.61.43
+0 381 330 73868130 8 1596747465
+/data.html
+42-106-253-26.live.vodafone.in
+0 43 6 581056 1 1596744123
+/
+jobqueue-listener.jobqueue.netcraft.com-u7f0eb608d4a711eaa6b7976a838d6ab1u-digitalocean-2gb
+0 1 1 47260 1 1596373877
+/
+49.36.60.38
+0 88 42 6955873 2 1596794974
+/
+109.94.114.225
+0 1 1 47260 1 1596397763
+/
+196.89.225.247
+0 1 0 222 1 1596557145
+-
+abts-north-dynamic-042.194.64.182.airtelbroadband.in
+0 44 40 6768014 1 1596750776
+/
+142.47.76.34.bc.googleusercontent.com
+0 1 1 48752 1 1596726384
+/
+117.222.84.71
+0 71 67 15304075 1 1596509615
+/spec.html
+23.90.145.39
+0 1 1 47260 1 1596319383
+/
+techclubnmims.com
+0 1 0 243 1 1596735355
+-
+182.229.208.66
+0 1 0 226 1 1596660549
+/
+185.84.220.161
+0 1 1 48752 1 1596717664
+/
+27.97.64.18
+0 7 6 1011893 0 0
+-
+abts-north-dynamic-188.6.161.122.airtelbroadband.in
+0 43 39 6720194 1 1596384172
+/
+49.15.172.150
+0 8 8 591220 0 0
+-
+46x147x21x30.dynamic.perm.ertelecom.ru
+0 1 1 47260 1 1596385844
+/
+171.51.211.114
+0 32 28 5623493 1 1596596226
+/
+tor4thepeople3.torexitnode.net
+0 1 0 0 1 1596714670
+-
+ppp91-122-53-105.pppoe.avangarddsl.ru
+0 1 1 47265 1 1596482098
+/
+177.221.179.177
+0 1 1 47265 1 1596583208
+/
+49.33.164.54
+0 192 178 57598422 1 1596644732
+-
+51.4.147.32
+0 14 0 2996 1 1596246611
+-
+114.113.112.92
+0 1 0 210 1 1596540288
+-
+49.36.7.153
+0 771 487 123226125 10 1596841074
+-
+5.32.176.104
+0 1 1 47260 1 1596349760
+/
+103.226.242.66
+0 44 40 6806799 1 1596519374
+/
+220-134-244-90.hinet-ip.hinet.net
+0 1 0 226 1 1596342910
+/
+fwdproxy-nao-023.fbsv.net
+0 1 1 161428 0 0
+-
+fwdproxy-atn-026.fbsv.net
+0 12 11 5000632 0 0
+-
+fwdproxy-prn-024.fbsv.net
+0 1 1 47265 1 1596523013
+/
+45.132.95.243
+0 1 1 47265 1 1596611457
+/
+106.209.184.146
+0 548 412 69997743 4 1596756971
+/
+1-38-221-28.live.vodafone.in
+0 51 47 11817940 1 1596285047
+/team.html
+dynamic-186-208-22-103.camaqua.net.br
+0 1 1 47260 1 1596411003
+/
+ec2-13-126-194-36.ap-south-1.compute.amazonaws.com
+0 1 0 207 0 0
+-
+scan018.intrinsec.com
+0 1 1 47265 1 1596536840
+/
+112-79-69-10.live.vodafone.in
+0 44 40 6806799 1 1596649438
+/
+196.52.43.110.netsystemsresearch.com
+0 1 0 226 1 1596665245
+/
+110.224.35.135
+0 1 0 0 1 1596851305
+-
+49.36.14.255
+0 43 3 547460 4 1596844170
+/
+ec2-52-57-215-17.eu-central-1.compute.amazonaws.com
+0 1 0 207 0 0
+-
+122.228.19.79
+0 2 2 94525 2 1596633900
+/
+49.36.10.135
+0 744 643 173666249 5 1596735245
+/
+dsl-187-192-44-137-dyn.prod-infinitum.com.mx
+0 1 1 48747 1 1596764724
+/
+82.200.142.74
+0 1 1 48747 1 1596765769
+/
+85-95-179-219.saransk.ru
+0 1 1 47265 1 1596652554
+/
+241-255-143-105.souclicknet.com.br
+0 1 1 48747 1 1596777489
+/
+ehc221.neoplus.adsl.tpnet.pl
+0 1 0 226 1 1596390993
+/
+106.207.128.108
+0 207 16 1234440 3 1596463712
+/
+157.47.140.169
+0 2 0 0 1 1596384383
+-
+27.62.246.68
+0 48 6 151486 1 1596757799
+/data.html
+by.jeejk.nl
+0 2 2 94520 2 1596303365
+/
+106.209.210.252
+0 8 6 742812 1 1596804845
+/
+rrcs-97-78-88-18.se.biz.rr.com
+0 1 0 226 1 1596308180
+/
+143-202-191-229.interfacenet.net.br
+0 1 1 48752 1 1596731553
+/
+ip4d158117.dynamic.kabel-deutschland.de
+0 49 0 10717 1 1596748278
+-
+ec2-34-219-251-45.us-west-2.compute.amazonaws.com
+0 1 0 0 0 0
+-
+191.242.214.211
+0 1 1 47265 1 1596652521
+/
+106.207.181.189
+0 103 54 9604356 2 1596539558
+/
+ec2-13-53-137-79.eu-north-1.compute.amazonaws.com
+0 1 0 207 0 0
+-
+106.207.154.42
+0 63 57 12295694 1 1596820040
+/team.html
+77.74.177.113
+0 1 1 48747 1 1596828591
+/
+139.167.14.5
+0 1 0 221 0 0
+-
+abts-north-dynamic-84.36.215.106.airtelbroadband.in
+0 118 104 22566778 3 1596831665
+/
+195.37.190.77
+0 2 0 414 1 1596334278
+-
+220.250.10.202
+0 6 4 195403 1 1596801377
+/
+209.17.96.50.rdns.cloudsystemnetworks.com
+0 1 1 47265 1 1596660758
+/
+115.96.15.72
+0 5470 4597 1072013011 38 1596845461
+-
+p4fe9dcf4.dip0.t-ipconnect.de
+0 1 0 226 1 1596717387
+-
+pool-98-118-115-156.bstnma.fios.verizon.net
+0 1 1 47265 1 1596499758
+/
+42-106-219-225.live.vodafone.in
+0 21 17 4667730 1 1596649498
+/
+scan-01.shadowserver.org
+0 2 2 95491 2 1596684099
+/
+42-106-253-29.live.vodafone.in
+0 1 1 41662 0 0
+-
+42-106-216-206.live.vodafone.in
+0 87 78 13451682 2 1596744496
+/
+i19-les01-t2-31-37-213-87.sfr.lns.abo.bbox.fr
+0 120 0 26055 1 1596776623
+/
+106.207.144.10
+0 297 223 65836735 6 1596747576
+-
+27.5.44.216
+0 50 46 8473098 1 1596819391
+/
+52.231.159.59
+0 5 4 141988 1 1596265663
+/
+197.232.85.163
+0 1 1 47265 1 1596492361
+/
+88.243.117.245.dynamic.ttnet.com.tr
+0 1 1 48231 1 1596679090
+/
+42-106-219-86.live.vodafone.in
+0 44 40 6894547 1 1596795365
+/
+94-183-119-61.shatel.ir
+0 1 1 48747 1 1596737314
+/
+42-107-229-68.live.vodafone.in
+0 165 134 20704834 1 1596761627
+/
+49.36.14.119
+0 68 47 29598917 1 1596808764
+/disrupt.html
+scan035.intrinsec.com
+0 1 1 48231 1 1596709230
+/
+fwdproxy-nao-011.fbsv.net
+0 1 1 47265 1 1596596225
+/
+77.74.177.114
+0 2 2 97494 1 1596829591
+/
+49.32.32.181
+0 2 0 0 1 1596588022
+-
+static-mum-182.59.219.60.mtnl.net.in
+0 8 6 336420 1 1596709570
+/
+173.211.78.34.bc.googleusercontent.com
+0 1 1 47265 1 1596552161
+/
+27.62.234.220
+0 45 41 6727917 1 1596761626
+/
+static-mum-182.59.255.198.mtnl.net.in
+0 418 326 87601117 1 1596644517
+-
+122.77.244.139
+0 1 0 226 1 1596660403
+/
+49.36.3.173
+0 248 205 71702986 3 1596557603
+-
+180.244.234.144
+0 1 1 47265 1 1596624970
+/
+95.47.51.110
+0 1 1 47260 1 1596361065
+/
+222.94.163.246
+0 4 1 49383 1 1596801254
+/
+static-mum-182.59.211.42.mtnl.net.in
+0 41 5 177139 1 1596263079
+/
+82.209.208.21.ripe.vitebsk.by
+0 3 3 141785 3 1596585080
+/
+zl-lax-us-gp3-wk106.internet-census.org
+0 2 2 95496 2 1596702759
+/
+53.146.222.91.el-net.pl
+0 1 1 47260 1 1596312580
+/
+197-53-112-92.pool.ukrtel.net
+0 1 1 47260 1 1596381001
+/
+42-106-44-160.live.vodafone.in
+0 44 40 6806799 1 1596522687
+/
+abts-mum-dynamic-x-101.215.50.171.airtelbroadband.in
+0 2 0 0 1 1596269737
+-
+250.71.233.35.bc.googleusercontent.com
+0 1 0 224 0 0
+-
+static-mum-182.59.191.232.mtnl.net.in
+0 428 394 91114047 2 1596822040
+/privacy.html
+49.36.63.29
+0 177 83 35969578 2 1596795821
+/
+223.187.130.127
+0 1 0 0 1 1596837527
+-
+103.107.199.140
+0 220 200 33836765 1 1596742922
+/
+fwdproxy-nao-003.fbsv.net
+0 1 1 95059 0 0
+-
+112.236.20.189
+0 1 0 226 1 1596332103
+-
+103.41.146.215
+0 1 1 50418 1 1596752022
+/
+fwdproxy-prn-028.fbsv.net
+0 1 1 45165 0 0
+-
+202.182.54.78
+0 1 1 47260 1 1596365092
+/
+45.170.211.255
+0 1 1 47265 1 1596588576
+/
+157.37.218.13
+0 114 95 23428655 2 1596562306
+/
+117.212.112.155
+0 65 41 8118743 1 1596574503
+-
+remote.itwindow.co.za
+0 1 1 47265 1 1596587820
+/
+worker-15.sfj.censys-scanner.com
+0 2 2 96462 1 1596699143
+/
+hosted-by.vonline.vn
+0 36 0 7791 0 0
+-
+139.167.49.136
+0 1 1 47260 1 1596249451
+/
+42-106-219-202.live.vodafone.in
+0 6 6 2067513 1 1596518017
+/contact.html
+61.0.24.110
+0 417 271 48631667 1 1596667581
+-
+42-107-230-140.live.vodafone.in
+0 53 47 7249604 2 1596649860
+/
+abts-mum-dynamic-126.51.70.182.airtelbroadband.in
+0 58 45 7445774 1 1596804543
+/
+static-mum-182.59.206.58.mtnl.net.in
+0 46 40 6807020 1 1596492551
+-
+59.97.85.222
+0 217 144 21462781 2 1596755502
+/
+fwdproxy-prn-001.fbsv.net
+0 1 1 47265 1 1596493309
+/
+60.191.125.35
+0 1 1 0 1 1596748286
+/
+static-mum-182.59.219.247.mtnl.net.in
+0 85 79 14275247 2 1596846404
+/
+scan-11.shadowserver.org
+0 2 2 94525 2 1596443692
+/
+49.44.85.167
+0 21 21 6085426 1 1596842171
+/data.html
+fwdproxy-prn-004.fbsv.net
+0 1 1 179991 0 0
+-
+175.140.251.252
+0 1 0 226 1 1596516032
+/
+114.226.53.172
+0 1 0 203 1 1596820157
+-
+146-34-93-178.pool.ukrtel.net
+0 1 1 47265 1 1596446581
+/
+93-160-175-154-static.dk.customer.tdc.net
+0 1 0 210 1 1596740748
+-
+223.229.151.10
+0 68 63 14602446 1 1596644193
+/team.html
+ae20-11099.smfl-04-bpe1.miranda-media.net
+0 1 1 47260 1 1596338882
+/
+zg-0708b-125.stretchoid.com
+0 1 0 226 1 1596624833
+/
+169.255.79.44
+0 1 1 47260 1 1596344719
+/
+106.215.207.186
+0 31 19 4627500 1 1596612749
+/respawn.html
+worker-08.sfj.censys-scanner.com
+0 1 1 47265 1 1596543813
+/
+fwdproxy-atn-030.fbsv.net
+0 13 12 1631942 0 0
+-
+71.6.232.7
+0 1 1 47265 1 1596566745
+/
+180.149.125.168
+0 1 0 226 1 1596781397
+/
+209.17.96.210.rdns.cloudsystemnetworks.com
+0 2 2 94525 2 1596660069
+/
+fwdproxy-prn-022.fbsv.net
+0 3 3 2682260 0 0
+-
+fwdproxy-atn-015.fbsv.net
+0 4 4 246364 1 1596492924
+/
+170.82.7.250
+0 1 1 47260 1 1596419029
+/
+78.39.87.105
+0 1 1 47260 1 1596300890
+/
+27.62.245.98
+0 72 68 15217565 1 1596761487
+/spec.html
+ec2-15-207-84-195.ap-south-1.compute.amazonaws.com
+0 1 0 207 0 0
+-
+zg-0708b-251.stretchoid.com
+0 1 0 203 1 1596609200
+-
+218.52.184.97
+0 1 0 226 1 1596692318
+/
+61-221-247-236.hinet-ip.hinet.net
+0 1 0 226 1 1596839871
+/
+194.61.54.115
+0 2 0 452 1 1596464425
+/
+fwdproxy-atn-035.fbsv.net
+0 1 1 2026105 0 0
+-
+42-106-254-127.live.vodafone.in
+0 25 23 3106644 1 1596829324
+/team.html
+106.209.235.67
+0 8 8 3931844 1 1596453647
+/story.html
+49.36.70.233
+0 2 0 0 1 1596730199
+-
+2.71.96.58.static.exetel.com.au
+0 1 1 48747 1 1596741849
+/
+106.207.132.197
+0 98 79 20304156 2 1596634753
+/
+49.32.20.238
+0 94 86 19045357 1 1596822121
+-
+49.32.19.18
+0 8 8 2439841 1 1596766809
+/story.html
+117.222.83.66
+0 6 2 69055 1 1596553972
+/spec.html
+ppp079167148188.access.hol.gr
+0 1 1 47265 1 1596442777
+/
+ec2-3-136-23-16.us-east-2.compute.amazonaws.com
+0 1 0 207 0 0
+-
+106.207.178.47
+0 32 1 47911 1 1596287543
+-
+42-106-26-53.live.vodafone.in
+0 1 1 47265 1 1596522676
+/
+106.193.156.187
+0 254 205 45250754 2 1596328355
+/digi.html
+cl46074p.m.maintenis.com
+0 1 0 0 1 1596409519
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+157.37.215.37
+0 43 39 7095462 1 1596848565
+/
+110.224.35.135
+0 1 0 0 1 1596851305
+-
+115.96.15.72
+0 2 0 0 1 1596845461
+-
+static-mum-182.59.219.247.mtnl.net.in
+0 41 39 7095026 1 1596846404
+/
+# End Of Table - sites (daily)
+# -referrers- 
+http://www.webdesign.techclubnmims.com/data2.html
+0 3
+http://webdesign.techclubnmims.com/terms.html
+0 11
+http://176.223.141.87/imitation.html
+0 2
+https://webdesign.techclubnmims.com/imitation.html
+0 25
+https://176.223.141.87/digi.html
+0 1
+https://webdesign.techclubnmims.com/story.html
+0 151
+http://176.223.141.87/contact.html
+0 1
+554fcae493e564ee0dc75bdf2ebf94caads
+0 1
+http://176.223.141.87:80/left.html
+0 2
+android-app://com.google.android.googlequicksearchbox/
+0 8
+http://176.223.141.87/design.html
+0 1
+http://176.223.141.87/enigma.html
+0 2
+https://webdesign.techclubnmims.com/web.html
+0 30
+https://176.223.141.87:443/
+0 37
+http://176.223.141.87/techfest.html
+0 2
+http://176.223.141.87/web.html
+0 1
+https://l.instagram.com/
+0 5
+https://webdesign.techclubnmims.com/design.html
+0 24
+https://176.223.141.87/enigma.html
+0 1
+https://webdesign.techclubnmims.com/video.html
+0 28
+https://webdesign.techclubnmims.com/data.html
+0 145
+http://176.223.141.87/prog.html
+0 2
+http://webdesign.techclubnmims.com/web.html
+0 129
+https://176.223.141.87/video.html
+0 1
+http://webdesign.techclubnmims.com/techweek.html
+0 169
+https://176.223.141.87/privacy.html
+0 1
+https://176.223.141.87/imitation.html
+0 1
+http://176.223.141.87/web.html
+0 1
+https://webdesign.techclubnmims.com/index.html
+0 1841
+http://176.223.141.87/data.html
+0 8
+https://webdesign.techclubnmims.com/video.html
+0 17
+https://webdesign.techclubnmims.com/design.html
+0 7
+https://176.223.141.87/spec.html
+0 2
+http://webdesign.techclubnmims.com/Images/Others/Logo_dg.png
+0 1
+https://webdesign.techclubnmims.com/spec2.html
+0 4
+http://176.223.141.87/spec2.html
+0 1
+http://webdesign.techclubnmims.com/data.html
+0 595
+http://webdesign.techclubnmims.com/video.html
+0 82
+http://webdesign.techclubnmims.com/spec.html
+0 171
+http://176.223.141.87/disrupt.html
+0 4
+https://webdesign.techclubnmims.com/team.html
+0 77
+https://webdesign.techclubnmims.com/prog.html
+0 32
+https://webdesign.techclubnmims.com/digi.html
+0 64
+http://webdesign.techclubnmims.com/spec2.html
+0 9
+https://176.223.141.87/story.html
+0 3
+http://webdesign.techclubnmims.com/
+0 8783
+http://webdesign.techclubnmims.com/story.html
+0 424
+https://176.223.141.87/team.html
+0 1
+http://176.223.141.87/phpmyadmin
+0 2
+https://176.223.141.87/terms.html
+0 1
+http://webdesign.techclubnmims.com/contact.html
+0 83
+https://www.google.com/
+0 38
+- (Direct Request)
+0 3200
+http://176.223.141.87/privacy.html
+0 2
+https://176.223.141.87/data.html
+0 8
+http://176.223.141.87/respawn.html
+0 12
+http://176.223.141.87/sync.html
+0 2
+https://webdesign.techclubnmims.com/enigma.html
+0 41
+http://webdesign.techclubnmims.com/design.html
+0 140
+http://176.223.141.87/terms.html
+0 2
+http://webdesign.techclubnmims.com/digi.html
+0 335
+https://webdesign.techclubnmims.com/sync.html
+0 16
+http://176.223.141.87/design.html
+0 1
+https://176.223.141.87/prog2.html
+0 1
+http://www.webdesign.techclubnmims.com/data.html
+0 17
+http://webdesign.techclubnmims.com/imitation.html
+0 124
+http://webdesign.techclubnmims.com/spec.html
+0 128
+http://webdesign.techclubnmims.com/contact.html
+0 116
+https://webdesign.techclubnmims.com/contact.html
+0 6
+http://176.223.141.87/video.html
+0 1
+http://176.223.141.87/video.html
+0 1
+http://176.223.141.87/prog2.html
+0 1
+https://176.223.141.87/contact.html
+0 1
+http://176.223.141.87/digi.html
+0 1
+http://webdesign.techclubnmims.com/respawn.html
+0 361
+http://176.223.141.87/data2.html
+0 1
+http://www.webdesign.techclubnmims.com/digi.html
+0 11
+https://webdesign.techclubnmims.com/techfest.html
+0 16
+http://webdesign.techclubnmims.com/prog.html
+0 173
+http://webdesign.techclubnmims.com/privacy.html
+0 15
+https://webdesign.techclubnmims.com/spec.html
+0 41
+http://webdesign.techclubnmims.com/web.html
+0 59
+https://176.223.141.87/sync.html
+0 1
+http://webdesign.techclubnmims.com/digi.html
+0 262
+https://webdesign.techclubnmims.com/contact.html
+0 40
+http://176.223.141.87/techweek.html
+0 2
+http://webdesign.techclubnmims.com/prog2.html
+0 3
+http://webdesign.techclubnmims.com/data.html
+0 707
+https://webdesign.techclubnmims.com/prog2.html
+0 6
+http://webdesign.techclubnmims.com/prog.html
+0 190
+https://webdesign.techclubnmims.com/spec.html
+0 47
+https://webdesign.techclubnmims.com/dat2.html
+0 1
+http://www.webdesign.techclubnmims.com/
+0 128
+https://176.223.141.87/techfest.html
+0 1
+https://webdesign.techclubnmims.com/techweek.html
+0 25
+https://176.223.141.87/prog.html
+0 2
+http://176.223.141.87/prog2.html
+0 1
+https://176.223.141.87/design.html
+0 1
+https://webdesign.techclubnmims.com/prog.html
+0 57
+https://176.223.141.87/spec2.html
+0 1
+http://webdesign.techclubnmims.com/spec2.html
+0 5
+http://webdesign.techclubnmims.com/video.html
+0 150
+http://webdesign.techclubnmims.com/team.html
+0 362
+https://webdesign.techclubnmims.com/prog2.html
+0 2
+http://176.223.141.87/spec.html
+0 2
+https://webdesign.techclubnmims.com/
+0 202
+http://176.223.141.87/digi.html
+0 1
+http://176.223.141.87/story.html
+0 6
+http://176.223.141.87/data.html
+0 8
+http://webdesign.techclubnmims.com/sync.html
+0 65
+http://webdesign.techclubnmims.com/data2.html
+0 17
+http://webdesign.techclubnmims.com/techfest.html
+0 174
+https://webdesign.techclubnmims.com/digi.html
+0 57
+https://176.223.141.87/data2.html
+0 1
+https://webdesign.techclubnmims.com/disrupt.html
+0 22
+http://mail.techclubnmims.com/wp-login.html
+0 1
+http://176.223.141.87/spec.html
+0 2
+https://176.223.141.87/respawn.html
+0 6
+http://webdesign.techclubnmims.com/enigma.html
+0 232
+https://webdesign.techclubnmims.com/respawn.html
+0 85
+http://webdesign.techclubnmims.com/index.html
+0 738
+http://webdesign.techclubnmims.com/prog2.html
+0 3
+https://176.223.141.87/
+0 21
+http://webdesign.techclubnmims.com/data2.html
+0 29
+http://176.223.141.87/
+0 40
+http://176.223.141.87/prog.html
+0 2
+http://webdesign.techclubnmims.com/disrupt.html
+0 150
+http://176.223.141.87/data2.html
+0 1
+http://176.223.141.87/team.html
+0 2
+https://webdesign.techclubnmims.com/data.html
+0 156
+https://176.223.141.87/disrupt.html
+0 2
+http://webdesign.techclubnmims.com/design.html
+0 101
+https://176.223.141.87/techweek.html
+0 1
+http://176.223.141.87/contact.html
+0 1
+https://176.223.141.87/web.html
+0 1
+http://176.223.141.87/spec2.html
+0 1
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:31.0) Gecko/20100101 Firefox/31.0
+0 5
+Mozilla/5.0
+0 4
+Mozilla/5.0 (Linux; Android 9; Redmi Note 8 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Mobile Safari/537
+0 501
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36
+0 87
+HTTP Banner Detection (https://security.ipip.net)
+0 4
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+0 3
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0
+0 1
+Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)
+0 3
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0
+0 2
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.92 Mobile S
+0 1
+Java/1.8.0_131
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.111 Safari/537.36
+0 80
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:77.0) Gecko/20100101 Firefox/77.0
+0 2
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36
+0 2
+Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:45.0) Gecko/20100101 Firefox/45.0
+0 4
+Mozilla/5.0 (iPhone; U; CPU iPhone OS 8_4_1 like Mac OS X; en) AppleWebKit/537.36 (KHTML, like Gecko) CriOS/45.0.2454.89 Mobi
+0 120
+Mozilla/5.0 (Linux; Android 9; Redmi Note 7 Build/PKQ1.180904.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chr
+0 44
+Mozilla/5.0 (Linux; Android 10; HD1901) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Mobile Safari/537.36
+0 49
+Mozilla/5.0 (Linux; Android 10; IN2011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.111 Mobile Safari/537.36
+0 58
+Mozilla/5.0 (Linux; Android 10; ONEPLUS A6000) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.111 Mobile Safari/537.
+0 445
+Mozilla/5.0 (Linux; Android 10; SM-M305F Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.128 M
+0 185
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+0 3
+Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0
+0 37
+Mozilla/5.0 (Linux; Android 10; SM-A507FN) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.111 Mobile Safari/537.36
+0 51
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+0 1
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3602.2 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Linux x86_64; rv:31.0) Gecko/20100101 Firefox/31.0 Iceweasel/31.4.0
+0 2
+Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.108 Mobile 
+0 41
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+0 1
+Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Instagram 150
+0 106
+Mozilla/5.0 (Linux; Android 9; SM-G965F Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/
+0 46
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36
+0 4674
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7
+0 12
+Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Instagram 153
+0 32
+Mozilla 5.0
+0 36
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 Edg/84.0.
+0 848
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+0 15
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:18.0) Gecko/20100101 Firefox/18.0
+0 2
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 408
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36
+0 36
+cortex/1.0
+0 17
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+0 1
+python-requests/2.24.0
+0 6
+Mozilla/5.0 (Linux; Android 6.0.1; SM-G600FY) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Mobile Safari/537.3
+0 44
+libwww-perl/6.46
+0 2
+Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/60
+0 17
+Mozilla/5.0 (Linux; Android 10; Nokia 8.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.111 Mobile Safari/537.36
+0 46
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+0 4
+WhatsApp/2.20.195.17 A
+0 2
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0)
+0 127
+Go-http-client/1.1
+0 1
+XTC
+0 1
+WhatsApp/2.20.71 i
+0 2
+adreview/1.0
+0 2
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+0 5
+WhatsApp/2.20.196.16 A
+0 3
+Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Mobile Saf
+0 125
+Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; en-us) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50
+0 1
+Mozilla/5.0 (iPhone; CPU iPhone OS 13_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Mobile/15E148 
+0 1112
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36
+0 21
+Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:28.0) Gecko/20100101 Firefox/28.0
+0 15
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)
+0 1
+Mozilla/5.0 (Linux; Android 10; SM-M305F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.116 Mobile Safari/537.36
+0 308
+Hello, world
+0 2
+Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/84.0.4147.71 Mobile/15E
+0 1770
+Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+0 37
+Mozilla/5.0 (iPad; CPU OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/71.0.3578.89 Mobile/15E148 Safar
+0 82
+Hello, World
+0 1
+Mozilla/5.0 (Linux; Android 10; SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.116 Mobile Safari/537.36 Ed
+0 88
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4225.0 Safari/537.36
+0 75
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0
+0 2
+Mozilla/5.0 (Linux; Android 9; Redmi Note 8 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.92 Mobile Safari/537
+0 51
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+0 2
+Mozilla/5.0 (Linux; U; Android 4.0.4; en-gb; HTC_Desire_X Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mo
+0 44
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+0 13
+Chromium
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+0 538
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36
+0 525
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36
+0 56
+Mozilla/5.0 zgrab/0.x
+0 12
+Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Instagram 152
+0 21
+Mozilla/5.0 (Linux; U; Android 9; en-in; Redmi Note 8 Pro Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Versi
+0 52
+facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.html)
+0 29
+Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E14
+0 220
+SonyEricssonW960i/R100 Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; 768) Opera 8.65 [en]
+0 43
+it's PowerJacobb1
+0 1
+Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)
+0 2
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0)
+0 9
+Mozilla/5.0 (Linux; Android 10; SM-A507FN Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrom
+0 44
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36
+0 44
+Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+0 694
+Mozilla/5.0 (Linux; Android 9; Redmi Note 7 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.117 Mobile Safari/53
+0 228
+Mozilla/5.0 (Linux; Android 9; vivo 1723) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.111 Mobile Safari/537.36
+0 42
+it's Powerjacobb1
+0 10
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+0 16
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4226.0 Safari/537.36
+0 43
+Mozilla/5.0 (Linux; Android 9; Redmi Note 8 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.111 Mobile Safari/53
+0 1602
+Mozilla/5.0 (Linux; Android 6.0.1; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Mobile Safari/537.
+0 27
+It's Powerjacobb1
+0 1
+Mozilla/5.0 (Linux; Android 9; SM-G965F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.136 Mobile Safari/537.36
+0 80
+Mozilla/5.0 (iPhone; CPU iPhone OS 13_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Mobile/15E148 
+0 176
+Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1
+0 8
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15
+0 50
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0
+0 3
+Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Mobile/15E14
+0 1669
+Mozilla/5.0 (Linux; Android 10; JSN-L42) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Mobile Safari/537.36
+0 914
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15
+0 44
+Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 
+0 195
+Mozilla/5.0 (Linux; Android 10; SM-M305F Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome
+0 47
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.25 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Sa
+0 44
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+0 12
+Mozilla/5.0 (Linux; Android 8.1.0; SM-G610F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.111 Mobile Safari/537.36
+0 147
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+0 412
+Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
+0 1
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
+0 2
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:61.0) Gecko/20100101 Firefox/72.0
+0 2
+Mozilla/5.0 (Linux; Android 10; Pixel 3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.111 Mobile Safari/537.36
+0 49
+MobileSafari/604.1 CFNetwork/1125.2 Darwin/19.4.0
+0 5
+Mozilla/5.0 (X11; Linux x86_64; rv:28.0) Gecko/20100101 Firefox/28.0
+0 103
+Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+0 1
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)
+0 100
+Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Sa
+0 44
+Mozilla/5.0 (Linux; Android 10; GM1911) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.111 Mobile Safari/537.36
+0 433
+Mozilla/5.0 (Linux; Android 9; Redmi Note 7 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.111 Mobile Safari/53
+0 251
+Mozilla/5.0 (Linux; Android 10; POCO F1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.111 Mobile Safari/537.36
+0 21
+Mozilla/5.0 (Linux; Android 9; moto g(6)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.111 Mobile Safari/537.36
+0 43
+Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+0 1
+Mozilla/5.0 (Linux; Android 9; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.111 Mobile Safari/537.36
+0 44
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+0 14
+curl/7.47.0
+0 11
+Mozilla/5.0 (iPhone; CPU iPhone OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Instagram 152.0
+0 155
+Mozilla/5.0 (compatible, MSIE 10.0, Windows NT, DigExt)
+0 1
+curl/7.29.0
+0 2
+Mozilla/5.0 (compatible; DNSResearchBot/2.1; +http://195.37.190.77)
+0 2
+masscan/1.0 (https://github.com/robertdavidgraham/masscan)
+0 1
+Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Mobile/15E148 
+0 89
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4224.0 Safari/537.36
+0 44
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

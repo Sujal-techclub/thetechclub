@@ -1,0 +1,7910 @@
+.mediaViewInfo {
+    --web-view-name: Contact Us;
+    --web-view-id: Contact_Us;
+    --web-scale-to-fit: true;
+    --web-scale-to-fit-type: width;
+    --web-scale-on-resize: true;
+    --web-center-vertically: true;
+    --web-application: true;
+    --web-enable-deep-linking: true;
+}
+
+:root {
+    --web-view-ids: Contact_Us;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body {
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #1d1e18;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(79, 231, 220, 1);
+}
+
+#myTopnav {
+    display: none;
+}
+
+.topnav {
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: left;
+    display: block;
+    color: rgba(79, 231, 220, 1);
+    text-align: center;
+    padding: 20px 24px;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    background-color: rgba(79, 231, 220, 1);
+    color: rgb(0, 0, 0);
+}
+
+
+/* Add an active class to highlight the current page */
+
+.topnav a.active {
+    background-color: rgb(0, 0, 0);
+    color: rgba(79, 231, 220, 1);
+}
+
+
+/* Hide the link that should open and close the topnav on small screens */
+
+.topnav .icon {
+    display: none;
+}
+
+.txt:hover {
+    opacity: 1;
+}
+
+.txt::before {
+    transition: 300ms;
+    height: 4px;
+    content: "";
+    position: absolute;
+    background-color: rgba(79, 231, 220, 1);
+}
+
+.txt-ltr::before {
+    width: 0%;
+    bottom: -10px;
+}
+
+.txt-ltr:hover::before {
+    width: 100%;
+}
+
+.Contact_Us_Class {
+    position: absolute;
+    width: 1920px;
+    height: 1428px;
+    background-color: rgba(0, 0, 0, 1);
+    overflow: hidden;
+    --web-view-name: Contact Us;
+    --web-view-id: Contact_Us;
+    --web-scale-to-fit: true;
+    --web-scale-to-fit-type: width;
+    --web-scale-on-resize: true;
+    --web-center-vertically: true;
+    --web-application: true;
+    --web-enable-deep-linking: true;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.form {
+    display: block;
+    width: 500px;
+    height: 710px;
+    padding: 32px;
+    background-color: #04050096;
+    border-radius: 13px;
+}
+
+.form__field {
+    display: grid;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+.input-group {
+    width: 100%;
+    height: auto;
+}
+
+.input-group__label {
+    display: block;
+    padding-left: 10px;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    color: #f0edee;
+    text-shadow: 1px 1px 0 rgb(0, 0, 0);
+    margin-bottom: 8px;
+}
+
+.input-group__input {
+    display: block;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    color: #f0edee;
+    text-shadow: 1px 1px 0 rgb(0, 0, 0);
+    padding: 12px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px rgb(0, 0, 0);
+    transition: all 0.2s ease-in-out;
+}
+
+.input-group__input:focus {
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px rgb(0, 0, 0);
+}
+
+.button {
+    background-color: transparent;
+    color: #f0edee;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.07em;
+    text-shadow: 1px 1px 0 rgb(0, 0, 0);
+    padding: 8px 20px;
+    border: 0;
+    border-radius: 30px;
+    box-shadow: 3px 3px 5px #4fe7dc, -4px -4px 10px rgb(0, 0, 0);
+    outline: 0;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+    box-shadow: -2px -2px 5px rgb(0, 0, 0), 2px 2px 5px #4fe7dc;
+}
+
+.button:active {
+    box-shadow: inset 2px 2px 3px #4fe7dc, inset -2px -2px 3px rgb(0, 0, 0);
+}
+
+.Contact_Background_Class {
+    position: absolute;
+    width: 1920.5px;
+    height: 1280.5px;
+    left: 0px;
+    top: -380px;
+    overflow: visible;
+}
+
+.Black_Tint_Class {
+    fill: rgba(0, 0, 0, 0.812);
+}
+
+.Black_Tint {
+    position: absolute;
+    overflow: visible;
+    width: 1920.5px;
+    height: 900.5px;
+    left: 0px;
+    top: 0px;
+}
+
+.Footer_Class {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 901px;
+    overflow: visible;
+}
+
+.Footer_Background_Class {
+    position: absolute;
+    width: 1920.5px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.Footer_Bg_Class {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.ID23627_Class {
+    fill: rgba(0, 0, 0, 0.6);
+}
+
+.ID23627 {
+    position: absolute;
+    overflow: visible;
+    width: 1920.5px;
+    height: 526.5px;
+    left: 0px;
+    top: 0px;
+}
+
+.Copyright_Tech_Club_2020_Class {
+    left: 880.004px;
+    top: 402px;
+    position: absolute;
+    overflow: visible;
+    width: 179px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.C_Class {
+    left: 866.004px;
+    top: 404px;
+    position: absolute;
+    overflow: visible;
+    width: 9px;
+    white-space: nowrap;
+    text-align: right;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.Ellipse_80_Class {
+    fill: transparent;
+    stroke: rgba(152, 150, 150, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Ellipse_80 {
+    position: absolute;
+    overflow: visible;
+    width: 14px;
+    height: 14px;
+    left: 863.004px;
+    top: 405px;
+}
+
+.Linkedin_Icon_Class {
+    position: absolute;
+    width: 50px;
+    height: 50.575px;
+    left: 1008.008px;
+    top: 334.18px;
+    overflow: visible;
+}
+
+.Ellipse_71_Class {
+    fill: transparent;
+    stroke: rgba(152, 150, 150, 1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Ellipse_71 {
+    position: absolute;
+    overflow: visible;
+    width: 50px;
+    height: 50.574px;
+    left: 0px;
+    top: 0px;
+}
+
+.linkedin_Class {
+    position: absolute;
+    width: 13.793px;
+    height: 13.041px;
+    left: 18.39px;
+    top: 18.965px;
+    overflow: visible;
+}
+
+.Path_213_Class {
+    fill: rgba(152, 150, 150, 1);
+}
+
+.Path_213 {
+    overflow: visible;
+    position: absolute;
+    width: 8.914px;
+    height: 9.44px;
+    left: 4.879px;
+    top: 3.601px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Path_214_Class {
+    fill: rgba(152, 150, 150, 1);
+}
+
+.Path_214 {
+    overflow: visible;
+    position: absolute;
+    width: 2.859px;
+    height: 9.209px;
+    left: 0.229px;
+    top: 3.832px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Path_215_Class {
+    fill: rgba(152, 150, 150, 1);
+}
+
+.Path_215 {
+    overflow: visible;
+    position: absolute;
+    width: 3.313px;
+    height: 3.328px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Insta_Icon_Class {
+    position: absolute;
+    width: 50px;
+    height: 50.575px;
+    left: 934.504px;
+    top: 334.18px;
+    overflow: visible;
+}
+
+.Ellipse_69_Class {
+    fill: transparent;
+    stroke: rgba(152, 150, 150, 1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Ellipse_69 {
+    position: absolute;
+    overflow: visible;
+    width: 50px;
+    height: 50.574px;
+    left: 0px;
+    top: 0px;
+}
+
+.Subtraction_9_Class {
+    fill: rgba(152, 150, 150, 1);
+}
+
+.Subtraction_9 {
+    overflow: visible;
+    position: absolute;
+    width: 13.793px;
+    height: 13.796px;
+    left: 18.39px;
+    top: 18.391px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Facebook_Icon_Class {
+    position: absolute;
+    width: 50px;
+    height: 50.658px;
+    left: 863px;
+    top: 334.18px;
+    overflow: visible;
+}
+
+.facebook_Class {
+    position: absolute;
+    width: 50px;
+    height: 50.658px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.Ellipse_43_Class {
+    fill: transparent;
+    stroke: rgba(152, 150, 150, 1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Ellipse_43 {
+    position: absolute;
+    overflow: visible;
+    width: 50px;
+    height: 50.658px;
+    left: 0px;
+    top: 0px;
+}
+
+.facebook_bp_Class {
+    position: absolute;
+    width: 13.816px;
+    height: 14.353px;
+    left: 17.763px;
+    top: 18.098px;
+    overflow: visible;
+}
+
+.Group_57_Class {
+    position: absolute;
+    width: 13.816px;
+    height: 14.353px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.Rectangle_1458_Class {
+    fill: transparent;
+}
+
+.Rectangle_1458 {
+    position: absolute;
+    overflow: visible;
+    width: 13.815px;
+    height: 13.815px;
+    left: 0px;
+    top: 0.322px;
+}
+
+.Path_1_Class {
+    fill: rgba(152, 150, 150, 1);
+}
+
+.Path_1 {
+    overflow: visible;
+    position: absolute;
+    width: 7.495px;
+    height: 14.354px;
+    left: 3.478px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Terms__Conditions_Class {
+    left: 1583px;
+    top: 229px;
+    position: absolute;
+    overflow: visible;
+    width: 147px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.Privacy_Policy_Class {
+    left: 1605px;
+    top: 194px;
+    position: absolute;
+    overflow: visible;
+    width: 103px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.ID7th_Floor_V_L_Mehta_Road_Vil_Class {
+    left: 1147px;
+    top: 194px;
+    position: absolute;
+    overflow: visible;
+    width: 354px;
+    height: 63px;
+    line-height: 35px;
+    margin-top: -10px;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.Location_Icon_Class {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 1132px;
+    top: 194px;
+    overflow: visible;
+}
+
+.Path_1022_Class {
+    fill: transparent;
+}
+
+.Path_1022 {
+    overflow: visible;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Path_1023_Class {
+    fill: rgba(152, 150, 150, 1);
+}
+
+.Path_1023 {
+    overflow: visible;
+    position: absolute;
+    width: 14px;
+    height: 20px;
+    left: 5px;
+    top: 2px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Pratik_Doshi__9987733926_Tatha_Class {
+    left: 546px;
+    top: 194px;
+    position: absolute;
+    overflow: visible;
+    width: 300px;
+    height: 69px;
+    line-height: 30px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.Phone_Icon_Class {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 512px;
+    top: 217px;
+    overflow: visible;
+}
+
+.Path_1020_Class {
+    fill: transparent;
+}
+
+.Path_1020 {
+    overflow: visible;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Path_1021_Class {
+    fill: rgba(152, 150, 150, 1);
+}
+
+.Path_1021 {
+    overflow: visible;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 3px;
+    top: 3px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.techclubnmimsgmailcom_Class {
+    left: 160px;
+    top: 194px;
+    position: absolute;
+    overflow: visible;
+    width: 213px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.Mail_Icon_Class {
+    fill: rgba(152, 150, 150, 1);
+    stroke: rgba(152, 150, 150, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Mail_Icon {
+    overflow: visible;
+    position: absolute;
+    width: 25px;
+    height: 19px;
+    left: 130px;
+    top: 197.473px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.LEGAL_Class {
+    left: 1614px;
+    top: 127px;
+    position: absolute;
+    overflow: visible;
+    width: 85px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.ADDRESS_Class {
+    left: 1254px;
+    top: 127px;
+    position: absolute;
+    overflow: visible;
+    width: 127px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.Logo_Class {
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    left: 875px;
+    top: 110px;
+    overflow: visible;
+}
+
+.Logo_cb_Class {
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.Logo_b_Class {
+    filter: blur(50px);
+    position: absolute;
+    width: 138px;
+    height: 138px;
+    left: 16px;
+    top: 16px;
+    overflow: visible;
+}
+
+.PHONE_Class {
+    left: 590px;
+    top: 127px;
+    position: absolute;
+    overflow: visible;
+    width: 97px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.EMAIL_Class {
+    left: 274px;
+    top: 127px;
+    position: absolute;
+    overflow: visible;
+    width: 83px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgba(152, 150, 150, 1);
+}
+
+.Conatct_Class {
+    position: absolute;
+    width: 502px;
+    height: 739px;
+    left: 1172px;
+    top: 108px;
+    overflow: visible;
+}
+
+.Conatiner_Class {
+    fill: rgba(0, 0, 0, 0.1);
+}
+
+.Conatiner {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    position: absolute;
+    overflow: visible;
+    width: 520px;
+    height: 757px;
+    left: 0px;
+    top: 0px;
+}
+
+.Submit_Button_Class {
+    position: absolute;
+    width: 208.5px;
+    height: 52.73px;
+    left: 180px;
+    top: 630px;
+    overflow: visible;
+}
+
+.Button_Class {
+    fill: transparent;
+    stroke: rgba(112, 112, 112, 1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Button {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    position: absolute;
+    overflow: visible;
+    width: 226.5px;
+    height: 70.73px;
+    left: 0px;
+    top: 0px;
+}
+
+.SUBMIT_Class {
+    left: 55.903px;
+    top: 12px;
+    position: absolute;
+    overflow: visible;
+    width: 97px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(112, 112, 112, 1);
+}
+
+.Type_here_Class {
+    position: absolute;
+    width: 399.061px;
+    height: 204px;
+    left: 51.47px;
+    top: 415px;
+    overflow: visible;
+}
+
+.Type_Box_Class {
+    fill: rgba(48, 46, 53, 1);
+}
+
+.Type_Box {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    position: absolute;
+    overflow: visible;
+    width: 417.061px;
+    height: 222px;
+    left: 0px;
+    top: 0px;
+}
+
+.Type_here_box_Class {
+    position: absolute;
+    width: 151.563px;
+    height: 29px;
+    left: 124.234px;
+    top: 20px;
+    overflow: visible;
+}
+
+.Type_here_cj_Class {
+    left: 31.563px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 121px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(112, 112, 112, 1);
+}
+
+.Type_Icon_Class {
+    opacity: 0.65;
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 0px;
+    top: 4px;
+    overflow: visible;
+}
+
+.Path_1018_Class {
+    fill: transparent;
+}
+
+.Path_1018 {
+    overflow: visible;
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Path_1019_Class {
+    fill: rgba(112, 112, 112, 1);
+}
+
+.Path_1019 {
+    overflow: visible;
+    position: absolute;
+    width: 17.002px;
+    height: 17.003px;
+    left: 3px;
+    top: 2.997px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Subject_Class {
+    position: absolute;
+    width: 399.061px;
+    height: 52.73px;
+    left: 51.47px;
+    top: 351px;
+    overflow: visible;
+}
+
+.Subject_Box_Class {
+    fill: rgba(48, 46, 53, 1);
+}
+
+.Subject_Box {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    position: absolute;
+    overflow: visible;
+    width: 417.061px;
+    height: 70.73px;
+    left: 0px;
+    top: 0px;
+}
+
+.Subject_cp_Class {
+    left: 153.592px;
+    top: 10px;
+    position: absolute;
+    overflow: visible;
+    width: 93px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(112, 112, 112, 1);
+}
+
+.Mail_ID_Class {
+    position: absolute;
+    width: 399.061px;
+    height: 52.73px;
+    left: 51.47px;
+    top: 287px;
+    overflow: visible;
+}
+
+.Mail_Box_Class {
+    fill: rgba(48, 46, 53, 1);
+}
+
+.Mail_Box {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    position: absolute;
+    overflow: visible;
+    width: 417.061px;
+    height: 70.73px;
+    left: 0px;
+    top: 0px;
+}
+
+.Your_Mail_ID_Class {
+    left: 30.53px;
+    top: 12px;
+    position: absolute;
+    overflow: visible;
+    width: 147px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(112, 112, 112, 1);
+}
+
+.Mail_Icon_ct_Class {
+    position: absolute;
+    width: 30.18px;
+    height: 22.635px;
+    left: 339.351px;
+    top: 15px;
+    overflow: visible;
+}
+
+.Mail_icon_path_Class {
+    fill: rgba(112, 112, 112, 1);
+}
+
+.Mail_icon_path {
+    overflow: visible;
+    position: absolute;
+    width: 30.18px;
+    height: 22.635px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Your_Name_Class {
+    position: absolute;
+    width: 399.061px;
+    height: 52.73px;
+    left: 51.47px;
+    top: 223px;
+    overflow: visible;
+}
+
+.Name_Box_Class {
+    fill: rgba(48, 46, 53, 1);
+}
+
+.Name_Box {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    position: absolute;
+    overflow: visible;
+    width: 417.061px;
+    height: 70.73px;
+    left: 0px;
+    top: 0px;
+}
+
+.Your_Name_cx_Class {
+    left: 32.687px;
+    top: 12px;
+    position: absolute;
+    overflow: visible;
+    width: 137px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(112, 112, 112, 1);
+}
+
+.Profile_Icon_Class {
+    fill: rgba(112, 112, 112, 1);
+}
+
+.Profile_Icon {
+    overflow: visible;
+    position: absolute;
+    width: 30.184px;
+    height: 30.184px;
+    left: 343.68px;
+    top: 10.95px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.If_you_are_facing_any_issues_o_Class {
+    left: 45px;
+    top: 154px;
+    position: absolute;
+    overflow: visible;
+    width: 400px;
+    height: 44px;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(240, 237, 238, 1);
+}
+
+.Main_Underline_Class {
+    fill: transparent;
+    stroke: rgba(79, 231, 220, 1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Main_Underline {
+    overflow: visible;
+    position: absolute;
+    width: 78.5px;
+    height: 3px;
+    left: 206.879px;
+    top: 114.5px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.CONTACT_US_Class {
+    left: 110px;
+    top: 46px;
+    position: absolute;
+    overflow: visible;
+    width: 271px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(240, 237, 238, 1);
+}
+
+.Sync_Image_Class {
+    fill: rgba(48, 46, 53, 1);
+}
+
+.Sync_Image {
+    display: none;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    position: absolute;
+    overflow: visible;
+    width: 268px;
+    height: 268px;
+    left: 837px;
+    top: 278px;
+}
+
+.Respawn_Image_Class {
+    fill: rgba(48, 46, 53, 1);
+}
+
+.Respawn_Image {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    position: absolute;
+    overflow: visible;
+    width: 268px;
+    height: 268px;
+    left: 549px;
+    top: 278px;
+}
+
+.Data_Image_Class {
+    fill: rgba(48, 46, 53, 1);
+}
+
+.Data_Image {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    position: absolute;
+    overflow: visible;
+    width: 268px;
+    height: 268px;
+    left: 261px;
+    top: 278px;
+}
+
+.Services_Underline_Class {
+    fill: transparent;
+    stroke: rgba(79, 231, 220, 1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Services_Underline {
+    overflow: visible;
+    position: absolute;
+    width: 78.5px;
+    height: 3px;
+    left: 261px;
+    top: 227.5px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.OUR_SERVICES_Class {
+    left: 259px;
+    top: 154px;
+    position: absolute;
+    overflow: visible;
+    width: 313px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(240, 237, 238, 1);
+}
+
+.Whatsapp_Text_Class {
+    left: 270px;
+    top: 554px;
+    position: absolute;
+    overflow: visible;
+    width: 313px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(240, 237, 238, 1);
+    display: none;
+}
+
+.Nav_Underline_Class {
+    fill: rgba(0, 0, 0, 0);
+    stroke: rgba(79, 231, 220, 1);
+    stroke-width: 5px;
+    stroke-linejoin: miter;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Nav_Underline {
+    overflow: visible;
+    position: absolute;
+    width: 78.252px;
+    height: 5px;
+    left: 1386.11px;
+    top: 74.5px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Nav_Bar_Class {
+    position: absolute;
+    width: 1398px;
+    height: 75px;
+    left: 261px;
+    top: 20px;
+    overflow: visible;
+}
+
+.Sync_Class {
+    position: absolute;
+    width: 42px;
+    height: 19px;
+    left: 1356px;
+    top: 29.5px;
+    overflow: visible;
+}
+
+.SYNC_Class {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 43px;
+    white-space: nowrap;
+    line-height: 16px;
+    margin-top: -0.5px;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(240, 237, 238, 1);
+}
+
+.Contact_Us_db_Class {
+    position: absolute;
+    width: 76px;
+    height: 19px;
+    left: 1123px;
+    top: 29.5px;
+    overflow: visible;
+}
+
+.SERVICES_Class {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 77px;
+    white-space: nowrap;
+    line-height: 16px;
+    margin-top: -0.5px;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(240, 237, 238, 1);
+}
+
+.Events_Class {
+    position: absolute;
+    width: 61px;
+    height: 19px;
+    left: 905px;
+    top: 29.5px;
+    overflow: visible;
+}
+
+.EVENTS_Class {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 62px;
+    white-space: nowrap;
+    line-height: 16px;
+    margin-top: -0.5px;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(240, 237, 238, 1);
+}
+
+.Glow_Class {
+    filter: blur(50px);
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 661.5px;
+    top: 0px;
+    overflow: visible;
+}
+
+.Logo_dg_Class {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 661.5px;
+    top: 0px;
+    overflow: visible;
+    --web-animation: fadein 0.4s ease-out;
+    --web-action-type: view;
+    --web-action-target: Homepage;
+    cursor: pointer;
+}
+
+.Logoglow_dg_Class {
+    filter: blur(50px);
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 661.5px;
+    top: 0px;
+    overflow: visible;
+    --web-animation: fadein 0.4s ease-out;
+    --web-action-type: view;
+    --web-action-target: Homepage;
+    cursor: pointer;
+}
+
+.Departments_Class {
+    position: absolute;
+    width: 119px;
+    height: 19px;
+    left: 395px;
+    top: 29.5px;
+    overflow: visible;
+}
+
+.DEPARTMENTS_Class {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 120px;
+    white-space: nowrap;
+    line-height: 16px;
+    margin-top: -0.5px;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(240, 237, 238, 1);
+}
+
+.About_Class {
+    position: absolute;
+    width: 56px;
+    height: 19px;
+    left: 194px;
+    top: 29.5px;
+    overflow: visible;
+}
+
+.ABOUT_Class {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 57px;
+    white-space: nowrap;
+    line-height: 16px;
+    margin-top: -0.5px;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(240, 237, 238, 1);
+}
+
+.Home_Class {
+    position: absolute;
+    width: 49px;
+    height: 19px;
+    left: 0px;
+    top: 29.5px;
+    overflow: visible;
+}
+
+.HOME_Class {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 50px;
+    white-space: nowrap;
+    line-height: 16px;
+    margin-top: -0.5px;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(240, 237, 238, 1);
+}
+
+@media (max-width: 1400px) {
+    body {
+        -moz-transform: scale(0.75, 0.75);
+        /* Moz-browsers */
+        zoom: 0.75;
+        /* Other non-webkit browsers */
+        zoom: 75%;
+        /* Webkit browsers */
+    }
+}
+
+@media (min-width: 2256px) {
+    body {
+        -moz-transform: scale(1.18, 1.18);
+        /* Moz-browsers */
+        zoom: 1.18;
+        /* Other non-webkit browsers */
+        zoom: 118%;
+        /* Webkit browsers */
+    }
+}
+
+@media (min-width: 2560px) {
+    body {
+        -moz-transform: scale(1.34, 1.34);
+        /* Moz-browsers */
+        zoom: 1.34;
+        /* Other non-webkit browsers */
+        zoom: 134%;
+        /* Webkit browsers */
+    }
+}
+
+@media (min-width: 2736px) {
+    body {
+        -moz-transform: scale(1.43, 1.43);
+        /* Moz-browsers */
+        zoom: 1.43;
+        /* Other non-webkit browsers */
+        zoom: 143%;
+        /* Webkit browsers */
+    }
+}
+
+@media (min-width: 3200px) {
+    body {
+        -moz-transform: scale(1.66, 1.66);
+        /* Moz-browsers */
+        zoom: 1.66;
+        /* Other non-webkit browsers */
+        zoom: 166%;
+        /* Webkit browsers */
+    }
+}
+
+@media (min-width: 3840px) {
+    body {
+        -moz-transform: scale(1.99, 1.99);
+        /* Moz-browsers */
+        zoom: 1.99;
+        /* Other non-webkit browsers */
+        zoom: 199%;
+        /* Webkit browsers */
+    }
+}
+
+@media (max-width: 1400px) {
+    body {
+        -moz-transform: scale(0.75, 0.75);
+        /* Moz-browsers */
+        zoom: 0.75;
+        /* Other non-webkit browsers */
+        zoom: 75%;
+        /* Webkit browsers */
+    }
+}
+
+@media (max-width: 1600px) {
+    body {
+        -moz-transform: scale(0.84, 0.84);
+        /* Moz-browsers */
+        zoom: 0.84;
+        /* Other non-webkit browsers */
+        zoom: 84%;
+        /* Webkit browsers */
+    }
+    #wrapper {
+        margin: 40px auto 0 auto;
+    }
+}
+
+@media (max-width: 1536px) {
+    body {
+        -moz-transform: scale(0.8, 0.8);
+        /* Moz-browsers */
+        zoom: 0.8;
+        /* Other non-webkit browsers */
+        zoom: 80%;
+        /* Webkit browsers */
+    }
+    #wrapper {
+        margin: 40px auto 0 auto;
+    }
+}
+
+@media (max-width: 1440px) {
+    body {
+        -moz-transform: scale(0.745, 0.745);
+        /* Moz-browsers */
+        zoom: 0.745;
+        /* Other non-webkit browsers */
+        zoom: 74.5%;
+        /* Webkit browsers */
+    }
+}
+
+@media (max-width: 1366px) {
+    body {
+        -moz-transform: scale(0.73, 0.73);
+        /* Moz-browsers */
+        zoom: 0.73;
+        /* Other non-webkit browsers */
+        zoom: 73%;
+        /* Webkit browsers */
+    }
+}
+
+@media (max-width: 1300px) {
+    body {
+        -moz-transform: scale(0.67.5, 0.67.5);
+        /* Moz-browsers */
+        zoom: 0.67.5;
+        /* Other non-webkit browsers */
+        zoom: 67.5%;
+        /* Webkit browsers */
+    }
+}
+
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+
+@media screen and (max-width: 1100px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+    html {
+        transform: rotate(-90deg);
+        transform-origin: left top;
+        width: 100vh;
+        overflow-x: hidden;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+}
+
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+
+@media screen and (max-width: 430px) {
+    html,
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .Contact_Us_Class {
+        height: 2100px;
+    }
+    .Nav_Bar_Class {
+        display: none;
+    }
+    .Nav_Underline_Class {
+        display: none;
+    }
+    .Contact_Background_Class {
+        top: 0px;
+        left: -1000px;
+        width: auto;
+        height: 1500px;
+    }
+    .Black_Tint_Class {
+        height: 2500px;
+    }
+    #myTopnav {
+        display: block;
+    }
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    .Footer_Class {
+        top: 1300px;
+    }
+    .OUR_SERVICES_Class {
+        left: 160px;
+        top: 80px;
+    }
+    .Services_Underline {
+        left: 271px;
+        top: 150px;
+    }
+    .Data_Image {
+        left: 51px;
+        top: 200px;
+    }
+    .Respawn_Image {
+        left: 339px;
+        top: 200px;
+    }
+    .Sync_Image {
+        left: 51px;
+        top: 488px;
+    }
+    .Conatct_Class {
+        position: absolute;
+        width: 502px;
+        height: 739px;
+        left: 75px;
+        top: 550px;
+    }
+    .Whatsapp_Text_Class {
+        left: 60px;
+        top: 454px;
+    }
+    .Logo_cb_Class {
+        width: 150px;
+        height: 150px;
+        left: -640px;
+        top: -65px;
+    }
+    .Logo_b_Class {
+        width: 150px;
+        height: 150px;
+        left: -640px;
+        top: -65px;
+    }
+    .EMAIL_Class {
+        left: 135px;
+        top: 310px;
+        width: 83px;
+    }
+    .techclubnmimsgmailcom_Class {
+        left: 65px;
+        top: 360px;
+    }
+    .Mail_Icon {
+        display: none;
+    }
+    .PHONE_Class {
+        left: 420px;
+        top: 310px;
+    }
+    .Pratik_Doshi__9987733926_Tatha_Class {
+        left: 365px;
+        top: 360px;
+    }
+    .Phone_Icon_Class {
+        display: none;
+    }
+    .Facebook_Icon_Class {
+        width: 50px;
+        height: 50.658px;
+        left: 225px;
+        top: 210px;
+    }
+    .Insta_Icon_Class {
+        width: 50px;
+        height: 50.575px;
+        left: 285px;
+        top: 210px;
+    }
+    .Linkedin_Icon_Class {
+        width: 50px;
+        height: 50.575px;
+        left: 345px;
+        top: 210px;
+    }
+    .ADDRESS_Class {
+        left: 115px;
+        top: 480px;
+    }
+    .Location_Icon_Class {
+        display: none;
+    }
+    .ID7th_Floor_V_L_Mehta_Road_Vil_Class {
+        left: 10px;
+        top: 530px;
+    }
+    .LEGAL_Class {
+        left: 430px;
+        top: 480px;
+    }
+    .Privacy_Policy_Class {
+        left: 420px;
+        top: 525px;
+    }
+    .Terms__Conditions_Class {
+        left: 400px;
+        top: 560px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .OUR_SERVICES_Class {
+        left: 150px;
+    }
+    .Services_Underline {
+        left: 261px;
+    }
+    .Data_Image {
+        left: 41px;
+    }
+    .Whatsapp_Text_Class {
+        left: 50px;
+    }
+    .Respawn_Image {
+        left: 319px;
+    }
+    .Conatct_Class {
+        position: absolute;
+        width: 502px;
+        height: 739px;
+        left: 65px;
+        top: 550px;
+    }
+    .Footer_Class {
+        left: 0px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .OUR_SERVICES_Class {
+        left: 140px;
+    }
+    .Services_Underline {
+        left: 251px;
+    }
+    .Data_Image {
+        left: 31px;
+    }
+    .Whatsapp_Text_Class {
+        left: 40px;
+    }
+    .Respawn_Image {
+        left: 309px;
+    }
+    .Conatct_Class {
+        position: absolute;
+        width: 502px;
+        height: 739px;
+        left: 55px;
+        top: 550px;
+    }
+    .Footer_Class {
+        left: -10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .OUR_SERVICES_Class {
+        left: 130px;
+    }
+    .Services_Underline {
+        left: 241px;
+    }
+    .Data_Image {
+        left: 21px;
+    }
+    .Whatsapp_Text_Class {
+        left: 30px;
+    }
+    .Respawn_Image {
+        left: 299px;
+    }
+    .Conatct_Class {
+        position: absolute;
+        width: 502px;
+        height: 739px;
+        left: 45px;
+        top: 550px;
+    }
+    .Footer_Class {
+        left: -20px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .OUR_SERVICES_Class {
+        left: 120px;
+    }
+    .Services_Underline {
+        left: 231px;
+    }
+    .Data_Image {
+        left: 11px;
+    }
+    .Whatsapp_Text_Class {
+        left: 20px;
+    }
+    .Respawn_Image {
+        left: 289px;
+    }
+    .Conatct_Class {
+        position: absolute;
+        width: 502px;
+        height: 739px;
+        left: 35px;
+        top: 550px;
+    }
+    .Footer_Class {
+        left: -30px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .Contact_Us_Class {
+        height: 2000px;
+    }
+    .OUR_SERVICES_Class {
+        left: 130px;
+    }
+    .Services_Underline {
+        left: 241px;
+    }
+    .Data_Image {
+        left: 21px;
+    }
+    .Whatsapp_Text_Class {
+        left: 30px;
+    }
+    .Respawn_Image {
+        left: 284px;
+    }
+    .Conatct_Class {
+        position: absolute;
+        width: 502px;
+        height: 739px;
+        left: 30px;
+        top: 550px;
+    }
+    .Footer_Class {
+        left: -30px;
+    }
+    .Pratik_Doshi__9987733926_Tatha_Class {
+        left: 345px;
+    }
+    .ID7th_Floor_V_L_Mehta_Road_Vil_Class {
+        left: 25px;
+    }
+    .techclubnmimsgmailcom_Class {
+        left: 80px;
+    }
+    .EMAIL_Class {
+        left: 140px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .Contact_Us_Class {
+        height: 2000px;
+    }
+    .OUR_SERVICES_Class {
+        left: 130px;
+    }
+    .Services_Underline {
+        left: 241px;
+    }
+    .Data_Image {
+        left: 11px;
+    }
+    .Whatsapp_Text_Class {
+        left: 30px;
+    }
+    .Respawn_Image {
+        left: 274px;
+    }
+    .Conatct_Class {
+        position: absolute;
+        width: 502px;
+        height: 739px;
+        left: 20px;
+        top: 550px;
+    }
+    .Footer_Class {
+        left: -30px;
+    }
+    .Pratik_Doshi__9987733926_Tatha_Class {
+        left: 335px;
+    }
+    .ID7th_Floor_V_L_Mehta_Road_Vil_Class {
+        left: 15px;
+    }
+    .techclubnmimsgmailcom_Class {
+        left: 70px;
+    }
+    .EMAIL_Class {
+        left: 140px;
+    }
+    .PHONE_Class {
+        left: 390px;
+    }
+    .LEGAL_Class {
+        left: 400px;
+    }
+    .ADDRESS_Class {
+        left: 120px;
+    }
+    .Privacy_Policy_Class {
+        left: 390px;
+    }
+    .Terms__Conditions_Class {
+        left: 370px;
+    }
+}
+@media only screen and (device-width: 375px) and (device-height: 667px) {
+    #myTopnav {
+        display: none;
+    }
+    .Nav_Bar {
+        display: block;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: none;
+    }
+    
+    body {
+        height: 100vh;
+        overflow-x: hidden;
+    }
+    
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+    
+    ::-webkit-scrollbar-track {
+        background-color: #1d1e18;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: rgba(79, 231, 220, 1);
+    }
+    
+    #myTopnav {
+        display: none;
+    }
+    
+    .topnav {
+        background-color: rgb(0, 0, 0);
+        overflow: hidden;
+    }
+    
+    
+    /* Style the links inside the navigation bar */
+    
+    .topnav a {
+        float: left;
+        display: block;
+        color: rgba(79, 231, 220, 1);
+        text-align: center;
+        padding: 20px 24px;
+        text-decoration: none;
+        font-size: 50px;
+        font-family: Montserrat;
+        font-weight: 700;
+    }
+    
+    
+    /* Change the color of links on hover */
+    
+    .topnav a:hover {
+        background-color: rgba(79, 231, 220, 1);
+        color: rgb(0, 0, 0);
+    }
+    
+    
+    /* Add an active class to highlight the current page */
+    
+    .topnav a.active {
+        background-color: rgb(0, 0, 0);
+        color: rgba(79, 231, 220, 1);
+    }
+    
+    
+    /* Hide the link that should open and close the topnav on small screens */
+    
+    .topnav .icon {
+        display: none;
+    }
+    
+    .txt:hover {
+        opacity: 1;
+    }
+    
+    .txt::before {
+        transition: 300ms;
+        height: 4px;
+        content: "";
+        position: absolute;
+        background-color: rgba(79, 231, 220, 1);
+    }
+    
+    .txt-ltr::before {
+        width: 0%;
+        bottom: -10px;
+    }
+    
+    .txt-ltr:hover::before {
+        width: 100%;
+    }
+    
+    .Contact_Us_Class {
+        position: absolute;
+        width: 1920px;
+        height: 930px;
+        background-color: rgba(0, 0, 0, 1);
+        overflow: hidden;
+        --web-view-name: Contact Us;
+        --web-view-id: Contact_Us;
+        --web-scale-to-fit: true;
+        --web-scale-to-fit-type: width;
+        --web-scale-on-resize: true;
+        --web-center-vertically: true;
+        --web-application: true;
+        --web-enable-deep-linking: true;
+    }
+    
+    @keyframes fadein {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
+    .form {
+        display: block;
+        width: 500px;
+        height: 710px;
+        padding: 32px;
+        background-color: #04050096;
+        border-radius: 13px;
+    }
+    
+    .form__field {
+        display: grid;
+        gap: 24px;
+        margin-bottom: 32px;
+    }
+    
+    .input-group {
+        width: 100%;
+        height: auto;
+    }
+    
+    .input-group__label {
+        display: block;
+        padding-left: 10px;
+        font-size: 20px;
+        letter-spacing: 0.05em;
+        color: #f0edee;
+        text-shadow: 1px 1px 0 rgb(0, 0, 0);
+        margin-bottom: 8px;
+    }
+    
+    .input-group__input {
+        display: block;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        font-size: 18px;
+        letter-spacing: 0.1em;
+        color: #f0edee;
+        text-shadow: 1px 1px 0 rgb(0, 0, 0);
+        padding: 12px;
+        outline: none;
+        border: none;
+        border-radius: 30px;
+        box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px rgb(0, 0, 0);
+        transition: all 0.2s ease-in-out;
+    }
+    
+    .input-group__input:focus {
+        box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px rgb(0, 0, 0);
+    }
+    
+    .button {
+        background-color: transparent;
+        color: #f0edee;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 0.07em;
+        text-shadow: 1px 1px 0 rgb(0, 0, 0);
+        padding: 8px 20px;
+        border: 0;
+        border-radius: 30px;
+        box-shadow: 3px 3px 5px #4fe7dc, -4px -4px 10px rgb(0, 0, 0);
+        outline: 0;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .button:hover {
+        box-shadow: -2px -2px 5px rgb(0, 0, 0), 2px 2px 5px #4fe7dc;
+    }
+    
+    .button:active {
+        box-shadow: inset 2px 2px 3px #4fe7dc, inset -2px -2px 3px rgb(0, 0, 0);
+    }
+    
+    .Contact_Background_Class {
+        position: absolute;
+        width: 1920.5px;
+        height: 1280.5px;
+        left: 0px;
+        top: -380px;
+        overflow: visible;
+    }
+    
+    .Black_Tint_Class {
+        fill: rgba(0, 0, 0, 0.812);
+    }
+    
+    .Black_Tint {
+        position: absolute;
+        overflow: visible;
+        width: 1920.5px;
+        height: 900.5px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .Footer_Class {
+        position: absolute;
+        width: 1920px;
+        height: 1080px;
+        left: 0px;
+        top: 901px;
+        overflow: visible;
+    }
+    
+    .Footer_Background_Class {
+        position: absolute;
+        width: 1920.5px;
+        height: 1080px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    
+    .Footer_Bg_Class {
+        position: absolute;
+        width: 1920px;
+        height: 1080px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    
+    .ID23627_Class {
+        fill: rgba(0, 0, 0, 0.6);
+    }
+    
+    .ID23627 {
+        position: absolute;
+        overflow: visible;
+        width: 1920.5px;
+        height: 526.5px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .Copyright_Tech_Club_2020_Class {
+        left: 880.004px;
+        top: 402px;
+        position: absolute;
+        overflow: visible;
+        width: 179px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .C_Class {
+        left: 866.004px;
+        top: 404px;
+        position: absolute;
+        overflow: visible;
+        width: 9px;
+        white-space: nowrap;
+        text-align: right;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .Ellipse_80_Class {
+        fill: transparent;
+        stroke: rgba(152, 150, 150, 1);
+        stroke-width: 1px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    
+    .Ellipse_80 {
+        position: absolute;
+        overflow: visible;
+        width: 14px;
+        height: 14px;
+        left: 863.004px;
+        top: 405px;
+    }
+    
+    .Linkedin_Icon_Class {
+        position: absolute;
+        width: 50px;
+        height: 50.575px;
+        left: 1008.008px;
+        top: 334.18px;
+        overflow: visible;
+    }
+    
+    .Ellipse_71_Class {
+        fill: transparent;
+        stroke: rgba(152, 150, 150, 1);
+        stroke-width: 3px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    
+    .Ellipse_71 {
+        position: absolute;
+        overflow: visible;
+        width: 50px;
+        height: 50.574px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .linkedin_Class {
+        position: absolute;
+        width: 13.793px;
+        height: 13.041px;
+        left: 18.39px;
+        top: 18.965px;
+        overflow: visible;
+    }
+    
+    .Path_213_Class {
+        fill: rgba(152, 150, 150, 1);
+    }
+    
+    .Path_213 {
+        overflow: visible;
+        position: absolute;
+        width: 8.914px;
+        height: 9.44px;
+        left: 4.879px;
+        top: 3.601px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Path_214_Class {
+        fill: rgba(152, 150, 150, 1);
+    }
+    
+    .Path_214 {
+        overflow: visible;
+        position: absolute;
+        width: 2.859px;
+        height: 9.209px;
+        left: 0.229px;
+        top: 3.832px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Path_215_Class {
+        fill: rgba(152, 150, 150, 1);
+    }
+    
+    .Path_215 {
+        overflow: visible;
+        position: absolute;
+        width: 3.313px;
+        height: 3.328px;
+        left: 0px;
+        top: 0px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Insta_Icon_Class {
+        position: absolute;
+        width: 50px;
+        height: 50.575px;
+        left: 934.504px;
+        top: 334.18px;
+        overflow: visible;
+    }
+    
+    .Ellipse_69_Class {
+        fill: transparent;
+        stroke: rgba(152, 150, 150, 1);
+        stroke-width: 3px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    
+    .Ellipse_69 {
+        position: absolute;
+        overflow: visible;
+        width: 50px;
+        height: 50.574px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .Subtraction_9_Class {
+        fill: rgba(152, 150, 150, 1);
+    }
+    
+    .Subtraction_9 {
+        overflow: visible;
+        position: absolute;
+        width: 13.793px;
+        height: 13.796px;
+        left: 18.39px;
+        top: 18.391px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Facebook_Icon_Class {
+        position: absolute;
+        width: 50px;
+        height: 50.658px;
+        left: 863px;
+        top: 334.18px;
+        overflow: visible;
+    }
+    
+    .facebook_Class {
+        position: absolute;
+        width: 50px;
+        height: 50.658px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    
+    .Ellipse_43_Class {
+        fill: transparent;
+        stroke: rgba(152, 150, 150, 1);
+        stroke-width: 3px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    
+    .Ellipse_43 {
+        position: absolute;
+        overflow: visible;
+        width: 50px;
+        height: 50.658px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .facebook_bp_Class {
+        position: absolute;
+        width: 13.816px;
+        height: 14.353px;
+        left: 17.763px;
+        top: 18.098px;
+        overflow: visible;
+    }
+    
+    .Group_57_Class {
+        position: absolute;
+        width: 13.816px;
+        height: 14.353px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    
+    .Rectangle_1458_Class {
+        fill: transparent;
+    }
+    
+    .Rectangle_1458 {
+        position: absolute;
+        overflow: visible;
+        width: 13.815px;
+        height: 13.815px;
+        left: 0px;
+        top: 0.322px;
+    }
+    
+    .Path_1_Class {
+        fill: rgba(152, 150, 150, 1);
+    }
+    
+    .Path_1 {
+        overflow: visible;
+        position: absolute;
+        width: 7.495px;
+        height: 14.354px;
+        left: 3.478px;
+        top: 0px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Terms__Conditions_Class {
+        left: 1583px;
+        top: 229px;
+        position: absolute;
+        overflow: visible;
+        width: 147px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .Privacy_Policy_Class {
+        left: 1605px;
+        top: 194px;
+        position: absolute;
+        overflow: visible;
+        width: 103px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .ID7th_Floor_V_L_Mehta_Road_Vil_Class {
+        left: 1147px;
+        top: 194px;
+        position: absolute;
+        overflow: visible;
+        width: 354px;
+        height: 63px;
+        line-height: 35px;
+        margin-top: -10px;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .Location_Icon_Class {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 1132px;
+        top: 194px;
+        overflow: visible;
+    }
+    
+    .Path_1022_Class {
+        fill: transparent;
+    }
+    
+    .Path_1022 {
+        overflow: visible;
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 0px;
+        top: 0px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Path_1023_Class {
+        fill: rgba(152, 150, 150, 1);
+    }
+    
+    .Path_1023 {
+        overflow: visible;
+        position: absolute;
+        width: 14px;
+        height: 20px;
+        left: 5px;
+        top: 2px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Pratik_Doshi__9987733926_Tatha_Class {
+        left: 546px;
+        top: 194px;
+        position: absolute;
+        overflow: visible;
+        width: 300px;
+        height: 69px;
+        line-height: 30px;
+        margin-top: -5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .Phone_Icon_Class {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 512px;
+        top: 217px;
+        overflow: visible;
+    }
+    
+    .Path_1020_Class {
+        fill: transparent;
+    }
+    
+    .Path_1020 {
+        overflow: visible;
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 0px;
+        top: 0px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Path_1021_Class {
+        fill: rgba(152, 150, 150, 1);
+    }
+    
+    .Path_1021 {
+        overflow: visible;
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        left: 3px;
+        top: 3px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .techclubnmimsgmailcom_Class {
+        left: 228px;
+        top: 194px;
+        position: absolute;
+        overflow: visible;
+        width: 213px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .Mail_Icon_Class {
+        fill: rgba(152, 150, 150, 1);
+        stroke: rgba(152, 150, 150, 1);
+        stroke-width: 1px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    
+    .Mail_Icon {
+        overflow: visible;
+        position: absolute;
+        width: 25px;
+        height: 19px;
+        left: 191px;
+        top: 195.473px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .LEGAL_Class {
+        left: 1614px;
+        top: 127px;
+        position: absolute;
+        overflow: visible;
+        width: 85px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .ADDRESS_Class {
+        left: 1254px;
+        top: 127px;
+        position: absolute;
+        overflow: visible;
+        width: 127px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .Logo_Class {
+        position: absolute;
+        width: 170px;
+        height: 170px;
+        left: 875px;
+        top: 110px;
+        overflow: visible;
+    }
+    
+    .Logo_cb_Class {
+        position: absolute;
+        width: 170px;
+        height: 170px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    
+    .Logo_b_Class {
+        filter: blur(50px);
+        position: absolute;
+        width: 138px;
+        height: 138px;
+        left: 16px;
+        top: 16px;
+        overflow: visible;
+    }
+    
+    .PHONE_Class {
+        left: 590px;
+        top: 127px;
+        position: absolute;
+        overflow: visible;
+        width: 97px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .EMAIL_Class {
+        left: 274px;
+        top: 127px;
+        position: absolute;
+        overflow: visible;
+        width: 83px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .Conatct_Class {
+        position: absolute;
+        width: 502px;
+        height: 739px;
+        left: 1172px;
+        top: 108px;
+        overflow: visible;
+    }
+    
+    .Conatiner_Class {
+        fill: rgba(0, 0, 0, 0.1);
+    }
+    
+    .Conatiner {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 520px;
+        height: 757px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .Submit_Button_Class {
+        position: absolute;
+        width: 208.5px;
+        height: 52.73px;
+        left: 180px;
+        top: 630px;
+        overflow: visible;
+    }
+    
+    .Button_Class {
+        fill: transparent;
+        stroke: rgba(112, 112, 112, 1);
+        stroke-width: 3px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    
+    .Button {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 226.5px;
+        height: 70.73px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .SUBMIT_Class {
+        left: 55.903px;
+        top: 12px;
+        position: absolute;
+        overflow: visible;
+        width: 97px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        color: rgba(112, 112, 112, 1);
+    }
+    
+    .Type_here_Class {
+        position: absolute;
+        width: 399.061px;
+        height: 204px;
+        left: 51.47px;
+        top: 415px;
+        overflow: visible;
+    }
+    
+    .Type_Box_Class {
+        fill: rgba(48, 46, 53, 1);
+    }
+    
+    .Type_Box {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 417.061px;
+        height: 222px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .Type_here_box_Class {
+        position: absolute;
+        width: 151.563px;
+        height: 29px;
+        left: 124.234px;
+        top: 20px;
+        overflow: visible;
+    }
+    
+    .Type_here_cj_Class {
+        left: 31.563px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 121px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        color: rgba(112, 112, 112, 1);
+    }
+    
+    .Type_Icon_Class {
+        opacity: 0.65;
+        position: absolute;
+        width: 23px;
+        height: 23px;
+        left: 0px;
+        top: 4px;
+        overflow: visible;
+    }
+    
+    .Path_1018_Class {
+        fill: transparent;
+    }
+    
+    .Path_1018 {
+        overflow: visible;
+        position: absolute;
+        width: 23px;
+        height: 23px;
+        left: 0px;
+        top: 0px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Path_1019_Class {
+        fill: rgba(112, 112, 112, 1);
+    }
+    
+    .Path_1019 {
+        overflow: visible;
+        position: absolute;
+        width: 17.002px;
+        height: 17.003px;
+        left: 3px;
+        top: 2.997px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Subject_Class {
+        position: absolute;
+        width: 399.061px;
+        height: 52.73px;
+        left: 51.47px;
+        top: 351px;
+        overflow: visible;
+    }
+    
+    .Subject_Box_Class {
+        fill: rgba(48, 46, 53, 1);
+    }
+    
+    .Subject_Box {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 417.061px;
+        height: 70.73px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .Subject_cp_Class {
+        left: 153.592px;
+        top: 10px;
+        position: absolute;
+        overflow: visible;
+        width: 93px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        color: rgba(112, 112, 112, 1);
+    }
+    
+    .Mail_ID_Class {
+        position: absolute;
+        width: 399.061px;
+        height: 52.73px;
+        left: 51.47px;
+        top: 287px;
+        overflow: visible;
+    }
+    
+    .Mail_Box_Class {
+        fill: rgba(48, 46, 53, 1);
+    }
+    
+    .Mail_Box {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 417.061px;
+        height: 70.73px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .Your_Mail_ID_Class {
+        left: 30.53px;
+        top: 12px;
+        position: absolute;
+        overflow: visible;
+        width: 147px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        color: rgba(112, 112, 112, 1);
+    }
+    
+    .Mail_Icon_ct_Class {
+        position: absolute;
+        width: 30.18px;
+        height: 22.635px;
+        left: 339.351px;
+        top: 15px;
+        overflow: visible;
+    }
+    
+    .Mail_icon_path_Class {
+        fill: rgba(112, 112, 112, 1);
+    }
+    
+    .Mail_icon_path {
+        overflow: visible;
+        position: absolute;
+        width: 30.18px;
+        height: 22.635px;
+        left: 0px;
+        top: 0px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Your_Name_Class {
+        position: absolute;
+        width: 399.061px;
+        height: 52.73px;
+        left: 51.47px;
+        top: 223px;
+        overflow: visible;
+    }
+    
+    .Name_Box_Class {
+        fill: rgba(48, 46, 53, 1);
+    }
+    
+    .Name_Box {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 417.061px;
+        height: 70.73px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .Your_Name_cx_Class {
+        left: 32.687px;
+        top: 12px;
+        position: absolute;
+        overflow: visible;
+        width: 137px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        color: rgba(112, 112, 112, 1);
+    }
+    
+    .Profile_Icon_Class {
+        fill: rgba(112, 112, 112, 1);
+    }
+    
+    .Profile_Icon {
+        overflow: visible;
+        position: absolute;
+        width: 30.184px;
+        height: 30.184px;
+        left: 343.68px;
+        top: 10.95px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .If_you_are_facing_any_issues_o_Class {
+        left: 45px;
+        top: 154px;
+        position: absolute;
+        overflow: visible;
+        width: 400px;
+        height: 44px;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: rgba(240, 237, 238, 1);
+    }
+    
+    .Main_Underline_Class {
+        fill: transparent;
+        stroke: rgba(79, 231, 220, 1);
+        stroke-width: 3px;
+        stroke-linejoin: miter;
+        stroke-linecap: round;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    
+    .Main_Underline {
+        overflow: visible;
+        position: absolute;
+        width: 78.5px;
+        height: 3px;
+        left: 206.879px;
+        top: 114.5px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .CONTACT_US_Class {
+        left: 110px;
+        top: 46px;
+        position: absolute;
+        overflow: visible;
+        width: 271px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        color: rgba(240, 237, 238, 1);
+    }
+    
+    .Sync_Image_Class {
+        fill: rgba(48, 46, 53, 1);
+    }
+    
+    .Sync_Image {
+        display: none;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 268px;
+        height: 268px;
+        left: 837px;
+        top: 278px;
+    }
+    
+    .Respawn_Image_Class {
+        fill: rgba(48, 46, 53, 1);
+    }
+    
+    .Respawn_Image {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 268px;
+        height: 268px;
+        left: 549px;
+        top: 278px;
+    }
+    
+    .Data_Image_Class {
+        fill: rgba(48, 46, 53, 1);
+    }
+    
+    .Data_Image {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 268px;
+        height: 268px;
+        left: 261px;
+        top: 278px;
+    }
+    
+    .Services_Underline_Class {
+        fill: transparent;
+        stroke: rgba(79, 231, 220, 1);
+        stroke-width: 3px;
+        stroke-linejoin: miter;
+        stroke-linecap: round;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    
+    .Services_Underline {
+        overflow: visible;
+        position: absolute;
+        width: 78.5px;
+        height: 3px;
+        left: 261px;
+        top: 227.5px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .OUR_SERVICES_Class {
+        left: 259px;
+        top: 154px;
+        position: absolute;
+        overflow: visible;
+        width: 313px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        color: rgba(240, 237, 238, 1);
+    }
+    
+    .Whatsapp_Text_Class {
+        left: 270px;
+        top: 554px;
+        position: absolute;
+        overflow: visible;
+        width: 313px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        color: rgba(240, 237, 238, 1);
+        display: none;
+    }
+    
+    .Nav_Underline_Class {
+        fill: rgba(0, 0, 0, 0);
+        stroke: rgba(79, 231, 220, 1);
+        stroke-width: 5px;
+        stroke-linejoin: miter;
+        stroke-linecap: round;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    
+    .Nav_Underline {
+        overflow: visible;
+        position: absolute;
+        width: 78.252px;
+        height: 5px;
+        left: 1386.11px;
+        top: 74.5px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Nav_Bar_Class {
+        position: absolute;
+        width: 1398px;
+        height: 75px;
+        left: 261px;
+        top: 20px;
+        overflow: visible;
+    }
+    
+    .Sync_Class {
+        position: absolute;
+        width: 42px;
+        height: 19px;
+        left: 1356px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    
+    .SYNC_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 43px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    
+    .Contact_Us_db_Class {
+        position: absolute;
+        width: 76px;
+        height: 19px;
+        left: 1123px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    
+    .SERVICES_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 77px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    
+    .Events_Class {
+        position: absolute;
+        width: 61px;
+        height: 19px;
+        left: 905px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    
+    .EVENTS_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 62px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    
+    .Glow_Class {
+        filter: blur(50px);
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 661.5px;
+        top: 0px;
+        overflow: visible;
+    }
+    
+    .Logo_dg_Class {
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 661.5px;
+        top: 0px;
+        overflow: visible;
+        --web-animation: fadein 0.4s ease-out;
+        --web-action-type: view;
+        --web-action-target: Homepage;
+        cursor: pointer;
+    }
+    
+    .Logoglow_dg_Class {
+        filter: blur(50px);
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 661.5px;
+        top: 0px;
+        overflow: visible;
+        --web-animation: fadein 0.4s ease-out;
+        --web-action-type: view;
+        --web-action-target: Homepage;
+        cursor: pointer;
+    }
+    
+    .Departments_Class {
+        position: absolute;
+        width: 119px;
+        height: 19px;
+        left: 395px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    
+    .DEPARTMENTS_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 120px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    
+    .About_Class {
+        position: absolute;
+        width: 56px;
+        height: 19px;
+        left: 194px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    
+    .ABOUT_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 57px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    
+    .Home_Class {
+        position: absolute;
+        width: 49px;
+        height: 19px;
+        left: 0px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    
+    .HOME_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 50px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Black_Tint_Class {
+        width: 2000px;
+    }
+    .Container_Class {
+        width: 1458px;
+        height: 717px;
+    }
+    .Footer_Class {
+        display: none;
+    }
+    .HOME_Class {
+        font-size: large;
+    }
+    .ABOUT_Class {
+        font-size: large;
+    }
+    .DEPARTMENTS_Class {
+        font-size: large;
+    }
+    .EVENTS_Class {
+        font-size: large;
+    }
+    .SYNC_Class {
+        font-size: large;
+    }
+    .SERVICES_Class {
+        font-size: large;
+    }
+}
+@media only screen and (device-width: 414px) and (device-height: 736px) {
+    #myTopnav {
+        display: none;
+    }
+    .Nav_Bar {
+        display: block;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: none;
+    }
+    
+    body {
+        height: 100vh;
+        overflow-x: hidden;
+    }
+    
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+    
+    ::-webkit-scrollbar-track {
+        background-color: #1d1e18;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: rgba(79, 231, 220, 1);
+    }
+    
+    #myTopnav {
+        display: none;
+    }
+    
+    .topnav {
+        background-color: rgb(0, 0, 0);
+        overflow: hidden;
+    }
+    
+    
+    /* Style the links inside the navigation bar */
+    
+    .topnav a {
+        float: left;
+        display: block;
+        color: rgba(79, 231, 220, 1);
+        text-align: center;
+        padding: 20px 24px;
+        text-decoration: none;
+        font-size: 50px;
+        font-family: Montserrat;
+        font-weight: 700;
+    }
+    
+    
+    /* Change the color of links on hover */
+    
+    .topnav a:hover {
+        background-color: rgba(79, 231, 220, 1);
+        color: rgb(0, 0, 0);
+    }
+    
+    
+    /* Add an active class to highlight the current page */
+    
+    .topnav a.active {
+        background-color: rgb(0, 0, 0);
+        color: rgba(79, 231, 220, 1);
+    }
+    
+    
+    /* Hide the link that should open and close the topnav on small screens */
+    
+    .topnav .icon {
+        display: none;
+    }
+    
+    .txt:hover {
+        opacity: 1;
+    }
+    
+    .txt::before {
+        transition: 300ms;
+        height: 4px;
+        content: "";
+        position: absolute;
+        background-color: rgba(79, 231, 220, 1);
+    }
+    
+    .txt-ltr::before {
+        width: 0%;
+        bottom: -10px;
+    }
+    
+    .txt-ltr:hover::before {
+        width: 100%;
+    }
+    
+    .Contact_Us_Class {
+        position: absolute;
+        width: 1920px;
+        height: 930px;
+        background-color: rgba(0, 0, 0, 1);
+        overflow: hidden;
+        --web-view-name: Contact Us;
+        --web-view-id: Contact_Us;
+        --web-scale-to-fit: true;
+        --web-scale-to-fit-type: width;
+        --web-scale-on-resize: true;
+        --web-center-vertically: true;
+        --web-application: true;
+        --web-enable-deep-linking: true;
+    }
+    
+    @keyframes fadein {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
+    .form {
+        display: block;
+        width: 500px;
+        height: 710px;
+        padding: 32px;
+        background-color: #04050096;
+        border-radius: 13px;
+    }
+    
+    .form__field {
+        display: grid;
+        gap: 24px;
+        margin-bottom: 32px;
+    }
+    
+    .input-group {
+        width: 100%;
+        height: auto;
+    }
+    
+    .input-group__label {
+        display: block;
+        padding-left: 10px;
+        font-size: 20px;
+        letter-spacing: 0.05em;
+        color: #f0edee;
+        text-shadow: 1px 1px 0 rgb(0, 0, 0);
+        margin-bottom: 8px;
+    }
+    
+    .input-group__input {
+        display: block;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        font-size: 18px;
+        letter-spacing: 0.1em;
+        color: #f0edee;
+        text-shadow: 1px 1px 0 rgb(0, 0, 0);
+        padding: 12px;
+        outline: none;
+        border: none;
+        border-radius: 30px;
+        box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px rgb(0, 0, 0);
+        transition: all 0.2s ease-in-out;
+    }
+    
+    .input-group__input:focus {
+        box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px rgb(0, 0, 0);
+    }
+    
+    .button {
+        background-color: transparent;
+        color: #f0edee;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 0.07em;
+        text-shadow: 1px 1px 0 rgb(0, 0, 0);
+        padding: 8px 20px;
+        border: 0;
+        border-radius: 30px;
+        box-shadow: 3px 3px 5px #4fe7dc, -4px -4px 10px rgb(0, 0, 0);
+        outline: 0;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .button:hover {
+        box-shadow: -2px -2px 5px rgb(0, 0, 0), 2px 2px 5px #4fe7dc;
+    }
+    
+    .button:active {
+        box-shadow: inset 2px 2px 3px #4fe7dc, inset -2px -2px 3px rgb(0, 0, 0);
+    }
+    
+    .Contact_Background_Class {
+        position: absolute;
+        width: 1920.5px;
+        height: 1280.5px;
+        left: 0px;
+        top: -380px;
+        overflow: visible;
+    }
+    
+    .Black_Tint_Class {
+        fill: rgba(0, 0, 0, 0.812);
+    }
+    
+    .Black_Tint {
+        position: absolute;
+        overflow: visible;
+        width: 1920.5px;
+        height: 900.5px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .Footer_Class {
+        position: absolute;
+        width: 1920px;
+        height: 1080px;
+        left: 0px;
+        top: 901px;
+        overflow: visible;
+    }
+    
+    .Footer_Background_Class {
+        position: absolute;
+        width: 1920.5px;
+        height: 1080px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    
+    .Footer_Bg_Class {
+        position: absolute;
+        width: 1920px;
+        height: 1080px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    
+    .ID23627_Class {
+        fill: rgba(0, 0, 0, 0.6);
+    }
+    
+    .ID23627 {
+        position: absolute;
+        overflow: visible;
+        width: 1920.5px;
+        height: 526.5px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .Copyright_Tech_Club_2020_Class {
+        left: 880.004px;
+        top: 402px;
+        position: absolute;
+        overflow: visible;
+        width: 179px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .C_Class {
+        left: 866.004px;
+        top: 404px;
+        position: absolute;
+        overflow: visible;
+        width: 9px;
+        white-space: nowrap;
+        text-align: right;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .Ellipse_80_Class {
+        fill: transparent;
+        stroke: rgba(152, 150, 150, 1);
+        stroke-width: 1px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    
+    .Ellipse_80 {
+        position: absolute;
+        overflow: visible;
+        width: 14px;
+        height: 14px;
+        left: 863.004px;
+        top: 405px;
+    }
+    
+    .Linkedin_Icon_Class {
+        position: absolute;
+        width: 50px;
+        height: 50.575px;
+        left: 1008.008px;
+        top: 334.18px;
+        overflow: visible;
+    }
+    
+    .Ellipse_71_Class {
+        fill: transparent;
+        stroke: rgba(152, 150, 150, 1);
+        stroke-width: 3px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    
+    .Ellipse_71 {
+        position: absolute;
+        overflow: visible;
+        width: 50px;
+        height: 50.574px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .linkedin_Class {
+        position: absolute;
+        width: 13.793px;
+        height: 13.041px;
+        left: 18.39px;
+        top: 18.965px;
+        overflow: visible;
+    }
+    
+    .Path_213_Class {
+        fill: rgba(152, 150, 150, 1);
+    }
+    
+    .Path_213 {
+        overflow: visible;
+        position: absolute;
+        width: 8.914px;
+        height: 9.44px;
+        left: 4.879px;
+        top: 3.601px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Path_214_Class {
+        fill: rgba(152, 150, 150, 1);
+    }
+    
+    .Path_214 {
+        overflow: visible;
+        position: absolute;
+        width: 2.859px;
+        height: 9.209px;
+        left: 0.229px;
+        top: 3.832px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Path_215_Class {
+        fill: rgba(152, 150, 150, 1);
+    }
+    
+    .Path_215 {
+        overflow: visible;
+        position: absolute;
+        width: 3.313px;
+        height: 3.328px;
+        left: 0px;
+        top: 0px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Insta_Icon_Class {
+        position: absolute;
+        width: 50px;
+        height: 50.575px;
+        left: 934.504px;
+        top: 334.18px;
+        overflow: visible;
+    }
+    
+    .Ellipse_69_Class {
+        fill: transparent;
+        stroke: rgba(152, 150, 150, 1);
+        stroke-width: 3px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    
+    .Ellipse_69 {
+        position: absolute;
+        overflow: visible;
+        width: 50px;
+        height: 50.574px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .Subtraction_9_Class {
+        fill: rgba(152, 150, 150, 1);
+    }
+    
+    .Subtraction_9 {
+        overflow: visible;
+        position: absolute;
+        width: 13.793px;
+        height: 13.796px;
+        left: 18.39px;
+        top: 18.391px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Facebook_Icon_Class {
+        position: absolute;
+        width: 50px;
+        height: 50.658px;
+        left: 863px;
+        top: 334.18px;
+        overflow: visible;
+    }
+    
+    .facebook_Class {
+        position: absolute;
+        width: 50px;
+        height: 50.658px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    
+    .Ellipse_43_Class {
+        fill: transparent;
+        stroke: rgba(152, 150, 150, 1);
+        stroke-width: 3px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    
+    .Ellipse_43 {
+        position: absolute;
+        overflow: visible;
+        width: 50px;
+        height: 50.658px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .facebook_bp_Class {
+        position: absolute;
+        width: 13.816px;
+        height: 14.353px;
+        left: 17.763px;
+        top: 18.098px;
+        overflow: visible;
+    }
+    
+    .Group_57_Class {
+        position: absolute;
+        width: 13.816px;
+        height: 14.353px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    
+    .Rectangle_1458_Class {
+        fill: transparent;
+    }
+    
+    .Rectangle_1458 {
+        position: absolute;
+        overflow: visible;
+        width: 13.815px;
+        height: 13.815px;
+        left: 0px;
+        top: 0.322px;
+    }
+    
+    .Path_1_Class {
+        fill: rgba(152, 150, 150, 1);
+    }
+    
+    .Path_1 {
+        overflow: visible;
+        position: absolute;
+        width: 7.495px;
+        height: 14.354px;
+        left: 3.478px;
+        top: 0px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Terms__Conditions_Class {
+        left: 1583px;
+        top: 229px;
+        position: absolute;
+        overflow: visible;
+        width: 147px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .Privacy_Policy_Class {
+        left: 1605px;
+        top: 194px;
+        position: absolute;
+        overflow: visible;
+        width: 103px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .ID7th_Floor_V_L_Mehta_Road_Vil_Class {
+        left: 1147px;
+        top: 194px;
+        position: absolute;
+        overflow: visible;
+        width: 354px;
+        height: 63px;
+        line-height: 35px;
+        margin-top: -10px;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .Location_Icon_Class {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 1132px;
+        top: 194px;
+        overflow: visible;
+    }
+    
+    .Path_1022_Class {
+        fill: transparent;
+    }
+    
+    .Path_1022 {
+        overflow: visible;
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 0px;
+        top: 0px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Path_1023_Class {
+        fill: rgba(152, 150, 150, 1);
+    }
+    
+    .Path_1023 {
+        overflow: visible;
+        position: absolute;
+        width: 14px;
+        height: 20px;
+        left: 5px;
+        top: 2px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Pratik_Doshi__9987733926_Tatha_Class {
+        left: 546px;
+        top: 194px;
+        position: absolute;
+        overflow: visible;
+        width: 300px;
+        height: 69px;
+        line-height: 30px;
+        margin-top: -5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .Phone_Icon_Class {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 512px;
+        top: 217px;
+        overflow: visible;
+    }
+    
+    .Path_1020_Class {
+        fill: transparent;
+    }
+    
+    .Path_1020 {
+        overflow: visible;
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 0px;
+        top: 0px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Path_1021_Class {
+        fill: rgba(152, 150, 150, 1);
+    }
+    
+    .Path_1021 {
+        overflow: visible;
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        left: 3px;
+        top: 3px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .techclubnmimsgmailcom_Class {
+        left: 228px;
+        top: 194px;
+        position: absolute;
+        overflow: visible;
+        width: 213px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .Mail_Icon_Class {
+        fill: rgba(152, 150, 150, 1);
+        stroke: rgba(152, 150, 150, 1);
+        stroke-width: 1px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    
+    .Mail_Icon {
+        overflow: visible;
+        position: absolute;
+        width: 25px;
+        height: 19px;
+        left: 191px;
+        top: 195.473px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .LEGAL_Class {
+        left: 1614px;
+        top: 127px;
+        position: absolute;
+        overflow: visible;
+        width: 85px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .ADDRESS_Class {
+        left: 1254px;
+        top: 127px;
+        position: absolute;
+        overflow: visible;
+        width: 127px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .Logo_Class {
+        position: absolute;
+        width: 170px;
+        height: 170px;
+        left: 875px;
+        top: 110px;
+        overflow: visible;
+    }
+    
+    .Logo_cb_Class {
+        position: absolute;
+        width: 170px;
+        height: 170px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    
+    .Logo_b_Class {
+        filter: blur(50px);
+        position: absolute;
+        width: 138px;
+        height: 138px;
+        left: 16px;
+        top: 16px;
+        overflow: visible;
+    }
+    
+    .PHONE_Class {
+        left: 590px;
+        top: 127px;
+        position: absolute;
+        overflow: visible;
+        width: 97px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .EMAIL_Class {
+        left: 274px;
+        top: 127px;
+        position: absolute;
+        overflow: visible;
+        width: 83px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .Conatct_Class {
+        position: absolute;
+        width: 502px;
+        height: 739px;
+        left: 1172px;
+        top: 108px;
+        overflow: visible;
+    }
+    
+    .Conatiner_Class {
+        fill: rgba(0, 0, 0, 0.1);
+    }
+    
+    .Conatiner {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 520px;
+        height: 757px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .Submit_Button_Class {
+        position: absolute;
+        width: 208.5px;
+        height: 52.73px;
+        left: 180px;
+        top: 630px;
+        overflow: visible;
+    }
+    
+    .Button_Class {
+        fill: transparent;
+        stroke: rgba(112, 112, 112, 1);
+        stroke-width: 3px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    
+    .Button {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 226.5px;
+        height: 70.73px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .SUBMIT_Class {
+        left: 55.903px;
+        top: 12px;
+        position: absolute;
+        overflow: visible;
+        width: 97px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        color: rgba(112, 112, 112, 1);
+    }
+    
+    .Type_here_Class {
+        position: absolute;
+        width: 399.061px;
+        height: 204px;
+        left: 51.47px;
+        top: 415px;
+        overflow: visible;
+    }
+    
+    .Type_Box_Class {
+        fill: rgba(48, 46, 53, 1);
+    }
+    
+    .Type_Box {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 417.061px;
+        height: 222px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .Type_here_box_Class {
+        position: absolute;
+        width: 151.563px;
+        height: 29px;
+        left: 124.234px;
+        top: 20px;
+        overflow: visible;
+    }
+    
+    .Type_here_cj_Class {
+        left: 31.563px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 121px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        color: rgba(112, 112, 112, 1);
+    }
+    
+    .Type_Icon_Class {
+        opacity: 0.65;
+        position: absolute;
+        width: 23px;
+        height: 23px;
+        left: 0px;
+        top: 4px;
+        overflow: visible;
+    }
+    
+    .Path_1018_Class {
+        fill: transparent;
+    }
+    
+    .Path_1018 {
+        overflow: visible;
+        position: absolute;
+        width: 23px;
+        height: 23px;
+        left: 0px;
+        top: 0px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Path_1019_Class {
+        fill: rgba(112, 112, 112, 1);
+    }
+    
+    .Path_1019 {
+        overflow: visible;
+        position: absolute;
+        width: 17.002px;
+        height: 17.003px;
+        left: 3px;
+        top: 2.997px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Subject_Class {
+        position: absolute;
+        width: 399.061px;
+        height: 52.73px;
+        left: 51.47px;
+        top: 351px;
+        overflow: visible;
+    }
+    
+    .Subject_Box_Class {
+        fill: rgba(48, 46, 53, 1);
+    }
+    
+    .Subject_Box {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 417.061px;
+        height: 70.73px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .Subject_cp_Class {
+        left: 153.592px;
+        top: 10px;
+        position: absolute;
+        overflow: visible;
+        width: 93px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        color: rgba(112, 112, 112, 1);
+    }
+    
+    .Mail_ID_Class {
+        position: absolute;
+        width: 399.061px;
+        height: 52.73px;
+        left: 51.47px;
+        top: 287px;
+        overflow: visible;
+    }
+    
+    .Mail_Box_Class {
+        fill: rgba(48, 46, 53, 1);
+    }
+    
+    .Mail_Box {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 417.061px;
+        height: 70.73px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .Your_Mail_ID_Class {
+        left: 30.53px;
+        top: 12px;
+        position: absolute;
+        overflow: visible;
+        width: 147px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        color: rgba(112, 112, 112, 1);
+    }
+    
+    .Mail_Icon_ct_Class {
+        position: absolute;
+        width: 30.18px;
+        height: 22.635px;
+        left: 339.351px;
+        top: 15px;
+        overflow: visible;
+    }
+    
+    .Mail_icon_path_Class {
+        fill: rgba(112, 112, 112, 1);
+    }
+    
+    .Mail_icon_path {
+        overflow: visible;
+        position: absolute;
+        width: 30.18px;
+        height: 22.635px;
+        left: 0px;
+        top: 0px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Your_Name_Class {
+        position: absolute;
+        width: 399.061px;
+        height: 52.73px;
+        left: 51.47px;
+        top: 223px;
+        overflow: visible;
+    }
+    
+    .Name_Box_Class {
+        fill: rgba(48, 46, 53, 1);
+    }
+    
+    .Name_Box {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 417.061px;
+        height: 70.73px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .Your_Name_cx_Class {
+        left: 32.687px;
+        top: 12px;
+        position: absolute;
+        overflow: visible;
+        width: 137px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        color: rgba(112, 112, 112, 1);
+    }
+    
+    .Profile_Icon_Class {
+        fill: rgba(112, 112, 112, 1);
+    }
+    
+    .Profile_Icon {
+        overflow: visible;
+        position: absolute;
+        width: 30.184px;
+        height: 30.184px;
+        left: 343.68px;
+        top: 10.95px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .If_you_are_facing_any_issues_o_Class {
+        left: 45px;
+        top: 154px;
+        position: absolute;
+        overflow: visible;
+        width: 400px;
+        height: 44px;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: rgba(240, 237, 238, 1);
+    }
+    
+    .Main_Underline_Class {
+        fill: transparent;
+        stroke: rgba(79, 231, 220, 1);
+        stroke-width: 3px;
+        stroke-linejoin: miter;
+        stroke-linecap: round;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    
+    .Main_Underline {
+        overflow: visible;
+        position: absolute;
+        width: 78.5px;
+        height: 3px;
+        left: 206.879px;
+        top: 114.5px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .CONTACT_US_Class {
+        left: 110px;
+        top: 46px;
+        position: absolute;
+        overflow: visible;
+        width: 271px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        color: rgba(240, 237, 238, 1);
+    }
+    
+    .Sync_Image_Class {
+        fill: rgba(48, 46, 53, 1);
+    }
+    
+    .Sync_Image {
+        display: none;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 268px;
+        height: 268px;
+        left: 837px;
+        top: 278px;
+    }
+    
+    .Respawn_Image_Class {
+        fill: rgba(48, 46, 53, 1);
+    }
+    
+    .Respawn_Image {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 268px;
+        height: 268px;
+        left: 549px;
+        top: 278px;
+    }
+    
+    .Data_Image_Class {
+        fill: rgba(48, 46, 53, 1);
+    }
+    
+    .Data_Image {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 268px;
+        height: 268px;
+        left: 261px;
+        top: 278px;
+    }
+    
+    .Services_Underline_Class {
+        fill: transparent;
+        stroke: rgba(79, 231, 220, 1);
+        stroke-width: 3px;
+        stroke-linejoin: miter;
+        stroke-linecap: round;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    
+    .Services_Underline {
+        overflow: visible;
+        position: absolute;
+        width: 78.5px;
+        height: 3px;
+        left: 261px;
+        top: 227.5px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .OUR_SERVICES_Class {
+        left: 259px;
+        top: 154px;
+        position: absolute;
+        overflow: visible;
+        width: 313px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        color: rgba(240, 237, 238, 1);
+    }
+    
+    .Whatsapp_Text_Class {
+        left: 270px;
+        top: 554px;
+        position: absolute;
+        overflow: visible;
+        width: 313px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        color: rgba(240, 237, 238, 1);
+        display: none;
+    }
+    
+    .Nav_Underline_Class {
+        fill: rgba(0, 0, 0, 0);
+        stroke: rgba(79, 231, 220, 1);
+        stroke-width: 5px;
+        stroke-linejoin: miter;
+        stroke-linecap: round;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    
+    .Nav_Underline {
+        overflow: visible;
+        position: absolute;
+        width: 78.252px;
+        height: 5px;
+        left: 1386.11px;
+        top: 74.5px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Nav_Bar_Class {
+        position: absolute;
+        width: 1398px;
+        height: 75px;
+        left: 261px;
+        top: 20px;
+        overflow: visible;
+    }
+    
+    .Sync_Class {
+        position: absolute;
+        width: 42px;
+        height: 19px;
+        left: 1356px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    
+    .SYNC_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 43px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    
+    .Contact_Us_db_Class {
+        position: absolute;
+        width: 76px;
+        height: 19px;
+        left: 1123px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    
+    .SERVICES_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 77px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    
+    .Events_Class {
+        position: absolute;
+        width: 61px;
+        height: 19px;
+        left: 905px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    
+    .EVENTS_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 62px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    
+    .Glow_Class {
+        filter: blur(50px);
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 661.5px;
+        top: 0px;
+        overflow: visible;
+    }
+    
+    .Logo_dg_Class {
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 661.5px;
+        top: 0px;
+        overflow: visible;
+        --web-animation: fadein 0.4s ease-out;
+        --web-action-type: view;
+        --web-action-target: Homepage;
+        cursor: pointer;
+    }
+    
+    .Logoglow_dg_Class {
+        filter: blur(50px);
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 661.5px;
+        top: 0px;
+        overflow: visible;
+        --web-animation: fadein 0.4s ease-out;
+        --web-action-type: view;
+        --web-action-target: Homepage;
+        cursor: pointer;
+    }
+    
+    .Departments_Class {
+        position: absolute;
+        width: 119px;
+        height: 19px;
+        left: 395px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    
+    .DEPARTMENTS_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 120px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    
+    .About_Class {
+        position: absolute;
+        width: 56px;
+        height: 19px;
+        left: 194px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    
+    .ABOUT_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 57px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    
+    .Home_Class {
+        position: absolute;
+        width: 49px;
+        height: 19px;
+        left: 0px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    
+    .HOME_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 50px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Black_Tint_Class {
+        width: 2000px;
+    }
+    .Container_Class {
+        width: 1458px;
+        height: 717px;
+    }
+    .Footer_Class {
+        display: none;
+    }
+    .HOME_Class {
+        font-size: large;
+    }
+    .ABOUT_Class {
+        font-size: large;
+    }
+    .DEPARTMENTS_Class {
+        font-size: large;
+    }
+    .EVENTS_Class {
+        font-size: large;
+    }
+    .SYNC_Class {
+        font-size: large;
+    }
+    .SERVICES_Class {
+        font-size: large;
+    }
+}
+@media only screen and (device-width: 375px) and (device-height: 812px) {
+    #myTopnav {
+        display: none;
+    }
+    .Nav_Bar {
+        display: block;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: none;
+    }
+    
+    body {
+        height: 100vh;
+        overflow-x: hidden;
+    }
+    
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+    
+    ::-webkit-scrollbar-track {
+        background-color: #1d1e18;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: rgba(79, 231, 220, 1);
+    }
+    
+    #myTopnav {
+        display: none;
+    }
+    
+    .topnav {
+        background-color: rgb(0, 0, 0);
+        overflow: hidden;
+    }
+    
+    
+    /* Style the links inside the navigation bar */
+    
+    .topnav a {
+        float: left;
+        display: block;
+        color: rgba(79, 231, 220, 1);
+        text-align: center;
+        padding: 20px 24px;
+        text-decoration: none;
+        font-size: 50px;
+        font-family: Montserrat;
+        font-weight: 700;
+    }
+    
+    
+    /* Change the color of links on hover */
+    
+    .topnav a:hover {
+        background-color: rgba(79, 231, 220, 1);
+        color: rgb(0, 0, 0);
+    }
+    
+    
+    /* Add an active class to highlight the current page */
+    
+    .topnav a.active {
+        background-color: rgb(0, 0, 0);
+        color: rgba(79, 231, 220, 1);
+    }
+    
+    
+    /* Hide the link that should open and close the topnav on small screens */
+    
+    .topnav .icon {
+        display: none;
+    }
+    
+    .txt:hover {
+        opacity: 1;
+    }
+    
+    .txt::before {
+        transition: 300ms;
+        height: 4px;
+        content: "";
+        position: absolute;
+        background-color: rgba(79, 231, 220, 1);
+    }
+    
+    .txt-ltr::before {
+        width: 0%;
+        bottom: -10px;
+    }
+    
+    .txt-ltr:hover::before {
+        width: 100%;
+    }
+    
+    .Contact_Us_Class {
+        position: absolute;
+        width: 1920px;
+        height: 930px;
+        background-color: rgba(0, 0, 0, 1);
+        overflow: hidden;
+        --web-view-name: Contact Us;
+        --web-view-id: Contact_Us;
+        --web-scale-to-fit: true;
+        --web-scale-to-fit-type: width;
+        --web-scale-on-resize: true;
+        --web-center-vertically: true;
+        --web-application: true;
+        --web-enable-deep-linking: true;
+    }
+    
+    @keyframes fadein {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
+    .form {
+        display: block;
+        width: 500px;
+        height: 710px;
+        padding: 32px;
+        background-color: #04050096;
+        border-radius: 13px;
+    }
+    
+    .form__field {
+        display: grid;
+        gap: 24px;
+        margin-bottom: 32px;
+    }
+    
+    .input-group {
+        width: 100%;
+        height: auto;
+    }
+    
+    .input-group__label {
+        display: block;
+        padding-left: 10px;
+        font-size: 20px;
+        letter-spacing: 0.05em;
+        color: #f0edee;
+        text-shadow: 1px 1px 0 rgb(0, 0, 0);
+        margin-bottom: 8px;
+    }
+    
+    .input-group__input {
+        display: block;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        font-size: 18px;
+        letter-spacing: 0.1em;
+        color: #f0edee;
+        text-shadow: 1px 1px 0 rgb(0, 0, 0);
+        padding: 12px;
+        outline: none;
+        border: none;
+        border-radius: 30px;
+        box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px rgb(0, 0, 0);
+        transition: all 0.2s ease-in-out;
+    }
+    
+    .input-group__input:focus {
+        box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px rgb(0, 0, 0);
+    }
+    
+    .button {
+        background-color: transparent;
+        color: #f0edee;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 0.07em;
+        text-shadow: 1px 1px 0 rgb(0, 0, 0);
+        padding: 8px 20px;
+        border: 0;
+        border-radius: 30px;
+        box-shadow: 3px 3px 5px #4fe7dc, -4px -4px 10px rgb(0, 0, 0);
+        outline: 0;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .button:hover {
+        box-shadow: -2px -2px 5px rgb(0, 0, 0), 2px 2px 5px #4fe7dc;
+    }
+    
+    .button:active {
+        box-shadow: inset 2px 2px 3px #4fe7dc, inset -2px -2px 3px rgb(0, 0, 0);
+    }
+    
+    .Contact_Background_Class {
+        position: absolute;
+        width: 1920.5px;
+        height: 1280.5px;
+        left: 0px;
+        top: -380px;
+        overflow: visible;
+    }
+    
+    .Black_Tint_Class {
+        fill: rgba(0, 0, 0, 0.812);
+    }
+    
+    .Black_Tint {
+        position: absolute;
+        overflow: visible;
+        width: 1920.5px;
+        height: 900.5px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .Footer_Class {
+        position: absolute;
+        width: 1920px;
+        height: 1080px;
+        left: 0px;
+        top: 901px;
+        overflow: visible;
+    }
+    
+    .Footer_Background_Class {
+        position: absolute;
+        width: 1920.5px;
+        height: 1080px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    
+    .Footer_Bg_Class {
+        position: absolute;
+        width: 1920px;
+        height: 1080px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    
+    .ID23627_Class {
+        fill: rgba(0, 0, 0, 0.6);
+    }
+    
+    .ID23627 {
+        position: absolute;
+        overflow: visible;
+        width: 1920.5px;
+        height: 526.5px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .Copyright_Tech_Club_2020_Class {
+        left: 880.004px;
+        top: 402px;
+        position: absolute;
+        overflow: visible;
+        width: 179px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .C_Class {
+        left: 866.004px;
+        top: 404px;
+        position: absolute;
+        overflow: visible;
+        width: 9px;
+        white-space: nowrap;
+        text-align: right;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .Ellipse_80_Class {
+        fill: transparent;
+        stroke: rgba(152, 150, 150, 1);
+        stroke-width: 1px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    
+    .Ellipse_80 {
+        position: absolute;
+        overflow: visible;
+        width: 14px;
+        height: 14px;
+        left: 863.004px;
+        top: 405px;
+    }
+    
+    .Linkedin_Icon_Class {
+        position: absolute;
+        width: 50px;
+        height: 50.575px;
+        left: 1008.008px;
+        top: 334.18px;
+        overflow: visible;
+    }
+    
+    .Ellipse_71_Class {
+        fill: transparent;
+        stroke: rgba(152, 150, 150, 1);
+        stroke-width: 3px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    
+    .Ellipse_71 {
+        position: absolute;
+        overflow: visible;
+        width: 50px;
+        height: 50.574px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .linkedin_Class {
+        position: absolute;
+        width: 13.793px;
+        height: 13.041px;
+        left: 18.39px;
+        top: 18.965px;
+        overflow: visible;
+    }
+    
+    .Path_213_Class {
+        fill: rgba(152, 150, 150, 1);
+    }
+    
+    .Path_213 {
+        overflow: visible;
+        position: absolute;
+        width: 8.914px;
+        height: 9.44px;
+        left: 4.879px;
+        top: 3.601px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Path_214_Class {
+        fill: rgba(152, 150, 150, 1);
+    }
+    
+    .Path_214 {
+        overflow: visible;
+        position: absolute;
+        width: 2.859px;
+        height: 9.209px;
+        left: 0.229px;
+        top: 3.832px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Path_215_Class {
+        fill: rgba(152, 150, 150, 1);
+    }
+    
+    .Path_215 {
+        overflow: visible;
+        position: absolute;
+        width: 3.313px;
+        height: 3.328px;
+        left: 0px;
+        top: 0px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Insta_Icon_Class {
+        position: absolute;
+        width: 50px;
+        height: 50.575px;
+        left: 934.504px;
+        top: 334.18px;
+        overflow: visible;
+    }
+    
+    .Ellipse_69_Class {
+        fill: transparent;
+        stroke: rgba(152, 150, 150, 1);
+        stroke-width: 3px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    
+    .Ellipse_69 {
+        position: absolute;
+        overflow: visible;
+        width: 50px;
+        height: 50.574px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .Subtraction_9_Class {
+        fill: rgba(152, 150, 150, 1);
+    }
+    
+    .Subtraction_9 {
+        overflow: visible;
+        position: absolute;
+        width: 13.793px;
+        height: 13.796px;
+        left: 18.39px;
+        top: 18.391px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Facebook_Icon_Class {
+        position: absolute;
+        width: 50px;
+        height: 50.658px;
+        left: 863px;
+        top: 334.18px;
+        overflow: visible;
+    }
+    
+    .facebook_Class {
+        position: absolute;
+        width: 50px;
+        height: 50.658px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    
+    .Ellipse_43_Class {
+        fill: transparent;
+        stroke: rgba(152, 150, 150, 1);
+        stroke-width: 3px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    
+    .Ellipse_43 {
+        position: absolute;
+        overflow: visible;
+        width: 50px;
+        height: 50.658px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .facebook_bp_Class {
+        position: absolute;
+        width: 13.816px;
+        height: 14.353px;
+        left: 17.763px;
+        top: 18.098px;
+        overflow: visible;
+    }
+    
+    .Group_57_Class {
+        position: absolute;
+        width: 13.816px;
+        height: 14.353px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    
+    .Rectangle_1458_Class {
+        fill: transparent;
+    }
+    
+    .Rectangle_1458 {
+        position: absolute;
+        overflow: visible;
+        width: 13.815px;
+        height: 13.815px;
+        left: 0px;
+        top: 0.322px;
+    }
+    
+    .Path_1_Class {
+        fill: rgba(152, 150, 150, 1);
+    }
+    
+    .Path_1 {
+        overflow: visible;
+        position: absolute;
+        width: 7.495px;
+        height: 14.354px;
+        left: 3.478px;
+        top: 0px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Terms__Conditions_Class {
+        left: 1583px;
+        top: 229px;
+        position: absolute;
+        overflow: visible;
+        width: 147px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .Privacy_Policy_Class {
+        left: 1605px;
+        top: 194px;
+        position: absolute;
+        overflow: visible;
+        width: 103px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .ID7th_Floor_V_L_Mehta_Road_Vil_Class {
+        left: 1147px;
+        top: 194px;
+        position: absolute;
+        overflow: visible;
+        width: 354px;
+        height: 63px;
+        line-height: 35px;
+        margin-top: -10px;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .Location_Icon_Class {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 1132px;
+        top: 194px;
+        overflow: visible;
+    }
+    
+    .Path_1022_Class {
+        fill: transparent;
+    }
+    
+    .Path_1022 {
+        overflow: visible;
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 0px;
+        top: 0px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Path_1023_Class {
+        fill: rgba(152, 150, 150, 1);
+    }
+    
+    .Path_1023 {
+        overflow: visible;
+        position: absolute;
+        width: 14px;
+        height: 20px;
+        left: 5px;
+        top: 2px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Pratik_Doshi__9987733926_Tatha_Class {
+        left: 546px;
+        top: 194px;
+        position: absolute;
+        overflow: visible;
+        width: 300px;
+        height: 69px;
+        line-height: 30px;
+        margin-top: -5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .Phone_Icon_Class {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 512px;
+        top: 217px;
+        overflow: visible;
+    }
+    
+    .Path_1020_Class {
+        fill: transparent;
+    }
+    
+    .Path_1020 {
+        overflow: visible;
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 0px;
+        top: 0px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Path_1021_Class {
+        fill: rgba(152, 150, 150, 1);
+    }
+    
+    .Path_1021 {
+        overflow: visible;
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        left: 3px;
+        top: 3px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .techclubnmimsgmailcom_Class {
+        left: 228px;
+        top: 194px;
+        position: absolute;
+        overflow: visible;
+        width: 213px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .Mail_Icon_Class {
+        fill: rgba(152, 150, 150, 1);
+        stroke: rgba(152, 150, 150, 1);
+        stroke-width: 1px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    
+    .Mail_Icon {
+        overflow: visible;
+        position: absolute;
+        width: 25px;
+        height: 19px;
+        left: 191px;
+        top: 195.473px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .LEGAL_Class {
+        left: 1614px;
+        top: 127px;
+        position: absolute;
+        overflow: visible;
+        width: 85px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .ADDRESS_Class {
+        left: 1254px;
+        top: 127px;
+        position: absolute;
+        overflow: visible;
+        width: 127px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .Logo_Class {
+        position: absolute;
+        width: 170px;
+        height: 170px;
+        left: 875px;
+        top: 110px;
+        overflow: visible;
+    }
+    
+    .Logo_cb_Class {
+        position: absolute;
+        width: 170px;
+        height: 170px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    
+    .Logo_b_Class {
+        filter: blur(50px);
+        position: absolute;
+        width: 138px;
+        height: 138px;
+        left: 16px;
+        top: 16px;
+        overflow: visible;
+    }
+    
+    .PHONE_Class {
+        left: 590px;
+        top: 127px;
+        position: absolute;
+        overflow: visible;
+        width: 97px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .EMAIL_Class {
+        left: 274px;
+        top: 127px;
+        position: absolute;
+        overflow: visible;
+        width: 83px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .Conatct_Class {
+        position: absolute;
+        width: 502px;
+        height: 739px;
+        left: 1172px;
+        top: 108px;
+        overflow: visible;
+    }
+    
+    .Conatiner_Class {
+        fill: rgba(0, 0, 0, 0.1);
+    }
+    
+    .Conatiner {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 520px;
+        height: 757px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .Submit_Button_Class {
+        position: absolute;
+        width: 208.5px;
+        height: 52.73px;
+        left: 180px;
+        top: 630px;
+        overflow: visible;
+    }
+    
+    .Button_Class {
+        fill: transparent;
+        stroke: rgba(112, 112, 112, 1);
+        stroke-width: 3px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    
+    .Button {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 226.5px;
+        height: 70.73px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .SUBMIT_Class {
+        left: 55.903px;
+        top: 12px;
+        position: absolute;
+        overflow: visible;
+        width: 97px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        color: rgba(112, 112, 112, 1);
+    }
+    
+    .Type_here_Class {
+        position: absolute;
+        width: 399.061px;
+        height: 204px;
+        left: 51.47px;
+        top: 415px;
+        overflow: visible;
+    }
+    
+    .Type_Box_Class {
+        fill: rgba(48, 46, 53, 1);
+    }
+    
+    .Type_Box {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 417.061px;
+        height: 222px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .Type_here_box_Class {
+        position: absolute;
+        width: 151.563px;
+        height: 29px;
+        left: 124.234px;
+        top: 20px;
+        overflow: visible;
+    }
+    
+    .Type_here_cj_Class {
+        left: 31.563px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 121px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        color: rgba(112, 112, 112, 1);
+    }
+    
+    .Type_Icon_Class {
+        opacity: 0.65;
+        position: absolute;
+        width: 23px;
+        height: 23px;
+        left: 0px;
+        top: 4px;
+        overflow: visible;
+    }
+    
+    .Path_1018_Class {
+        fill: transparent;
+    }
+    
+    .Path_1018 {
+        overflow: visible;
+        position: absolute;
+        width: 23px;
+        height: 23px;
+        left: 0px;
+        top: 0px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Path_1019_Class {
+        fill: rgba(112, 112, 112, 1);
+    }
+    
+    .Path_1019 {
+        overflow: visible;
+        position: absolute;
+        width: 17.002px;
+        height: 17.003px;
+        left: 3px;
+        top: 2.997px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Subject_Class {
+        position: absolute;
+        width: 399.061px;
+        height: 52.73px;
+        left: 51.47px;
+        top: 351px;
+        overflow: visible;
+    }
+    
+    .Subject_Box_Class {
+        fill: rgba(48, 46, 53, 1);
+    }
+    
+    .Subject_Box {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 417.061px;
+        height: 70.73px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .Subject_cp_Class {
+        left: 153.592px;
+        top: 10px;
+        position: absolute;
+        overflow: visible;
+        width: 93px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        color: rgba(112, 112, 112, 1);
+    }
+    
+    .Mail_ID_Class {
+        position: absolute;
+        width: 399.061px;
+        height: 52.73px;
+        left: 51.47px;
+        top: 287px;
+        overflow: visible;
+    }
+    
+    .Mail_Box_Class {
+        fill: rgba(48, 46, 53, 1);
+    }
+    
+    .Mail_Box {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 417.061px;
+        height: 70.73px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .Your_Mail_ID_Class {
+        left: 30.53px;
+        top: 12px;
+        position: absolute;
+        overflow: visible;
+        width: 147px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        color: rgba(112, 112, 112, 1);
+    }
+    
+    .Mail_Icon_ct_Class {
+        position: absolute;
+        width: 30.18px;
+        height: 22.635px;
+        left: 339.351px;
+        top: 15px;
+        overflow: visible;
+    }
+    
+    .Mail_icon_path_Class {
+        fill: rgba(112, 112, 112, 1);
+    }
+    
+    .Mail_icon_path {
+        overflow: visible;
+        position: absolute;
+        width: 30.18px;
+        height: 22.635px;
+        left: 0px;
+        top: 0px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Your_Name_Class {
+        position: absolute;
+        width: 399.061px;
+        height: 52.73px;
+        left: 51.47px;
+        top: 223px;
+        overflow: visible;
+    }
+    
+    .Name_Box_Class {
+        fill: rgba(48, 46, 53, 1);
+    }
+    
+    .Name_Box {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 417.061px;
+        height: 70.73px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .Your_Name_cx_Class {
+        left: 32.687px;
+        top: 12px;
+        position: absolute;
+        overflow: visible;
+        width: 137px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        color: rgba(112, 112, 112, 1);
+    }
+    
+    .Profile_Icon_Class {
+        fill: rgba(112, 112, 112, 1);
+    }
+    
+    .Profile_Icon {
+        overflow: visible;
+        position: absolute;
+        width: 30.184px;
+        height: 30.184px;
+        left: 343.68px;
+        top: 10.95px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .If_you_are_facing_any_issues_o_Class {
+        left: 45px;
+        top: 154px;
+        position: absolute;
+        overflow: visible;
+        width: 400px;
+        height: 44px;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: rgba(240, 237, 238, 1);
+    }
+    
+    .Main_Underline_Class {
+        fill: transparent;
+        stroke: rgba(79, 231, 220, 1);
+        stroke-width: 3px;
+        stroke-linejoin: miter;
+        stroke-linecap: round;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    
+    .Main_Underline {
+        overflow: visible;
+        position: absolute;
+        width: 78.5px;
+        height: 3px;
+        left: 206.879px;
+        top: 114.5px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .CONTACT_US_Class {
+        left: 110px;
+        top: 46px;
+        position: absolute;
+        overflow: visible;
+        width: 271px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        color: rgba(240, 237, 238, 1);
+    }
+    
+    .Sync_Image_Class {
+        fill: rgba(48, 46, 53, 1);
+    }
+    
+    .Sync_Image {
+        display: none;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 268px;
+        height: 268px;
+        left: 837px;
+        top: 278px;
+    }
+    
+    .Respawn_Image_Class {
+        fill: rgba(48, 46, 53, 1);
+    }
+    
+    .Respawn_Image {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 268px;
+        height: 268px;
+        left: 549px;
+        top: 278px;
+    }
+    
+    .Data_Image_Class {
+        fill: rgba(48, 46, 53, 1);
+    }
+    
+    .Data_Image {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 268px;
+        height: 268px;
+        left: 261px;
+        top: 278px;
+    }
+    
+    .Services_Underline_Class {
+        fill: transparent;
+        stroke: rgba(79, 231, 220, 1);
+        stroke-width: 3px;
+        stroke-linejoin: miter;
+        stroke-linecap: round;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    
+    .Services_Underline {
+        overflow: visible;
+        position: absolute;
+        width: 78.5px;
+        height: 3px;
+        left: 261px;
+        top: 227.5px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .OUR_SERVICES_Class {
+        left: 259px;
+        top: 154px;
+        position: absolute;
+        overflow: visible;
+        width: 313px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        color: rgba(240, 237, 238, 1);
+    }
+    
+    .Whatsapp_Text_Class {
+        left: 270px;
+        top: 554px;
+        position: absolute;
+        overflow: visible;
+        width: 313px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        color: rgba(240, 237, 238, 1);
+        display: none;
+    }
+    
+    .Nav_Underline_Class {
+        fill: rgba(0, 0, 0, 0);
+        stroke: rgba(79, 231, 220, 1);
+        stroke-width: 5px;
+        stroke-linejoin: miter;
+        stroke-linecap: round;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    
+    .Nav_Underline {
+        overflow: visible;
+        position: absolute;
+        width: 78.252px;
+        height: 5px;
+        left: 1386.11px;
+        top: 74.5px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Nav_Bar_Class {
+        position: absolute;
+        width: 1398px;
+        height: 75px;
+        left: 261px;
+        top: 20px;
+        overflow: visible;
+    }
+    
+    .Sync_Class {
+        position: absolute;
+        width: 42px;
+        height: 19px;
+        left: 1356px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    
+    .SYNC_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 43px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    
+    .Contact_Us_db_Class {
+        position: absolute;
+        width: 76px;
+        height: 19px;
+        left: 1123px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    
+    .SERVICES_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 77px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    
+    .Events_Class {
+        position: absolute;
+        width: 61px;
+        height: 19px;
+        left: 905px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    
+    .EVENTS_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 62px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    
+    .Glow_Class {
+        filter: blur(50px);
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 661.5px;
+        top: 0px;
+        overflow: visible;
+    }
+    
+    .Logo_dg_Class {
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 661.5px;
+        top: 0px;
+        overflow: visible;
+        --web-animation: fadein 0.4s ease-out;
+        --web-action-type: view;
+        --web-action-target: Homepage;
+        cursor: pointer;
+    }
+    
+    .Logoglow_dg_Class {
+        filter: blur(50px);
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 661.5px;
+        top: 0px;
+        overflow: visible;
+        --web-animation: fadein 0.4s ease-out;
+        --web-action-type: view;
+        --web-action-target: Homepage;
+        cursor: pointer;
+    }
+    
+    .Departments_Class {
+        position: absolute;
+        width: 119px;
+        height: 19px;
+        left: 395px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    
+    .DEPARTMENTS_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 120px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    
+    .About_Class {
+        position: absolute;
+        width: 56px;
+        height: 19px;
+        left: 194px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    
+    .ABOUT_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 57px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    
+    .Home_Class {
+        position: absolute;
+        width: 49px;
+        height: 19px;
+        left: 0px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    
+    .HOME_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 50px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Black_Tint_Class {
+        width: 2000px;
+    }
+    .Container_Class {
+        width: 1458px;
+        height: 717px;
+    }
+    .Footer_Class {
+        display: none;
+    }
+    .HOME_Class {
+        font-size: large;
+    }
+    .ABOUT_Class {
+        font-size: large;
+    }
+    .DEPARTMENTS_Class {
+        font-size: large;
+    }
+    .EVENTS_Class {
+        font-size: large;
+    }
+    .SYNC_Class {
+        font-size: large;
+    }
+    .SERVICES_Class {
+        font-size: large;
+    }
+}
+@media only screen and (device-width: 414px) and (device-height: 896px) {
+    #myTopnav {
+        display: none;
+    }
+    .Nav_Bar {
+        display: block;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: none;
+    }
+    
+    body {
+        height: 100vh;
+        overflow-x: hidden;
+    }
+    
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+    
+    ::-webkit-scrollbar-track {
+        background-color: #1d1e18;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: rgba(79, 231, 220, 1);
+    }
+    
+    #myTopnav {
+        display: none;
+    }
+    
+    .topnav {
+        background-color: rgb(0, 0, 0);
+        overflow: hidden;
+    }
+    
+    
+    /* Style the links inside the navigation bar */
+    
+    .topnav a {
+        float: left;
+        display: block;
+        color: rgba(79, 231, 220, 1);
+        text-align: center;
+        padding: 20px 24px;
+        text-decoration: none;
+        font-size: 50px;
+        font-family: Montserrat;
+        font-weight: 700;
+    }
+    
+    
+    /* Change the color of links on hover */
+    
+    .topnav a:hover {
+        background-color: rgba(79, 231, 220, 1);
+        color: rgb(0, 0, 0);
+    }
+    
+    
+    /* Add an active class to highlight the current page */
+    
+    .topnav a.active {
+        background-color: rgb(0, 0, 0);
+        color: rgba(79, 231, 220, 1);
+    }
+    
+    
+    /* Hide the link that should open and close the topnav on small screens */
+    
+    .topnav .icon {
+        display: none;
+    }
+    
+    .txt:hover {
+        opacity: 1;
+    }
+    
+    .txt::before {
+        transition: 300ms;
+        height: 4px;
+        content: "";
+        position: absolute;
+        background-color: rgba(79, 231, 220, 1);
+    }
+    
+    .txt-ltr::before {
+        width: 0%;
+        bottom: -10px;
+    }
+    
+    .txt-ltr:hover::before {
+        width: 100%;
+    }
+    
+    .Contact_Us_Class {
+        position: absolute;
+        width: 1920px;
+        height: 930px;
+        background-color: rgba(0, 0, 0, 1);
+        overflow: hidden;
+        --web-view-name: Contact Us;
+        --web-view-id: Contact_Us;
+        --web-scale-to-fit: true;
+        --web-scale-to-fit-type: width;
+        --web-scale-on-resize: true;
+        --web-center-vertically: true;
+        --web-application: true;
+        --web-enable-deep-linking: true;
+    }
+    
+    @keyframes fadein {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
+    .form {
+        display: block;
+        width: 500px;
+        height: 710px;
+        padding: 32px;
+        background-color: #04050096;
+        border-radius: 13px;
+    }
+    
+    .form__field {
+        display: grid;
+        gap: 24px;
+        margin-bottom: 32px;
+    }
+    
+    .input-group {
+        width: 100%;
+        height: auto;
+    }
+    
+    .input-group__label {
+        display: block;
+        padding-left: 10px;
+        font-size: 20px;
+        letter-spacing: 0.05em;
+        color: #f0edee;
+        text-shadow: 1px 1px 0 rgb(0, 0, 0);
+        margin-bottom: 8px;
+    }
+    
+    .input-group__input {
+        display: block;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        font-size: 18px;
+        letter-spacing: 0.1em;
+        color: #f0edee;
+        text-shadow: 1px 1px 0 rgb(0, 0, 0);
+        padding: 12px;
+        outline: none;
+        border: none;
+        border-radius: 30px;
+        box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px rgb(0, 0, 0);
+        transition: all 0.2s ease-in-out;
+    }
+    
+    .input-group__input:focus {
+        box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px rgb(0, 0, 0);
+    }
+    
+    .button {
+        background-color: transparent;
+        color: #f0edee;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 0.07em;
+        text-shadow: 1px 1px 0 rgb(0, 0, 0);
+        padding: 8px 20px;
+        border: 0;
+        border-radius: 30px;
+        box-shadow: 3px 3px 5px #4fe7dc, -4px -4px 10px rgb(0, 0, 0);
+        outline: 0;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .button:hover {
+        box-shadow: -2px -2px 5px rgb(0, 0, 0), 2px 2px 5px #4fe7dc;
+    }
+    
+    .button:active {
+        box-shadow: inset 2px 2px 3px #4fe7dc, inset -2px -2px 3px rgb(0, 0, 0);
+    }
+    
+    .Contact_Background_Class {
+        position: absolute;
+        width: 1920.5px;
+        height: 1280.5px;
+        left: 0px;
+        top: -380px;
+        overflow: visible;
+    }
+    
+    .Black_Tint_Class {
+        fill: rgba(0, 0, 0, 0.812);
+    }
+    
+    .Black_Tint {
+        position: absolute;
+        overflow: visible;
+        width: 1920.5px;
+        height: 900.5px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .Footer_Class {
+        position: absolute;
+        width: 1920px;
+        height: 1080px;
+        left: 0px;
+        top: 901px;
+        overflow: visible;
+    }
+    
+    .Footer_Background_Class {
+        position: absolute;
+        width: 1920.5px;
+        height: 1080px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    
+    .Footer_Bg_Class {
+        position: absolute;
+        width: 1920px;
+        height: 1080px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    
+    .ID23627_Class {
+        fill: rgba(0, 0, 0, 0.6);
+    }
+    
+    .ID23627 {
+        position: absolute;
+        overflow: visible;
+        width: 1920.5px;
+        height: 526.5px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .Copyright_Tech_Club_2020_Class {
+        left: 880.004px;
+        top: 402px;
+        position: absolute;
+        overflow: visible;
+        width: 179px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .C_Class {
+        left: 866.004px;
+        top: 404px;
+        position: absolute;
+        overflow: visible;
+        width: 9px;
+        white-space: nowrap;
+        text-align: right;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .Ellipse_80_Class {
+        fill: transparent;
+        stroke: rgba(152, 150, 150, 1);
+        stroke-width: 1px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    
+    .Ellipse_80 {
+        position: absolute;
+        overflow: visible;
+        width: 14px;
+        height: 14px;
+        left: 863.004px;
+        top: 405px;
+    }
+    
+    .Linkedin_Icon_Class {
+        position: absolute;
+        width: 50px;
+        height: 50.575px;
+        left: 1008.008px;
+        top: 334.18px;
+        overflow: visible;
+    }
+    
+    .Ellipse_71_Class {
+        fill: transparent;
+        stroke: rgba(152, 150, 150, 1);
+        stroke-width: 3px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    
+    .Ellipse_71 {
+        position: absolute;
+        overflow: visible;
+        width: 50px;
+        height: 50.574px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .linkedin_Class {
+        position: absolute;
+        width: 13.793px;
+        height: 13.041px;
+        left: 18.39px;
+        top: 18.965px;
+        overflow: visible;
+    }
+    
+    .Path_213_Class {
+        fill: rgba(152, 150, 150, 1);
+    }
+    
+    .Path_213 {
+        overflow: visible;
+        position: absolute;
+        width: 8.914px;
+        height: 9.44px;
+        left: 4.879px;
+        top: 3.601px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Path_214_Class {
+        fill: rgba(152, 150, 150, 1);
+    }
+    
+    .Path_214 {
+        overflow: visible;
+        position: absolute;
+        width: 2.859px;
+        height: 9.209px;
+        left: 0.229px;
+        top: 3.832px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Path_215_Class {
+        fill: rgba(152, 150, 150, 1);
+    }
+    
+    .Path_215 {
+        overflow: visible;
+        position: absolute;
+        width: 3.313px;
+        height: 3.328px;
+        left: 0px;
+        top: 0px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Insta_Icon_Class {
+        position: absolute;
+        width: 50px;
+        height: 50.575px;
+        left: 934.504px;
+        top: 334.18px;
+        overflow: visible;
+    }
+    
+    .Ellipse_69_Class {
+        fill: transparent;
+        stroke: rgba(152, 150, 150, 1);
+        stroke-width: 3px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    
+    .Ellipse_69 {
+        position: absolute;
+        overflow: visible;
+        width: 50px;
+        height: 50.574px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .Subtraction_9_Class {
+        fill: rgba(152, 150, 150, 1);
+    }
+    
+    .Subtraction_9 {
+        overflow: visible;
+        position: absolute;
+        width: 13.793px;
+        height: 13.796px;
+        left: 18.39px;
+        top: 18.391px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Facebook_Icon_Class {
+        position: absolute;
+        width: 50px;
+        height: 50.658px;
+        left: 863px;
+        top: 334.18px;
+        overflow: visible;
+    }
+    
+    .facebook_Class {
+        position: absolute;
+        width: 50px;
+        height: 50.658px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    
+    .Ellipse_43_Class {
+        fill: transparent;
+        stroke: rgba(152, 150, 150, 1);
+        stroke-width: 3px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    
+    .Ellipse_43 {
+        position: absolute;
+        overflow: visible;
+        width: 50px;
+        height: 50.658px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .facebook_bp_Class {
+        position: absolute;
+        width: 13.816px;
+        height: 14.353px;
+        left: 17.763px;
+        top: 18.098px;
+        overflow: visible;
+    }
+    
+    .Group_57_Class {
+        position: absolute;
+        width: 13.816px;
+        height: 14.353px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    
+    .Rectangle_1458_Class {
+        fill: transparent;
+    }
+    
+    .Rectangle_1458 {
+        position: absolute;
+        overflow: visible;
+        width: 13.815px;
+        height: 13.815px;
+        left: 0px;
+        top: 0.322px;
+    }
+    
+    .Path_1_Class {
+        fill: rgba(152, 150, 150, 1);
+    }
+    
+    .Path_1 {
+        overflow: visible;
+        position: absolute;
+        width: 7.495px;
+        height: 14.354px;
+        left: 3.478px;
+        top: 0px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Terms__Conditions_Class {
+        left: 1583px;
+        top: 229px;
+        position: absolute;
+        overflow: visible;
+        width: 147px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .Privacy_Policy_Class {
+        left: 1605px;
+        top: 194px;
+        position: absolute;
+        overflow: visible;
+        width: 103px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .ID7th_Floor_V_L_Mehta_Road_Vil_Class {
+        left: 1147px;
+        top: 194px;
+        position: absolute;
+        overflow: visible;
+        width: 354px;
+        height: 63px;
+        line-height: 35px;
+        margin-top: -10px;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .Location_Icon_Class {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 1132px;
+        top: 194px;
+        overflow: visible;
+    }
+    
+    .Path_1022_Class {
+        fill: transparent;
+    }
+    
+    .Path_1022 {
+        overflow: visible;
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 0px;
+        top: 0px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Path_1023_Class {
+        fill: rgba(152, 150, 150, 1);
+    }
+    
+    .Path_1023 {
+        overflow: visible;
+        position: absolute;
+        width: 14px;
+        height: 20px;
+        left: 5px;
+        top: 2px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Pratik_Doshi__9987733926_Tatha_Class {
+        left: 546px;
+        top: 194px;
+        position: absolute;
+        overflow: visible;
+        width: 300px;
+        height: 69px;
+        line-height: 30px;
+        margin-top: -5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .Phone_Icon_Class {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 512px;
+        top: 217px;
+        overflow: visible;
+    }
+    
+    .Path_1020_Class {
+        fill: transparent;
+    }
+    
+    .Path_1020 {
+        overflow: visible;
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 0px;
+        top: 0px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Path_1021_Class {
+        fill: rgba(152, 150, 150, 1);
+    }
+    
+    .Path_1021 {
+        overflow: visible;
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        left: 3px;
+        top: 3px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .techclubnmimsgmailcom_Class {
+        left: 228px;
+        top: 194px;
+        position: absolute;
+        overflow: visible;
+        width: 213px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .Mail_Icon_Class {
+        fill: rgba(152, 150, 150, 1);
+        stroke: rgba(152, 150, 150, 1);
+        stroke-width: 1px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    
+    .Mail_Icon {
+        overflow: visible;
+        position: absolute;
+        width: 25px;
+        height: 19px;
+        left: 191px;
+        top: 195.473px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .LEGAL_Class {
+        left: 1614px;
+        top: 127px;
+        position: absolute;
+        overflow: visible;
+        width: 85px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .ADDRESS_Class {
+        left: 1254px;
+        top: 127px;
+        position: absolute;
+        overflow: visible;
+        width: 127px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .Logo_Class {
+        position: absolute;
+        width: 170px;
+        height: 170px;
+        left: 875px;
+        top: 110px;
+        overflow: visible;
+    }
+    
+    .Logo_cb_Class {
+        position: absolute;
+        width: 170px;
+        height: 170px;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+    
+    .Logo_b_Class {
+        filter: blur(50px);
+        position: absolute;
+        width: 138px;
+        height: 138px;
+        left: 16px;
+        top: 16px;
+        overflow: visible;
+    }
+    
+    .PHONE_Class {
+        left: 590px;
+        top: 127px;
+        position: absolute;
+        overflow: visible;
+        width: 97px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .EMAIL_Class {
+        left: 274px;
+        top: 127px;
+        position: absolute;
+        overflow: visible;
+        width: 83px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        color: rgba(152, 150, 150, 1);
+    }
+    
+    .Conatct_Class {
+        position: absolute;
+        width: 502px;
+        height: 739px;
+        left: 1172px;
+        top: 108px;
+        overflow: visible;
+    }
+    
+    .Conatiner_Class {
+        fill: rgba(0, 0, 0, 0.1);
+    }
+    
+    .Conatiner {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 520px;
+        height: 757px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .Submit_Button_Class {
+        position: absolute;
+        width: 208.5px;
+        height: 52.73px;
+        left: 180px;
+        top: 630px;
+        overflow: visible;
+    }
+    
+    .Button_Class {
+        fill: transparent;
+        stroke: rgba(112, 112, 112, 1);
+        stroke-width: 3px;
+        stroke-linejoin: miter;
+        stroke-linecap: butt;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    
+    .Button {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 226.5px;
+        height: 70.73px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .SUBMIT_Class {
+        left: 55.903px;
+        top: 12px;
+        position: absolute;
+        overflow: visible;
+        width: 97px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        color: rgba(112, 112, 112, 1);
+    }
+    
+    .Type_here_Class {
+        position: absolute;
+        width: 399.061px;
+        height: 204px;
+        left: 51.47px;
+        top: 415px;
+        overflow: visible;
+    }
+    
+    .Type_Box_Class {
+        fill: rgba(48, 46, 53, 1);
+    }
+    
+    .Type_Box {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 417.061px;
+        height: 222px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .Type_here_box_Class {
+        position: absolute;
+        width: 151.563px;
+        height: 29px;
+        left: 124.234px;
+        top: 20px;
+        overflow: visible;
+    }
+    
+    .Type_here_cj_Class {
+        left: 31.563px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 121px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        color: rgba(112, 112, 112, 1);
+    }
+    
+    .Type_Icon_Class {
+        opacity: 0.65;
+        position: absolute;
+        width: 23px;
+        height: 23px;
+        left: 0px;
+        top: 4px;
+        overflow: visible;
+    }
+    
+    .Path_1018_Class {
+        fill: transparent;
+    }
+    
+    .Path_1018 {
+        overflow: visible;
+        position: absolute;
+        width: 23px;
+        height: 23px;
+        left: 0px;
+        top: 0px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Path_1019_Class {
+        fill: rgba(112, 112, 112, 1);
+    }
+    
+    .Path_1019 {
+        overflow: visible;
+        position: absolute;
+        width: 17.002px;
+        height: 17.003px;
+        left: 3px;
+        top: 2.997px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Subject_Class {
+        position: absolute;
+        width: 399.061px;
+        height: 52.73px;
+        left: 51.47px;
+        top: 351px;
+        overflow: visible;
+    }
+    
+    .Subject_Box_Class {
+        fill: rgba(48, 46, 53, 1);
+    }
+    
+    .Subject_Box {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 417.061px;
+        height: 70.73px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .Subject_cp_Class {
+        left: 153.592px;
+        top: 10px;
+        position: absolute;
+        overflow: visible;
+        width: 93px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        color: rgba(112, 112, 112, 1);
+    }
+    
+    .Mail_ID_Class {
+        position: absolute;
+        width: 399.061px;
+        height: 52.73px;
+        left: 51.47px;
+        top: 287px;
+        overflow: visible;
+    }
+    
+    .Mail_Box_Class {
+        fill: rgba(48, 46, 53, 1);
+    }
+    
+    .Mail_Box {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 417.061px;
+        height: 70.73px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .Your_Mail_ID_Class {
+        left: 30.53px;
+        top: 12px;
+        position: absolute;
+        overflow: visible;
+        width: 147px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        color: rgba(112, 112, 112, 1);
+    }
+    
+    .Mail_Icon_ct_Class {
+        position: absolute;
+        width: 30.18px;
+        height: 22.635px;
+        left: 339.351px;
+        top: 15px;
+        overflow: visible;
+    }
+    
+    .Mail_icon_path_Class {
+        fill: rgba(112, 112, 112, 1);
+    }
+    
+    .Mail_icon_path {
+        overflow: visible;
+        position: absolute;
+        width: 30.18px;
+        height: 22.635px;
+        left: 0px;
+        top: 0px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Your_Name_Class {
+        position: absolute;
+        width: 399.061px;
+        height: 52.73px;
+        left: 51.47px;
+        top: 223px;
+        overflow: visible;
+    }
+    
+    .Name_Box_Class {
+        fill: rgba(48, 46, 53, 1);
+    }
+    
+    .Name_Box {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 417.061px;
+        height: 70.73px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .Your_Name_cx_Class {
+        left: 32.687px;
+        top: 12px;
+        position: absolute;
+        overflow: visible;
+        width: 137px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        color: rgba(112, 112, 112, 1);
+    }
+    
+    .Profile_Icon_Class {
+        fill: rgba(112, 112, 112, 1);
+    }
+    
+    .Profile_Icon {
+        overflow: visible;
+        position: absolute;
+        width: 30.184px;
+        height: 30.184px;
+        left: 343.68px;
+        top: 10.95px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .If_you_are_facing_any_issues_o_Class {
+        left: 45px;
+        top: 154px;
+        position: absolute;
+        overflow: visible;
+        width: 400px;
+        height: 44px;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: rgba(240, 237, 238, 1);
+    }
+    
+    .Main_Underline_Class {
+        fill: transparent;
+        stroke: rgba(79, 231, 220, 1);
+        stroke-width: 3px;
+        stroke-linejoin: miter;
+        stroke-linecap: round;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    
+    .Main_Underline {
+        overflow: visible;
+        position: absolute;
+        width: 78.5px;
+        height: 3px;
+        left: 206.879px;
+        top: 114.5px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .CONTACT_US_Class {
+        left: 110px;
+        top: 46px;
+        position: absolute;
+        overflow: visible;
+        width: 271px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        color: rgba(240, 237, 238, 1);
+    }
+    
+    .Sync_Image_Class {
+        fill: rgba(48, 46, 53, 1);
+    }
+    
+    .Sync_Image {
+        display: none;
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 268px;
+        height: 268px;
+        left: 837px;
+        top: 278px;
+    }
+    
+    .Respawn_Image_Class {
+        fill: rgba(48, 46, 53, 1);
+    }
+    
+    .Respawn_Image {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 268px;
+        height: 268px;
+        left: 549px;
+        top: 278px;
+    }
+    
+    .Data_Image_Class {
+        fill: rgba(48, 46, 53, 1);
+    }
+    
+    .Data_Image {
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+        position: absolute;
+        overflow: visible;
+        width: 268px;
+        height: 268px;
+        left: 261px;
+        top: 278px;
+    }
+    
+    .Services_Underline_Class {
+        fill: transparent;
+        stroke: rgba(79, 231, 220, 1);
+        stroke-width: 3px;
+        stroke-linejoin: miter;
+        stroke-linecap: round;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    
+    .Services_Underline {
+        overflow: visible;
+        position: absolute;
+        width: 78.5px;
+        height: 3px;
+        left: 261px;
+        top: 227.5px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .OUR_SERVICES_Class {
+        left: 259px;
+        top: 154px;
+        position: absolute;
+        overflow: visible;
+        width: 313px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        color: rgba(240, 237, 238, 1);
+    }
+    
+    .Whatsapp_Text_Class {
+        left: 270px;
+        top: 554px;
+        position: absolute;
+        overflow: visible;
+        width: 313px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        color: rgba(240, 237, 238, 1);
+        display: none;
+    }
+    
+    .Nav_Underline_Class {
+        fill: rgba(0, 0, 0, 0);
+        stroke: rgba(79, 231, 220, 1);
+        stroke-width: 5px;
+        stroke-linejoin: miter;
+        stroke-linecap: round;
+        stroke-miterlimit: 4;
+        shape-rendering: auto;
+    }
+    
+    .Nav_Underline {
+        overflow: visible;
+        position: absolute;
+        width: 78.252px;
+        height: 5px;
+        left: 1386.11px;
+        top: 74.5px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    
+    .Nav_Bar_Class {
+        position: absolute;
+        width: 1398px;
+        height: 75px;
+        left: 261px;
+        top: 20px;
+        overflow: visible;
+    }
+    
+    .Sync_Class {
+        position: absolute;
+        width: 42px;
+        height: 19px;
+        left: 1356px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    
+    .SYNC_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 43px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    
+    .Contact_Us_db_Class {
+        position: absolute;
+        width: 76px;
+        height: 19px;
+        left: 1123px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    
+    .SERVICES_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 77px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    
+    .Events_Class {
+        position: absolute;
+        width: 61px;
+        height: 19px;
+        left: 905px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    
+    .EVENTS_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 62px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    
+    .Glow_Class {
+        filter: blur(50px);
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 661.5px;
+        top: 0px;
+        overflow: visible;
+    }
+    
+    .Logo_dg_Class {
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 661.5px;
+        top: 0px;
+        overflow: visible;
+        --web-animation: fadein 0.4s ease-out;
+        --web-action-type: view;
+        --web-action-target: Homepage;
+        cursor: pointer;
+    }
+    
+    .Logoglow_dg_Class {
+        filter: blur(50px);
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        left: 661.5px;
+        top: 0px;
+        overflow: visible;
+        --web-animation: fadein 0.4s ease-out;
+        --web-action-type: view;
+        --web-action-target: Homepage;
+        cursor: pointer;
+    }
+    
+    .Departments_Class {
+        position: absolute;
+        width: 119px;
+        height: 19px;
+        left: 395px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    
+    .DEPARTMENTS_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 120px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    
+    .About_Class {
+        position: absolute;
+        width: 56px;
+        height: 19px;
+        left: 194px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    
+    .ABOUT_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 57px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    
+    .Home_Class {
+        position: absolute;
+        width: 49px;
+        height: 19px;
+        left: 0px;
+        top: 29.5px;
+        overflow: visible;
+    }
+    
+    .HOME_Class {
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        overflow: visible;
+        width: 50px;
+        white-space: nowrap;
+        line-height: 16px;
+        margin-top: -0.5px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgba(240, 237, 238, 1);
+    }
+    .Black_Tint_Class {
+        width: 2000px;
+    }
+    .Container_Class {
+        width: 1458px;
+        height: 717px;
+    }
+    .Footer_Class {
+        display: none;
+    }
+    .HOME_Class {
+        font-size: large;
+    }
+    .ABOUT_Class {
+        font-size: large;
+    }
+    .DEPARTMENTS_Class {
+        font-size: large;
+    }
+    .EVENTS_Class {
+        font-size: large;
+    }
+    .SYNC_Class {
+        font-size: large;
+    }
+    .SERVICES_Class {
+        font-size: large;
+    }
+}

@@ -1,0 +1,1675 @@
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
+
+body {
+    background: url("https://res.cloudinary.com/jasonheecs/image/upload/v1480353347/construction/bg.jpg");
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    display: flex;
+    position: absolute;
+    left: 0;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    right: 100px;
+}
+
+.scene,
+.layer {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.scene {
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+.layer {
+    position: absolute;
+}
+
+.content {
+    position: relative;
+    padding: 20px;
+    font-size: 1rem;
+}
+/* 
+@media screen and (min-width: 768px) {
+    .content {
+        top: 10%;
+        left: 15%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        top: 18%;
+    }
+}   */
+
+.rocket,
+.cloud-back,
+.cloud-front {
+    position: relative;
+    width: auto;
+    text-align: right;
+}
+
+.cloud-front {
+    bottom: -85vh;
+}
+
+/* @media screen and (min-height: 700px) {
+    .cloud-front {
+        bottom: calc(-98vh + 55px);
+    }
+} */
+
+/* @media screen and (min-width: 768px)  {
+    .cloud-front {
+        bottom: calc(-85vh + 132px);
+    }
+} */
+
+.cloud-back {
+    bottom: -75vh;
+}
+
+/* @media screen and (min-height: 700px) {
+    .cloud-back {
+        bottom: calc(-98vh + 87px);
+    }
+} */
+/* 
+@media screen and (min-width: 768px)  {
+    .cloud-back {
+        bottom: calc(-85vh + 182px);
+    }
+} */
+
+.rocket {
+    bottom: calc(-20vh);
+}
+
+/* @media screen and (min-height: 700px) {
+    .rocket {
+        bottom: calc(-100vh + 330px);
+    }
+  
+} */
+/* 
+@media screen and (min-width: 480px)  {
+    .rocket {
+        bottom: calc(-95vh + 400px);
+    }
+    .ui-card{
+        bottom: calc(-95vh + 400px);
+    }
+}
+
+@media screen and (min-width: 768px)  {
+    .rocket {
+        bottom: calc(-85vh + 600px);
+    }
+    
+} */
+
+.footer {
+    position: absolute;
+    bottom: -5%;
+    left: -100%;
+    width: 300%;
+    height: 15vh;
+    background: linear-gradient(119deg, rgba(0, 255, 255, 0.7) 0%, rgba(255, 0, 255, 0.7) 100%);
+    z-index: -1;
+}
+
+/* @media screen and (min-width: 480px) {
+    .footer {
+        height: 25vh;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .footer {
+        bottom: -25vh;
+        height: 50vh;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .footer {
+        bottom: -15vh;
+        height: 50vh;
+    }
+} */
+
+.social {
+    position: absolute;
+    top: 30px;
+    right: 5%;
+    color: #999;
+    text-transform: uppercase;
+}
+
+.social__link {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.social__link img {
+    vertical-align: middle;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+.c-animator {
+    margin-bottom: 0;
+}
+
+.ui-hero.c-animator {
+    background: linear-gradient(45deg, #FCE38A, #f5ad4d, #fd81b5, #f74689, #ad5af3, #8a13ef);
+    background-size: 450% 100%;
+    animation: BackgroundGradient 30s ease infinite;
+}
+
+@keyframes BackgroundGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+.ui-hero {
+    position: relative;
+}
+
+.container {
+    padding-top: 50px;
+    position: relative;
+    z-index: 2;
+}
+
+.container {
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.logo {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    margin: 0 auto 2rem auto;
+    overflow: hidden;
+}
+
+.heading,
+.paragraph {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    color: #FFF;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.ui-hero,
+.hero-center {
+    text-align: center;
+}
+
+#clock>div {
+    display: inline-block;
+    width: 85px;
+    height: 80px;
+    box-shadow: 0 5px 10px rgba(0, 9, 128, 0.035), 0 7px 18px rgba(0, 9, 128, 0.05);
+    background-color: rgba(255, 255, 255, 0.075);
+    padding: 8px 0 4px 0;
+    margin-left: 1rem;
+    border-radius: .5rem;
+}
+
+#clock {
+    margin-top: 50px;
+}
+
+.label {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.clock-text {
+    font-size: 14px;
+}
+
+.form-email {
+    position: relative;
+    max-width: 500px;
+    margin: auto;
+    top: 30px;
+}
+
+.ui-card {
+    background: #FFF;
+    border-radius: 0.5rem;
+}
+
+.shadow-card {
+    box-shadow: 0 7px 15px rgba(0, 9, 128, 0.05), 0 12px 28px rgba(0, 9, 128, 0.075);
+}
+
+.ui-card .header-card {
+    padding: 2rem 2rem 0 2rem;
+}
+
+.ui-hero.hero-center-heading-text {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+
+.heading-text {
+    color: black;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ui-hero .body-card {
+    padding: 2rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.ui-hero.hero-center form {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 520px;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+
+.ui-hero.hero-center form .form-group {
+    border-radius: 50px;
+    box-shadow: 0 7px 15px rgba(0, 9, 128, 0.05), 0 12px 28px rgba(0, 9, 128, 0.075);
+}
+
+.form-email .input-form-mail {
+    padding: 8px 1rem 8px 1.5rem;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.input-group>.form-email {
+    position: relative;
+    flex: 1 1 auto;
+    width: 1%;
+    margin-bottom: 0;
+}
+
+.input-form-mail {
+    display: block;
+    width: 80%;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #708198;
+    background-color: #edeff2;
+    background-clip: padding-box;
+    border: 0 solid #ced4da;
+}
+
+.input-group-btn {
+    display: flex;
+    float: right;
+    position: relative;
+    top: -40px;
+}
+
+.form-email .btn-color {
+    padding: 0.2rem 1rem;
+    line-height: 35px;
+}
+
+.btn-color {
+    background: linear-gradient(45deg, #c961f7, #8089ff, #54ceff 100%);
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 800;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 0 solid transparent;
+    padding: 0.37rem 0.75rem;
+    cursor: pointer;
+}
+
+.btn-notify {
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    font-size: .9rem;
+    padding: .6rem 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: .03rem;
+    color: #FFF;
+}
+
+.section {
+    position: relative;
+    z-index: 1;
+    bottom: 130px;
+    left: 90px;
+}
+
+.actions {
+    padding-top: 6rem;
+}
+
+.social-icon {
+    text-align: center;
+}
+
+.actions .btn {
+    margin-right: 1rem;
+}
+
+.btn-circle {
+    width: 30px;
+    line-height: 40px !important;
+    height: 40px;
+    border-radius: 50% !important;
+    font-size: 25px !important;
+}
+
+.btn.btn-gradient-blue,
+.btn-gradient-peach {
+    color: #FFF;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 0 solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.4;
+    border-radius: 50rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-gradient-blue {
+    background: linear-gradient(45deg, #8089ff 0%, #54ceff 100%);
+}
+
+.btn-gradient-peach {
+    background: linear-gradient(45deg, #fd81b5 0%, #c961f7 50%, #8089ff 100%);
+}
+
+.msg h4 {
+    color: #95bd4a;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    left: 60px;
+}
+
+
+/* AFTER */
+
+.ui-tittle::after {
+    bottom: -8rem;
+}
+
+.ui-hero.ui-tittle::after {
+    display: block;
+    content: '';
+    position: absolute;
+    left: -8rem;
+    right: -8rem;
+    height: 16rem;
+    background-color: #FFF;
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-9deg);
+    z-index: 1;
+}
+
+#title {
+    background: -webkit-linear-gradient(rgba(0, 255, 255, 0.7), rgba(255, 0, 255, 0.7));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (min-width: 320px) {
+    .sync-logo{
+        margin-top: 10vh;   
+         margin-left:-8vw ; 
+        }
+    .heading-text{
+        font-size: 1.1em;
+        margin-bottom: 70px;
+    }
+   .ui-card {
+
+       margin-top:108%;
+       width: 80%;
+       height: 16.5vh;
+      margin-left: 28.5vw;
+   }
+   .form-group{
+       margin-top: -5vh;
+   }
+
+   #title{
+     margin-top: 0vh;
+     margin-left: 5vw;
+     font-size: 1.4em;
+    }
+  
+   .one-stop{
+       margin-top: -1vh;
+       margin-left: 5vw;
+       width: 95vw;
+       font-size: 0.9em;
+      }
+    .rocket{
+    
+       left: 43vw;
+        /* margin-left: 60vw; */
+        margin-top: 37.5vh;
+    }
+    .rocket img{
+        height:48vh;
+    }
+    .cloud-back{
+        left: 45vw;
+        width: 80%;
+        margin-top: 11.5vh;
+    }
+    .cloud-front{
+        left: 45vw;
+        width: 80%;
+        margin-top: 5vh;
+    }
+     .footer{
+        position: relative;
+        top: 96%;
+    } 
+    .social{
+        left: 67vw;
+        font-size: 0.7rem;
+    }
+    .btn-circle {
+        width:10px;
+        height: 22px;
+        margin-top: 1vh;
+        margin-left: -27.5vw;
+    }
+   #insta{
+       margin-bottom: 25px;
+       margin-left: -6.5px;
+       height: 25px;
+       width: 25px;
+   }
+    
+}
+
+@media only screen and (min-width: 330px) {
+    .sync-logo{
+        margin-top: 10vh;   
+         margin-left:-5vw ; 
+        }
+    .heading-text{
+        font-size: 1.1em;
+        margin-bottom: 70px;
+    }
+   .ui-card {
+
+       margin-top:109%;
+       width: 80%;
+       height: 16.5vh;
+      margin-left: 31vw;
+   }
+   .form-group{
+       margin-top: -5vh;
+   }
+
+   #title{
+     margin-top: 0vh;
+     margin-left: 7vw;
+     font-size: 1.4em;
+    }
+  
+   .one-stop{
+       margin-top: -1vh;
+       margin-left: 7vw;
+       width: 95vw;
+       font-size: 0.9em;
+      }
+    .rocket{
+    
+       left: 42vw;
+        /* margin-left: 60vw; */
+        margin-top: 37vh;
+    }
+    .rocket img{
+        height:48vh;
+    }
+    .cloud-back{
+        left: 45vw;
+        width: 80%;
+        margin-top: 8vh;
+    }
+    .cloud-front{
+        left: 45vw;
+        width: 80%;
+        margin-top: 1vh;
+    }
+     .footer{
+        position: relative;
+        top: 93%;
+    } 
+    .social{
+        left: 67vw;
+        font-size: 0.7rem;
+    }
+    .btn-circle {
+        width:10px;
+        height: 22px;
+        margin-top: 2vh;
+        margin-left: -25vw;
+    }
+   #insta{
+       margin-bottom: 25px;
+       margin-left: -6.5px;
+       height: 25px;
+       width: 25px;
+   }
+    
+}
+
+@media only screen and (min-width: 340px) {
+    .sync-logo{
+        margin-top: 10vh;   
+         margin-left:-3vw ; 
+        }
+    .heading-text{
+        font-size: 1.1em;
+        margin-bottom: 70px;
+    }
+   .ui-card {
+
+       margin-top:105%;
+       width: 80%;
+       height: 16.5vh;
+      margin-left: 31vw;
+   }
+   .form-group{
+       margin-top: -5vh;
+   }
+
+   #title{
+     margin-top: 0vh;
+     margin-left: 7vw;
+     font-size: 1.4em;
+    }
+  
+   .one-stop{
+       margin-top: -1vh;
+       margin-left: 7vw;
+       width: 95vw;
+       font-size: 0.9em;
+      }
+    .rocket{
+    
+       left: 39vw;
+        /* margin-left: 60vw; */
+        margin-top: 37vh;
+    }
+    .rocket img{
+        height:48vh;
+    }
+    .cloud-back{
+        left: 45vw;
+        width: 80%;
+        margin-top: 7.8vh;
+    }
+    .cloud-front{
+        left: 45vw;
+        width: 80%;
+        margin-top: 2vh;
+    }
+     .footer{
+        position: relative;
+        top: 93%;
+    } 
+    .social{
+        left: 67vw;
+        font-size: 0.7rem;
+    }
+    .btn-circle {
+        width:10px;
+        height: 22px;
+        margin-top: 1.5vh;
+        margin-left: -25vw;
+    }
+   #insta{
+       margin-bottom: 25px;
+       margin-left: -6.5px;
+       height: 25px;
+       width: 25px;
+   }
+    
+}
+
+@media only screen and (min-width: 350px) {
+    .sync-logo{
+        margin-top: 10vh;   
+        margin-left:-5vw ; 
+    }
+    .heading-text{
+        font-size: 1.1em;
+        margin-bottom: 70px;
+    }
+   .ui-card {
+        margin-top:100%;
+        width: 80%;
+        height: 16.5vh;
+        margin-left: 30vw;
+    }
+   .form-group{
+       margin-top: -5vh;
+    }
+   #title{
+        margin-top: 0vh;
+        margin-left: 7vw;
+        font-size: 1.4em;
+    }
+   .one-stop{
+        margin-top: -1vh;
+        margin-left: 7vw;
+        width: 95vw;
+        font-size: 0.9em;
+    }
+    .rocket{
+        left: 39vw;
+        /* margin-left: 60vw; */
+        margin-top: 37vh;
+    }
+    .rocket img{
+        height:48vh;
+    }
+    .cloud-back{
+        left: 45vw;
+        width: 80%;
+        margin-top: 7.2vh;
+    }
+    .cloud-front{
+        left: 45vw;
+        width: 80%;
+        margin-top: 1vh;
+    }
+     .footer{
+        position: relative;
+        top: 93%;
+    } 
+    .social{
+        left: 67vw;
+        font-size: 0.7rem;
+    }
+    .btn-circle {
+        width:10px;
+        height: 22px;
+        margin-top: 1.5vh;
+        margin-left: -25vw;
+    }
+   #insta{
+       margin-bottom: 25px;
+       margin-left: -6.5px;
+       height: 25px;
+       width: 25px;
+    }
+    
+}
+
+@media only screen and (min-width: 360px) {
+    .sync-logo{
+        margin-top: 10vh;   
+        margin-left:-3vw ; 
+    }
+    .heading-text{
+        font-size: 1.1em;
+        margin-bottom: 70px;
+    }
+   .ui-card {
+        margin-top:100%;
+        width: 80%;
+        height: 16.5vh;
+        margin-left: 30vw;
+    }
+   .form-group{
+       margin-top: -5vh;
+    }
+   #title{
+        margin-top: 0vh;
+        margin-left: 7vw;
+        font-size: 1.4em;
+    }
+   .one-stop{
+        margin-top: -1vh;
+        margin-left: 7vw;
+        width: 95vw;
+        font-size: 0.9em;
+    }
+    .rocket{
+        left: 32vw;
+        /* margin-left: 60vw; */
+        margin-top: 37vh;
+    }
+    .rocket img{
+        height:48vh;
+    }
+    .cloud-back{
+        left: 40vw;
+        width: 80%;
+        margin-top: 6.9vh;
+    }
+    .cloud-front{
+        left: 40vw;
+        width: 80%;
+        margin-top: 1.5vh;
+    }
+     .footer{
+        position: relative;
+        top: 93%;
+    } 
+    .social{
+        left: 67vw;
+        font-size: 0.7rem;
+    }
+    .btn-circle {
+        width:10px;
+        height: 22px;
+        margin-top: 1.5vh;
+        margin-left: -25vw;
+    }
+   #insta{
+       margin-bottom: 25px;
+       margin-left: -6.5px;
+       height: 25px;
+       width: 25px;
+    }
+    
+}
+
+@media only screen and (min-width: 370px) {
+    .sync-logo{
+        margin-top: 10vh;   
+        margin-left:-5vw ; 
+    }
+    .heading-text{
+        font-size: 1.1em;
+        margin-bottom: 70px;
+    }
+   .ui-card {
+        margin-top:93%;
+        width: 80%;
+        height: 16.5vh;
+        margin-left: 30vw;
+    }
+   .form-group{
+       margin-top: -5vh;
+    }
+   #title{
+        margin-top: 0vh;
+        margin-left: 7vw;
+        font-size: 1.4em;
+    }
+   .one-stop{
+        margin-top: -1vh;
+        margin-left: 7vw;
+        width: 95vw;
+        font-size: 0.9em;
+    }
+    .rocket{
+        left: 32vw;
+        /* margin-left: 60vw; */
+        margin-top: 37vh;
+    }
+    .rocket img{
+        height:48vh;
+    }
+    .cloud-back{
+        left: 40vw;
+        width: 80%;
+        margin-top: 6.6vh;
+    }
+    .cloud-front{
+        left: 40vw;
+        width: 80%;
+        margin-top: 1.5vh;
+    }
+     .footer{
+        position: relative;
+        top: 93%;
+    } 
+    .social{
+        left: 67vw;
+        font-size: 0.7rem;
+    }
+    .btn-circle {
+        width:10px;
+        height: 22px;
+        margin-top: 1.5vh;
+        margin-left: -25vw;
+    }
+   #insta{
+       margin-bottom: 25px;
+       margin-left: -6.5px;
+       height: 25px;
+       width: 25px;
+    }
+    
+}
+
+@media only screen and (min-width: 375px) {
+    .sync-logo{
+        margin-top: 2vh;   
+         margin-left:0vw ; 
+        }
+    
+   .ui-card {
+
+       margin-top:75%;
+       width: 80%;
+       height: 18vh;
+      margin-left: 35vw;
+   }
+   .form-group{
+       margin-top: -4vh;
+   }
+
+   #title{
+     margin-top: 0.5vh;
+     margin-left: 13vw;
+    }
+  
+   .one-stop{
+       margin-top: -1vh;
+       margin-left: 13vw;
+       width: 90vw;
+      }
+    .rocket{
+    
+       left: 35vw;
+        /* margin-left: 60vw; */
+        margin-top: 35vh;
+    }
+    .rocket img{
+        height:50vh;
+    }
+    .cloud-back{
+        left: 45vw;
+        width: 80%;
+        margin-top: 12vh;
+    }
+    .cloud-front{
+        left: 48vw;
+        width: 80%;
+        margin-top: 4vh;
+    }
+     .footer{
+        position: relative;
+        top: 95%;
+    } 
+    .social{
+        left: 68vw;
+        font-size: 0.8rem;
+    }
+    .btn-circle {
+        width: 15px;
+        height: 25px;
+        margin-top: 1vh;
+        margin-left: -18vw;
+    }
+   #insta{
+       margin-bottom: 6px;
+       margin-left: -4px;
+   }
+    
+}
+
+@media only screen and (min-width: 380px) {
+    .sync-logo{
+        margin-top: 10vh;   
+        margin-left:-3vw ; 
+    } 
+   .ui-card {
+       margin-top:86%;
+       width: 80%;
+       height: 18vh;
+       margin-left: 28vw;
+    }
+   .form-group{
+       margin-top: -4vh;
+    }
+   #title{
+       margin-top: 0.5vh;
+       margin-left: 5vw;
+    }
+  
+   .one-stop{
+       margin-top: -1vh;
+       margin-left: 5vw;
+       width: 90vw;
+    }
+    .rocket{
+        left: 28vw;
+        /* margin-left: 60vw; */
+        margin-top: 38vh;
+    }
+    .rocket img{
+        height:50vh;
+    }
+    .cloud-back{
+        left: 38vw;
+        width: 80%;
+        margin-top: 8.5vh;
+    }
+    .cloud-front{
+        left: 38vw;
+        width: 80%;
+        margin-top: 3vh;
+    }
+     .footer{
+        position: relative;
+        top: 95%;
+    } 
+    .social{
+        left: 68vw;
+        font-size: 0.8rem;
+    }
+    .btn-circle {
+        width: 15px;
+        height: 25px;
+        margin-top: 1vh;
+        margin-left: -18vw;
+    }
+   #insta{
+       margin-bottom: 6px;
+       margin-left: -4px;
+    }
+    
+}
+
+@media only screen and (min-width: 390px) {
+    .sync-logo{
+        margin-top: 10vh;   
+         margin-left:-5vw ; 
+        }
+    
+   .ui-card {
+
+       margin-top:85%;
+       width: 80%;
+       height: 18vh;
+      margin-left: 29vw;
+   }
+   .form-group{
+       margin-top: -4vh;
+   }
+
+   #title{
+     margin-top: 0.5vh;
+     margin-left: 7vw;
+    }
+  
+   .one-stop{
+       margin-top: -1vh;
+       margin-left: 7vw;
+       width: 90vw;
+      }
+    .rocket{
+    
+       left: 28vw;
+        /* margin-left: 60vw; */
+        margin-top: 39vh;
+    }
+    .rocket img{
+        height:50vh;
+    }
+    .cloud-back{
+        left: 37vw;
+        width: 80%;
+        margin-top: 8.5vh;
+    }
+    .cloud-front{
+        left: 37vw;
+        width: 80%;
+        margin-top: 3vh;
+    }
+     .footer{
+        position: relative;
+        top: 95%;
+    } 
+    .social{
+        left: 68vw;
+        font-size: 0.8rem;
+    }
+    .btn-circle {
+        width: 15px;
+        height: 25px;
+        margin-top: 1vh;
+        margin-left: -18vw;
+    }
+   #insta{
+       margin-bottom: 6px;
+       margin-left: -4px;
+   }
+    
+}
+
+@media only screen and (min-width: 400px) {
+    .sync-logo{
+        margin-top: 10vh;   
+         margin-left:-5vw ; 
+        }
+    
+   .ui-card {
+
+       margin-top:83%;
+       width: 80%;
+       height: 18vh;
+      margin-left: 28vw;
+   }
+   .form-group{
+       margin-top: -4vh;
+   }
+
+   #title{
+     margin-top: 0.5vh;
+     margin-left: 6vw;
+    }
+  
+   .one-stop{
+       margin-top: -1vh;
+       margin-left: 6vw;
+       width: 90vw;
+      }
+    .rocket{
+    
+       left: 28vw;
+        /* margin-left: 60vw; */
+        margin-top: 38vh;
+    }
+    .rocket img{
+        height:50vh;
+    }
+    .cloud-back{
+        left: 37vw;
+        width: 80%;
+        margin-top: 8vh;
+    }
+    .cloud-front{
+        left: 37vw;
+        width: 80%;
+        margin-top: 2vh;
+    }
+     .footer{
+        position: relative;
+        top: 95%;
+    } 
+    .social{
+        left: 68vw;
+        font-size: 0.8rem;
+    }
+    .btn-circle {
+        width: 15px;
+        height: 25px;
+        margin-top: 1vh;
+        margin-left: -18vw;
+    }
+   #insta{
+       margin-bottom: 6px;
+       margin-left: -4px;
+   }
+    
+}
+
+@media only screen and (min-width: 410px) {
+    .sync-logo{
+        margin-top: 10vh;   
+         margin-left: -4vw ; 
+        }
+    
+   .ui-card {
+
+       margin-top:82%;
+       width: 80%;
+       height: 18vh;
+      margin-left: 30vw;
+   }
+
+   #title{
+     margin-top: 2.5vh;
+     margin-left: 8vw;
+    }
+  
+   .one-stop{
+       margin-top: -1vh;
+       margin-left: 8vw;
+      }
+    .rocket{
+    
+       left: 22vw;
+        /* margin-left: 60vw; */
+        margin-top: 40vh;
+    }
+    .rocket img{
+        height:45vh;
+    }
+    .cloud-back{
+        left: 36vw;
+        width: 80%;
+        margin-top: 7.7vh;
+    }
+    .cloud-front{
+        left: 36vw;
+        width: 80%;
+        margin-top: 2vh;
+    }
+     .footer{
+        position: relative;
+        top: 95%;
+    } 
+    .social{
+        left: 65vw;
+        font-size: 0.9rem;
+    }
+    .btn-circle {
+        width: 20px;
+        height: 30px;
+        margin-top: 0.5vh;
+        margin-left: -15vw;
+    }
+   #insta{
+       margin-bottom: 4px;
+       margin-left: -3px;
+   }
+}
+
+@media only screen and (min-width: 420px) {
+    .sync-logo{
+        margin-top: 10vh;   
+         margin-left:-2vw ; 
+        }
+    
+   .ui-card {
+
+       margin-top:80%;
+       width: 80%;
+       height: 20vh;
+      margin-left: 30vw;
+   }
+
+   #title{
+     margin-top: 2.5vh;
+     margin-left: 8vw;
+    }
+  
+   .one-stop{
+       margin-top: -1vh;
+       margin-left: 8vw;
+      }
+    .rocket{
+    
+       left: 20vw;
+        /* margin-left: 60vw; */
+        margin-top: 40vh;
+    }
+    .rocket img{
+        height:45vh;
+    }
+    .cloud-back{
+        left: 35vw;
+        width: 80%;
+        margin-top: 7.4vh;
+    }
+    .cloud-front{
+        left: 35vw;
+        width: 80%;
+        margin-top: 2vh;
+    }
+     .footer{
+        position: relative;
+        top: 95%;
+    } 
+    .social{
+        left: 68vw;
+        font-size: 0.9rem;
+    }
+    .btn-circle {
+        width: 20px;
+        height: 30px;
+        margin-top: 1vh;
+        margin-left: -15vw;
+    }
+   #insta{
+       margin-bottom: 4px;
+       margin-left: -2px;
+   }
+
+
+}
+
+@media screen and (min-width: 500px){
+    .sync-logo{
+        margin-top: 2vh;   
+        /* margin-left:-7vw ; */
+        }
+    
+   .ui-card {
+
+       margin-top:35vh;
+       width: 90%;
+       height: 18vh;
+      margin-left: 25%;
+   }
+
+   #title{
+     margin-top: 1vh;
+     margin-left: 20vw;
+    }
+  
+   .one-stop{
+       margin-top: 1vh;
+       margin-left: 20vw;
+      }
+    .rocket{
+        
+       left: 25vw;
+        /* margin-left: 60vw; */
+        margin-top: 35vh;
+    }
+    .rocket img{
+        height: 45vh;
+    }
+    .cloud-back{
+        margin-top:10vh ;
+        left: 30vw;
+        width: 90%;
+    }
+    .cloud-front{
+        left: 38vw;
+        width: 80%;
+        margin-top: 5vh;
+       
+    }
+    .footer{
+        position: relative;
+        top: 95%;
+    } 
+    .social{
+        left: 70vw;
+        font-size: 0.9rem;
+    }
+    .btn-circle {
+        width: 20px;
+        height: 30px;
+        margin-top: 1vh;
+        margin-left: -12vw;
+    }
+   #insta{
+       margin-bottom: 5px;
+   }
+}
+
+@media screen and (min-width:  700px){
+    .sync-logo{
+        margin-top: 2vh;   
+      
+        }
+    
+   .ui-card {
+       margin-top:30vh;
+       width: 50%;
+       height: 19vh;
+      margin-left: 22%;
+   }
+
+   #title{
+     margin-top: 1vh;
+     margin-left: 5vw;
+    }
+  
+   .one-stop{
+       margin-top: 1vh;
+       margin-left: 5vw;
+      }
+    .rocket{
+        
+       left: 30vw;
+        
+        margin-top: 5vh;
+    }
+    .rocket img{
+        height: 70vh;
+    }
+    .cloud-back{
+        margin-top: 4vh;
+        left: 40vw;
+        width: 80%;
+    }
+    .cloud-front{
+        margin-top:-2vh;
+        left: 40vw;
+        width: 90%;
+    }
+     .footer{
+        position: relative;
+        top: 90%;
+    
+    } 
+    .social{
+        left: 70vw;
+        font-size: 0.9rem;
+    }
+    .btn-circle {
+        width: 20px;
+        height: 30px;
+        margin-top: 1vh;
+        margin-left: -12vw;
+    }
+   #insta{
+       margin-bottom: 5px;
+   }
+}
+
+@media screen and (min-width:  760px){
+    .sync-logo{
+        margin-top: 2vh;   
+      
+        }
+    
+   .ui-card {
+       margin-top:25vh;
+       width: 50%;
+       height: 13vh;
+      margin-left: 22%;
+   }
+  
+   #title{
+     margin-top: 1vh;
+     margin-left: 5vw;
+    }
+  
+   .one-stop{
+       margin-top: 1vh;
+       margin-left: 5vw;
+      }
+    .rocket{
+        
+       left: 25vw;        
+       margin-top: 17vh;
+    }
+    .rocket img{
+        height: 57vh;
+    }
+    .cloud-back{
+        margin-top: 4vh;
+        left: 40vw;
+        width: 80%;
+    }
+    .cloud-front{
+        margin-top:-2vh;
+        left: 40vw;
+        width: 90%;
+    }
+     .footer{
+        position: relative;
+        top: 90%;
+    
+    } 
+    .social{
+        left: 70vw;
+        font-size: 0.9rem;
+    }
+    .btn-circle {
+        width: 20px;
+        height: 30px;
+        margin-top: 1vh;
+        margin-left: -12vw;
+    }
+   #insta{
+       margin-bottom: 5px;
+   }
+} 
+
+@media screen and (min-width:  1200px) { 
+    .sync-logo{
+        margin-top: 2vh;   
+        
+        }
+    
+   .ui-card {
+       margin-top:13vh;
+       width: 70%;
+       height: 17vh;
+      margin-left: 28vw;
+   }
+
+   #title{
+     margin-top: 1vh;
+     margin-left: 10vw;
+    }
+  
+   .one-stop{
+       margin-top: 3vh;
+       margin-left: 10vw;
+      }
+    .rocket{
+        
+       left:10vw;
+        margin-top: -3.5vh;
+    }
+    .rocket img{
+        height: 85vh;
+      
+    }
+    .cloud-back{
+        left:28vw;
+        width: 80%;
+        margin-top: -5vh;
+    }
+    .cloud-front{
+        margin-top: -5vh;
+        left: 20vw;
+        width: 90%;
+    }
+     .footer{
+        position: relative;
+        top: 90%;
+    } 
+    .social{
+        left: 80vw;
+        font-size: 0.9rem;
+    }
+    .btn-circle {
+        width: 20px;
+        height: 30px;
+        margin-top: 1vh;
+        margin-left: -8vw;
+    }
+   #insta{
+       margin-bottom: 5px;
+       margin-left: -2px;
+    }
+    @media screen and (min-width:  1500px) {
+        #title{
+            margin-top: 5vh;
+            margin-left: 10vw;
+            font-size: 2em;
+
+            
+           }
+         
+          .one-stop{
+             
+              margin-left: 10vw;
+              font-size: 1.3em;
+             
+             }
+        .ui-card{
+            height: 19vh;
+            margin-top:15vh;
+            width: 30vw;
+            font-size: 1.3em;
+        }
+   .cloud-back{
+    left:20vw;
+    top: 70vh;
+    width: 80%;
+}
+.cloud-front{
+    left:12vw;
+    width: 90%;
+    top: 75vh;
+    
+}
+ .footer{
+    position: relative;
+    top: 90%;
+} 
+.rocket{
+        
+    left:-1vw;
+     margin-top: -9vh;
+ }
+ .rocket img{
+     height: 75vh;
+   
+ }
+
+    }
+    @media screen and (min-width:  1920px){
+        #title{
+            margin-top: 5vh;
+            margin-left: 20vw;
+            font-size:2.5em;
+           }
+         
+          .one-stop{
+              margin-top: 2vh;
+              margin-left: 20vw;
+              font-size: 1.5em;
+             }
+         
+   .ui-card {
+    margin-top:35vh;
+    width: 60%;
+    height: 14vh;
+   margin-left: 38%;
+   font-size: 1.7em;
+   }
+   .cloud-back{
+       top: 80vh;
+    left:20vw;
+    width: 80%;
+    bottom: -75vh;
+}
+.cloud-front{
+    top: 85vh;
+    left: 10vw;
+    width: 90%;
+    bottom: -80vh;
+}
+ .footer{
+    position: relative;
+        top: 88%;
+} 
+.rocket{
+        
+    left:-5vw;
+     margin-top: 1vh;
+ }
+ .rocket img{
+     height: 75vh;
+   
+ }
+ .social{
+    left: 75vw;
+    font-size: 1.5rem;
+}
+.btn-circle {
+    width: 45px;
+    height: 55px;
+    margin-top: -1vh;
+    margin-left: -8vw;
+}
+#insta{
+   margin-bottom:-10 px;
+   margin-left: 1px;
+   height: 45px;
+   width: 45px;
+}
+
+
+    }
+}
+
+@media (orientation: landscape) {
+    .body {
+        color: chartreuse;
+    }
+}

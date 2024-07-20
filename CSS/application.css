@@ -1,0 +1,1629 @@
+.mediaViewInfo {
+    --web-view-name: Member Application;
+    --web-view-id: Member_Application;
+    --web-scale-to-fit: true;
+    --web-scale-to-fit-type: width;
+    --web-scale-on-resize: true;
+    --web-center-vertically: true;
+    --web-refresh-for-changes: true;
+    --web-application: true;
+    --web-enable-deep-linking: true;
+}
+
+ :root {
+    --web-view-ids: Member_Application;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+ ::-webkit-scrollbar {
+    width: 10px;
+}
+
+ ::-webkit-scrollbar-track {
+    background-color: #1d1e18;
+}
+
+ ::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(79, 231, 220, 1);
+}
+
+.form {
+    display: block;
+    width: 500px;
+    height: 710px;
+    padding: 32px;
+    background-color: #04050096;
+    border-radius: 13px;
+}
+
+.form__field {
+    display: grid;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+.input-group {
+    width: 100%;
+    height: auto;
+}
+
+.input-group__label {
+    display: block;
+    padding-left: 10px;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    color: #f0edee;
+    text-shadow: 1px 1px 0 rgb(0, 0, 0);
+    margin-bottom: 8px;
+}
+
+.input-group__input {
+    display: block;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    color: #f0edee;
+    text-shadow: 1px 1px 0 rgb(0, 0, 0);
+    padding: 12px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px rgb(0, 0, 0);
+    transition: all 0.2s ease-in-out;
+}
+
+.input-group__input:focus {
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px rgb(0, 0, 0);
+}
+
+.button {
+    background-color: transparent;
+    color: #f0edee;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.07em;
+    text-shadow: 1px 1px 0 rgb(0, 0, 0);
+    padding: 8px 20px;
+    border: 0;
+    border-radius: 30px;
+    box-shadow: 3px 3px 5px #4fe7dc, -4px -4px 10px rgb(0, 0, 0);
+    outline: 0;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+    box-shadow: -2px -2px 5px rgb(0, 0, 0), 2px 2px 5px #4fe7dc;
+}
+
+.button:active {
+    box-shadow: inset 2px 2px 3px #4fe7dc, inset -2px -2px 3px rgb(0, 0, 0);
+}
+
+input[type=radio] {
+    border: 0px;
+    width: 100%;
+    height: 1.9em;
+    position: relative;
+    left: -50px;
+    cursor: pointer;
+}
+
+#division {
+    height: 50px;
+    width: 150px;
+    position: relative;
+    left: 18px;
+    background-color: black;
+    color: #f0edee;
+    font-size: 20px;
+    border: solid #f0edee;
+    border-width: thin;
+    padding: 5px;
+}
+
+label {
+    font-size: 20px;
+    color: #f0edee;
+    font-weight: 500;
+    font-family: montserrat;
+    position: relative;
+    top: -30px;
+    left: 15px;
+}
+
+.Member_Application_Class {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    background-color: rgba(0, 0, 0, 1);
+    overflow: hidden;
+    --web-view-name: Member Application;
+    --web-view-id: Member_Application;
+    --web-scale-to-fit: true;
+    --web-scale-to-fit-type: width;
+    --web-scale-on-resize: true;
+    --web-center-vertically: true;
+    --web-refresh-for-changes: true;
+    --web-application: true;
+    --web-enable-deep-linking: true;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.Application_Background_Class {
+    position: absolute;
+    width: 1920px;
+    height: 1280.106px;
+    left: 0px;
+    top: -200px;
+    overflow: visible;
+    -webkit-transform: rotateX(0deg);
+          transform: rotateX(0deg);
+}
+
+.Black_Tint_Class {
+    fill: rgba(0, 0, 0, 0.812);
+}
+
+.Black_Tint {
+    position: absolute;
+    overflow: visible;
+    width: 1920.5px;
+    height: 1149.5px;
+    left: 0px;
+    top: 0px;
+}
+
+.Conatiner_Class {
+    fill: rgba(0, 0, 0, 0.2);
+}
+
+.Conatiner {
+    display: none;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    position: absolute;
+    overflow: visible;
+    width: 1416px;
+    height: 1035px;
+    left: 261px;
+    top: 112px;
+}
+
+.Submit_Button_Class {
+    position: absolute;
+    width: 208.5px;
+    height: 52.73px;
+    left: 885.403px;
+    top: 1000px;
+    overflow: visible;
+}
+
+.Button_Class {
+    fill: transparent;
+    stroke: rgba(112, 112, 112, 1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Button {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 1));
+    position: absolute;
+    overflow: visible;
+    width: 226.5px;
+    height: 70.73px;
+    left: 0px;
+    top: 0px;
+}
+
+.SUBMIT_Class {
+    left: 55.903px;
+    top: 12px;
+    position: absolute;
+    overflow: visible;
+    width: 97px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(112, 112, 112, 1);
+}
+
+.Department_Preference_Group_Class {
+    position: absolute;
+    width: 1275.53px;
+    height: 217.379px;
+    left: 322px;
+    top: 812px;
+    overflow: visible;
+}
+
+.Preference_Box_Class {
+    fill: rgba(0, 0, 0, 1);
+}
+
+.Preference_Box {
+    filter: drop-shadow(0px 3px 6px rgba(255, 255, 255, 0.502));
+    position: absolute;
+    overflow: visible;
+    width: 1293.53px;
+    height: 235.379px;
+    left: 0px;
+    top: 0px;
+}
+
+.Please_give_your_departmental__Class {
+    left: 14.867px;
+    top: 71px;
+    position: absolute;
+    overflow: visible;
+    width: 1247px;
+    height: 75px;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(112, 112, 112, 1);
+}
+
+.Departmental_Preference_Class {
+    left: 482px;
+    top: 15.443px;
+    position: absolute;
+    overflow: visible;
+    width: 313px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.Departments_Group_Class {
+    position: absolute;
+    width: 599.53px;
+    height: 285.38px;
+    left: 660px;
+    top: 576px;
+    overflow: visible;
+}
+
+.Department_Box_Class {
+    fill: rgba(0, 0, 0, 1);
+    height: 390px;
+}
+
+.Department_Box {
+    filter: drop-shadow(0px 3px 6px rgba(255, 255, 255, 0.502));
+    position: absolute;
+    overflow: visible;
+    width: 617.53px;
+    height: 270px;
+    left: 0px;
+    top: 0px;
+}
+
+.Web_Design_Checkbox_Class {
+    position: absolute;
+    width: 199.177px;
+    height: 29.443px;
+    left: 207px;
+    top: 226px;
+    overflow: visible;
+}
+
+.Web_Design_Class {
+    left: 49.177px;
+    top: 0.443px;
+    position: absolute;
+    overflow: visible;
+    width: 151px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(112, 112, 112, 1);
+}
+
+.Checkbox_Class {
+    fill: rgba(255, 255, 255, 1);
+    stroke: rgba(112, 112, 112, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Checkbox {
+    position: absolute;
+    overflow: visible;
+    width: 29px;
+    height: 29px;
+    left: 0px;
+    top: 0px;
+}
+
+.Videography_Checkbox_Class {
+    position: absolute;
+    width: 205.177px;
+    height: 29.443px;
+    left: 336px;
+    top: 177px;
+    overflow: visible;
+}
+
+.Videography_Class {
+    left: 49.177px;
+    top: 0.443px;
+    position: absolute;
+    overflow: visible;
+    width: 157px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(112, 112, 112, 1);
+}
+
+.Checkbox_bn_Class {
+    fill: rgba(255, 255, 255, 1);
+    stroke: rgba(112, 112, 112, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Checkbox_bn {
+    position: absolute;
+    overflow: visible;
+    width: 29px;
+    height: 29px;
+    left: 0px;
+    top: 0px;
+}
+
+.Spec_Ops_Checkbox_Class {
+    position: absolute;
+    width: 163.177px;
+    height: 29.443px;
+    left: 336px;
+    top: 128px;
+    overflow: visible;
+}
+
+.Spec_Ops_Class {
+    left: 49.177px;
+    top: 0.443px;
+    position: absolute;
+    overflow: visible;
+    width: 115px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(112, 112, 112, 1);
+}
+
+.Checkbox_bq_Class {
+    fill: rgba(255, 255, 255, 1);
+    stroke: rgba(112, 112, 112, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Checkbox_bq {
+    position: absolute;
+    overflow: visible;
+    width: 29px;
+    height: 29px;
+    left: 0px;
+    top: 0px;
+}
+
+.Programming_Checkbox_Class {
+    position: absolute;
+    width: 221.177px;
+    height: 29.443px;
+    left: 336px;
+    top: 79px;
+    overflow: visible;
+}
+
+.Programming_Class {
+    left: 49.177px;
+    top: 0.443px;
+    position: absolute;
+    overflow: visible;
+    width: 173px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(112, 112, 112, 1);
+}
+
+.Checkbox_bt_Class {
+    fill: rgba(255, 255, 255, 1);
+    stroke: rgba(112, 112, 112, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Checkbox_bt {
+    position: absolute;
+    overflow: visible;
+    width: 29px;
+    height: 29px;
+    left: 0px;
+    top: 0px;
+}
+
+.Graphic_Design_Checkbox_Class {
+    position: absolute;
+    width: 277px;
+    height: 29.443px;
+    left: 43px;
+    top: 287px;
+    overflow: visible;
+}
+
+.Graphic_Design_Class {
+    left: 49.177px;
+    top: 0.443px;
+    position: absolute;
+    overflow: visible;
+    width: 189px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(112, 112, 112, 1);
+}
+
+.Checkbox_bw_Class {
+    fill: rgba(255, 255, 255, 1);
+    stroke: rgba(112, 112, 112, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Checkbox_bw {
+    position: absolute;
+    overflow: visible;
+    width: 29px;
+    height: 29px;
+    left: 0px;
+    top: 0px;
+}
+
+.Digital_Marketing_Checkbox_Class {
+    position: absolute;
+    width: 261.177px;
+    height: 29.443px;
+    left: 43px;
+    top: 177px;
+    overflow: visible;
+}
+
+.Digital_Marketing_Class {
+    left: 49.177px;
+    top: 0.443px;
+    position: absolute;
+    overflow: visible;
+    width: 213px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(112, 112, 112, 1);
+}
+
+.Checkbox_bz_Class {
+    fill: rgba(255, 255, 255, 1);
+    stroke: rgba(112, 112, 112, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Checkbox_bz {
+    position: absolute;
+    overflow: visible;
+    width: 29px;
+    height: 29px;
+    left: 0px;
+    top: 0px;
+}
+
+.Data_Analytics_Checkbox_Class {
+    position: absolute;
+    width: 225.177px;
+    height: 29.443px;
+    left: 43px;
+    top: 79px;
+    overflow: visible;
+}
+
+.Data_Analytics_Class {
+    left: 49.177px;
+    top: 0.443px;
+    position: absolute;
+    overflow: visible;
+    width: 177px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(112, 112, 112, 1);
+}
+
+.Checkbox_b_Class {
+    fill: rgba(255, 255, 255, 1);
+    stroke: rgba(112, 112, 112, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Checkbox_b {
+    position: absolute;
+    overflow: visible;
+    width: 29px;
+    height: 29px;
+    left: 0px;
+    top: 0px;
+}
+
+.Departments_you_wish_to_apply__Class {
+    left: 85px;
+    top: 16.443px;
+    position: absolute;
+    overflow: visible;
+    width: 431px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.Year_Course_Group_Class {
+    position: absolute;
+    width: 600px;
+    height: 285.379px;
+    left: 322px;
+    top: 500px;
+    overflow: visible;
+}
+
+.Year_Course_Box_Class {
+    fill: rgba(0, 0, 0, 1);
+}
+
+.Year_Course_Box {
+    filter: drop-shadow(0px 3px 6px rgba(255, 255, 255, 0.502));
+    position: absolute;
+    overflow: visible;
+    width: 618px;
+    height: 303.379px;
+    left: 0px;
+    top: 0px;
+}
+
+.Division_Dropdown_Class {
+    position: absolute;
+    width: 178px;
+    height: 41px;
+    left: 413px;
+    top: 76px;
+    overflow: visible;
+}
+
+.Division_Box_Class {
+    fill: rgba(0, 0, 0, 1);
+}
+
+.Division_Box {
+    filter: drop-shadow(0px 3px 6px rgba(255, 255, 255, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 196px;
+    height: 59px;
+    left: 0px;
+    top: 0px;
+}
+
+.Dropdown_Class {
+    fill: rgba(255, 255, 255, 1);
+}
+
+.Dropdown {
+    overflow: hidden;
+    position: absolute;
+    width: 12px;
+    height: 8px;
+    transform: translate(-424px, -76px) matrix(1, 0, 0, 1, 582, 93) rotate(180deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+}
+
+.Choose_Class {
+    left: 9.177px;
+    top: 6.443px;
+    position: absolute;
+    overflow: visible;
+    width: 91px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(112, 112, 112, 1);
+}
+
+.Division_Class {
+    left: 459px;
+    top: 20.443px;
+    position: absolute;
+    overflow: visible;
+    width: 97px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.Course_Checkbox_Class {
+    position: absolute;
+    width: 202.177px;
+    height: 127.443px;
+    left: 171px;
+    top: 76px;
+    overflow: visible;
+}
+
+.BSc_Finance_Class {
+    left: 40.177px;
+    top: 98.443px;
+    position: absolute;
+    overflow: visible;
+    width: 157px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(112, 112, 112, 1);
+}
+
+.BSc_Circle_Class {
+    fill: rgba(255, 255, 255, 1);
+    stroke: rgba(112, 112, 112, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.BSc_Circle {
+    position: absolute;
+    overflow: visible;
+    width: 29px;
+    height: 29px;
+    left: 0px;
+    top: 98px;
+}
+
+.BCom_Hons_Class {
+    left: 40.177px;
+    top: 49.443px;
+    position: absolute;
+    overflow: visible;
+    width: 163px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(112, 112, 112, 1);
+}
+
+.BCom_Circle_Class {
+    fill: rgba(255, 255, 255, 1);
+    stroke: rgba(112, 112, 112, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.BCom_Circle {
+    position: absolute;
+    overflow: visible;
+    width: 29px;
+    height: 29px;
+    left: 0px;
+    top: 49px;
+}
+
+.BBA_Class {
+    left: 40.177px;
+    top: 0.443px;
+    position: absolute;
+    overflow: visible;
+    width: 55px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(112, 112, 112, 1);
+}
+
+.BBA_Circle_Class {
+    fill: rgba(255, 255, 255, 1);
+    stroke: rgba(112, 112, 112, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.BBA_Circle {
+    position: absolute;
+    overflow: visible;
+    width: 29px;
+    height: 29px;
+    left: 0px;
+    top: 0px;
+}
+
+.Course_Class {
+    left: 250px;
+    top: 20.443px;
+    position: absolute;
+    overflow: visible;
+    width: 85px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.Year_Checkbox_Class {
+    position: absolute;
+    width: 82.177px;
+    height: 127.443px;
+    left: 43px;
+    top: 76px;
+    overflow: visible;
+}
+
+.TY_Class {
+    left: 52.177px;
+    top: 98.443px;
+    position: absolute;
+    overflow: visible;
+    width: 31px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(112, 112, 112, 1);
+}
+
+.TY_Circle_Class {
+    fill: rgba(255, 255, 255, 1);
+    stroke: rgba(112, 112, 112, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.TY_Circle {
+    position: absolute;
+    overflow: visible;
+    width: 29px;
+    height: 29px;
+    left: 0px;
+    top: 98px;
+}
+
+.SY_Class {
+    left: 52.177px;
+    top: 49.443px;
+    position: absolute;
+    overflow: visible;
+    width: 31px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(112, 112, 112, 1);
+}
+
+.SY_Circle_Class {
+    fill: rgba(255, 255, 255, 1);
+    stroke: rgba(112, 112, 112, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.SY_Circle {
+    position: absolute;
+    overflow: visible;
+    width: 29px;
+    height: 29px;
+    left: 0px;
+    top: 49px;
+}
+
+.FY_Class {
+    left: 52.177px;
+    top: 0.443px;
+    position: absolute;
+    overflow: visible;
+    width: 31px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(112, 112, 112, 1);
+}
+
+.FY_Circle_Class {
+    fill: rgba(255, 255, 255, 1);
+    stroke: rgba(112, 112, 112, 1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.FY_Circle {
+    position: absolute;
+    overflow: visible;
+    width: 29px;
+    height: 29px;
+    left: 0px;
+    top: 0px;
+}
+
+.Year_Class {
+    left: 58px;
+    top: 20.443px;
+    position: absolute;
+    overflow: visible;
+    width: 53px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.City_Group_Class {
+    position: absolute;
+    width: 600px;
+    height: 52.73px;
+    left: 997.47px;
+    top: 421px;
+    overflow: visible;
+}
+
+.City_Box_Class {
+    fill: rgba(0, 0, 0, 1);
+}
+
+.City_Box {
+    filter: drop-shadow(0px 3px 6px rgba(255, 255, 255, 0.502));
+    position: absolute;
+    overflow: visible;
+    width: 618px;
+    height: 70.73px;
+    left: 0px;
+    top: 0px;
+}
+
+.City_Class {
+    left: 276.103px;
+    top: 12px;
+    position: absolute;
+    overflow: visible;
+    width: 49px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(112, 112, 112, 1);
+}
+
+.Contact_Number_Group_Class {
+    position: absolute;
+    width: 600px;
+    height: 52.73px;
+    left: 660px;
+    top: 498px;
+    overflow: visible;
+}
+
+.Number_Box_Class {
+    fill: rgba(0, 0, 0, 1);
+}
+
+.Number_Box {
+    filter: drop-shadow(0px 3px 6px rgba(255, 255, 255, 0.502));
+    position: absolute;
+    overflow: visible;
+    width: 618px;
+    height: 70.73px;
+    left: 0px;
+    top: 0px;
+}
+
+.Contact_Number_Class {
+    left: 197.103px;
+    top: 12px;
+    position: absolute;
+    overflow: visible;
+    width: 207px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(112, 112, 112, 1);
+}
+
+.Full_Name_Group_Class {
+    position: absolute;
+    width: 600px;
+    height: 52.73px;
+    left: 660px;
+    top: 342px;
+    overflow: visible;
+}
+
+.Name_Box_Class {
+    fill: rgba(0, 0, 0, 1);
+}
+
+.Name_Box {
+    filter: drop-shadow(0px 3px 6px rgba(255, 255, 255, 0.502));
+    position: absolute;
+    overflow: visible;
+    width: 618px;
+    height: 70.73px;
+    left: 0px;
+    top: 0px;
+}
+
+.Full_Name_Class {
+    left: 238px;
+    top: 12px;
+    position: absolute;
+    overflow: visible;
+    width: 125px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(112, 112, 112, 1);
+}
+
+.Mail_ID_Group_Class {
+    position: absolute;
+    width: 600px;
+    height: 52.73px;
+    left: 660px;
+    top: 420px;
+    overflow: visible;
+}
+
+.Mail_Box_Class {
+    fill: rgba(0, 0, 0, 1);
+}
+
+.Mail_Box {
+    filter: drop-shadow(0px 3px 6px rgba(255, 255, 255, 0.502));
+    overflow: visible;
+    position: absolute;
+    width: 618px;
+    height: 70.73px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Mail_ID_Class {
+    left: 258px;
+    top: 12px;
+    position: absolute;
+    overflow: visible;
+    width: 85px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(112, 112, 112, 1);
+}
+
+.Thank_you_for_taking_the_first_Class {
+    left: 558px;
+    top: 269px;
+    position: absolute;
+    overflow: hidden;
+    width: 805px;
+    height: 50px;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(240, 237, 238, 1);
+}
+
+.Underline_Class {
+    fill: transparent;
+    stroke: rgba(79, 231, 220, 1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Underline {
+    overflow: visible;
+    position: absolute;
+    width: 78.5px;
+    height: 3px;
+    left: 921.879px;
+    top: 222.5px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.MEMBER_APPLICATIONS_Class {
+    left: 663px;
+    top: 147px;
+    position: absolute;
+    overflow: visible;
+    width: 516px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(240, 237, 238, 1);
+}
+
+.Nav_Bar_Class {
+    position: absolute;
+    width: 1398px;
+    height: 75px;
+    left: 261px;
+    top: 20px;
+    overflow: visible;
+}
+
+.SYNC_Class {
+    left: 1356px;
+    top: 29.5px;
+    position: absolute;
+    overflow: visible;
+    width: 43px;
+    white-space: nowrap;
+    line-height: 16px;
+    margin-top: -0.5px;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(240, 237, 238, 1);
+}
+
+.SERVICES_Class {
+    left: 1123px;
+    top: 29.5px;
+    position: absolute;
+    overflow: visible;
+    width: 77px;
+    white-space: nowrap;
+    line-height: 16px;
+    margin-top: -0.5px;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(240, 237, 238, 1);
+}
+
+.EVENTS_Class {
+    left: 905px;
+    top: 29.5px;
+    position: absolute;
+    overflow: visible;
+    width: 62px;
+    white-space: nowrap;
+    line-height: 16px;
+    margin-top: -0.5px;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(240, 237, 238, 1);
+}
+
+.Logo_Class {
+    width: 120px; 
+    height: auto; 
+    top: 10px; 
+    left: 640px;
+    position: absolute;
+    overflow: visible;
+    --web-animation: fadein 0.4s ease-out;
+    --web-action-type: view;
+    --web-action-target: Homepage;
+    cursor: pointer;
+}
+
+.DEPARTMENTS_Class {
+    left: 395px;
+    top: 29.5px;
+    position: absolute;
+    overflow: visible;
+    width: 120px;
+    white-space: nowrap;
+    line-height: 16px;
+    margin-top: -0.5px;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(240, 237, 238, 1);
+}
+
+.ABOUT_Class {
+    left: 194px;
+    top: 29.5px;
+    position: absolute;
+    overflow: visible;
+    width: 57px;
+    white-space: nowrap;
+    line-height: 16px;
+    margin-top: -0.5px;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(240, 237, 238, 1);
+}
+
+.HOME_Class {
+    left: 0px;
+    top: 29.5px;
+    position: absolute;
+    overflow: visible;
+    width: 50px;
+    white-space: nowrap;
+    line-height: 16px;
+    margin-top: -0.5px;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(240, 237, 238, 1);
+}
+
+.Error{
+    color: rgba(79,231,220,1); 
+    z-index: 5; 
+    top: 300px; 
+    left: 38%; 
+    position: relative; 
+    font-family: Montserrat; 
+    font-weight: 700; 
+    font-size: 20px;
+}
+
+@media (min-width: 1200px) {
+    body {
+        -moz-transform: scale(0.74, 0.74);
+        /* Moz-browsers */
+        zoom: 0.74;
+        /* Other non-webkit browsers */
+        zoom: 74%;
+        /* Webkit browsers */
+        position: relative;
+        left: -150px;
+    }
+}
+
+@media (min-width: 1280px) {
+    body {
+        -moz-transform: scale(0.74, 0.74);
+        /* Moz-browsers */
+        zoom: 0.74;
+        /* Other non-webkit browsers */
+        zoom: 74%;
+        /* Webkit browsers */
+        left: -100px;
+    position: relative;
+    }
+}
+
+@media (min-width: 1366px) {
+    body {
+        -moz-transform: scale(0.75, 0.75);
+        /* Moz-browsers */
+        zoom: 0.75;
+        /* Other non-webkit browsers */
+        zoom: 75%;
+        /* Webkit browsers */
+        position: relative;
+        left: -50px;
+    }
+}
+
+@media (min-width: 1536px) {
+    body {
+        -moz-transform: scale(0.84, 0.84);
+        /* Moz-browsers */
+        zoom: 0.84;
+        /* Other non-webkit browsers */
+        zoom: 84%;
+        /* Webkit browsers */
+        position: relative;
+        left: -50px;
+    }
+}
+
+@media (min-width: 1600px) {
+    body {
+        -moz-transform: scale(0.86, 0.86);
+        /* Moz-browsers */
+        zoom: 0.86;
+        /* Other non-webkit browsers */
+        zoom: 86%;
+        /* Webkit browsers */
+    }
+}
+
+@media (min-width: 1920px) {
+    body {
+        -moz-transform: scale(1.03, 1.03);
+        /* Moz-browsers */
+        zoom: 1.03;
+        /* Other non-webkit browsers */
+        zoom: 103%;
+        /* Webkit browsers */
+        position: relative;
+        left: -50px;
+    }
+}
+
+@media (min-width: 2256px) {
+    body {
+        -moz-transform: scale(1.39, 1.39);
+        /* Moz-browsers */
+        zoom: 1.39;
+        /* Other non-webkit browsers */
+        zoom: 139%;
+        /* Webkit browsers */
+        position: relative;
+        left: -140px;
+    }
+}
+
+@media (min-width: 2560px) {
+    body {
+        -moz-transform: scale(1.35, 1.35);
+        /* Moz-browsers */
+        zoom: 1.35;
+        /* Other non-webkit browsers */
+        zoom: 135%;
+        /* Webkit browsers */
+    }
+}
+
+@media (min-width: 2736px) {
+    body {
+        -moz-transform: scale(1.35, 1.35);
+        /* Moz-browsers */
+        zoom: 1.35;
+        /* Other non-webkit browsers */
+        zoom: 145%;
+        /* Webkit browsers */
+    }
+}
+
+@media (min-width: 3200px) {
+    body {
+        -moz-transform: scale(1.7, 1.7);
+        /* Moz-browsers */
+        zoom: 1.7;
+        /* Other non-webkit browsers */
+        zoom: 170%;
+        /* Webkit browsers */
+    }
+}
+
+@media (min-width: 3840px) {
+    body {
+        -moz-transform: scale(2, 2);
+        /* Moz-browsers */
+        zoom: 2;
+        /* Other non-webkit browsers */
+        zoom: 200%;
+        /* Webkit browsers */
+    }
+}
+
+@media screen and (max-width: 430px) {
+    html,
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .Member_Application_Class {
+        height: 1000px;
+    }
+    .Application_Background_Class {
+        transform: rotate(90deg);
+        top: 320px;
+        left: -320px;
+    }
+    .Black_Tint_Class {
+        height: 1800px;
+    }
+    .HOME_Class,
+    .ABOUT_Class,
+    .DEPARTMENTS_Class,
+    .EVENTS_Class,
+    .SERVICES_Class,
+    .SYNC_Class {
+        display: none;
+    }
+    .Logo_Class {
+        top: 20%;
+        left: -9%;
+    }
+    .MEMBER_APPLICATIONS_Class {
+        left: 1.3%;
+        font-size: 6vw;
+    }
+    .Underline {
+        left: 5.5%;
+        top: 205px;
+        width: 50vw;
+    }
+    .Thank_you_for_taking_the_first_Class {
+        top: 230px;
+        left: 0.7%;
+        width: 91vw;
+        height: 100px; 
+    }
+    .Conatiner {
+        display: none;
+    }
+    .Mail_ID_Group_Class {
+        left: 15px;
+        width: 93vw;
+        top: 390px;
+    }
+    .Full_Name_Group_Class {
+        left: 15px;
+        top: 330px;
+        width: 93vw;
+    }
+    .Contact_Number_Group_Class {
+        width: 93vw;
+        left: 15px;
+        top: 450px;
+    }
+    
+    .Departments_Group_Class {
+        top: 510px;
+        left: 15px;
+    }
+    .Departments_you_wish_to_apply__Class {
+        left: -8%;
+        font-size: 5vw;
+    }
+    .Department_Box_Class {
+        width: 400px;
+        height: 350px;
+        width: 93vw;
+    }
+    .Programming_Checkbox_Class {
+        top: 227px;
+        left: 43px;
+    }
+    .Spec_Ops_Checkbox_Class {
+        top: 275px;
+        left: 43px;
+    }
+    .Videography_Checkbox_Class {
+        top: 323px;
+        left: 43px;
+    }
+    .Web_Design_Checkbox_Class {
+        top: 371px;
+        left: 43px;
+    }
+    .Department_Preference_Group_Class {
+        left: 20px;
+        top: 1480px;
+        width: 400px;
+    }
+    .Submit_Button_Class {
+        top: 890px;
+        left: 130px;
+    }
+    .Data_Analytics_Checkbox_Class{
+    left: 2%;
+    top: 50px;
+    }
+    label{
+    font-size: 4vw;
+    width: 100px;
+    }
+    .Digital_Marketing_Checkbox_Class{
+    left: 2%;
+    top: 150px;
+    }
+    .Graphic_Design_Checkbox_Class{
+    left: 2%;
+    top: 250px;
+    }
+    .Error{
+        top: 287px;
+    left: 1%;
+    position: relative;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 4vw;
+    }
+}
+
+
+@media only screen and (device-width: 414px) and (device-height: 896px) {
+    Body {
+        width: 414px;
+    }
+    .Member_Application_Class {
+        width: 414px;
+    }
+}
+
+@media only screen and (device-width: 375px) and (device-height: 667px) {
+    Body {
+        width: 375px;
+    }
+    .Member_Application_Class {
+        width: 375px;
+    }
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) {
+    Body {
+        width: 375px;
+    }
+    .Member_Application_Class {
+        width: 375px;
+    }
+}
+
+@media only screen and (device-width: 414px) and (device-height: 736px) {
+    Body {
+        width: 414px;
+    }
+    .Member_Application_Class {
+        width: 414px;
+    }
+}

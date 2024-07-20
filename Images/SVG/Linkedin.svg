@@ -1,0 +1,31 @@
+<svg id="Linkedin" xmlns="http://www.w3.org/2000/svg" width="50" height="50.575" viewBox="0 0 50 50.575">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #4fe7dc;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        fill: #4fe7dc;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Ellipse_71" data-name="Ellipse 71" class="cls-1">
+    <ellipse class="cls-3" cx="24.901" cy="25.187" rx="24.901" ry="25.187"/>
+    <ellipse class="cls-4" cx="24.901" cy="25.187" rx="23.401" ry="23.687"/>
+  </g>
+  <g id="linkedin-2" data-name="linkedin" transform="translate(17.066 17.938)">
+    <path id="Path_213" data-name="Path 213" class="cls-2" d="M18.363,18.034h0V12.428c0-2.742-.59-4.854-3.8-4.854a3.328,3.328,0,0,0-3,1.647h-.045V7.83H8.489v10.2h3.165V12.981c0-1.33.252-2.617,1.9-2.617,1.623,0,1.647,1.518,1.647,2.7v4.968Z" transform="translate(-3.083 -3.584)"/>
+    <path id="Path_214" data-name="Path 214" class="cls-2" d="M.4,7.977H3.565v10.2H.4Z" transform="translate(-0.144 -3.731)"/>
+    <path id="Path_215" data-name="Path 215" class="cls-2" d="M1.835,0A1.844,1.844,0,1,0,3.671,1.835,1.836,1.836,0,0,0,1.835,0Z" transform="translate(0 0)"/>
+  </g>
+</svg>

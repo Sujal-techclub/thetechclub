@@ -1,0 +1,33 @@
+<svg id="Facebook" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #4fe7dc;
+        stroke-width: 3px;
+      }
+
+      .cls-3 {
+        fill: #4fe7dc;
+        fill-rule: evenodd;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="facebook-2" data-name="facebook">
+    <g id="Ellipse_43" data-name="Ellipse 43" class="cls-1">
+      <circle class="cls-4" cx="25" cy="25" r="25"/>
+      <circle class="cls-2" cx="25" cy="25" r="23.5"/>
+    </g>
+    <g id="Group_57" data-name="Group 57" transform="translate(17.816 17.932)">
+      <rect id="Rectangle_1458" data-name="Rectangle 1458" class="cls-2" width="13.78" height="13.78" transform="translate(0 0.302)"/>
+      <path id="Path_1" data-name="Path 1" class="cls-3" d="M84.841,14.286V7.778h2.222l.317-2.54h-2.54V3.651c0-.714.238-1.27,1.27-1.27H87.46V.079C87.143.079,86.349,0,85.476,0a3.064,3.064,0,0,0-3.254,3.333v1.9H80v2.54h2.222v6.508Z" transform="translate(-75.967)"/>
+    </g>
+  </g>
+</svg>
