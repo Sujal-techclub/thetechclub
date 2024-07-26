@@ -1304,7 +1304,21 @@ a {
 }
 
 .Arrow_Class {
-    fill: rgba(152, 150, 150, 1);
+    fill: rgb(255, 255, 255);
+}
+
+.Arrow_Class_back {
+    fill: rgb(255, 255, 255);
+}
+
+.Arrow_back {
+    overflow: visible;
+    position: absolute;
+    width: 22.461px;
+    height: 40.531px;
+    left: 170.638px;
+    top: 380px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
 .HOME_Class {
