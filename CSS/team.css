@@ -954,28 +954,70 @@ a {
     }
     .Pratik_Class {
         left: 193px;
+        height: 250px;
     }
     .Tathagata_Class {
-        left: 150px;
+        left: 30px;
+        top: 694px;
     }
     .Kushal_Class {
-        left: 170px;
+        left: 320px;
+        top: 700px;
     }
     .Bjorn_Class {
-        left: 50px;
+        left: 35px;
+        top: 1450px;
     }
     .Varun_Class {
-        left: 365px;
+        left: 30px;
+        top: 950px;
     }
     .Dhriti_Class {
-        left: 50px;
+        left: 325px;
+        top: 947px;
     }
     .Aviral_Class {
-        left: 365px;
+        left: 30px;
+        top: 1200px;
     }
     .Mukund_Class {
-        left: 217.5px;
+        left: 315px;
     }
+    .Niharika_Class{
+        left: -860px;
+        top: 1106px;
+        width: 255px;
+        height: 255px;
+    }
+    .Rachit_Class{
+        top: 1600px;
+        left: 37px;
+        width: 255px;
+        height: 255px;
+    }
+    .Nysaa_Class{
+        top: 1600px;
+        left: 65px;
+        width: 255px;
+        height: 255px;
+    }
+    .Prer_Class{
+        top: 1355px;
+        left: -1120px;
+    }
+    .Riya_Class{
+        top: 1590px;
+        left: 37px;
+        width: 255px;
+        height: 255px;
+    }
+    .Rang_Class{
+
+    }
+    .App_Class{
+        
+    }
+    
 }
 
 @media screen and (max-width: 390px) {
