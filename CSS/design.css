@@ -123,16 +123,30 @@ a {
     box-shadow: 3px 3px 5px #4fe7dc, -5px -5px 10px rgb(0, 0, 0);
 }
 
-.Arrow_Class {
-    fill: rgba(152, 150, 150, 1);
-}
-
 .Arrow {
     overflow: visible;
     position: absolute;
     width: 22.461px;
     height: 40.531px;
     left: 1254.638px;
+    top: 380px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.Arrow_Class {
+    fill: rgb(255, 255, 255);
+}
+
+.Arrow_Class_back {
+    fill: rgb(255, 255, 255);
+}
+
+.Arrow_back {
+    overflow: visible;
+    position: absolute;
+    width: 22.461px;
+    height: 40.531px;
+    left: 170.638px;
     top: 380px;
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
